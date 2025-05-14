@@ -1,0 +1,21 @@
+name: Filter Changed JSON
+
+on:
+  pull_request:
+    paths:
+      - '**/split_chunks/*.json'
+
+jobs:
+  filter:
+    runs-on: ubuntu-latest
+    outputs:
+      json_changed: ${{ steps.filter.outputs.json }}
+    steps:
+      - uses: actions/checkout@v3
+
+      - id: filter
+        uses: dorny/paths-filter@v3
+        with:
+          filters: |
+            json:
+              - '**/split_chunks/*.json'

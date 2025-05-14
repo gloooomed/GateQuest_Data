@@ -1,0 +1,35 @@
+name: Validate Changed JSON
+
+on:
+  pull_request:
+    paths:
+      - '**/split_chunks/*.json'
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: 3.11
+
+      - name: Install dependencies
+        run: pip install jsonschema
+
+      - name: Get changed files
+        id: changed
+        uses: tj-actions/changed-files@v41
+        with:
+          files: '**/split_chunks/*.json'
+
+      - name: Validate changed files
+        run: |
+          echo "Changed files:"
+          echo "${{ steps.changed.outputs.all_changed_files }}"
+          for file in ${{ steps.changed.outputs.all_changed_files }}; do
+            echo "Validating $file"
+            python .github/scripts/validate_json.py "$file"
+          done
