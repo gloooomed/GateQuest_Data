@@ -1,0 +1,1769 @@
+[
+    {
+        "id": "29",
+        "year": 2004,
+        "questionNumber": 29,
+        "subject": "Algorithms",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "The tightest lower bound on the number of comparisons, in the worst case, for comparison-based sorting is of the order of",
+        "options": [
+            "$n$",
+            "$n^2$",
+            "$n \\log n$",
+            "$n \\log^2n$"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/algorithms",
+            "gatecse-2004",
+            "algorithms",
+            "sorting",
+            "asymptotic-notation",
+            "easy"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/1026/gate-cse-2004-question-29",
+        "addedBy": "GO Scraper",
+        "verified": false,
+        "explanation": "https://gateoverflow.in/1026/gate-cse-2004-question-29",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "17",
+        "year": 2006,
+        "questionNumber": 17,
+        "subject": "Algorithms",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "An element in an array $X$ is called a leader if it is greater than all elements to the right of it in $X$. The best algorithm to find all leaders in an array",
+        "options": [
+            "solves it in linear time using a left to right pass of the array",
+            "solves it in linear time using a right to left pass of the array",
+            "solves it using divide and conquer in time $\\Theta (n\\log n)$",
+            "solves it in time $\\Theta( n^2)$"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/algorithms",
+            "gatecse-2006",
+            "algorithms",
+            "normal",
+            "algorithm-design"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/978/gate-cse-2006-question-17",
+        "addedBy": "GO Scraper",
+        "verified": false,
+        "explanation": "https://gateoverflow.in/978/gate-cse-2006-question-17",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "27",
+        "year": 2006,
+        "questionNumber": 27,
+        "subject": "Algorithms",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "Let S be an NP-complete problem and Q and R be two other problems not known to be in NP. Q is polynomial time reducible to S and S is polynomial-time reducible to R. Which one of the following statements is false?",
+        "options": [
+            "R is NP-complete",
+            "R is NP-hard",
+            "Q is NP-complete",
+            "Q is NP-hard"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/algorithms",
+            "gatecse-2006",
+            "algorithms",
+            "p-np-npc-nph",
+            "normal",
+            "isrodec2017",
+            "out-of-gatecse-syllabus"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/977/gate-cse-2006-question-16-isro-dec2017-27",
+        "addedBy": "GO Scraper",
+        "verified": false,
+        "explanation": "https://gateoverflow.in/977/gate-cse-2006-question-16-isro-dec2017-27",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "15",
+        "year": 2006,
+        "questionNumber": 15,
+        "subject": "Algorithms",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "Consider the following C-program fragment in which $i$, $j$ and $n$ are integer variables. \n\n for( i = n, j = 0; i > 0; i /= 2, j +=i );\nLet $val(j)$ denote the value stored in the variable $j$ after termination of the for loop. Which one of the following is false?",
+        "options": [
+            "$val(j)=\\Theta(\\log n)$",
+            "$val(j)=\\Theta (\\sqrt{n})$",
+            "$val(j)=\\Theta( n)$",
+            "$val(j)=\\Theta (n\\log n)$"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/algorithms",
+            "gatecse-2006",
+            "algorithms",
+            "normal",
+            "time-complexity"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/976/gate-cse-2006-question-15",
+        "addedBy": "GO Scraper",
+        "verified": false,
+        "explanation": "https://gateoverflow.in/976/gate-cse-2006-question-15",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "14",
+        "year": 2006,
+        "questionNumber": 14,
+        "subject": "Algorithms",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "Which one of the following in place sorting algorithms needs the minimum number of swaps?\nQuick sort\nInsertion sort\nSelection sort\nHeap sort",
+        "options": [],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/algorithms",
+            "gatecse-2006",
+            "algorithms",
+            "sorting",
+            "easy",
+            "isro2011"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/975/gate-cse-2006-question-14-isro2011-14",
+        "addedBy": "GO Scraper",
+        "verified": false,
+        "explanation": "https://gateoverflow.in/975/gate-cse-2006-question-14-isro2011-14",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "88",
+        "year": 2003,
+        "questionNumber": 88,
+        "subject": "Algorithms",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "In the following $C$ program fragment, $j$, $k$, $n$ and TwoLog_n are integer variables, and $A$ is an array of integers. The variable $n$ is initialized to an integer $\\geqslant 3$, and TwoLog_n is initialized to the value of $2^*\\lceil \\log_2(n) \\rceil$\n\nfor (k = 3;  k <= n; k++)\n        A[k] = 0;\nfor (k = 2; k <= TwoLog_n; k++)\n    for (j = k+1; j <= n; j++)\n        A[j] = A[j] || (j%k);\nfor (j = 3; j <= n; j++)\n    if (!A[j]) printf(\"%d\", j);\n\nThe set of numbers printed by this program fragment is\n\n\n$\\left\\{m \\mid m \\leq n, (\\exists i)\\left[m=i!\\right]\\right\\}$\n\n\n$\\left\\{m \\mid m \\leq n, (\\exists i) \\left[m=i^2\\right]\\right\\}$\n\n\n$\\left\\{m \\mid m \\leq n, \\text{m is prime} \\right\\}$",
+        "options": [
+            "{ }"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/algorithms",
+            "gatecse-2003",
+            "algorithms",
+            "identify-function",
+            "normal"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/971/gate-cse-2003-question-88",
+        "addedBy": "GO Scraper",
+        "verified": false,
+        "explanation": "https://gateoverflow.in/971/gate-cse-2003-question-88",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "70",
+        "year": 2003,
+        "questionNumber": 70,
+        "subject": "Algorithms",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "Let $G= (V,E)$ be a directed graph with $n$ vertices. A path from $v_i$ to $v_j$ in $G$ is a sequence of vertices ($v_{i},v_{i+1}, \\dots , v_j$) such that $(v_k, v_{k+1}) \\in E$ for all $k$ in $i$ through $j-1$. A simple path is a path in which no vertex appears more than once.\nLet $A$ be an $n \\times n$ array initialized as follows:\n$$A[j,k] = \\begin{cases} 1 \\text {,   if } (j,k) \\in E \\\\ 0 \\text{,   otherwise} \\end{cases}$$\nConsider the following algorithm:\n\nfor i=1 to n\n    for j=1 to n\n        for k=1 to n\n            A[j,k] = max(A[j,k], A[j,i] + A[i,k]);  \nWhich of the following statements is necessarily false for all $j$ and $k$ after termination of the above algorithm?",
+        "options": [
+            "$A[j,k] \\leq n$",
+            "If $A[j,j] \\geq n-1$ then $G$ has a Hamiltonian cycle",
+            "If there exists a path from $j$ to $k$, $A[j,k]$ contains  the longest path length from $j$ to $k$",
+            "If there exists a path from $j$ to $k$, every simple path from $j$ to $k$ contains at most $A[j,k]$ edges"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/algorithms",
+            "gatecse-2003",
+            "algorithms",
+            "graph-algorithms",
+            "normal"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/957/gate-cse-2003-question-70",
+        "addedBy": "GO Scraper",
+        "verified": false,
+        "explanation": "https://gateoverflow.in/957/gate-cse-2003-question-70",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "69",
+        "year": 2003,
+        "questionNumber": 69,
+        "subject": "Algorithms",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "The following are the starting and ending times of activities $A, B, C, D, E, F, G$ and $H$ respectively in chronological order: $“a_s \\: b_s \\: c_s \\: a_e \\: d_s \\: c_e \\: e_s \\: f_s \\: b_e \\: d_e \\: g_s \\: e_e \\: f_e \\: h_s \\: g_e \\: h_e”$. Here, $x_s$ denotes the starting time and $x_e$ denotes the ending time of activity X. We need to schedule the activities in a set of rooms available to us. An activity can be scheduled in a room only if the room is reserved for the activity for its entire duration. What is the minimum number of rooms required?",
+        "options": [
+            "$3$",
+            "$4$",
+            "$5$",
+            "$6$"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/algorithms",
+            "gatecse-2003",
+            "algorithms",
+            "normal",
+            "greedy-algorithms"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/956/gate-cse-2003-question-69",
+        "addedBy": "GO Scraper",
+        "verified": false,
+        "explanation": "https://gateoverflow.in/956/gate-cse-2003-question-69",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "68",
+        "year": 2003,
+        "questionNumber": 68,
+        "subject": "Algorithms",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "What is the weight of a minimum spanning tree of the following graph?",
+        "options": [
+            "$29$",
+            "$31$",
+            "$38$",
+            "$41$"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/algorithms",
+            "gatecse-2003",
+            "algorithms",
+            "minimum-spanning-tree",
+            "normal"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/955/gate-cse-2003-question-68",
+        "addedBy": "GO Scraper",
+        "verified": false,
+        "explanation": "https://gateoverflow.in/955/gate-cse-2003-question-68",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "67",
+        "year": 2003,
+        "questionNumber": 67,
+        "subject": "Algorithms",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "Let $G =(V,E)$ be an undirected graph with a subgraph $G_1 = (V_1, E_1)$. Weights are assigned to edges of $G$ as follows.$$w(e) = \\begin{cases} 0 \\text{,   if } e \\in E_1 \\\\1 \\text{,   otherwise} \\end{cases}$$A single-source shortest path algorithm is executed on the weighted graph $(V,E,w)$ with an arbitrary vertex $v_1$ of $V_1$ as the source. Which of the following can always be inferred from the path costs computed?The number of edges in the shortest paths from $v_1$ to all vertices of $G$$G_1$ is connected$V_1$ forms a clique in $G$$G_1$ is a tree",
+        "options": [],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/algorithms",
+            "gatecse-2003",
+            "algorithms",
+            "graph-algorithms",
+            "normal",
+            "shortest-path"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/954/gate-cse-2003-question-67",
+        "addedBy": "GO Scraper",
+        "verified": false,
+        "explanation": "https://gateoverflow.in/954/gate-cse-2003-question-67",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "61",
+        "year": 2003,
+        "questionNumber": 61,
+        "subject": "Algorithms",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "In a permutation \\(a_1 ... a_n\\), of n distinct integers, an inversion is a pair \\((a_i, a_j)\\) such that \\(i < j\\) and \\(a_i > a_j\\).\nIf all permutations are equally likely, what is the expected number of inversions in a randomly chosen permutation of \\(1. . . n\\)?",
+        "options": [
+            "\\(\\frac{n(n-1)}{2}\\)",
+            "\\(\\frac{n(n-1)}{4}\\)",
+            "\\(\\frac{n(n+1)}{4}\\)",
+            "\\(2n[\\log_2n]\\)"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/algorithms",
+            "gatecse-2003",
+            "algorithms",
+            "sorting",
+            "inversion",
+            "normal"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/949/gate-cse-2003-question-61",
+        "addedBy": "GO Scraper",
+        "verified": false,
+        "explanation": "https://gateoverflow.in/949/gate-cse-2003-question-61",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "35",
+        "year": 2003,
+        "questionNumber": 35,
+        "subject": "Algorithms",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "Consider the following recurrence relation\n$T(1)=1$\n$T(n+1) = T(n)+\\lfloor \\sqrt{n+1} \\rfloor$ for all $n \\geq 1$\nThe value of $T(m^2)$ for $m \\geq 1$ is",
+        "options": [
+            "$\\frac{m}{6}\\left(21m-39\\right)+4$",
+            "$\\frac{m}{6}\\left(4m^2-3m+5\\right)$",
+            "$\\frac{m}{2}\\left(3m^{2.5}-11m+20\\right)-5$",
+            "$\\frac{m}{6}\\left(5m^3-34m^2+137m-104\\right)+\\frac{5}{6}$"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/algorithms",
+            "gatecse-2003",
+            "algorithms",
+            "time-complexity",
+            "recurrence-relation",
+            "difficult"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/925/gate-cse-2003-question-35",
+        "addedBy": "GO Scraper",
+        "verified": false,
+        "explanation": "https://gateoverflow.in/925/gate-cse-2003-question-35",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "22",
+        "year": 2003,
+        "questionNumber": 22,
+        "subject": "Algorithms",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "The usual $\\Theta(n^2)$ implementation of Insertion Sort to sort an array uses linear search to identify the position where an element is to be inserted into the already sorted part of the array. If, instead, we use binary search to identify the position, the worst case running time willremain $\\Theta(n^2)$become $\\Theta(n  (\\log n)^2)$become $\\Theta(n \\log n)$become $\\Theta(n)$",
+        "options": [],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/algorithms",
+            "gatecse-2003",
+            "algorithms",
+            "sorting",
+            "time-complexity",
+            "normal",
+            "insertion-sort"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/912/gate-cse-2003-question-22",
+        "addedBy": "GO Scraper",
+        "verified": false,
+        "explanation": "https://gateoverflow.in/912/gate-cse-2003-question-22",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "21",
+        "year": 2003,
+        "questionNumber": 21,
+        "subject": "Algorithms",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "Consider the following graph: \n\nAmong the following sequences:\n\nabeghf\nabfehg\nabfhge\nafghbe\n\nWhich are the depth-first traversals of the above graph?",
+        "options": [
+            "I, II and IV only",
+            "I and IV only",
+            "II, III and IV only",
+            "I, III and IV only"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/algorithms",
+            "gatecse-2003",
+            "algorithms",
+            "graph-algorithms",
+            "normal",
+            "graph-search"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/911/gate-cse-2003-question-21",
+        "addedBy": "GO Scraper",
+        "verified": false,
+        "explanation": "https://gateoverflow.in/911/gate-cse-2003-question-21",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "20",
+        "year": 2003,
+        "questionNumber": 20,
+        "subject": "Algorithms",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "Consider the following three claims:\n\n$(n+k)^m = \\Theta(n^m)$ where $k$ and $m$ are constants\n$2^{n+1} = O(2^n)$\n$2^{2n+1} = O(2^n)$\n\nWhich of the following claims are correct?",
+        "options": [
+            "I and II",
+            "I and III",
+            "II and III",
+            "I, II, and III"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/algorithms",
+            "gatecse-2003",
+            "algorithms",
+            "asymptotic-notation",
+            "normal"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/910/gate-cse-2003-question-20",
+        "addedBy": "GO Scraper",
+        "verified": false,
+        "explanation": "https://gateoverflow.in/910/gate-cse-2003-question-20",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "12",
+        "year": 2003,
+        "questionNumber": 12,
+        "subject": "Algorithms",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "Ram and Shyam have been asked to show that a certain problem $\\Pi$ is $\\text{NP-complete}.$ Ram shows a polynomial time reduction from the $\\text{3-SAT}$ problem to $\\Pi$, and Shyam shows a polynomial time reduction from $\\Pi$ to $\\text{3-SAT.}$ Which of the following can be inferred from these reductions?\n\n\n$\\Pi$ is NP-hard but not NP-complete\n\n\n$\\Pi$ is in NP, but is not NP-complete\n\n\n$\\Pi$ is NP-complete",
+        "options": [
+            "$\\Pi$ is neither NP-hard, nor in NP"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/algorithms",
+            "gatecse-2003",
+            "algorithms",
+            "p-np-npc-nph",
+            "normal",
+            "out-of-gatecse-syllabus"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/903/gate-cse-2003-question-12",
+        "addedBy": "GO Scraper",
+        "verified": false,
+        "explanation": "https://gateoverflow.in/903/gate-cse-2003-question-12",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "1",
+        "year": 2003,
+        "questionNumber": 1,
+        "subject": "Algorithms",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "Consider the following $C$ function.\nFor large values of $y$, the return value of the function $f$ best approximates\n\nfloat f,(float x, int y) {\n    float p, s; int i;\n    for (s=1,p=1,i=1; i<y; i++) {\n        p *= x/i;\n        s += p;\n    }\n    return s;\n}",
+        "options": [
+            "$x^y$",
+            "$e^x$",
+            "$\\text{ln} (1+x)$",
+            "$x^x$"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/algorithms",
+            "gatecse-2003",
+            "algorithms",
+            "identify-function",
+            "normal"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/892/gate-cse-2003-question-1",
+        "addedBy": "GO Scraper",
+        "verified": false,
+        "explanation": "https://gateoverflow.in/892/gate-cse-2003-question-1",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "12",
+        "year": 2006,
+        "questionNumber": 12,
+        "subject": "Algorithms",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "To implement Dijkstra’s shortest path algorithm on unweighted graphs so that it runs in linear time, the data structure to be used is:QueueStackHeapB-Tree",
+        "options": [],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/algorithms",
+            "gatecse-2006",
+            "algorithms",
+            "graph-algorithms",
+            "easy",
+            "dijkstras-algorithm"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/891/gate-cse-2006-question-12",
+        "addedBy": "GO Scraper",
+        "verified": false,
+        "explanation": "https://gateoverflow.in/891/gate-cse-2006-question-12",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "11",
+        "year": 2006,
+        "questionNumber": 11,
+        "subject": "Algorithms",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "Consider a weighted complete graph $G$ on the vertex set $\\{v_1,v_2,.....v_n\\}$ such that the weight of the edge $(v_i, v_j)$ is  $2|i-j|$. The weight of a minimum spanning tree of $G$ is:",
+        "options": [
+            "$n-1$",
+            "$2n-2$",
+            "$\\begin{pmatrix} n \\\\ 2 \\end{pmatrix}$",
+            "$n^2$"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/algorithms",
+            "gatecse-2006",
+            "algorithms",
+            "minimum-spanning-tree",
+            "normal"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/890/gate-cse-2006-question-11",
+        "addedBy": "GO Scraper",
+        "verified": false,
+        "explanation": "https://gateoverflow.in/890/gate-cse-2006-question-11",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "12",
+        "year": 2002,
+        "questionNumber": 12,
+        "subject": "Algorithms",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "Fill in the blanks in the following template of an algorithm to compute all pairs shortest path lengths in a directed graph $G$ with $n*n$ adjacency matrix $A$. $A[i,j]$ equals $1$ if there is an edge in $G$ from $i$ to $j$, and $0$ otherwise. Your aim in filling in the blanks is to ensure that the algorithm is correct.INITIALIZATION: For i = 1 ... n\n    {For j = 1 ... n\n        { if a[i,j] = 0 then P[i,j] =_______ else P[i,j] =_______;}\n    }\n    \nALGORITHM: For i = 1 ... n\n    {For j = 1 ... n\n        {For k = 1 ... n\n            {P[__,__] = min{_______,______}; }\n        }\n    }    Copy the complete line containing the blanks in the Initialization step and fill in the blanks.Copy the complete line containing the blanks in the Algorithm step and fill in the blanks.Fill in the blank: The running time of the Algorithm is $O$(___).",
+        "options": [],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/algorithms",
+            "gatecse-2002",
+            "algorithms",
+            "graph-algorithms",
+            "time-complexity",
+            "normal",
+            "descriptive",
+            "shortest-path"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/865/gate-cse-2002-question-12",
+        "addedBy": "GO Scraper",
+        "verified": false,
+        "explanation": "https://gateoverflow.in/865/gate-cse-2002-question-12",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "11",
+        "year": 2002,
+        "questionNumber": 11,
+        "subject": "Algorithms",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "The running time of the following algorithm\nProcedure $A(n)$\nIf $n \\leqslant 2$ return ($1$) else return $(A( \\lceil  \\sqrt{n}  \\rceil))$;\nis best described by",
+        "options": [
+            "$O(n)$",
+            "$O(\\log n)$",
+            "$O(\\log \\log n)$",
+            "$O(1)$"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/algorithms",
+            "gatecse-2002",
+            "algorithms",
+            "recurrence-relation",
+            "normal"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/841/gate-cse-2002-question-2-11",
+        "addedBy": "GO Scraper",
+        "verified": false,
+        "explanation": "https://gateoverflow.in/841/gate-cse-2002-question-2-11",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "10",
+        "year": 2002,
+        "questionNumber": 10,
+        "subject": "Algorithms",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "Consider the following algorithm for searching for a given number $x$ in an unsorted array $A[1..n]$ having $n$ distinct values:\n\nChoose an $i$ at random from $1..n$\nIf $A[i] = x$, then Stop else Goto 1;\n\nAssuming that $x$ is present in $A$, what is the expected number of comparisons made by the algorithm before it terminates?",
+        "options": [
+            "$n$",
+            "$n-1$",
+            "$2n$",
+            "$\\frac{n}{2}$"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/algorithms",
+            "gatecse-2002",
+            "searching",
+            "normal"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/840/gate-cse-2002-question-2-10",
+        "addedBy": "GO Scraper",
+        "verified": false,
+        "explanation": "https://gateoverflow.in/840/gate-cse-2002-question-2-10",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "3",
+        "year": 2002,
+        "questionNumber": 3,
+        "subject": "Algorithms",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "The solution to the recurrence equation $T(2^k) = 3T(2^{k-1})+1, T(1) =1$ is",
+        "options": [
+            "$2^k$",
+            "$\\frac{(3^{k+1}-1)}{2}$",
+            "$3^{\\log_2 k}$",
+            "$2^{\\log_3 k}$"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/algorithms",
+            "gatecse-2002",
+            "algorithms",
+            "recurrence-relation",
+            "normal"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/807/gate-cse-2002-question-1-3",
+        "addedBy": "GO Scraper",
+        "verified": false,
+        "explanation": "https://gateoverflow.in/807/gate-cse-2002-question-1-3",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "29",
+        "year": 2012,
+        "questionNumber": 29,
+        "subject": "Algorithms",
+        "topic": "marks-to-all",
+        "questionType": "multiple-choice",
+        "question": "Let $G$ be a weighted graph with edge weights greater than one and $G'$ be the graph constructed by squaring the weights of edges in $G$. Let $T$ and $T'$ be the minimum spanning trees of $G$ and $G'$, respectively, with total weights $t$ and $t'$. Which of the following statements is TRUE?",
+        "options": [
+            "$T' = T$ with total weight $t' = t^2 $",
+            "$T' = T$ with total weight $t' < t^2$",
+            "$T' \\neq T$ but total weight $t' = t^2$",
+            "None of the above"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": "marks-to-all",
+        "marks": null,
+        "tags": [
+            "/algorithms",
+            "gatecse-2012",
+            "algorithms",
+            "minimum-spanning-tree",
+            "normal",
+            "marks-to-all"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/786/gate-cse-2012-question-29",
+        "addedBy": "GO Scraper",
+        "verified": false,
+        "explanation": "https://gateoverflow.in/786/gate-cse-2012-question-29",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "39",
+        "year": 2005,
+        "questionNumber": 39,
+        "subject": "Algorithms",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "Suppose there are $\\lceil \\log n \\rceil$ sorted lists of $\\lfloor n /\\log n \\rfloor$ elements each. The time complexity of producing a sorted list of all these elements is: (Hint:Use a heap data structure)",
+        "options": [
+            "$O(n \\log \\log n)$",
+            "$\\Theta(n \\log n)$",
+            "$\\Omega(n \\log n)$",
+            "$\\Omega\\left(n^{3/2}\\right)$"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/algorithms",
+            "gatecse-2005",
+            "algorithms",
+            "sorting",
+            "normal"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/784/gate-cse-2005-question-39",
+        "addedBy": "GO Scraper",
+        "verified": false,
+        "explanation": "https://gateoverflow.in/784/gate-cse-2005-question-39",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "15",
+        "year": 2001,
+        "questionNumber": 15,
+        "subject": "Algorithms",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "Consider a weighted undirected graph with vertex set $V = \\{n1, n2, n3, n4, n5, n6 \\}$ and edge set $E = \\{(n1,n2,2), (n1,n3,8), (n1,n6,3), (n2,n4,4), (n2,n5,12), (n3,n4,7), (n4,n5,9), (n4,n6,4)\\}$.\nThe third value in each tuple represents the weight of the edge specified in the tuple.",
+        "options": [
+            "List the edges of a minimum spanning tree of the graph.",
+            "How many distinct minimum spanning trees does this graph have?",
+            "Is the minimum among the edge weights of a minimum spanning tree unique over all possible minimum spanning trees of a graph?",
+            "Is the maximum among the edge weights of a minimum spanning tree unique over all possible minimum spanning tree of a graph?"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/algorithms",
+            "gatecse-2001",
+            "algorithms",
+            "minimum-spanning-tree",
+            "normal",
+            "descriptive"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/756/gate-cse-2001-question-15",
+        "addedBy": "GO Scraper",
+        "verified": false,
+        "explanation": "https://gateoverflow.in/756/gate-cse-2001-question-15",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "14",
+        "year": 2001,
+        "questionNumber": 14,
+        "subject": "Algorithms",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "Consider an undirected, unweighted graph $G$. Let a breadth-first traversal of $G$ be done starting from a node $r$. Let $d(r,u)$ and $d(r,v)$ be the lengths of the shortest paths from $r$ to $u$ and $v$ respectively in $G$. If $u$ is visited before $v$ during the breadth-first traversal, which of the following statements is correct?",
+        "options": [
+            "$d(r,u) < d(r,v)$",
+            "$d(r,u) > d(r,v)$",
+            "$d(r,u) \\leq d(r,v)$",
+            "None of the above"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/algorithms",
+            "gatecse-2001",
+            "algorithms",
+            "graph-algorithms",
+            "normal",
+            "graph-search"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/732/gate-cse-2001-question-2-14",
+        "addedBy": "GO Scraper",
+        "verified": false,
+        "explanation": "https://gateoverflow.in/732/gate-cse-2001-question-2-14",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "16",
+        "year": 2001,
+        "questionNumber": 16,
+        "subject": "Algorithms",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "Let $f(n) = n^2 \\log n$ and $g(n) = n(\\log n)^{10}$ be two positive functions of $n$. Which of the following statements is correct?",
+        "options": [
+            "$f(n) = O(g(n)) \\text{ and } g(n) \\neq O(f(n))$",
+            "$g(n) = O(f(n)) \\text{ and } f(n) \\neq O(g(n))$",
+            "$f(n) \\neq O(g(n)) \\text{ and } g(n) \\neq O(f(n))$",
+            "$f(n) =O(g(n)) \\text{ and } g(n) = O(f(n))$"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/algorithms",
+            "gatecse-2001",
+            "algorithms",
+            "asymptotic-notation",
+            "time-complexity",
+            "normal"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/709/gate-cse-2001-question-1-16",
+        "addedBy": "GO Scraper",
+        "verified": false,
+        "explanation": "https://gateoverflow.in/709/gate-cse-2001-question-1-16",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "14",
+        "year": 2001,
+        "questionNumber": 14,
+        "subject": "Algorithms",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "Randomized quicksort is an extension of quicksort where the pivot is chosen randomly. What is the worst case complexity of sorting n numbers using Randomized quicksort?$O(n)$$O(n \\log n)$$O(n^2)$$O(n!)$",
+        "options": [],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/algorithms",
+            "gatecse-2001",
+            "algorithms",
+            "sorting",
+            "time-complexity",
+            "easy",
+            "quick-sort"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/707/gate-cse-2001-question-1-14",
+        "addedBy": "GO Scraper",
+        "verified": false,
+        "explanation": "https://gateoverflow.in/707/gate-cse-2001-question-1-14",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "17",
+        "year": 2000,
+        "questionNumber": 17,
+        "subject": "Algorithms",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "An array contains four occurrences of $0$, five occurrences of $1$, and three occurrences of $2$ in any order. The array is to be sorted using swap operations (elements that are swapped need to be adjacent).",
+        "options": [
+            "What is the minimum number of swaps needed to sort such an array in the worst case?",
+            "Give an ordering of  elements in the above array so that the minimum number of swaps needed to sort the array is maximum."
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/algorithms",
+            "gatecse-2000",
+            "algorithms",
+            "sorting",
+            "normal",
+            "descriptive"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/688/gate-cse-2000-question-17",
+        "addedBy": "GO Scraper",
+        "verified": false,
+        "explanation": "https://gateoverflow.in/688/gate-cse-2000-question-17",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "18",
+        "year": 2000,
+        "questionNumber": 18,
+        "subject": "Algorithms",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "Let $G$ be an undirected connected graph with distinct edge weights. Let $e_{max}$ be the edge with maximum weight and $e_{min}$ the edge with minimum weight. Which of the following statements is false?",
+        "options": [
+            "Every minimum spanning tree of $G$ must contain $e_{min}$",
+            "If $e_{max}$ is in a minimum spanning tree, then its removal must disconnect $G$",
+            "No minimum spanning tree contains $e_{max}$",
+            "$G$ has a unique minimum spanning tree"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/algorithms",
+            "gatecse-2000",
+            "algorithms",
+            "minimum-spanning-tree",
+            "normal"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/665/gate-cse-2000-question-2-18",
+        "addedBy": "GO Scraper",
+        "verified": false,
+        "explanation": "https://gateoverflow.in/665/gate-cse-2000-question-2-18",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "17",
+        "year": 2000,
+        "questionNumber": 17,
+        "subject": "Algorithms",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "Consider the following functions\n\n$f(n) = 3n^{\\sqrt{n}}$\n$g(n) = 2^{\\sqrt{n}{\\log_{2}n}}$\n$h(n) = n!$\n\nWhich of the following is false?",
+        "options": [
+            "$h(n)$ is $O(f(n))$",
+            "$h(n)$ is $O(g(n))$",
+            "$g(n)$ is not $O(f(n))$",
+            "$f(n)$ is $O(g(n))$"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/algorithms",
+            "gatecse-2000",
+            "algorithms",
+            "asymptotic-notation",
+            "normal"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/664/gate-cse-2000-question-2-17",
+        "addedBy": "GO Scraper",
+        "verified": false,
+        "explanation": "https://gateoverflow.in/664/gate-cse-2000-question-2-17",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "15",
+        "year": 2000,
+        "questionNumber": 15,
+        "subject": "Algorithms",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "Suppose you are given an array $s[1....n]$ and a procedure reverse $(s, i, j)$ which reverses the order of elements in $s$ between positions $i$ and $j$ (both inclusive). What does the following sequence do, where $1 \\leqslant k \\leqslant n$:\n\n           reverse (s, 1, k);\n           reverse (s, k+1, n);\n           reverse (s, 1, n);",
+        "options": [
+            "Rotates $s$ left by $k$ positions",
+            "Leaves $s$ unchanged",
+            "Reverses all elements of $s$",
+            "None of the above"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/algorithms",
+            "gatecse-2000",
+            "algorithms",
+            "normal",
+            "identify-function"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/662/gate-cse-2000-question-2-15",
+        "addedBy": "GO Scraper",
+        "verified": false,
+        "explanation": "https://gateoverflow.in/662/gate-cse-2000-question-2-15",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "15",
+        "year": 2000,
+        "questionNumber": 15,
+        "subject": "Algorithms",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "Let $S$ be a sorted array of $n$ integers. Let $T(n)$ denote the time taken for the most efficient algorithm to determined if there are two elements with sum less than $1000$ in $S$. Which of the following statement is false?",
+        "options": [
+            "$T (n)$ is $O(1)$",
+            "$n \\leq  T(n) \\leq n \\log_2 n$",
+            "$n \\log_2 n ≤ T(n) < \\frac{n}{2}$",
+            "$T(n) = \\left (\\frac{n}{2} \\right)$"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/algorithms",
+            "gatecse-2000",
+            "easy",
+            "algorithms",
+            "time-complexity"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/638/gate-cse-2000-question-1-15",
+        "addedBy": "GO Scraper",
+        "verified": false,
+        "explanation": "https://gateoverflow.in/638/gate-cse-2000-question-1-15",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "13",
+        "year": 2000,
+        "questionNumber": 13,
+        "subject": "Algorithms",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "The most appropriate matching for the following pairs\n$$\\begin{array}{|l|l|}\\hline \\text{X: depth first search}  &  \\text{1: heap } \\\\\\hline  \\text{Y: breadth first search} & \\text{2: queue} \\\\\\hline  \\text{Z: sorting} & \\text{3: stack} \\\\\\hline \\end{array}$$\nis:",
+        "options": [
+            "$\\text{X - 1,  Y - 2,  Z - 3}$",
+            "$\\text{X - 3,  Y - 1,  Z - 2}$",
+            "$\\text{X - 3,  Y - 2,  Z - 1}$",
+            "$\\text{X - 2,  Y - 3,  Z - 1}$"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/algorithms",
+            "gatecse-2000",
+            "algorithms",
+            "easy",
+            "graph-algorithms",
+            "graph-search",
+            "match-the-following"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/636/gate-cse-2000-question-1-13",
+        "addedBy": "GO Scraper",
+        "verified": false,
+        "explanation": "https://gateoverflow.in/636/gate-cse-2000-question-1-13",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "8",
+        "year": null,
+        "questionNumber": 8,
+        "subject": "Algorithms",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "Let $T$ be a Depth First Tree of a undirected graph $G$. An array $P$ indexed by the vertices of $G$ is given. $P[V]$ is the parent of vertex $V$, in $T$. Parent of the root is the root itself.\n\nGive a method for finding and printing the cycle formed if the edge $(u,v)$ of $G$ not in $T$ (i.e., $e \\in G-T$) is now added to $T$.\n\nTime taken by your method must be proportional to the length of the cycle.",
+        "options": [
+            "Describe the algorithm in a PASCAL $(C)$ – like language. Assume that the variables have been suitably declared."
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/algorithms",
+            "gate1992",
+            "algorithms",
+            "descriptive",
+            "algorithm-design"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/587/gate-cse-1992-question-8",
+        "addedBy": "GO Scraper",
+        "verified": false,
+        "explanation": "https://gateoverflow.in/587/gate-cse-1992-question-8",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "13",
+        "year": null,
+        "questionNumber": 13,
+        "subject": "Algorithms",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "Give an optimal algorithm in pseudo-code for sorting a sequence of $n$ numbers which has only $k$ distinct numbers ($k$ is not known a Priori). Give a brief analysis for the time-complexity of your algorithm.",
+        "options": [],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/algorithms",
+            "gate1991",
+            "sorting",
+            "time-complexity",
+            "algorithms",
+            "difficult",
+            "descriptive"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/540/gate-cse-1991-question-13",
+        "addedBy": "GO Scraper",
+        "verified": false,
+        "explanation": "https://gateoverflow.in/540/gate-cse-1991-question-13",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "80",
+        "year": 2008,
+        "questionNumber": 80,
+        "subject": "Algorithms",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "The subset-sum problem is defined as follows. Given a set of $n$ positive integers, $S = \\{ a_1, a_2, a_3, \\dots , a_n \\}$, and positive integer $W$, is there a subset of $S$ whose elements sum to $W$? A dynamic program for solving this problem uses a $\\text{2-dimensional}$ Boolean array, $X$, with $n$ rows and $W+1$ columns. $X[i, j], 1 \\leq i \\leq n, 0 \\leq j \\leq W$, is TRUE, if and only if there is a subset of $\\{a_1, a_2, \\dots, a_i\\}$ whose elements sum to $j$.\nWhich of the following is valid for $2 \\leq i \\leq n$, and $a_i \\leq j \\leq W$?",
+        "options": [
+            "$X[i, j] = X[i-1, j] \\vee X[i, j-a_i]$",
+            "$X[i, j] = X[i-1, j] \\vee X[i-1, j-a_i]$",
+            "$X[i, j] = X[i-1, j] \\wedge X[i, j-a_i]$",
+            "$X[i, j] = X[i-1, j] \\wedge X[i-1, j-a_i]$"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/algorithms",
+            "gatecse-2008",
+            "algorithms",
+            "normal",
+            "dynamic-programming"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/498/gate-cse-2008-question-80",
+        "addedBy": "GO Scraper",
+        "verified": false,
+        "explanation": "https://gateoverflow.in/498/gate-cse-2008-question-80",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "78",
+        "year": 2008,
+        "questionNumber": 78,
+        "subject": "Algorithms",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "Let $x_n$ denote the number of binary strings of length $n$ that contain no consecutive $0$s.\nWhich of the following recurrences does $x_n$ satisfy?",
+        "options": [
+            "$x_n = 2x_{n-1}$",
+            "$x_n = x_{\\lfloor n/2 \\rfloor} + 1$",
+            "$x_n = x_{\\lfloor n/2 \\rfloor} + n$",
+            "$x_n = x_{n-1} + x_{n-2}$"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/algorithms",
+            "gatecse-2008",
+            "algorithms",
+            "recurrence-relation",
+            "normal"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/497/gate-cse-2008-question-78",
+        "addedBy": "GO Scraper",
+        "verified": false,
+        "explanation": "https://gateoverflow.in/497/gate-cse-2008-question-78",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "74",
+        "year": 2008,
+        "questionNumber": 74,
+        "subject": "Algorithms",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "Consider the following C functions:\n\nint f1 (int n)\n{\n    if(n == 0 || n == 1)\n        return n;\n    else\n        return (2 * f1(n-1) + 3 * f1(n-2));\n}\nint f2(int n)\n{\n    int i;\n    int X[N], Y[N], Z[N];\n    X[0] = Y[0] = Z[0] = 0;\n    X[1] = 1; Y[1] = 2; Z[1] = 3;\n    for(i = 2; i <= n; i++){\n        X[i] = Y[i-1] + Z[i-2];\n        Y[i] = 2 * X[i];\n        Z[i] = 3 * X[i];\n    }\n    return X[n];\n}\nThe running time of $f1(n)$ and $f2(n)$ are",
+        "options": [
+            "$\\Theta(n)$ and $\\Theta(n)$",
+            "$\\Theta(2^n)$ and $\\Theta(n)$",
+            "$\\Theta(n)$ and $\\Theta(2^n)$",
+            "$\\Theta(2^n)$ and $\\Theta(2^n)$"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/algorithms",
+            "gatecse-2008",
+            "algorithms",
+            "time-complexity",
+            "normal"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/495/gate-cse-2008-question-74",
+        "addedBy": "GO Scraper",
+        "verified": false,
+        "explanation": "https://gateoverflow.in/495/gate-cse-2008-question-74",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "20",
+        "year": null,
+        "questionNumber": 20,
+        "subject": "Algorithms",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "The minimum number of record movements required to merge five files A (with $10$ records), B (with $20$ records), C (with $15$ records), D (with $5$ records) and E (with $25$ records) is:",
+        "options": [
+            "$165$",
+            "$90$",
+            "$75$",
+            "$65$"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/algorithms",
+            "gate1999",
+            "algorithms",
+            "normal",
+            "greedy-algorithms"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/466/gate-cse-1999-question-2-20",
+        "addedBy": "GO Scraper",
+        "verified": false,
+        "explanation": "https://gateoverflow.in/466/gate-cse-1999-question-2-20",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "47",
+        "year": 2008,
+        "questionNumber": 47,
+        "subject": "Algorithms",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "We have a binary heap on $n$ elements and wish to insert $n$ more elements (not necessarily one after another) into this heap. The total time required for this is\n\n\n$\\Theta(\\log n)$\n\n\n$\\Theta(n)$\n\n\n$\\Theta(n\\log n)$",
+        "options": [
+            "$\\Theta(n^2)$"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/algorithms",
+            "gatecse-2008",
+            "algorithms",
+            "time-complexity",
+            "normal"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/459/gate-cse-2008-question-47",
+        "addedBy": "GO Scraper",
+        "verified": false,
+        "explanation": "https://gateoverflow.in/459/gate-cse-2008-question-47",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "45",
+        "year": 2008,
+        "questionNumber": 45,
+        "subject": "Algorithms",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "Dijkstra's single source shortest path algorithm when run from vertex $a$ in the above graph, computes the correct shortest path distance toonly vertex $a$only vertices $a, e, f, g, h$only vertices $a, b, c, d$all the vertices",
+        "options": [],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/algorithms",
+            "gatecse-2008",
+            "algorithms",
+            "graph-algorithms",
+            "normal",
+            "dijkstras-algorithm"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/457/gate-cse-2008-question-45",
+        "addedBy": "GO Scraper",
+        "verified": false,
+        "explanation": "https://gateoverflow.in/457/gate-cse-2008-question-45",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "44",
+        "year": 2008,
+        "questionNumber": 44,
+        "subject": "Algorithms",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "The subset-sum problem is defined as follows: Given a set $S$ of $n$ positive integers and a positive integer $W$, determine whether there is a subset of $S$ whose elements sum to $W$. An algorithm $Q$ solves this problem in $O(nW)$ time. Which of the following statements is false?",
+        "options": [
+            "$Q$ solves the subset-sum problem in polynomial time when the input is encoded in unary",
+            "$Q$ solves the subset-sum problem in polynomial time when the input is encoded in binary",
+            "The subset sum problem belongs to the class $\\text{NP}$",
+            "The subset sum problem is $\\text{NP-hard}$"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/algorithms",
+            "gatecse-2008",
+            "algorithms",
+            "p-np-npc-nph",
+            "normal",
+            "out-of-gatecse-syllabus"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/456/gate-cse-2008-question-44",
+        "addedBy": "GO Scraper",
+        "verified": false,
+        "explanation": "https://gateoverflow.in/456/gate-cse-2008-question-44",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "43",
+        "year": 2008,
+        "questionNumber": 43,
+        "subject": "Algorithms",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "Consider the Quicksort algorithm. Suppose there is a procedure for finding a pivot element which splits the list into two sub-lists each of which contains at least one-fifth of the elements. Let $T(n)$ be the number of comparisons required to sort $n$ elements. Then$T(n) \\leq 2T(n/5) + n$$T(n) \\leq T(n/5) + T(4n/5) + n$$T(n) \\leq 2T(4n/5) + n$$T(n) \\leq 2T(n/2) + n$",
+        "options": [],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/algorithms",
+            "gatecse-2008",
+            "algorithms",
+            "sorting",
+            "easy",
+            "quick-sort"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/455/gate-cse-2008-question-43",
+        "addedBy": "GO Scraper",
+        "verified": false,
+        "explanation": "https://gateoverflow.in/455/gate-cse-2008-question-43",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "40",
+        "year": 2008,
+        "questionNumber": 40,
+        "subject": "Algorithms",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "The minimum number of comparisons required to determine if an integer appears more than $\\frac{n}{2}$ times in a sorted array of $n$ integers is",
+        "options": [
+            "$\\Theta(n)$",
+            "$\\Theta(\\log n)$",
+            "$\\Theta(\\log^*n)$",
+            "$\\Theta(1)$"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/algorithms",
+            "gatecse-2008",
+            "normal",
+            "algorithms",
+            "time-complexity"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/452/gate-cse-2008-question-40",
+        "addedBy": "GO Scraper",
+        "verified": false,
+        "explanation": "https://gateoverflow.in/452/gate-cse-2008-question-40",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "39",
+        "year": 2008,
+        "questionNumber": 39,
+        "subject": "Algorithms",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "Consider the following functions:\n\n$f(n) = 2^n$\n$g(n) = n!$\n$h(n) = n^{\\log n}$\n\nWhich of the following statements about the asymptotic behavior of $f(n)$, $g(n)$ and $h(n)$ is false?",
+        "options": [
+            "$f\\left(n\\right)=O\\left(g\\left(n\\right)\\right); g\\left(n\\right)=O\\left(h\\left(n\\right)\\right)$",
+            "$f\\left(n\\right) = \\Omega\\left(g\\left(n\\right)\\right); g(n) = O\\left(h\\left(n\\right)\\right)$",
+            "$g\\left(n\\right) = O\\left(f\\left(n\\right)\\right); h\\left(n\\right)=O\\left(f\\left(n\\right)\\right)$",
+            "$h\\left(n\\right)=O\\left(f\\left(n\\right)\\right); g\\left(n\\right) = \\Omega\\left(f\\left(n\\right)\\right)$"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/algorithms",
+            "gatecse-2008",
+            "algorithms",
+            "asymptotic-notation",
+            "normal"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/450/gate-cse-2008-question-39",
+        "addedBy": "GO Scraper",
+        "verified": false,
+        "explanation": "https://gateoverflow.in/450/gate-cse-2008-question-39",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "19",
+        "year": 2008,
+        "questionNumber": 19,
+        "subject": "Algorithms",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "The Breadth First Search algorithm has been implemented using the queue data structure. One possible order of visiting the nodes of the following graph is:",
+        "options": [
+            "$\\text{MNOPQR}$",
+            "$\\text{NQMPOR}$",
+            "$\\text{QMNPRO}$",
+            "$\\text{QMNPOR}$"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/algorithms",
+            "gatecse-2008",
+            "normal",
+            "algorithms",
+            "graph-algorithms",
+            "graph-search"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/417/gate-cse-2008-question-19",
+        "addedBy": "GO Scraper",
+        "verified": false,
+        "explanation": "https://gateoverflow.in/417/gate-cse-2008-question-19",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "7",
+        "year": 2008,
+        "questionNumber": 7,
+        "subject": "Algorithms",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "The most efficient algorithm for finding the number of connected components in an undirected graph on $n$ vertices and $m$ edges has time complexity$\\Theta(n)$$\\Theta(m)$$\\Theta(m+n)$$\\Theta(mn)$",
+        "options": [],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/algorithms",
+            "gatecse-2008",
+            "algorithms",
+            "graph-algorithms",
+            "time-complexity",
+            "normal",
+            "strongly-connected-components"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/405/gate-cse-2008-question-7",
+        "addedBy": "GO Scraper",
+        "verified": false,
+        "explanation": "https://gateoverflow.in/405/gate-cse-2008-question-7",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "84",
+        "year": 2008,
+        "questionNumber": 84,
+        "subject": "Algorithms",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "Consider the following C program that attempts to locate an element $x$ in an array $Y[ \\ ]$ using binary search. The program is erroneous. \n\n f (int Y[10] , int x) {\n    int i, j, k;\n    i= 0; j = 9;\n    do {\n        k = (i+ j) / 2;\n        if( Y[k] < x) i = k;else j = k;\n        } while (Y[k] != x) && (i < j)) ;\n    if(Y[k] == x) printf(\" x is in the array \") ;\n    else printf(\" x is not in the array \") ;\n }\nOn which of the following contents of $Y$ and $x$ does the program fail?",
+        "options": [
+            "$Y$ is $[1 \\ 2 \\ 3 \\ 4 \\ 5 \\ 6 \\ 7 \\ 8 \\ 9 \\ 10]$ and $x < 10 $",
+            "$Y$ is $[1 \\ 3 \\ 5 \\ 7 \\ 9 \\ 11   \\ 13 \\ 15 \\ 17 \\ 19]$ and $x < 1 $",
+            "$Y$ is $[2 \\  2 \\ 2 \\ 2 \\  2 \\  2 \\  2 \\ 2 \\ 2 \\ 2]$ and $x > 2$",
+            "$Y$ is $[2 \\ 4 \\ 6 \\ 8 \\ 10 \\ 12 \\ 14 \\ 16 \\ 18 \\ 20]$ and $ 2 < x < 20$ and $x$ is even"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/algorithms",
+            "gatecse-2008",
+            "algorithms",
+            "searching",
+            "normal"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/394/gate-cse-2008-question-84",
+        "addedBy": "GO Scraper",
+        "verified": false,
+        "explanation": "https://gateoverflow.in/394/gate-cse-2008-question-84",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    }
+]
