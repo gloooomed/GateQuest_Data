@@ -32,6 +32,7 @@ All questions are inside the `split_chunks/` folder and divided into files of 50
 
 ### ✅ What You Can Fix
 
+* Use the [preview.html](preview.html) to check the latex formatting locally on your own device.
 * Take help from the original question link from the sourceUrl value of that particular object in the json.
 * Separate `question` and `options` (fix merged/malformed questions)
 * Ensure options are an array of strings in case of MCQ and empty in case of numerical based question
