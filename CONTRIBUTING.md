@@ -43,6 +43,7 @@ All questions are inside the `split_chunks/` folder and divided into files of 50
 * Assign `difficulty` to be `Easy` for 1/2 mark questions and `Medium/hard` for marks greater than 2
 * Add marks value as integer by taking a look at the tags in the object
 * If any object is there with empty question it can be removed but **mention it in your Pull Request**
+* Store the image in the format: `image_year_id`
 
 ### ❌ What Not to Do
 
