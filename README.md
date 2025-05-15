@@ -4,6 +4,7 @@ This repository contains structured, cleaned, and collaboratively verified GATE 
 
 > 💡 This dataset is being manually cleaned by contributors to ensure consistent structure, accurate tagging, correct answers, and clear formatting.
 
+> Check the [CONTRIBUTION](CONTRIBUTING.md) Guideline and [PROGRESS](PROGRESS.md) to check for unassigned chunks.
 ---
 
 ## 📁 Structure
@@ -12,8 +13,8 @@ All JSON files are split into smaller chunks of 50 questions each, organized by 
 
 
 split\_chunks/
-├── algorithms\_2024\_chunk\_1.json
-├── algorithms\_2024\_chunk\_2.json
+├── algorithms\_chunk\_1.json
+├── algorithms\_chunk\_2.json
 ├── ...
 
 
