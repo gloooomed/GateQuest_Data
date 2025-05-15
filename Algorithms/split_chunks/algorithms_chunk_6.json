@@ -4,7 +4,7 @@
         "year": 2003,
         "questionNumber": 66,
         "subject": "Algorithms",
-        "topic": null,
+        "topic": "Time Complexity",
         "questionType": "multiple-choice",
         "question": "The cube root of a natural number $n$ is defined as the largest natural number $m$ such that $(m^3 \\leq n)$ . The complexity of computing the cube root of $n$ ($n$ is represented by binary notation) is",
         "options": [
@@ -13,10 +13,12 @@
             "$O((\\log n)^k)$ for some constant $k>0$, but not $O( (\\log \\log n)^m)$ for any constant $m>0$",
             "$O( (\\log \\log n)^k )$ for some constant $k > 0.5$, but not $O( (\\log \\log n)^{0.5} )$"
         ],
-        "correctAnswer": [],
+        "correctAnswer": [
+            2
+        ],
         "answerText": null,
-        "difficulty": null,
-        "marks": null,
+        "difficulty": "Medium",
+        "marks": 2,
         "tags": [
             "/algorithms",
             "gatecse-2003",
@@ -40,7 +42,7 @@
         "year": 2012,
         "questionNumber": 18,
         "subject": "Algorithms",
-        "topic": null,
+        "topic": "Asymptotic Notation",
         "questionType": "multiple-choice",
         "question": "Let $W(n) $ and $A(n)$ denote respectively, the worst case and average case running time of an algorithm executed on an input of size $n$.  Which of the following is ALWAYS TRUE?",
         "options": [
@@ -49,10 +51,12 @@
             "$A(n) = \\text{O} (W(n))$",
             "$A(n) = \\text{o} (W(n))$"
         ],
-        "correctAnswer": [],
+        "correctAnswer": [
+            2
+        ],
         "answerText": null,
-        "difficulty": null,
-        "marks": null,
+        "difficulty": "Easy",
+        "marks": 1,
         "tags": [
             "/algorithms",
             "gatecse-2012",
@@ -76,7 +80,7 @@
         "year": 2012,
         "questionNumber": 16,
         "subject": "Algorithms",
-        "topic": null,
+        "topic": "Recurrence Relation",
         "questionType": "multiple-choice",
         "question": "The recurrence relation capturing the optimal execution time of the $Towers \\ of \\ Hanoi$ problem with $n$ discs is",
         "options": [
@@ -85,10 +89,10 @@
             "$T (n) =  2T(n/2) + 1$",
             "$T (n) =  2T(n − 1) + 1$"
         ],
-        "correctAnswer": [],
+        "correctAnswer": [3],
         "answerText": null,
-        "difficulty": null,
-        "marks": null,
+        "difficulty": "Easy",
+        "marks": 1,
         "tags": [
             "/algorithms",
             "gatecse-2012",
