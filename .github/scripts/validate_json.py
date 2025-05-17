@@ -26,8 +26,8 @@ schema = {
                     "items": {"type": "integer"}
                 },
                 {
-                    "type": "integer"
-                }
+                    "type": "number"
+                },
             ]
         },
         "answerText": {"type": ["string", "null"]},
