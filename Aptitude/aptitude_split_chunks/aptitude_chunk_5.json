@@ -1,0 +1,1600 @@
+[
+    {
+        "id": "61",
+        "year": 2011,
+        "questionNumber": 61,
+        "subject": "Verbal Aptitude",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "Few school curricula include a unit on how to deal with bereavement and grief, and yet all students at some point in their lives suffer from losses through death and parting.\nBased on the above passage which topic would not be included in a unit on bereavement?",
+        "options": [
+            "how to write a letter of condolence",
+            "what emotional stages are passed through in the healing process",
+            "what the leading causes of death are",
+            "how to give support to a grieving friend"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/general-aptitude/verbal-aptitude",
+            "/tag/gatecse-2011",
+            "/tag/verbal-aptitude",
+            "/tag/passage-reading",
+            "/tag/normal"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/2171/gate-cse-2011-question-61",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/2171/gate-cse-2011-question-61",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "60",
+        "year": 2011,
+        "questionNumber": 60,
+        "subject": "Verbal Aptitude",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "Choose the word from the options given below that is most nearly opposite in the meaning to the given word\nAmalgamate",
+        "options": [
+            "merge",
+            "split",
+            "collect",
+            "separate"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/general-aptitude/verbal-aptitude",
+            "/tag/gatecse-2011",
+            "/tag/verbal-aptitude",
+            "/tag/opposite",
+            "/tag/normal"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/2170/gate-cse-2011-question-60",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/2170/gate-cse-2011-question-60",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "59",
+        "year": 2011,
+        "questionNumber": 59,
+        "subject": "Verbal Aptitude",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "Choose the most appropriate word from the options given below to complete the following sentence.\nIf you are trying to make a strong impression on your audience, you cannot do so by being understated, tentative or ________.",
+        "options": [
+            "hyperbolic",
+            "restrained",
+            "argumentative",
+            "indifferent"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/general-aptitude/verbal-aptitude",
+            "/tag/gatecse-2011",
+            "/tag/verbal-aptitude",
+            "/tag/most-appropriate-word",
+            "/tag/normal"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/2169/gate-cse-2011-question-59",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/2169/gate-cse-2011-question-59",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "58",
+        "year": 2011,
+        "questionNumber": 58,
+        "subject": "Verbal Aptitude",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "Choose the most appropriate word(s) from the options given below to complete the following sentence.\nI contemplated _________ Singapore for my vacation but decided against it.",
+        "options": [
+            "to visit",
+            "having to visit",
+            "visiting",
+            "for a visit"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/general-aptitude/verbal-aptitude",
+            "/tag/gatecse-2011",
+            "/tag/verbal-aptitude",
+            "/tag/most-appropriate-word",
+            "/tag/easy"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/2167/gate-cse-2011-question-58",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/2167/gate-cse-2011-question-58",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "57",
+        "year": 2011,
+        "questionNumber": 57,
+        "subject": "Quantitative Aptitude",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "If $\\log (\\text{P}) = (1/2)\\log (\\text{Q}) = (1/3)\\log (\\text{R})$, then which of the following options is TRUE?$\\text{P}^2 = \\text{Q}^3\\text{R}^2$$\\text{Q}^2=\\text{P}\\text{R}$$\\text{Q}^2 = \\text{R}^3\\text{P}$$\\text{R}=\\text{P}^2\\text{Q}^2$",
+        "options": [],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/general-aptitude/quantitative-aptitude",
+            "/tag/gatecse-2011",
+            "/tag/quantitative-aptitude",
+            "/tag/normal",
+            "/tag/logarithms"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/2166/gate-cse-2011-question-57",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/2166/gate-cse-2011-question-57",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "56",
+        "year": 2011,
+        "questionNumber": 56,
+        "subject": "Verbal Aptitude",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "Which of the following options is the closest in the meaning to the word below:Inexplicable Incomprehensible Indelible Inextricable Infallible",
+        "options": [],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/general-aptitude/verbal-aptitude",
+            "/tag/gatecse-2011",
+            "/tag/verbal-aptitude",
+            "/tag/synonyms",
+            "/tag/normal"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/2165/gate-cse-2011-question-56",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/2165/gate-cse-2011-question-56",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "10",
+        "year": 2014,
+        "questionNumber": 10,
+        "subject": "Quantitative Aptitude",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "Consider the equation: $(7526)_8 − (Y)_8 = (4364)_8$, where $(X)_N$ stands for $X$ to the base $N$. Find $Y$.$1634$$1737$$3142$$3162$",
+        "options": [],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/general-aptitude/quantitative-aptitude",
+            "/tag/gatecse-2014-set3",
+            "/tag/quantitative-aptitude",
+            "/tag/number-system",
+            "/tag/normal",
+            "/tag/digital-logic"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/2034/gate-cse-2014-set-3-question-ga-10",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/2034/gate-cse-2014-set-3-question-ga-10",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "9",
+        "year": 2014,
+        "questionNumber": 9,
+        "subject": "Quantitative Aptitude",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "The ratio of male to female students in a college for five years is plotted in the following line graph. If the number of female students in $2011$ and $2012$ is equal, what is the ratio of male students in $2012$ to male students in $2011$?$1:1$$2:1$$1.5:1$$2.5:1$",
+        "options": [],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/general-aptitude/quantitative-aptitude",
+            "/tag/gatecse-2014-set3",
+            "/tag/quantitative-aptitude",
+            "/tag/data-interpretation",
+            "/tag/normal",
+            "/tag/line-graph"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/2033/gate-cse-2014-set-3-question-ga-9",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/2033/gate-cse-2014-set-3-question-ga-9",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "8",
+        "year": 2014,
+        "questionNumber": 8,
+        "subject": "Quantitative Aptitude",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "The Gross Domestic Product $(GDP)$ in Rupees grew at $7\\%$ during $2012-2013$. For international comparison, the $GDP$ is compared in US Dollars $(USD)$ after conversion based on the market exchange rate. During the period $2012-2013$ the exchange rate for the $USD$ increased from $Rs$. $50/ USD$ to $Rs. $$60$/ $USD$. India's GDP in USD during the period $2012-2013$",
+        "options": [
+            "increased by $5 \\%$",
+            "decreased by $13\\%$",
+            "decreased by $20\\%$",
+            "decreased by $11\\%$"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/general-aptitude/quantitative-aptitude",
+            "/tag/gatecse-2014-set3",
+            "/tag/quantitative-aptitude",
+            "/tag/normal",
+            "/tag/percentage"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/2032/gate-cse-2014-set-3-question-ga-8",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/2032/gate-cse-2014-set-3-question-ga-8",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "7",
+        "year": 2014,
+        "questionNumber": 7,
+        "subject": "Verbal Aptitude",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "By the beginning of the $20^{\\text{th}}$ century, several hypotheses were being proposed, suggesting a paradigm shift in our understanding of the universe. However, the clinching evidence was provided by experimental measurements of the position of a star which was directly behind our sun.\nWhich of the following inference(s) may be drawn from the above passage? \n\nOur understanding of the universe changes based on the positions of stars\nParadigm shifts usually occur at the beginning of centuries\nStars are important objects in the universe\nExperimental evidence was important in confirming this paradigm shift",
+        "options": [
+            "i, ii and iv",
+            "iii only",
+            "i and iv",
+            "iv only"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/general-aptitude/verbal-aptitude",
+            "/tag/gatecse-2014-set3",
+            "/tag/verbal-aptitude",
+            "/tag/passage-reading",
+            "/tag/easy"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/2031/gate-cse-2014-set-3-question-ga-7",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/2031/gate-cse-2014-set-3-question-ga-7",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "6",
+        "year": 2014,
+        "questionNumber": 6,
+        "subject": "Verbal Aptitude",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "A dance programme is scheduled for $10.00$ a.m. Some students are participating in the programme and they need to come an hour earlier than the start of the event. These students should be accompanied by a parent. Other students and parents should come in time for the programme. The instruction you think that is appropriate for this is",
+        "options": [
+            "Students should come at $9.00$ a.m. and parents should come at $10.00$ a.m.",
+            "Participating students should come at $9.00$ a.m. accompanied by a parent, and other parents and students should come by $10.00$ a.m.",
+            "Students who are not participating should come by $10.00$ a.m. and they should not bring their parents. Participating students should come at $9.00$ a.m.",
+            "Participating students should come before $9.00$ a.m. Parents who accompany them should come at $9.00$ a.m. All others should come at $10.00$ a.m."
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/general-aptitude/verbal-aptitude",
+            "/tag/gatecse-2014-set3",
+            "/tag/verbal-aptitude",
+            "/tag/passage-reading",
+            "/tag/easy"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/2029/gate-cse-2014-set-3-question-ga-6",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/2029/gate-cse-2014-set-3-question-ga-6",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "5",
+        "year": 2014,
+        "questionNumber": 5,
+        "subject": "Quantitative Aptitude",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "The table below has question-wise data on the performance of students in an examination. The marks for each question are also listed. There is no negative or partial marking in the examination.\n$$\\begin{array}{|c|c|c|c|c|} \\hline \\textbf{Q No.} & \\textbf{Marks} &\\textbf{Answered}&\\textbf{Answered}&\\textbf{Not}\\\\&&\\textbf{ Correctly} &\\textbf{Wrongly} & \\textbf{Attempted} \\\\\\hline \\text{1} & \\text{2} &\\text{21} &\\text{17} &\\text{6}\\\\\\hline \\text{2} & \\text{3} &\\text{15} & \\text{27}& \\text{2}\\\\\\hline \\text{3} & \\text{2} &\\text{23} & \\text{18} & \\text{3}\\\\\\hline \\end{array}$$\nWhat is the average of the marks obtained by the class in the examination?",
+        "options": [
+            "$1.34$",
+            "$1.74$",
+            "$3.02$",
+            "$3.91$"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/general-aptitude/quantitative-aptitude",
+            "/tag/gatecse-2014-set3",
+            "/tag/quantitative-aptitude",
+            "/tag/normal",
+            "/tag/data-interpretation",
+            "/tag/tabular-data"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/2028/gate-cse-2014-set-3-question-ga-5",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/2028/gate-cse-2014-set-3-question-ga-5",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "4",
+        "year": 2014,
+        "questionNumber": 4,
+        "subject": "Quantitative Aptitude",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "Which number does not belong in the series below?\n$\\qquad2, 5, 10, 17, 26, 37, 50, 64$",
+        "options": [
+            "$17$",
+            "$37$",
+            "$64$",
+            "$26$"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/general-aptitude/quantitative-aptitude",
+            "/tag/gatecse-2014-set3",
+            "/tag/quantitative-aptitude",
+            "/tag/number-series",
+            "/tag/easy"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/2027/gate-cse-2014-set-3-question-ga-4",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/2027/gate-cse-2014-set-3-question-ga-4",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "3",
+        "year": 2014,
+        "questionNumber": 3,
+        "subject": "Verbal Aptitude",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "Choose the word that is opposite in meaning to the word “coherent”.",
+        "options": [
+            "sticky",
+            "well-connected",
+            "rambling",
+            "friendly"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/general-aptitude/verbal-aptitude",
+            "/tag/gatecse-2014-set3",
+            "/tag/verbal-aptitude",
+            "/tag/opposite",
+            "/tag/easy"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/2026/gate-cse-2014-set-3-question-ga-3",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/2026/gate-cse-2014-set-3-question-ga-3",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "2",
+        "year": 2014,
+        "questionNumber": 2,
+        "subject": "Verbal Aptitude",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "If she _______________ how to calibrate the instrument, she _______________ done the experiment.",
+        "options": [
+            "knows, will have",
+            "knew, had",
+            "had known, could have",
+            "should have known, would have"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/general-aptitude/verbal-aptitude",
+            "/tag/gatecse-2014-set3",
+            "/tag/verbal-aptitude",
+            "/tag/easy",
+            "/tag/english-grammar",
+            "/tag/tenses"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/2025/gate-cse-2014-set-3-question-ga-2",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/2025/gate-cse-2014-set-3-question-ga-2",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "1",
+        "year": 2014,
+        "questionNumber": 1,
+        "subject": "Verbal Aptitude",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "$\\underset{\\text{I}}{\\underline{\\text{While trying to collect}}}$ an envelope $\\underset{\\text{II}}{\\underline{\\text{from under the table,}}}$ $\\underset{\\text{III}}{\\underline{\\text{Mr. X fell down}}}$ and $\\underset{\\text{IV}}{\\underline{\\text{was losing consciousness.}}}$Which one of the above underlined parts of the sentence is NOT appropriate?IIIIIIIV",
+        "options": [],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/general-aptitude/verbal-aptitude",
+            "/tag/gatecse-2014-set3",
+            "/tag/verbal-aptitude",
+            "/tag/easy",
+            "/tag/english-grammar",
+            "/tag/incorrect-sentence-part"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/2024/gate-cse-2014-set-3-question-ga-1",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/2024/gate-cse-2014-set-3-question-ga-1",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "10",
+        "year": 2014,
+        "questionNumber": 10,
+        "subject": "Quantitative Aptitude",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "At what time between $6$ a. m. and $7$ a. m. will the minute hand and hour hand of a clock make an angle closest to $60^{\\circ}$?",
+        "options": [
+            "$6: 22$ a.m.",
+            "$6: 27$ a.m.",
+            "$6: 38$ a.m.",
+            "$6: 45$ a.m."
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/general-aptitude/quantitative-aptitude",
+            "/tag/gatecse-2014-set2",
+            "/tag/quantitative-aptitude",
+            "/tag/normal",
+            "/tag/clock-time"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/1952/gate-cse-2014-set-2-question-ga-10",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/1952/gate-cse-2014-set-2-question-ga-10",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "9",
+        "year": 2014,
+        "questionNumber": 9,
+        "subject": "Quantitative Aptitude",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "The ratio of male to female students in a college for five years is plotted in the following line graph. If the number of female students doubled in $2009$, by what percent did the number of male students increase in $2009$?",
+        "options": [],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/general-aptitude/quantitative-aptitude",
+            "/tag/gatecse-2014-set2",
+            "/tag/quantitative-aptitude",
+            "/tag/data-interpretation",
+            "/tag/numerical-answers",
+            "/tag/normal",
+            "/tag/line-graph"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/1951/gate-cse-2014-set-2-question-ga-9",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/1951/gate-cse-2014-set-2-question-ga-9",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "8",
+        "year": 2014,
+        "questionNumber": 8,
+        "subject": "Quantitative Aptitude",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "If $x$ is real and $\\mid x^2-2x+3 \\mid = 11$, then possible values of $\\mid -x^3+x^2-x\\mid$ include",
+        "options": [
+            "$2, 4$",
+            "$2, 14$",
+            "$4, 52$",
+            "$14, 52$"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/general-aptitude/quantitative-aptitude",
+            "/tag/gatecse-2014-set2",
+            "/tag/quantitative-aptitude",
+            "/tag/normal",
+            "/tag/absolute-value"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/1950/gate-cse-2014-set-2-question-ga-8",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/1950/gate-cse-2014-set-2-question-ga-8",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "7",
+        "year": 2014,
+        "questionNumber": 7,
+        "subject": "Verbal Aptitude",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "Number of people diagnosed with dengue fever (contracted from the bite of a mosquito) in North India is twice the number diagnosed last year. Municipal authorities have concluded that measures to control the mosquito population have failed in this region. \nWhich one of the following statements, if true, does not contradict this conclusion?",
+        "options": [
+            "A high proportion of the affected population has returned from neighbouring countries where dengue is prevalent",
+            "More cases of dengue are now reported because of an increase in the Municipal Office's administrative efficiency",
+            "Many more cases of dengue are being diagnosed this year since the introduction of a new and effective diagnostic test",
+            "The number of people with malarial fever (also contracted from mosquito bites) has increased this year"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/general-aptitude/verbal-aptitude",
+            "/tag/gatecse-2014-set2",
+            "/tag/verbal-aptitude",
+            "/tag/passage-reading",
+            "/tag/normal"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/1944/gate-cse-2014-set-2-question-ga-7",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/1944/gate-cse-2014-set-2-question-ga-7",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "6",
+        "year": 2014,
+        "questionNumber": 6,
+        "subject": "Verbal Aptitude",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "The old city of Koenigsberg, which had a German majority population before World War 2, is now called Kaliningrad. After the events of the war, Kaliningrad is now a Russian territory and has a predominantly Russian population. It is bordered by the Baltic Sea on the north and the countries of Poland to the south and west and Lithuania to the east respectively. Which of the statements below can be inferred from this passage?",
+        "options": [
+            "Kaliningrad was historically Russian in its ethnic make up",
+            "Kaliningrad is a part of Russia despite it not being contiguous with the rest of Russia",
+            "Koenigsberg was renamed Kaliningrad, as that was its original Russian name",
+            "Poland and Lithuania are on the route from Kaliningrad to the rest of Russia"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/general-aptitude/verbal-aptitude",
+            "/tag/gatecse-2014-set2",
+            "/tag/verbal-aptitude",
+            "/tag/passage-reading",
+            "/tag/normal"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/1943/gate-cse-2014-set-2-question-ga-6",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/1943/gate-cse-2014-set-2-question-ga-6",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "5",
+        "year": 2014,
+        "questionNumber": 5,
+        "subject": "Quantitative Aptitude",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "The value of $\\sqrt{12+\\sqrt{12+\\sqrt{12+\\dots}}} $is",
+        "options": [
+            "$3.464$",
+            "$3.932$",
+            "$4.000$",
+            "$4.444$"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/general-aptitude/quantitative-aptitude",
+            "/tag/gatecse-2014-set2",
+            "/tag/quantitative-aptitude",
+            "/tag/easy",
+            "/tag/number-series"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/1942/gate-cse-2014-set-2-question-ga-5",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/1942/gate-cse-2014-set-2-question-ga-5",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "4",
+        "year": 2014,
+        "questionNumber": 4,
+        "subject": "Quantitative Aptitude",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "What is the average of all multiples of $10$ from $2$ to $198$?",
+        "options": [
+            "$90$",
+            "$100$",
+            "$110$",
+            "$120$"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/general-aptitude/quantitative-aptitude",
+            "/tag/gatecse-2014-set2",
+            "/tag/quantitative-aptitude",
+            "/tag/easy",
+            "/tag/numerical-computation",
+            "/tag/factors"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/1941/gate-cse-2014-set-2-question-ga-4",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/1941/gate-cse-2014-set-2-question-ga-4",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "3",
+        "year": 2014,
+        "questionNumber": 3,
+        "subject": "Verbal Aptitude",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "Match the columns.\n$$\\begin{array}{ll|ll}\\hline &\\textbf{Column 1}  & & \\textbf{Column 2 } \\\\\\hline 1.& \\text{eradicate} &P. &\\text{misrepresent}\\\\\\hline 2.&\\text{distort} &Q.& \\text{soak completely}\\\\\\hline 3.&\\text{saturate} &R.& \\text{use}\\\\\\hline 4.&\\text{utilize} &S.& \\text{destroy utterly}\\\\\\hline  \\end{array}$$",
+        "options": [
+            "$\\text{1:S, 2:P, 3:Q, 4:R}$",
+            "$\\text{1:P, 2:Q, 3:R, 4:S}$",
+            "$\\text{1:Q, 2:R, 3:S, 4:P}$",
+            "$\\text{1:S, 2:P, 3:R, 4:Q}$"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/general-aptitude/verbal-aptitude",
+            "/tag/gatecse-2014-set2",
+            "/tag/verbal-aptitude",
+            "/tag/word-meaning",
+            "/tag/normal"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/1940/gate-cse-2014-set-2-question-ga-3",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/1940/gate-cse-2014-set-2-question-ga-3",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "2",
+        "year": 2014,
+        "questionNumber": 2,
+        "subject": "Verbal Aptitude",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "Who ___________ was coming to see us this evening?",
+        "options": [
+            "you said",
+            "did you say",
+            "did you say that",
+            "had you said"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/general-aptitude/verbal-aptitude",
+            "/tag/gatecse-2014-set2",
+            "/tag/verbal-aptitude",
+            "/tag/tenses",
+            "/tag/normal"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/1939/gate-cse-2014-set-2-question-ga-2",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/1939/gate-cse-2014-set-2-question-ga-2",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "1",
+        "year": 2014,
+        "questionNumber": 1,
+        "subject": "Verbal Aptitude",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "Choose the most appropriate phrase from the options given below to complete the following sentence.\nIndia is a post-colonial country because",
+        "options": [
+            "it was a former British colony",
+            "Indian Information Technology professionals have colonized the world",
+            "India does not follow any colonial practices",
+            "India has helped other countries gain freedom"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/general-aptitude/verbal-aptitude",
+            "/tag/gatecse-2014-set2",
+            "/tag/verbal-aptitude",
+            "/tag/most-appropriate-word",
+            "/tag/easy"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/1938/gate-cse-2014-set-2-question-ga-1",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/1938/gate-cse-2014-set-2-question-ga-1",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "65",
+        "year": 2013,
+        "questionNumber": 65,
+        "subject": "Quantitative Aptitude",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "The current erection cost of a structure is Rs. $13,200.$ If the labour wages per day increase by $1/5$ of the current wages and the working hours decrease by $1/24$ of the current period, then the new cost of erection in Rs. is",
+        "options": [
+            "$16,500$",
+            "$15,180$",
+            "$11,000$",
+            "$10,120$"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/general-aptitude/quantitative-aptitude",
+            "/tag/gatecse-2013",
+            "/tag/quantitative-aptitude",
+            "/tag/normal",
+            "/tag/work-time"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/1569/gate-cse-2013-question-65",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/1569/gate-cse-2013-question-65",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "64",
+        "year": 2013,
+        "questionNumber": 64,
+        "subject": "Quantitative Aptitude",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "A tourist covers half of his journey by train at $60\\;\\text{km/h}$, half of the remainder by bus at $30\\;\\text{km/h}$ and the rest by cycle at $10\\;\\text{km/h}$. The average speed of the tourist in $\\text{km/h}$ during his entire journey is",
+        "options": [
+            "$36$",
+            "$30$",
+            "$24$",
+            "$18$"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/general-aptitude/quantitative-aptitude",
+            "/tag/gatecse-2013",
+            "/tag/quantitative-aptitude",
+            "/tag/easy",
+            "/tag/speed-time-distance"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/1568/gate-cse-2013-question-64",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/1568/gate-cse-2013-question-64",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "63",
+        "year": 2013,
+        "questionNumber": 63,
+        "subject": "Verbal Aptitude",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "After several defeats in wars, Robert Bruce went in exile and wanted to commit suicide. Just before committing suicide, he came across a spider attempting tirelessly to have its net. Time and again, the spider failed but that did not deter it to refrain from making attempts. Such attempts by the spider made Bruce curious. Thus, Bruce started observing the near-impossible goal of the spider to have the net. Ultimately, the spider succeeded in having its net despite several failures. Such act of the spider encouraged Bruce not to commit suicide. And then, Bruce went back again and won many a battle, and the rest is history.\n\nWhich one of the following assertions is best supported by the above information?",
+        "options": [
+            "Failure is the pillar of success.   Honesty is the best policy.   Life begins and ends with adventures.   No adversity justifies giving up hope."
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/general-aptitude/verbal-aptitude",
+            "/tag/gatecse-2013",
+            "/tag/verbal-aptitude",
+            "/tag/passage-reading",
+            "/tag/normal"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/1567/gate-cse-2013-question-63",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/1567/gate-cse-2013-question-63",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "62",
+        "year": 2013,
+        "questionNumber": 62,
+        "subject": "Quantitative Aptitude",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "Out of all the $2$-digit integers between $1$ and $100,$ a $2$-digit number has to be selected at random. What is the probability that the selected number is not divisible by $7$ ?",
+        "options": [
+            "$\\left(\\dfrac{13}{90}\\right)$",
+            "$\\left(\\dfrac{12}{90}\\right)$",
+            "$\\left(\\dfrac{78}{90}\\right)$",
+            "$\\left(\\dfrac{77}{90}\\right)$"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/general-aptitude/quantitative-aptitude",
+            "/tag/gatecse-2013",
+            "/tag/quantitative-aptitude",
+            "/tag/easy",
+            "/tag/probability",
+            "/tag/factors"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/1566/gate-cse-2013-question-62",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/1566/gate-cse-2013-question-62",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "61",
+        "year": 2013,
+        "questionNumber": 61,
+        "subject": "Quantitative Aptitude",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "Find the sum of the expression\n\n$\\frac{1}{\\sqrt{1}+\\sqrt{2}}+\\frac{1}{\\sqrt{2}+\\sqrt{3}}+\\frac{1}{\\sqrt{3}+\\sqrt{4}}+............+\\frac{1}{\\sqrt{80}+\\sqrt{81}}$",
+        "options": [
+            "$7$",
+            "$8$",
+            "$9$",
+            "$10$"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/general-aptitude/quantitative-aptitude",
+            "/tag/gatecse-2013",
+            "/tag/quantitative-aptitude",
+            "/tag/normal",
+            "/tag/number-series"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/1565/gate-cse-2013-question-61",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/1565/gate-cse-2013-question-61",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "60",
+        "year": 2013,
+        "questionNumber": 60,
+        "subject": "Verbal Aptitude",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "Choose the grammatically INCORRECT sentence:\n  He is of Asian origin.   They belonged to Africa.   She is an European.   They migrated from India to Australia.",
+        "options": [],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/general-aptitude/verbal-aptitude",
+            "/tag/gatecse-2013",
+            "/tag/verbal-aptitude",
+            "/tag/grammatical-error",
+            "/tag/normal"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/1564/gate-cse-2013-question-60",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/1564/gate-cse-2013-question-60",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "59",
+        "year": 2013,
+        "questionNumber": 59,
+        "subject": "Verbal Aptitude",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "Were you a bird, you ___________________ in the sky.",
+        "options": [
+            "would fly",
+            "shall fly",
+            "should fly",
+            "shall have flown"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/general-aptitude/verbal-aptitude",
+            "/tag/gatecse-2013",
+            "/tag/verbal-aptitude",
+            "/tag/tenses",
+            "/tag/normal"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/1563/gate-cse-2013-question-59",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/1563/gate-cse-2013-question-59",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "58",
+        "year": 2013,
+        "questionNumber": 58,
+        "subject": "Quantitative Aptitude",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "What will be the maximum sum of $44, 42, 40, \\dots$ ?",
+        "options": [
+            "$502$",
+            "$504$",
+            "$506$",
+            "$500$"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/general-aptitude/quantitative-aptitude",
+            "/tag/gatecse-2013",
+            "/tag/quantitative-aptitude",
+            "/tag/easy",
+            "/tag/arithmetic-series"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/1562/gate-cse-2013-question-58",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/1562/gate-cse-2013-question-58",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "57",
+        "year": 2013,
+        "questionNumber": 57,
+        "subject": "Verbal Aptitude",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "Complete the sentence:\n\nUniversalism is to particularism as diffuseness is to _______________.",
+        "options": [
+            "specificity",
+            "neutrality",
+            "generality",
+            "adaptation"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/general-aptitude/verbal-aptitude",
+            "/tag/gatecse-2013",
+            "/tag/verbal-aptitude",
+            "/tag/normal",
+            "/tag/word-pairs"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/1560/gate-cse-2013-question-57",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/1560/gate-cse-2013-question-57",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "56",
+        "year": 2013,
+        "questionNumber": 56,
+        "subject": "Verbal Aptitude",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "Which one of the following options is the closest in meaning to the word given below?NadirHighestLowestMediumIntegration",
+        "options": [],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/general-aptitude/verbal-aptitude",
+            "/tag/gatecse-2013",
+            "/tag/verbal-aptitude",
+            "/tag/synonyms",
+            "/tag/normal"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/1559/gate-cse-2013-question-56",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/1559/gate-cse-2013-question-56",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "10",
+        "year": 2014,
+        "questionNumber": 10,
+        "subject": "Quantitative Aptitude",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "When a point inside of a tetrahedron (a solid with four triangular surfaces) is connected by straight lines to its corners, how many (new) internal planes are created with these lines?",
+        "options": [],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/general-aptitude/quantitative-aptitude",
+            "/tag/gatecse-2014-set1",
+            "/tag/quantitative-aptitude",
+            "/tag/geometry",
+            "/tag/combinatory",
+            "/tag/normal",
+            "/tag/numerical-answers"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/778/gate-cse-2014-set-1-question-ga-10",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/778/gate-cse-2014-set-1-question-ga-10",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "9",
+        "year": 2014,
+        "questionNumber": 9,
+        "subject": "Quantitative Aptitude",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "In a survey, $300$ respondents were asked whether they own a vehicle or not. If yes, they were further asked to mention whether they own a car or scooter or both. Their responses are tabulated below. What percent of respondents do not own a scooter?$$\\begin{array}{|l|l|l|l|} \\hline & & \\text{Men}  & \\text{Women} \\\\\\hline  \\text{Own vehicle} & \\text{Car} & 40 &  34 \\\\\\hline \\text{Own vehicle} & \\text{Scooter} & 30 & 20 \\\\\\hline \\text{Own vehicle} & \\text{Both} & 60 & 46 \\\\\\hline \\text{Do not own vehicle} &  & 20 & 50 \\\\\\hline \\end{array}$$",
+        "options": [],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/general-aptitude/quantitative-aptitude",
+            "/tag/gatecse-2014-set1",
+            "/tag/quantitative-aptitude",
+            "/tag/normal",
+            "/tag/numerical-answers",
+            "/tag/data-interpretation",
+            "/tag/tabular-data"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/777/gate-cse-2014-set-1-question-ga-9",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/777/gate-cse-2014-set-1-question-ga-9",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "8",
+        "year": 2014,
+        "questionNumber": 8,
+        "subject": "Quantitative Aptitude",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "Round-trip tickets to a tourist destination are eligible for a discount of $10\\%$ on the total fare. In addition, groups of $4$ or more get a discount of $5\\%$ on the total fare. If the one way single person fare is $Rs$ $100$, a group of $5$ tourists purchasing round-trip tickets will be charged $Rs$ __________",
+        "options": [],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/general-aptitude/quantitative-aptitude",
+            "/tag/gatecse-2014-set1",
+            "/tag/quantitative-aptitude",
+            "/tag/easy",
+            "/tag/numerical-answers",
+            "/tag/percentage"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/776/gate-cse-2014-set-1-question-ga-8",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/776/gate-cse-2014-set-1-question-ga-8",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "7",
+        "year": 2014,
+        "questionNumber": 7,
+        "subject": "Verbal Aptitude",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "Geneticists say that they are very close to confirming the genetic roots of psychiatric illnesses such as depression and schizophrenia, and consequently, that doctors will be able to eradicate these diseases through early identification and gene therapy.\nOn which of the following assumptions does the statement above rely?\nSelect one:",
+        "options": [
+            "Strategies are now available for eliminating psychiatric illnesses",
+            "Certain psychiatric illnesses have a genetic basis",
+            "All human diseases can be traced back to genes and how they are expressed",
+            "In the future, genetics will become the only relevant field for identifying psychiatric illnesses"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/general-aptitude/verbal-aptitude",
+            "/tag/gatecse-2014-set1",
+            "/tag/verbal-aptitude",
+            "/tag/verbal-reasoning",
+            "/tag/normal"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/775/gate-cse-2014-set-1-question-ga-7",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/775/gate-cse-2014-set-1-question-ga-7",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "6",
+        "year": 2014,
+        "questionNumber": 6,
+        "subject": "Verbal Aptitude",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "The Palghat Gap (or Palakkad Gap) , a region about $30\\;\\text{km}$ wide in the southern part of the Western Ghats in India, is lower than the hilly terrain to its north and south. The exact reasons for the formation of this gap are not clear. It results in the neighbouring regions of Tamil Nadu getting more rainfall from the South West monsoon and the neighbouring regions of Kerala having higher summer temperatures.  \n\nWhat can be inferred from this passage?\n\nSelect one:",
+        "options": [
+            "The Palghat gap is caused by high rainfall and high temperatures in southern Tamil Nadu and Kerala",
+            "The regions in Tamil Nadu and Kerala that are near the Palghat Gap are low-lying",
+            "The low terrain of the Palghat Gap has a significant impact on weather patterns in neighbouring parts of Tamil Nadu and Kerala",
+            "Higher summer temperatures result in higher rainfall near the Palghat Gap area"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/general-aptitude/verbal-aptitude",
+            "/tag/gatecse-2014-set1",
+            "/tag/verbal-aptitude",
+            "/tag/passage-reading",
+            "/tag/normal"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/774/gate-cse-2014-set-1-question-ga-6",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/774/gate-cse-2014-set-1-question-ga-6",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "4",
+        "year": 2014,
+        "questionNumber": 4,
+        "subject": "Quantitative Aptitude",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "If $\\large\\left(z + \\dfrac{1}{z}\\right)^{2}= 98$, compute $\\large \\left(z^{2} +\\dfrac{1}{z^{2}}\\right)$.",
+        "options": [],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/general-aptitude/quantitative-aptitude",
+            "/tag/gatecse-2014-set1",
+            "/tag/quantitative-aptitude",
+            "/tag/easy",
+            "/tag/numerical-answers",
+            "/tag/numerical-computation"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/773/gate-cse-2014-set-1-question-ga-4",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/773/gate-cse-2014-set-1-question-ga-4",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "3",
+        "year": 2014,
+        "questionNumber": 3,
+        "subject": "Verbal Aptitude",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "In a press meet on the recent scam, the minister said, \"The buck stops here\". What did the minister convey by the statement?He wants all the moneyHe will return the moneyHe will assume final responsibilityHe will resist all enquiries",
+        "options": [],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/general-aptitude/verbal-aptitude",
+            "/tag/gatecse-2014-set1",
+            "/tag/verbal-aptitude",
+            "/tag/normal",
+            "/tag/phrase-meaning"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/772/gate-cse-2014-set-1-question-ga-3",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/772/gate-cse-2014-set-1-question-ga-3",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "2",
+        "year": 2014,
+        "questionNumber": 2,
+        "subject": "Verbal Aptitude",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "Choose the most appropriate word from the options given below to complete the following sentence.\n\nShe could not understand the judges awarding her the first prize, because she thought that her performance was quite _________.",
+        "options": [
+            "superb",
+            "medium",
+            "mediocre",
+            "exhilarating"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/general-aptitude/verbal-aptitude",
+            "/tag/gatecse-2014-set1",
+            "/tag/verbal-aptitude",
+            "/tag/most-appropriate-word",
+            "/tag/easy"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/771/gate-cse-2014-set-1-question-ga-2",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/771/gate-cse-2014-set-1-question-ga-2",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "5",
+        "year": 2014,
+        "questionNumber": 5,
+        "subject": "Quantitative Aptitude",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "The roots of $ax^{2}+bx+c = 0$ are real and positive. $a, b$ and $c$ are real. Then $ax^{2}+b\\mid x \\mid + c =0$ has",
+        "options": [
+            "no roots",
+            "$2$ real roots",
+            "$3$ real roots",
+            "$4$ real roots"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/general-aptitude/quantitative-aptitude",
+            "/tag/gatecse-2014-set1",
+            "/tag/quantitative-aptitude",
+            "/tag/quadratic-equations",
+            "/tag/normal"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/770/gate-cse-2014-set-1-question-ga-5",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/770/gate-cse-2014-set-1-question-ga-5",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "1",
+        "year": 2014,
+        "questionNumber": 1,
+        "subject": "Verbal Aptitude",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "Which of the following options is the closest in meaning to the phrase in bold in the sentence below?It is fascinating to see life forms cope with varied environmental conditions.Adopt toAdapt toAdept inAccept with",
+        "options": [],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/general-aptitude/verbal-aptitude",
+            "/tag/verbal-aptitude",
+            "/tag/gatecse-2014-set1",
+            "/tag/phrase-meaning",
+            "/tag/easy"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/56/gate-cse-2014-set-1-question-ga-1",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/56/gate-cse-2014-set-1-question-ga-1",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    }
+]

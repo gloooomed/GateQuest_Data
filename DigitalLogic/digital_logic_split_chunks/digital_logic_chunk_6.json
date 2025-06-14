@@ -1,0 +1,351 @@
+[
+    {
+        "id": "iii",
+        "year": null,
+        "questionNumber": null,
+        "subject": "Digital Logic",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "Consider the number given by the decimal expression:\n$$16^3*9 + 16^2*7 + 16*5+3$$\nThe number of $1’s$ in the unsigned binary representation of the number is ______",
+        "options": [],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/digital-logic",
+            "/tag/gate1991",
+            "/tag/digital-logic",
+            "/tag/number-representation",
+            "/tag/normal",
+            "/tag/numerical-answers"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/500/gate-cse-1991-question-01-iii",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/500/gate-cse-1991-question-01-iii",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "26",
+        "year": 2008,
+        "questionNumber": 26,
+        "subject": "Digital Logic",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "If $P, Q, R$ are Boolean variables, then\n$(P + \\bar{Q}) (P.\\bar{Q} + P.R) (\\bar{P}.\\bar{R} + \\bar{Q})$ simplifies to\n\n\n$P.\\bar{Q}$\n\n\n$P.\\bar{R}$\n\n\n$P.\\bar{Q} + R$",
+        "options": [
+            "$P.\\bar{R} + Q$"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/digital-logic",
+            "/tag/gatecse-2008",
+            "/tag/easy",
+            "/tag/digital-logic",
+            "/tag/boolean-algebra"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/424/gate-cse-2008-question-26",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/424/gate-cse-2008-question-26",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "8",
+        "year": 2008,
+        "questionNumber": 8,
+        "subject": "Digital Logic",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "Given $f_1$, $f_3$ and $f$ in canonical sum of products form (in decimal) for the circuit\n\n$f_1 = \\Sigma m(4, 5, 6, 7, 8)$\n$f_3 = \\Sigma m(1, 6, 15)$\n$f = \\Sigma m(1, 6, 8, 15)$\nthen $f_2$ is\n\n\n$\\Sigma m(4, 6)$\n\n\n$\\Sigma m(4, 8)$\n\n\n$\\Sigma m(6, 8)$",
+        "options": [
+            "$\\Sigma m(4, 6, 8)$"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/digital-logic",
+            "/tag/gatecse-2008",
+            "/tag/digital-logic",
+            "/tag/canonical-normal-form",
+            "/tag/easy"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/406/gate-cse-2008-question-8",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/406/gate-cse-2008-question-8",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "6",
+        "year": 2008,
+        "questionNumber": 6,
+        "subject": "Digital Logic",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "Let $r$ denote number system radix. The only value(s) of $r$ that satisfy the equation $\\sqrt{121_r}={11}_r$ is/are",
+        "options": [
+            "decimal $10$",
+            "decimal $11$",
+            "decimal $10$ and $11$",
+            "any value $> 2$"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/digital-logic",
+            "/tag/gatecse-2008",
+            "/tag/digital-logic",
+            "/tag/number-representation",
+            "/tag/normal"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/404/gate-cse-2008-question-6",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/404/gate-cse-2008-question-6",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "5",
+        "year": 2008,
+        "questionNumber": 5,
+        "subject": "Digital Logic",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "In the Karnaugh map shown below, $X$ denotes a don’t care term. What is the minimal form of the function represented by the Karnaugh map?\n\n\n\n$\\bar{b}.\\bar{d} + \\bar{a}.\\bar{d}$\n\n\n$\\bar{a}.\\bar{b} + \\bar{b}.\\bar{d} + \\bar{a}.b.\\bar{d}$\n\n\n$\\bar{b}.\\bar{d} + \\bar{a}.b.\\bar{d}$",
+        "options": [
+            "$\\bar{a}.\\bar{b} + \\bar{b}.\\bar{d} + \\bar{a}.\\bar{d}$"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/digital-logic",
+            "/tag/gatecse-2008",
+            "/tag/digital-logic",
+            "/tag/k-map",
+            "/tag/easy"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/403/gate-cse-2008-question-5",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/403/gate-cse-2008-question-5",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "4",
+        "year": 2008,
+        "questionNumber": 4,
+        "subject": "Digital Logic",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "In the IEEE floating point representation the hexadecimal value $0\\text{x}00000000$ corresponds to",
+        "options": [
+            "The normalized value $2^{-127}$",
+            "The normalized value $2^{-126}$",
+            "The normalized value $+0$",
+            "The special value $+0$"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/digital-logic",
+            "/tag/gatecse-2008",
+            "/tag/digital-logic",
+            "/tag/floating-point-representation",
+            "/tag/ieee-representation",
+            "/tag/easy"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/402/gate-cse-2008-question-4",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/402/gate-cse-2008-question-4",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "62",
+        "year": 2005,
+        "questionNumber": 62,
+        "subject": "Digital Logic",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "Consider the following circuit involving a positive edge triggered D FF.\n\nConsider the following timing diagram. Let $A_{i}$ represents the logic level on the line $A$ in the $i$-th clock period.\n\nLet $A'$ represent the complement of $A$. The correct output sequence on $Y$ over the clock periods $1$ through $5$ is:",
+        "options": [
+            "$A_{0} A_{1} A_{1}' A_{3} A_{4}$",
+            "$A_{0} A_{1} A_{2}' A_{3} A_{4}$",
+            "$A_{1} A_{2} A_{2}' A_{3} A_{4}$",
+            "$A_{1} A_{2}' A_{3} A_{4} A_{5}'$"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/digital-logic",
+            "/tag/gatecse-2005",
+            "/tag/digital-logic",
+            "/tag/circuit-output",
+            "/tag/normal"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/264/gate-cse-2005-question-62",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/264/gate-cse-2005-question-62",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "19",
+        "year": 2012,
+        "questionNumber": 19,
+        "subject": "Digital Logic",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "The amount of ROM needed to implement a $4\\text{-bit}$ multiplier is",
+        "options": [
+            "$64$ bits",
+            "$128$ bits",
+            "$1$ Kbits",
+            "$2$ Kbits"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/digital-logic",
+            "/tag/gatecse-2012",
+            "/tag/digital-logic",
+            "/tag/normal",
+            "/tag/rom"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/51/gate-cse-2012-question-19",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/51/gate-cse-2012-question-19",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "7",
+        "year": 2012,
+        "questionNumber": 7,
+        "subject": "Digital Logic",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "The decimal value $0.5$ in IEEE single precision floating point representation has",
+        "options": [
+            "fraction bits of $000\\dots 000$ and exponent value of $0$",
+            "fraction bits of $000\\dots 000$ and exponent value of $−1$",
+            "fraction bits of $100\\dots 000$ and exponent value of $0$",
+            "no exact representation"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/digital-logic",
+            "/tag/gatecse-2012",
+            "/tag/digital-logic",
+            "/tag/normal",
+            "/tag/number-representation",
+            "/tag/ieee-representation"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/39/gate-cse-2012-question-7",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/39/gate-cse-2012-question-7",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "6",
+        "year": 2012,
+        "questionNumber": 6,
+        "subject": "Digital Logic",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "The truth table ${\\begin{array}{|c|c|c|}\\hline\n\\textbf{X}&    \\textbf{Y}&  \\textbf{(X,Y)} \\\\\\hline\n0&    0&   0 \\\\ \\hline   \n0&     1&0\\\\     \\hline\n1&   0&  1     \\\\\\hline\n1&    1& 1     \\\\\\hline\n\\end{array}}$ represents the Boolean function",
+        "options": [
+            "$X$",
+            "$X + Y$",
+            "$X \\oplus Y$",
+            "$Y$"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/digital-logic",
+            "/tag/gatecse-2012",
+            "/tag/digital-logic",
+            "/tag/easy",
+            "/tag/boolean-algebra"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/38/gate-cse-2012-question-6",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/38/gate-cse-2012-question-6",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    }
+]

@@ -1,0 +1,1686 @@
+[
+    {
+        "id": "2",
+        "year": 2018,
+        "questionNumber": 2,
+        "subject": "Verbal Aptitude",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "A ________ investigation can sometimes yield new facts, but typically organized ones are more successful.\nThe word that best fills the blank in the above sentence is",
+        "options": [
+            "$\\text{meandering}$",
+            "$\\text{timely}$",
+            "$\\text{consistent}$",
+            "$\\text{systematic}$"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/general-aptitude/verbal-aptitude",
+            "/tag/gatecse-2018",
+            "/tag/verbal-aptitude",
+            "/tag/most-appropriate-word",
+            "/tag/normal",
+            "/tag/one-mark"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/204063/gate-cse-2018-question-ga-2",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/204063/gate-cse-2018-question-ga-2",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "3",
+        "year": 2018,
+        "questionNumber": 3,
+        "subject": "Quantitative Aptitude",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "The area of a square is $d$. What is the area of the circle which has the diagonal of the square as its diameter?",
+        "options": [
+            "$\\large{\\pi} d$",
+            "$\\large{\\pi} d^2$",
+            "$\\dfrac{1}{4}\\large{\\pi} d^2$",
+            "$\\dfrac{1}{2}\\large{\\pi} d$"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/general-aptitude/quantitative-aptitude",
+            "/tag/gatecse-2018",
+            "/tag/quantitative-aptitude",
+            "/tag/geometry",
+            "/tag/circle",
+            "/tag/normal",
+            "/tag/one-mark"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/204064/gate-cse-2018-question-ga-3",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/204064/gate-cse-2018-question-ga-3",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "10",
+        "year": 2017,
+        "questionNumber": 10,
+        "subject": "Quantitative Aptitude",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "An air pressure contour line joins locations in a region having the same atmospheric pressure. The following is an air pressure contour plot of a geographical region. Contour lines are shown at $0.05$ bar intervals in this plot.\nIf the possibility of a thunderstorm is given by how fast air pressure rises or drops over a region, which of the following regions is most likely to have a thunderstorm?",
+        "options": [
+            "$P$",
+            "$Q$",
+            "$R$",
+            "$S$"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/general-aptitude/quantitative-aptitude",
+            "/tag/gatecse-2017-set2",
+            "/tag/quantitative-aptitude",
+            "/tag/data-interpretation",
+            "/tag/normal",
+            "/tag/contour-plots"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/118424/gate-cse-2017-set-2-question-ga-10",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/118424/gate-cse-2017-set-2-question-ga-10",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "9",
+        "year": 2017,
+        "questionNumber": 9,
+        "subject": "Quantitative Aptitude",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "The number of roots of $e^{x}+0.5x^{2}-2=0$ in the range $[-5,5]$ is",
+        "options": [
+            "$0$",
+            "$1$",
+            "$2$",
+            "$3$"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/general-aptitude/quantitative-aptitude",
+            "/tag/gatecse-2017-set2",
+            "/tag/quantitative-aptitude",
+            "/tag/normal",
+            "/tag/maxima-minima",
+            "/tag/calculus"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/118423/gate-cse-2017-set-2-question-ga-9",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/118423/gate-cse-2017-set-2-question-ga-9",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "8",
+        "year": 2017,
+        "questionNumber": 8,
+        "subject": "Quantitative Aptitude",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "$X$ is a $30$ digit number starting with the digit $4$ followed by the digit $7$. Then the number $X^3$ will have$90$ digits$91$ digits$92$ digits$93$ digits",
+        "options": [],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/general-aptitude/quantitative-aptitude",
+            "/tag/gatecse-2017-set2",
+            "/tag/quantitative-aptitude",
+            "/tag/number-system"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/118422/gate-cse-2017-set-2-question-ga-8",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/118422/gate-cse-2017-set-2-question-ga-8",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "7",
+        "year": 2017,
+        "questionNumber": 7,
+        "subject": "Analytical Aptitude",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "There are three boxes. One contains apples, another contains oranges and the last one contains both apples and oranges. All three are known to be incorrectly labeled. If you are permitted to open just one box and then pull out and inspect only one fruit, which box would you open to determine the contents of all three boxes?",
+        "options": [
+            "The box labeled ‘Apples’",
+            "The box labeled ‘Apples and Oranges’",
+            "The box labeled ‘Oranges’",
+            "Cannot be determined"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/general-aptitude/analytical-aptitude",
+            "/tag/gatecse-2017-set2",
+            "/tag/analytical-aptitude",
+            "/tag/normal",
+            "/tag/tricky",
+            "/tag/logical-reasoning"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/118421/gate-cse-2017-set-2-question-ga-7",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/118421/gate-cse-2017-set-2-question-ga-7",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "6",
+        "year": 2017,
+        "questionNumber": 6,
+        "subject": "Verbal Aptitude",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "“We lived in a culture that denied any merit to literary works, considering them important only when they were handmaidens to something seemingly more urgent – namely ideology. This was a country where all gestures, even the most private, were interpreted in political terms.”\nThe author’s belief that ideology is not as important as literature is revealed by the word:",
+        "options": [
+            "‘culture’",
+            "‘seemingly’",
+            "‘urgent’",
+            "‘political’"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/general-aptitude/verbal-aptitude",
+            "/tag/gatecse-2017-set2",
+            "/tag/passage-reading",
+            "/tag/verbal-reasoning"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/118420/gate-cse-2017-set-2-question-ga-6",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/118420/gate-cse-2017-set-2-question-ga-6",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "5",
+        "year": 2017,
+        "questionNumber": 5,
+        "subject": "Quantitative Aptitude",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "There are $3$ red socks, $4$ green socks and $3$ blue socks.You choose $2$ socks. The probability that they are of the same colour is",
+        "options": [
+            "$\\dfrac{1}{5}$",
+            "$\\dfrac{7}{30}$",
+            "$\\dfrac{1}{4}$",
+            "$\\dfrac{4}{15}$"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/general-aptitude/quantitative-aptitude",
+            "/tag/gatecse-2017-set2",
+            "/tag/quantitative-aptitude",
+            "/tag/probability"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/118419/gate-cse-2017-set-2-question-ga-5",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/118419/gate-cse-2017-set-2-question-ga-5",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "4",
+        "year": 2017,
+        "questionNumber": 4,
+        "subject": "Quantitative Aptitude",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "A test has twenty questions worth $100$ marks in total. There are two types of questions. Multiple choice questions are worth $3$ marks each and essay questions are worth $11$ marks each. How many multiple choice questions does the exam have?",
+        "options": [
+            "$12$",
+            "$15$",
+            "$18$",
+            "$19$"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/general-aptitude/quantitative-aptitude",
+            "/tag/gatecse-2017-set2",
+            "/tag/quantitative-aptitude",
+            "/tag/numerical-computation"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/118418/gate-cse-2017-set-2-question-ga-4",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/118418/gate-cse-2017-set-2-question-ga-4",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "3",
+        "year": 2017,
+        "questionNumber": 3,
+        "subject": "Analytical Aptitude",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "There are five buildings called $V$, $W$, $X$, $Y$ and $Z$ in a row (not necessarily in that order). $V$ is to the West of $W$. $Z$ is to the East of $X$ and the West of $V$. $W$ is to the West of $Y$. Which is the building in the middle?",
+        "options": [
+            "$V$",
+            "$W$",
+            "$X$",
+            "$Y$"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/general-aptitude/analytical-aptitude",
+            "/tag/gatecse-2017-set2",
+            "/tag/analytical-aptitude",
+            "/tag/direction-sense",
+            "/tag/normal"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/118417/gate-cse-2017-set-2-question-ga-3",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/118417/gate-cse-2017-set-2-question-ga-3",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "2",
+        "year": 2017,
+        "questionNumber": 2,
+        "subject": "Verbal Aptitude",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "Saturn is ___________ to be seen on a clear night with the naked eye.",
+        "options": [
+            "enough bright",
+            "bright enough",
+            "as enough bright",
+            "bright as enough"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/general-aptitude/verbal-aptitude",
+            "/tag/gatecse-2017-set2",
+            "/tag/verbal-aptitude",
+            "/tag/english-grammar"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/118416/gate-cse-2017-set-2-question-ga-2",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/118416/gate-cse-2017-set-2-question-ga-2",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "1",
+        "year": 2017,
+        "questionNumber": 1,
+        "subject": "Verbal Aptitude",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "Choose the option with words that are not synonyms.aversion, dislikeluminous, radiantplunder, lootyielding, resistant",
+        "options": [],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/general-aptitude/verbal-aptitude",
+            "/tag/gatecse-2017-set2",
+            "/tag/verbal-aptitude",
+            "/tag/synonyms"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/118415/gate-cse-2017-set-2-question-ga-1",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/118415/gate-cse-2017-set-2-question-ga-1",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "10",
+        "year": 2017,
+        "questionNumber": 10,
+        "subject": "Quantitative Aptitude",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "A contour line joins locations having the same height above the mean sea level. The following is a contour plot of a geographical region. Contour lines are shown at $25$ m intervals in this plot. If in a flood, the water level rises to $525$ m, which of the villages $P, Q, R, S, T$ get submerged?$P, Q$$P, Q, T$$R, S, T$$Q, R, S$",
+        "options": [],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/general-aptitude/quantitative-aptitude",
+            "/tag/gatecse-2017-set1",
+            "/tag/general-aptitude",
+            "/tag/quantitative-aptitude",
+            "/tag/data-interpretation",
+            "/tag/normal",
+            "/tag/contour-plots"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/118413/gate-cse-2017-set-1-question-ga-10",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/118413/gate-cse-2017-set-1-question-ga-10",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "9",
+        "year": 2017,
+        "questionNumber": 9,
+        "subject": "Quantitative Aptitude",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "Arun, Gulab, Neel and Shweta must choose one shirt each from a pile of four shirts coloured red, pink, blue and white respectively. Arun dislikes the colour red and Shweta dislikes the colour white. Gulab and Neel like all the colours. In how many different ways can they choose the shirts so that no one has a shirt with a colour he or she dislikes?",
+        "options": [
+            "$21$",
+            "$18$",
+            "$16$",
+            "$14$"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/general-aptitude/quantitative-aptitude",
+            "/tag/gatecse-2017-set1",
+            "/tag/combinatory",
+            "/tag/quantitative-aptitude"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/118412/gate-cse-2017-set-1-question-ga-9",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/118412/gate-cse-2017-set-1-question-ga-9",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "8",
+        "year": 2017,
+        "questionNumber": 8,
+        "subject": "Quantitative Aptitude",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "The expression $\\large \\frac{(x+y) - |x-y|}{2}$ is equal to :",
+        "options": [
+            "The maximum of $x$ and $y$",
+            "The minimum of $x$ and $y$",
+            "$1$",
+            "None of the above"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/general-aptitude/quantitative-aptitude",
+            "/tag/gatecse-2017-set1",
+            "/tag/general-aptitude",
+            "/tag/quantitative-aptitude",
+            "/tag/maxima-minima",
+            "/tag/absolute-value"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/118411/gate-cse-2017-set-1-question-ga-8",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/118411/gate-cse-2017-set-1-question-ga-8",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "7",
+        "year": 2017,
+        "questionNumber": 7,
+        "subject": "Analytical Aptitude",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "Six people are seated around a circular table. There are at least two men and two women. There are at least three right-handed persons. Every woman has a left-handed person to her immediate right. None of the women are right-handed. The number of women at the table is$2$$3$$4$Cannot be determined",
+        "options": [],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/general-aptitude/analytical-aptitude",
+            "/tag/gatecse-2017-set1",
+            "/tag/analytical-aptitude",
+            "/tag/round-table-arrangement"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/118410/gate-cse-2017-set-1-question-ga-7",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/118410/gate-cse-2017-set-1-question-ga-7",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "6",
+        "year": 2017,
+        "questionNumber": 6,
+        "subject": "Verbal Aptitude",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "\"The hold of the nationalist imagination on our colonial past is such that anything inadequately or improperly nationalist is just not history.\"\n\nWhich of the following statements best reflects the author's opinion?",
+        "options": [
+            "Nationalists are highly imaginative.",
+            "History is viewed through the filter of nationalism.",
+            "Our colonial past never happened.",
+            "Nationalism has to be both adequately and properly imagined."
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/general-aptitude/verbal-aptitude",
+            "/tag/gatecse-2017-set1",
+            "/tag/general-aptitude",
+            "/tag/verbal-aptitude",
+            "/tag/passage-reading"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/118409/gate-cse-2017-set-1-question-ga-6",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/118409/gate-cse-2017-set-1-question-ga-6",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "5",
+        "year": 2017,
+        "questionNumber": 5,
+        "subject": "Quantitative Aptitude",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "The probability that a $k$-digit number does NOT contain the digits $0, 5,$ or $9$ is",
+        "options": [
+            "$0.3^{k}$",
+            "$0.6^{k}$",
+            "$0.7^{k}$",
+            "$0.9^{k}$"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/general-aptitude/quantitative-aptitude",
+            "/tag/gatecse-2017-set1",
+            "/tag/general-aptitude",
+            "/tag/quantitative-aptitude",
+            "/tag/probability",
+            "/tag/easy"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/118408/gate-cse-2017-set-1-question-ga-5",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/118408/gate-cse-2017-set-1-question-ga-5",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "4",
+        "year": 2017,
+        "questionNumber": 4,
+        "subject": "Quantitative Aptitude",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "Find the smallest number $y$ such that $y \\times 162$ is a perfect cube.",
+        "options": [
+            "$24$",
+            "$27$",
+            "$32$",
+            "$36$"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/general-aptitude/quantitative-aptitude",
+            "/tag/gatecse-2017-set1",
+            "/tag/general-aptitude",
+            "/tag/quantitative-aptitude",
+            "/tag/numerical-computation"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/118407/gate-cse-2017-set-1-question-ga-4",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/118407/gate-cse-2017-set-1-question-ga-4",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "3",
+        "year": 2017,
+        "questionNumber": 3,
+        "subject": "Analytical Aptitude",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "Rahul, Murali, Srinivas and Arul are seated around a square table. Rahul is sitting to the left of Murali. Srinivas is sitting to the right of Arul. Which of the following pairs are seated opposite each other?Rahul and MuraliSrinivas and ArulSrinvas and MuraliSrinivas and Rahul",
+        "options": [],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/general-aptitude/analytical-aptitude",
+            "/tag/gatecse-2017-set1",
+            "/tag/analytical-aptitude",
+            "/tag/logical-reasoning",
+            "/tag/seating-arrangement"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/118406/gate-cse-2017-set-1-question-ga-3",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/118406/gate-cse-2017-set-1-question-ga-3",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "2",
+        "year": 2017,
+        "questionNumber": 2,
+        "subject": "Verbal Aptitude",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "Research in the workplace reveals that people work for many reasons _______________ .money besidebeside moneymoney besidesbesides money",
+        "options": [],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/general-aptitude/verbal-aptitude",
+            "/tag/gatecse-2017-set1",
+            "/tag/general-aptitude",
+            "/tag/verbal-aptitude",
+            "/tag/english-grammar",
+            "/tag/most-appropriate-word"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/118405/gate-cse-2017-set-1-question-ga-2",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/118405/gate-cse-2017-set-1-question-ga-2",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "1",
+        "year": 2017,
+        "questionNumber": 1,
+        "subject": "Verbal Aptitude",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "After Rajendra Chola returned from his voyage to Indonesia, he ________ to visit the temple in Thanjavur.",
+        "options": [
+            "was wishing",
+            "is wishing",
+            "wished",
+            "had wished"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/general-aptitude/verbal-aptitude",
+            "/tag/gatecse-2017-set1",
+            "/tag/general-aptitude",
+            "/tag/verbal-aptitude",
+            "/tag/tenses",
+            "/tag/english-grammar",
+            "/tag/normal"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/118403/gate-cse-2017-set-1-question-ga-1",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/118403/gate-cse-2017-set-1-question-ga-1",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "2178751946",
+        "year": null,
+        "questionNumber": 2178751946,
+        "subject": "Verbal Aptitude",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "",
+        "options": [],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/general-aptitude/verbal-aptitude"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/118255/gate-cse-2017-set-1-question-2178751946",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/118255/gate-cse-2017-set-1-question-2178751946",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "2178751948",
+        "year": null,
+        "questionNumber": 2178751948,
+        "subject": "Quantitative Aptitude",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "",
+        "options": [],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/general-aptitude/quantitative-aptitude",
+            "/tag/quantitative-aptitude"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/118246/gate-cse-2017-set-1-question-2178751948",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/118246/gate-cse-2017-set-1-question-2178751948",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "2178751942",
+        "year": null,
+        "questionNumber": 2178751942,
+        "subject": "Verbal Aptitude",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "",
+        "options": [],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/general-aptitude/verbal-aptitude"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/118233/gate-cse-2017-set-1-question-2178751942",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/118233/gate-cse-2017-set-1-question-2178751942",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "2178751944",
+        "year": null,
+        "questionNumber": 2178751944,
+        "subject": "Quantitative Aptitude",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "",
+        "options": [],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/general-aptitude/quantitative-aptitude"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/118228/gate-cse-2017-set-1-question-2178751944",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/118228/gate-cse-2017-set-1-question-2178751944",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "2178751943",
+        "year": null,
+        "questionNumber": 2178751943,
+        "subject": "Quantitative Aptitude",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "",
+        "options": [],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/general-aptitude/quantitative-aptitude"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/118222/gate-cse-2017-set-1-question-2178751943",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/118222/gate-cse-2017-set-1-question-2178751943",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "ga08",
+        "year": 2016,
+        "questionNumber": null,
+        "subject": "Analytical Aptitude",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "Consider the following statements relating to the level of poker play of four players $P,Q,R \\ and  \\ S$.\n\n$P$ always beats $Q$\n$R$ always beats $S$\n$S$ loses to $P$ only sometimes.\n$R$ always loses to $Q$\n\nWhich of the following can be logically inferred from the above statements?\n\n$P$ is likely to beat all the three other players\n$S$ is the absolute worst player in the set",
+        "options": [
+            "(i). only",
+            "(ii) only",
+            "(i) and (ii) only'",
+            "neither (i) nor (ii)"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/general-aptitude/analytical-aptitude",
+            "/tag/gatecse-2016-set1",
+            "/tag/analytical-aptitude",
+            "/tag/normal",
+            "/tag/statements-follow"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/39617/gate-cse-2016-set-1-question-ga08",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/39617/gate-cse-2016-set-1-question-ga08",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "ga06",
+        "year": 2016,
+        "questionNumber": null,
+        "subject": "Quantitative Aptitude",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "A shaving set company sells $4$ different types of razors- Elegance, Smooth, Soft and Executive.Elegance sells at $\\text{Rs.} \\ 48$, Smooth at $\\text{Rs.} \\ 63$, Soft at $\\text{Rs.} \\ 78$ and Executive at $\\text{Rs.} \\ 173$ per piece. The table below shows the numbers of each razor sold in each quarter of a year.$$\\begin{array}{|c|r|r|r|r|} \\hline \\textbf{Quarter/Product} & \\textbf{Elegance} &\\textbf{Smooth} &\\textbf{Soft} & \\textbf{Executive}\\\\\\hline \\text{Q1} & \\text{27300} &\\text{20009} &\\text{17602} &\\text{9999}\\\\\\hline \\text{Q2} & \\text{25222} &\\text{19392} & \\text{18445}& \\text{8942}\\\\\\hline \\text{Q3} & \\text{28976} &\\text{22429} & \\text{19544} & \\text{10234}\\\\\\hline \\text{Q4} &\\text{21012} & \\text{18229} & \\text{16595} & \\text{10109}\\\\\\hline \\end{array}$$Which product contributes the greatest fraction to the revenue of the company in that year?EleganceExecutiveSmoothSoft",
+        "options": [],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/general-aptitude/quantitative-aptitude",
+            "/tag/gatecse-2016-set1",
+            "/tag/quantitative-aptitude",
+            "/tag/data-interpretation",
+            "/tag/easy",
+            "/tag/tabular-data"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/39616/gate-cse-2016-set-1-question-ga06",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/39616/gate-cse-2016-set-1-question-ga06",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "ga07",
+        "year": 2016,
+        "questionNumber": null,
+        "subject": "Verbal Aptitude",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "Indian currency notes show the denomination indicated in at least seventeen languages. If this is not an indication of the nation's diversity, nothing else is.\nWhich of the following can be logically inferred from the above sentences?\nIndia is a country of exactly seventeen languages.\nLinguistic pluralism is the only indicator of a nation's diversity.\nIndian currency notes have sufficient space for all the Indian languages.\nLinguistic pluralism is strong evidence of India's diversity.",
+        "options": [],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/general-aptitude/verbal-aptitude",
+            "/tag/gatecse-2016-set1",
+            "/tag/verbal-aptitude",
+            "/tag/verbal-reasoning",
+            "/tag/normal"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/39613/gate-cse-2016-set-1-question-ga07",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/39613/gate-cse-2016-set-1-question-ga07",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "ga10",
+        "year": 2016,
+        "questionNumber": null,
+        "subject": "Quantitative Aptitude",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "In a process, the number of cycles to failure decreases exponentially with an increase in load. At a load of $80$ units, it takes $100$ cycles for failure. When the load is halved, it takes $10000 \\ \\text{cycles}$ for failure.The load for which the failure will happen in $5000 \\ \\text{cycles}$ is _____________.$40.00$$46.02$$60.01$$92.02$",
+        "options": [],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/general-aptitude/quantitative-aptitude",
+            "/tag/gatecse-2016-set1",
+            "/tag/quantitative-aptitude",
+            "/tag/ratio-proportion",
+            "/tag/normal"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/39612/gate-cse-2016-set-1-question-ga10",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/39612/gate-cse-2016-set-1-question-ga10",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "ga09",
+        "year": 2016,
+        "questionNumber": null,
+        "subject": "Quantitative Aptitude",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "If $f(x) = 2x^{7}+3x-5$, which of the following is a factor of $f(x)$?\n$\\left(x^{3}+8\\right)$\n$(x - 1)$\n$(2x - 5)$\n$(x + 1)$",
+        "options": [],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/general-aptitude/quantitative-aptitude",
+            "/tag/gatecse-2016-set1",
+            "/tag/quantitative-aptitude",
+            "/tag/polynomials",
+            "/tag/normal"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/39611/gate-cse-2016-set-1-question-ga09",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/39611/gate-cse-2016-set-1-question-ga09",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "ga05",
+        "year": 2016,
+        "questionNumber": null,
+        "subject": "Quantitative Aptitude",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "A cube is built using $64$ cubic blocks of side one unit. After it is built, one cubic block is removed from every corner of the cube. The resulting surface area of the body (in square units) after the removal is ________.$56$$64$$72$$96$",
+        "options": [],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/general-aptitude/quantitative-aptitude",
+            "/tag/gatecse-2016-set1",
+            "/tag/quantitative-aptitude",
+            "/tag/geometry",
+            "/tag/normal",
+            "/tag/cube"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/39610/gate-cse-2016-set-1-question-ga05",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/39610/gate-cse-2016-set-1-question-ga05",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "ga04",
+        "year": 2016,
+        "questionNumber": null,
+        "subject": "Analytical Aptitude",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "If 'relftaga' means carefree, 'otaga' means careful and 'fertaga' means careless, which of the following could mean 'aftercare'?",
+        "options": [
+            "zentaga",
+            "tagafer.",
+            "tagazen.",
+            "relffer."
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/general-aptitude/analytical-aptitude",
+            "/tag/gatecse-2016-set1",
+            "/tag/analytical-aptitude",
+            "/tag/logical-reasoning",
+            "/tag/normal",
+            "/tag/code-words"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/39609/gate-cse-2016-set-1-question-ga04",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/39609/gate-cse-2016-set-1-question-ga04",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "ga01",
+        "year": 2016,
+        "questionNumber": null,
+        "subject": "Verbal Aptitude",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "Out of the following four sentences, select the most suitable sentence with respect to grammar and usage.",
+        "options": [
+            "I will not leave the place until the minister does not meet me.",
+            "I will not leave the place until the minister doesn't meet me.",
+            "I will not leave the place until the minister meet me.",
+            "I will not leave the place until the minister meets me."
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/general-aptitude/verbal-aptitude",
+            "/tag/gatecse-2016-set1",
+            "/tag/verbal-aptitude",
+            "/tag/english-grammar",
+            "/tag/easy",
+            "/tag/grammatical-error"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/39608/gate-cse-2016-set-1-question-ga01",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/39608/gate-cse-2016-set-1-question-ga01",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "ga02",
+        "year": 2016,
+        "questionNumber": null,
+        "subject": "Verbal Aptitude",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "A rewording of something written or spoken is a __________.\nparaphrase\nparadox\nparadigm\nparaffin",
+        "options": [],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/general-aptitude/verbal-aptitude",
+            "/tag/gatecse-2016-set1",
+            "/tag/verbal-aptitude",
+            "/tag/word-meaning",
+            "/tag/normal"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/39607/gate-cse-2016-set-1-question-ga02",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/39607/gate-cse-2016-set-1-question-ga02",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "ga03",
+        "year": 2016,
+        "questionNumber": null,
+        "subject": "Verbal Aptitude",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "Archimedes said, \"Give me a lever long enough and a fulcrum on which to place it, and I will move the world.\"The sentence above is an example of a ____________ statement.figurativecollateralliteralfigurine",
+        "options": [],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/general-aptitude/verbal-aptitude",
+            "/tag/gatecse-2016-set1",
+            "/tag/verbal-aptitude",
+            "/tag/normal",
+            "/tag/most-appropriate-word"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/39606/gate-cse-2016-set-1-question-ga03",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/39606/gate-cse-2016-set-1-question-ga03",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "09",
+        "year": 2016,
+        "questionNumber": 9,
+        "subject": "Quantitative Aptitude",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "In a $2 \\times 4$ rectangle grid shown below, each cell is rectangle. How many rectangles can be observed in the grid?\n$$\\begin{array}{|c|c|c|c|c|}\\hline{\\;\\;\\;}&{\\;\\;\\;}&{\\;\\;\\;}&{\\;\\;\\;}\\\\\\hline{}&{}&{}&\\\\\\hline\\end{array}$$",
+        "options": [
+            "$21$",
+            "$27$",
+            "$30$",
+            "$36$"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/general-aptitude/quantitative-aptitude",
+            "/tag/gatecse-2016-set2",
+            "/tag/quantitative-aptitude",
+            "/tag/normal",
+            "/tag/combinatory"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/39537/gate-cse-2016-set-2-question-ga-09",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/39537/gate-cse-2016-set-2-question-ga-09",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "06",
+        "year": 2016,
+        "questionNumber": 6,
+        "subject": "Quantitative Aptitude",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "Among $150$ faculty members in an institute, $55$ are connected with each other through Facebook and $85$ are connected through Whatsapp. $30$ faculty members do not have Facebook or Whatsapp accounts. The numbers of faculty members connected only through Facebook accounts is _______.",
+        "options": [
+            "$35$",
+            "$45$",
+            "$65$",
+            "$90$"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/general-aptitude/quantitative-aptitude",
+            "/tag/gatecse-2016-set2",
+            "/tag/quantitative-aptitude",
+            "/tag/venn-diagram",
+            "/tag/easy"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/39536/gate-cse-2016-set-2-question-ga-06",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/39536/gate-cse-2016-set-2-question-ga-06",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "10",
+        "year": 2016,
+        "questionNumber": 10,
+        "subject": "Quantitative Aptitude",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "$f(x) = 1 - |x - 1|$$f(x) =1 + |x - 1|$$f(x) = 2 - |x - 1|$$f(x) = 2 + |x - 1|$",
+        "options": [],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/general-aptitude/quantitative-aptitude",
+            "/tag/gatecse-2016-set2",
+            "/tag/quantitative-aptitude",
+            "/tag/data-interpretation",
+            "/tag/normal",
+            "/tag/line-graph"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/39535/gate-cse-2016-set-2-question-ga-10",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/39535/gate-cse-2016-set-2-question-ga-10",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "08",
+        "year": 2016,
+        "questionNumber": 8,
+        "subject": "Analytical Aptitude",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "All hill-stations have a lake. Ooty has two lakes.\nWhich of the statement(s) below is/are logically valid and can be inferred from the above sentences?\n\nOoty is not a hill-station.\nNo hill-station can have more than one lake.",
+        "options": [
+            "(i) only.",
+            "(ii) only.",
+            "Both (i) and (ii)",
+            "Neither (i) nor (ii)"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/general-aptitude/analytical-aptitude",
+            "/tag/gatecse-2016-set2",
+            "/tag/analytical-aptitude",
+            "/tag/easy",
+            "/tag/statements-follow"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/39534/gate-cse-2016-set-2-question-ga-08",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/39534/gate-cse-2016-set-2-question-ga-08",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "07",
+        "year": 2016,
+        "questionNumber": 7,
+        "subject": "Verbal Aptitude",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "Computers were invented for performing only high-end useful computations. However, it is no understatement that they have taken over our world today. The internet, for example, is ubiquitous. Many believe that the internet itself is an unintended consequence of the original invention. With the advent of mobile computing on our phones, a whole new dimension is now enabled. One is left wondering if all these developments are good or, more importantly, required.\nWhich of the statement(s) below is/are logically valid and can be inferred from the above paragraph?\n(i) The author believes that computers are not good for us.\n(ii) Mobile computers and the internet are both intended inventions.",
+        "options": [
+            "(i) only",
+            "(ii) only",
+            "Both (i) and (ii)",
+            "Neither (i) nor (ii)"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/general-aptitude/verbal-aptitude",
+            "/tag/gatecse-2016-set2",
+            "/tag/verbal-aptitude",
+            "/tag/passage-reading",
+            "/tag/normal"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/39533/gate-cse-2016-set-2-question-ga-07",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/39533/gate-cse-2016-set-2-question-ga-07",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "05",
+        "year": 2016,
+        "questionNumber": 5,
+        "subject": "Quantitative Aptitude",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "In a quadratic function, the value of the product of the roots $(\\alpha, \\beta)$ is $4$. Find the value of\n                        $\\dfrac{\\alpha^{n}+\\beta^{n}}{\\alpha^{-n}+\\beta^{-n}}$",
+        "options": [
+            "$n^{4}$",
+            "$4^{n}$",
+            "$2^{2n-1}$",
+            "$4^{n-1}$"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/general-aptitude/quantitative-aptitude",
+            "/tag/gatecse-2016-set2",
+            "/tag/quantitative-aptitude",
+            "/tag/quadratic-equations",
+            "/tag/normal"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/39532/gate-cse-2016-set-2-question-ga-05",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/39532/gate-cse-2016-set-2-question-ga-05",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "02",
+        "year": 2016,
+        "questionNumber": 2,
+        "subject": "Verbal Aptitude",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "Nobody knows how the Indian cricket team is going to cope with the difficult and seamer-friendly wickets in Australia.Choose the option which is closest in meaning to the underlined phrase in the above sentence.Put up with.Put in with.Put down to.Put up against.",
+        "options": [],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/general-aptitude/verbal-aptitude",
+            "/tag/gatecse-2016-set2",
+            "/tag/verbal-aptitude",
+            "/tag/phrase-meaning",
+            "/tag/normal"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/39531/gate-cse-2016-set-2-question-ga-02",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/39531/gate-cse-2016-set-2-question-ga-02",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "03",
+        "year": 2016,
+        "questionNumber": 3,
+        "subject": "Verbal Aptitude",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "Find the odd one in the following group of words.\nmock, deride, praise, jeer",
+        "options": [
+            "Mock",
+            "Deride",
+            "Praise",
+            "Jeer"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/general-aptitude/verbal-aptitude",
+            "/tag/gatecse-2016-set2",
+            "/tag/verbal-aptitude",
+            "/tag/word-meaning",
+            "/tag/easy"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/39530/gate-cse-2016-set-2-question-ga-03",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/39530/gate-cse-2016-set-2-question-ga-03",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "01",
+        "year": 2016,
+        "questionNumber": 1,
+        "subject": "Verbal Aptitude",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "The man who is now Municipal Commissioner worked as ________________.the security guard at a universitya security guard at the universitya security guard at universitythe security guard at the university",
+        "options": [],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/general-aptitude/verbal-aptitude",
+            "/tag/gatecse-2016-set2",
+            "/tag/verbal-aptitude",
+            "/tag/english-grammar",
+            "/tag/normal",
+            "/tag/articles"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/39529/gate-cse-2016-set-2-question-ga-01",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/39529/gate-cse-2016-set-2-question-ga-01",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "04",
+        "year": 2016,
+        "questionNumber": 4,
+        "subject": "Analytical Aptitude",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "Pick the odd one from the following options.",
+        "options": [
+            "$\\text{CADBE}$",
+            "$\\text{JHKIL}$",
+            "$\\text{XVYWZ}$",
+            "$\\text{ONPMQ}$"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/general-aptitude/analytical-aptitude",
+            "/tag/gatecse-2016-set2",
+            "/tag/analytical-aptitude",
+            "/tag/odd-one",
+            "/tag/normal"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/39528/gate-cse-2016-set-2-question-ga-04",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/39528/gate-cse-2016-set-2-question-ga-04",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "10",
+        "year": 2015,
+        "questionNumber": 10,
+        "subject": "Quantitative Aptitude",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "The exports and imports (in crores of $Rs$.) of a country from the year $2000$ to $2007$ are given in the following bar chart. In which year is the combined percentage increase in imports and exports the highest?",
+        "options": [],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/general-aptitude/quantitative-aptitude",
+            "/tag/gatecse-2015-set3",
+            "/tag/quantitative-aptitude",
+            "/tag/data-interpretation",
+            "/tag/normal",
+            "/tag/numerical-answers",
+            "/tag/bar-graph"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/8389/gate-cse-2015-set-3-question-ga-10",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/8389/gate-cse-2015-set-3-question-ga-10",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "9",
+        "year": 2015,
+        "questionNumber": 9,
+        "subject": "Verbal Aptitude",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "Most experts feel that in spite of possessing all the technical skills required to be a batsman of the highest order, he is unlikely to be so due to lack of requisite temperament. He was guilty of throwing away his wicket several time after working hard to lay a strong foundation. His critics pointed out that until he addressed his problem, success at the highest level will continue to elude him. \nWhich of the statement(s) below is/are logically valid and can be inferred from the above passage?\n\nHe was already a successful batsman at the highest level.\nHe was to improve his temperament in order to become a great batsman.\nHe failed to make many of his good starts count.\nImproving his technical skills will guarantee success.",
+        "options": [
+            "iii and iv",
+            "ii and iii",
+            "i, ii and iii",
+            "ii only"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/general-aptitude/verbal-aptitude",
+            "/tag/gatecse-2015-set3",
+            "/tag/verbal-aptitude",
+            "/tag/normal",
+            "/tag/passage-reading"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/8388/gate-cse-2015-set-3-question-ga-9",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/8388/gate-cse-2015-set-3-question-ga-9",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "8",
+        "year": 2015,
+        "questionNumber": 8,
+        "subject": "Quantitative Aptitude",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "Choose the most appropriate equation for the function drawn as thick line, in the plot below.",
+        "options": [
+            "$x=y-|y|$",
+            "$x=-(y-|y|)$",
+            "$x=y+|y|$",
+            "$x=-(y+|y|)$"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/general-aptitude/quantitative-aptitude",
+            "/tag/gatecse-2015-set3",
+            "/tag/quantitative-aptitude",
+            "/tag/normal",
+            "/tag/functions"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/8385/gate-cse-2015-set-3-question-ga-8",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/8385/gate-cse-2015-set-3-question-ga-8",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    }
+]

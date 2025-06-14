@@ -1,0 +1,1737 @@
+[
+    {
+        "id": "3",
+        "year": 2001,
+        "questionNumber": 3,
+        "subject": "Set Theory & Algebra",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "Let $f: A \\rightarrow B$ a function, and let E and F be subsets of $A$. Consider the following statements about images.\n\n$S_1: f(E \\cup F) = f(E) \\cup f(F)$\n$S_2: f(E \\cap F)=f(E) \\cap f(F)$\n\nWhich of the following is true about S1 and S2?",
+        "options": [
+            "Only $S_1$ is correct",
+            "Only $S_2$ is correct",
+            "Both $S_1$ and $S_2$ are correct",
+            "None of $S_1$ and $S_2$ is correct"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/mathematics/discrete-mathematics/set-theory%26algebra",
+            "/tag/gatecse-2001",
+            "/tag/set-theory%26algebra",
+            "/tag/functions",
+            "/tag/normal"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/721/gate-cse-2001-question-2-3",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/721/gate-cse-2001-question-2-3",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "2",
+        "year": 2001,
+        "questionNumber": 2,
+        "subject": "Set Theory & Algebra",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "Consider the following statements:\n\n$S_1:$ There exists infinite sets $A$, $B$, $C$ such that $A \\cap (B \\cup C)$ is finite.\n$S_2:$ There exists two irrational numbers $x$ and y such that $(x+y)$ is rational.\n\nWhich of the following is true about $S_1$ and $S_2$?",
+        "options": [
+            "Only $S_1$ is correct",
+            "Only $S_2$ is correct",
+            "Both $S_1$ and $S_2$ are correct",
+            "None of $S_1$ and $S_2$ is correct"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/mathematics/discrete-mathematics/set-theory%26algebra",
+            "/tag/gatecse-2001",
+            "/tag/set-theory%26algebra",
+            "/tag/normal",
+            "/tag/set-theory"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/720/gate-cse-2001-question-2-2",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/720/gate-cse-2001-question-2-2",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "1",
+        "year": 2001,
+        "questionNumber": 1,
+        "subject": "Combinatory",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "How many $4$-digit even numbers have all $4$ digits distinct?",
+        "options": [
+            "$2240$",
+            "$2296$",
+            "$2620$",
+            "$4536$"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/mathematics/discrete-mathematics/combinatory",
+            "/tag/gatecse-2001",
+            "/tag/combinatory",
+            "/tag/normal"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/719/gate-cse-2001-question-2-1",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/719/gate-cse-2001-question-2-1",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "3",
+        "year": 2001,
+        "questionNumber": 3,
+        "subject": "Mathematical Logic",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "Consider two well-formed formulas in propositional logic\n\n$F_1: P \\Rightarrow \\neg P$          $F_2: (P \\Rightarrow \\neg P) \\lor ( \\neg P \\Rightarrow P)$\n\nWhich one of the following statements is correct?",
+        "options": [
+            "$F_1$ is satisfiable, $F_2$ is valid",
+            "$F_1$ unsatisfiable, $F_2$ is satisfiable",
+            "$F_1$ is unsatisfiable, $F_2$ is valid",
+            "$F_1$ and $F_2$ are both satisfiable"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/mathematics/discrete-mathematics/mathematical-logic",
+            "/tag/gatecse-2001",
+            "/tag/mathematical-logic",
+            "/tag/easy",
+            "/tag/propositional-logic"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/696/gate-cse-2001-question-1-3",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/696/gate-cse-2001-question-1-3",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "2",
+        "year": 2001,
+        "questionNumber": 2,
+        "subject": "Set Theory & Algebra",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "Consider the following relations:\n\n$R_1\\:(a,b)$ iff $(a+b)$ is even over the set of integers\n$R_2 \\:(a,b)$ iff $(a+b)$ is odd over the set of integers\n$R_3 \\:(a,b)$ iff $a.b > 0$ over the set of non-zero rational numbers\n$R_4\\:(a,b)$ iff $|a-b| \\leq 2$ over the set of natural numbers\n\nWhich of the following statements is correct?",
+        "options": [
+            "$R_1$ and $R_2$ are equivalence relations, $R_3$ and $R_4$ are not",
+            "$R_1$ and $R_3$ are equivalence relations, $R_2$ and $R_4$ are not",
+            "$R_1$ and $R_4$ are equivalence relations, $R_2$ and $R_3$ are not",
+            "$R_1, R_2, R_3$ and $R_4$ all are equivalence relations"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/mathematics/discrete-mathematics/set-theory%26algebra",
+            "/tag/gatecse-2001",
+            "/tag/set-theory%26algebra",
+            "/tag/normal",
+            "/tag/relations"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/695/gate-cse-2001-question-1-2",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/695/gate-cse-2001-question-1-2",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "1",
+        "year": 2001,
+        "questionNumber": 1,
+        "subject": "Linear Algebra",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "Consider the following statements:\n\nS1: The sum of two singular $n \\times n$ matrices may be non-singular\nS2: The sum of two $n \\times n$ non-singular matrices may be singular\n\n\nWhich one of the following statements is correct?",
+        "options": [
+            "$S1$ and $S2$ both are true",
+            "$S1$ is true, $S2$ is false",
+            "$S1$ is false, $S2$ is true",
+            "$S1$ and $S2$ both are false"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/mathematics/linear-algebra",
+            "/tag/gatecse-2001",
+            "/tag/linear-algebra",
+            "/tag/normal",
+            "/tag/matrix"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/694/gate-cse-2001-question-1-1",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/694/gate-cse-2001-question-1-1",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "6",
+        "year": 2000,
+        "questionNumber": 6,
+        "subject": "Set Theory & Algebra",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "Let $S$ be a set of $n$ elements $\\left\\{1, 2,\\ldots, n\\right\\}$ and $G$ a graph with $2^{n}$ vertices, each vertex corresponding to a distinct subset of $S$. Two vertices are adjacent iff the symmetric difference of the corresponding sets has exactly $2$ elements. Note: The symmetric difference of two sets $R_{1}$ and  $R_{2}$ is defined as $\\left ({R_{1}}\\setminus{R_{2}} \\right)$ $\\cup $ $\\left ({R_{2}}\\setminus{R_{1}} \\right)$\n\nEvery vertex in $G$ has the same degree. What is the degree of a vertex in $G$?",
+        "options": [
+            "How many connected components does $G$ have?"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/mathematics/discrete-mathematics/set-theory%26algebra",
+            "/tag/gatecse-2000",
+            "/tag/set-theory%26algebra",
+            "/tag/normal",
+            "/tag/descriptive",
+            "/tag/set-theory"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/677/gate-cse-2000-question-6",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/677/gate-cse-2000-question-6",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "5",
+        "year": 2000,
+        "questionNumber": 5,
+        "subject": "Combinatory",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "A multiset is an unordered collection of elements where elements may repeat any number of times. The size of a multiset is the number of elements in it, counting repetitions.",
+        "options": [
+            "What is the number of multisets of size $4$ that can be constructed from n distinct elements so that at least one element occurs exactly twice?",
+            "How many multisets can be constructed from n distinct elements?"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/mathematics/discrete-mathematics/combinatory",
+            "/tag/gatecse-2000",
+            "/tag/combinatory",
+            "/tag/normal",
+            "/tag/descriptive"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/676/gate-cse-2000-question-5",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/676/gate-cse-2000-question-5",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "4",
+        "year": 2000,
+        "questionNumber": 4,
+        "subject": "Set Theory & Algebra",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "Let $S= \\{0, 1, 2, 3, 4, 5, 6, 7\\}$ and $⊗$ denote multiplication modulo $8,$ that is, $x ⊗ y= (xy) \\mod 8$",
+        "options": [
+            "Prove that $( \\{ 0, 1\\}, ⊗)$ is not a group.",
+            "Write three distinct groups $(G, ⊗)$ where $G ⊂ S$ and $G$ has $2$ elements."
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/mathematics/discrete-mathematics/set-theory%26algebra",
+            "/tag/gatecse-2000",
+            "/tag/set-theory%26algebra",
+            "/tag/descriptive",
+            "/tag/group-theory"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/675/gate-cse-2000-question-4",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/675/gate-cse-2000-question-4",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "3",
+        "year": 2000,
+        "questionNumber": 3,
+        "subject": "Set Theory & Algebra",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "Consider the following sequence:\n\n$s_1 = s_2 = 1$ and $s_i = 1 + \\min  \\left({s_{i-1}, s_{i-2}}\\right) \\text{ for } i > 2$.",
+        "options": [
+            "Prove by induction on $n$ that $s_n=⌈\\frac{n}{2}⌉$."
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/mathematics/discrete-mathematics/set-theory%26algebra",
+            "/tag/gatecse-2000",
+            "/tag/set-theory%26algebra",
+            "/tag/mathematical-induction",
+            "/tag/descriptive"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/674/gate-cse-2000-question-3",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/674/gate-cse-2000-question-3",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "7",
+        "year": 2000,
+        "questionNumber": 7,
+        "subject": "Mathematical Logic",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "Let $a, b, c, d$ be propositions. Assume that the equivalence $a ⇔ ( b \\vee \\neg b)$ and $b ⇔c$ hold. Then the truth-value of the formula $(a ∧ b) → (a ∧ c) ∨ d$ is always",
+        "options": [
+            "True",
+            "False",
+            "Same as the truth-value of $b$",
+            "Same as the truth-value of $d$"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/mathematics/discrete-mathematics/mathematical-logic",
+            "/tag/gatecse-2000",
+            "/tag/mathematical-logic",
+            "/tag/normal",
+            "/tag/propositional-logic"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/654/gate-cse-2000-question-2-7",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/654/gate-cse-2000-question-2-7",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "6",
+        "year": 2000,
+        "questionNumber": 6,
+        "subject": "Set Theory & Algebra",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "Let $P(S)$ denotes the power set of set $S.$ Which of the following is always true?",
+        "options": [
+            "$P(P(S)) = P(S)$",
+            "$P(S) ∩ P(P(S)) = \\{ Ø \\}$",
+            "$P(S) ∩ S = P(S)$",
+            "$S ∉ P(S)$"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/mathematics/discrete-mathematics/set-theory%26algebra",
+            "/tag/gatecse-2000",
+            "/tag/set-theory%26algebra",
+            "/tag/easy",
+            "/tag/set-theory"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/653/gate-cse-2000-question-2-6",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/653/gate-cse-2000-question-2-6",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "5",
+        "year": 2000,
+        "questionNumber": 5,
+        "subject": "Set Theory & Algebra",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "A relation $R$ is defined on the set of integers as $xRy$ iff $(x + y)$ is even. Which of the following statements is true?",
+        "options": [
+            "$R$ is not an equivalence relation",
+            "$R$ is an equivalence relation having $1$ equivalence class",
+            "$R$ is an equivalence relation having $2$ equivalence classes",
+            "$R$ is an equivalence relation having $3$ equivalence classes"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/mathematics/discrete-mathematics/set-theory%26algebra",
+            "/tag/gatecse-2000",
+            "/tag/set-theory%26algebra",
+            "/tag/relations",
+            "/tag/normal"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/652/gate-cse-2000-question-2-5",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/652/gate-cse-2000-question-2-5",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "4",
+        "year": 2000,
+        "questionNumber": 4,
+        "subject": "Set Theory & Algebra",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "A polynomial $p(x)$ satisfies the following:\n\n$p(1) = p(3) = p(5) = 1$ \n$p(2) = p(4) = -1$\n\nThe minimum degree of such a polynomial is",
+        "options": [
+            "$1$",
+            "$2$",
+            "$3$",
+            "$4$"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/mathematics/discrete-mathematics/set-theory%26algebra",
+            "/tag/gatecse-2000",
+            "/tag/set-theory%26algebra",
+            "/tag/normal",
+            "/tag/polynomials"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/651/gate-cse-2000-question-2-4",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/651/gate-cse-2000-question-2-4",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "3",
+        "year": 2000,
+        "questionNumber": 3,
+        "subject": "Calculus",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "Let $S = \\sum_{i=3}^{100} i \\log_{2} i$, and $T = \\int_{2}^{100} x \\log_{2}x dx$.\nWhich of the following statements is true?",
+        "options": [
+            "$S > T$",
+            "$S = T$",
+            "$S < T$ and $2S > T$",
+            "$2S ≤ T$"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/mathematics/calculus",
+            "/tag/gatecse-2000",
+            "/tag/calculus",
+            "/tag/integration",
+            "/tag/normal"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/650/gate-cse-2000-question-2-3",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/650/gate-cse-2000-question-2-3",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "2",
+        "year": 2000,
+        "questionNumber": 2,
+        "subject": "Probability",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "$E_{1}$ and $E_{2}$  are events in a probability space satisfying the following constraints:\n\n$Pr$$\\left ( E_{1} \\right )$ = $Pr$$\\left ( E_{2} \\right )$\n$Pr$$\\left ( E_{1}\\cup E_{2} \\right )$ = $1$\n$E_{1}$ and $E_{2}$ are independent\n\nThe value of $Pr$$\\left ( E_{1} \\right )$, the probability of the event $E_{1}$,  is",
+        "options": [
+            "$0$",
+            "$\\dfrac{1}{4}$",
+            "$\\dfrac{1}{2}$",
+            "$1$"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/mathematics/probability",
+            "/tag/gatecse-2000",
+            "/tag/probability",
+            "/tag/easy",
+            "/tag/independent-events"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/649/gate-cse-2000-question-2-2",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/649/gate-cse-2000-question-2-2",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "3",
+        "year": 2000,
+        "questionNumber": 3,
+        "subject": "Linear Algebra",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "The determinant of the matrix $$\\begin{bmatrix}2 &0  &0  &0 \\\\  8&  1&  7& 2\\\\  2&  0&2  &0 \\\\  9&0  & 6 & 1 \\end{bmatrix}$$",
+        "options": [
+            "$4$",
+            "$0$",
+            "$15$",
+            "$20$"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/mathematics/linear-algebra",
+            "/tag/gatecse-2000",
+            "/tag/linear-algebra",
+            "/tag/easy",
+            "/tag/determinant"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/626/gate-cse-2000-question-1-3",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/626/gate-cse-2000-question-1-3",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "1",
+        "year": 2000,
+        "questionNumber": 1,
+        "subject": "Combinatory",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "The minimum number of cards to be dealt from an arbitrarily shuffled deck of $52$ cards to guarantee that three cards are from same suit is",
+        "options": [
+            "$3$",
+            "$8$",
+            "$9$",
+            "$12$"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/mathematics/discrete-mathematics/combinatory",
+            "/tag/gatecse-2000",
+            "/tag/easy",
+            "/tag/pigeonhole-principle",
+            "/tag/combinatory"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/624/gate-cse-2000-question-1-1",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/624/gate-cse-2000-question-1-1",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "10",
+        "year": null,
+        "questionNumber": 10,
+        "subject": "Calculus",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "",
+        "options": [],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/mathematics/calculus",
+            "/tag/gate1993",
+            "/tag/calculus",
+            "/tag/out-of-syllabus-now"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/614/gate-cse-1993-question-02-10",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/614/gate-cse-1993-question-02-10",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "9",
+        "year": null,
+        "questionNumber": 9,
+        "subject": "Calculus",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "",
+        "options": [],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/mathematics/calculus",
+            "/tag/gate1993",
+            "/tag/normal",
+            "/tag/calculus",
+            "/tag/out-of-syllabus-now"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/613/gate-cse-1993-question-02-9",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/613/gate-cse-1993-question-02-9",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "8",
+        "year": null,
+        "questionNumber": 8,
+        "subject": "Calculus",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "Given $\\vec v= x\\cos ^2y \\hat i + x^2e^z\\hat j+ z\\sin^2y\\hat k$ and $S$ the surface of a unit cube with one corner at the origin and edges parallel to the coordinate axes, the value of integral   $\\int^1 \\int_s \\vec V. \\hat n dS$  is __________.",
+        "options": [],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/mathematics/calculus",
+            "/tag/gate1993",
+            "/tag/calculus",
+            "/tag/normal",
+            "/tag/out-of-gatecse-syllabus",
+            "/tag/fill-in-the-blanks"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/612/gate-cse-1993-question-02-8",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/612/gate-cse-1993-question-02-8",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "7",
+        "year": null,
+        "questionNumber": 7,
+        "subject": "Linear Algebra",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "If $A = \\begin{pmatrix} 1 & 0 & 0 & 1 \\\\ 0 & -1 & 0 & -1 \\\\ 0 & 0 & i & i \\\\ 0 & 0 & 0 & -i \\end{pmatrix}$ the matrix $A^4$, calculated by the use of Cayley-Hamilton theorem or otherwise, is _______",
+        "options": [],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/mathematics/linear-algebra",
+            "/tag/gate1993",
+            "/tag/linear-algebra",
+            "/tag/normal",
+            "/tag/matrix",
+            "/tag/fill-in-the-blanks"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/611/gate-cse-1993-question-02-7",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/611/gate-cse-1993-question-02-7",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "6",
+        "year": null,
+        "questionNumber": 6,
+        "subject": "Calculus",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "The value of the double integral $\\int^{1}_{0} \\int_{0}^{\\frac{1}{x}} \\frac {x}{1+y^2} dxdy$ is_________.",
+        "options": [],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/mathematics/calculus",
+            "/tag/gate1993",
+            "/tag/calculus",
+            "/tag/integration",
+            "/tag/normal",
+            "/tag/fill-in-the-blanks"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/610/gate-cse-1993-question-02-6",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/610/gate-cse-1993-question-02-6",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "3",
+        "year": null,
+        "questionNumber": 3,
+        "subject": "Linear Algebra",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "If the linear velocity $\\vec V$ is given by $$\\vec V = x^2y\\,\\hat i + xyz\\,\\hat j – yz^2\\,\\hat k$$",
+        "options": [
+            "The angular velocity $\\vec \\omega$ at the point $(1, 1, -1)$ is ________"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/mathematics/linear-algebra",
+            "/tag/gate1993",
+            "/tag/linear-algebra",
+            "/tag/normal",
+            "/tag/vector-space",
+            "/tag/out-of-gatecse-syllabus",
+            "/tag/fill-in-the-blanks"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/607/gate-cse-1993-question-02-3",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/607/gate-cse-1993-question-02-3",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "2",
+        "year": null,
+        "questionNumber": 2,
+        "subject": "Calculus",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "The radius of convergence of the power series$$\\sum_{}^{\\infty} \\frac{(3m)!}{(m!)^3}x^{3m}$$ is:   _____________",
+        "options": [],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/mathematics/calculus",
+            "/tag/gate1993",
+            "/tag/calculus",
+            "/tag/convergence",
+            "/tag/normal",
+            "/tag/out-of-gatecse-syllabus",
+            "/tag/fill-in-the-blanks"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/606/gate-cse-1993-question-02-2",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/606/gate-cse-1993-question-02-2",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "1",
+        "year": null,
+        "questionNumber": 1,
+        "subject": "Calculus",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "$\\displaystyle \\lim_{x \\to 0} \\frac{x(e^x - 1) + 2(\\cos x -1)}{x(1 - \\cos x)}$ is __________",
+        "options": [],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/mathematics/calculus",
+            "/tag/gate1993",
+            "/tag/limits",
+            "/tag/calculus",
+            "/tag/normal",
+            "/tag/fill-in-the-blanks"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/605/gate-cse-1993-question-02-1",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/605/gate-cse-1993-question-02-1",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "7",
+        "year": null,
+        "questionNumber": 7,
+        "subject": "Calculus",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "The function $f\\left(x,y\\right) = x^2y - 3xy + 2y +x$ has",
+        "options": [
+            "no local extremum",
+            "one local minimum but no local maximum",
+            "one local maximum but no local minimum",
+            "one local minimum and one local maximum"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/mathematics/calculus",
+            "/tag/gate1993",
+            "/tag/calculus",
+            "/tag/maxima-minima",
+            "/tag/normal",
+            "/tag/out-of-gatecse-syllabus",
+            "/tag/multiple-selects"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/602/gate-cse-1993-question-01-7",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/602/gate-cse-1993-question-01-7",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "6",
+        "year": null,
+        "questionNumber": 6,
+        "subject": "Calculus",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "Which of the following improper integrals is (are) convergent?",
+        "options": [
+            "$\\int ^{1} _{0} \\frac{\\sin x}{1-\\cos x}dx$",
+            "$\\int ^{\\infty} _{0} \\frac{\\cos x}{1+x} dx$",
+            "$\\int ^{\\infty} _{0} \\frac{x}{1+x^2} dx$",
+            "$\\int ^{1} _{0} \\frac{1-\\cos x}{\\frac{x^5}{2}} dx$"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/mathematics/calculus",
+            "/tag/gate1993",
+            "/tag/calculus",
+            "/tag/integration",
+            "/tag/convergence",
+            "/tag/out-of-gatecse-syllabus",
+            "/tag/multiple-selects"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/601/gate-cse-1993-question-01-6",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/601/gate-cse-1993-question-01-6",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "2",
+        "year": null,
+        "questionNumber": 2,
+        "subject": "Calculus",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "The differential equation  $\\frac{d^2 y}{dx^2}+\\frac{dy}{dx}+\\sin y =0$ is:",
+        "options": [
+            "linear",
+            "non- linear",
+            "homogeneous",
+            "of degree two"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/mathematics/calculus",
+            "/tag/gate1993",
+            "/tag/calculus",
+            "/tag/differential-equation",
+            "/tag/easy",
+            "/tag/out-of-gatecse-syllabus",
+            "/tag/multiple-selects"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/597/gate-cse-1993-question-01-2",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/597/gate-cse-1993-question-01-2",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "1",
+        "year": null,
+        "questionNumber": 1,
+        "subject": "Linear Algebra",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "The eigen vector $(s)$ of the matrix $$\\begin{bmatrix} 0 &0 &\\alpha\\\\ 0 &0 &0\\\\ 0 &0 &0 \\end{bmatrix},\\alpha \\neq 0$$ is (are)",
+        "options": [
+            "$(0,0,\\alpha)$",
+            "$(\\alpha,0,0)$",
+            "$(0,0,1)$",
+            "$(0,\\alpha,0)$"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/mathematics/linear-algebra",
+            "/tag/gate1993",
+            "/tag/eigen-value",
+            "/tag/linear-algebra",
+            "/tag/easy",
+            "/tag/multiple-selects"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/596/gate-cse-1993-question-01-1",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/596/gate-cse-1993-question-01-1",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "a",
+        "year": null,
+        "questionNumber": null,
+        "subject": "Mathematical Logic",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "Use Modus ponens $(A, A → B |= B)$ or resolution to show that the following set is inconsistent:\n\n$Q(x) \\rightarrow P (x) \\vee \\sim R (a)$\n$R (a) \\vee \\sim Q(a)$\n$Q(a)$\n$\\sim P (y)$",
+        "options": [
+            "where $x$ and $y$ are universally quantified variables, $a$ is a constant and $P, Q, R$ are monadic predicates."
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/mathematics/discrete-mathematics/mathematical-logic",
+            "/tag/gate1992",
+            "/tag/normal",
+            "/tag/mathematical-logic",
+            "/tag/propositional-logic",
+            "/tag/descriptive"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/594/gate-cse-1992-question-15-a",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/594/gate-cse-1992-question-15-a",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "14a",
+        "year": null,
+        "questionNumber": null,
+        "subject": "Set Theory & Algebra",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "If $G$ is a group of even order, then show that there exists an element $a≠e$, the identity in $G$, such that $a^2 = e$.",
+        "options": [],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/mathematics/discrete-mathematics/set-theory%26algebra",
+            "/tag/gate1992",
+            "/tag/set-theory%26algebra",
+            "/tag/group-theory",
+            "/tag/normal",
+            "/tag/descriptive",
+            "/tag/proof"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/593/gate-cse-1992-question-14a",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/593/gate-cse-1992-question-14a",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "iii",
+        "year": null,
+        "questionNumber": null,
+        "subject": "Graph Theory",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "How many edges can there be in a forest with $p$ components having $n$ vertices in all?",
+        "options": [],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/mathematics/discrete-mathematics/graph-theory",
+            "/tag/gate1992",
+            "/tag/graph-theory",
+            "/tag/graph-connectivity",
+            "/tag/descriptive"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/580/gate-cse-1992-question-03-iii",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/580/gate-cse-1992-question-03-iii",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "xvi",
+        "year": null,
+        "questionNumber": null,
+        "subject": "Mathematical Logic",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "Which of the following is/are a tautology?",
+        "options": [
+            "$a \\vee b \\to b \\wedge c$",
+            "$a \\wedge b \\to b \\vee c$",
+            "$a \\vee b \\to \\left(b \\to c \\right)$",
+            "$a \\to b \\to \\left(b \\to c \\right)$"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/mathematics/discrete-mathematics/mathematical-logic",
+            "/tag/gate1992",
+            "/tag/mathematical-logic",
+            "/tag/easy",
+            "/tag/propositional-logic",
+            "/tag/multiple-selects"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/574/gate-cse-1992-question-02-xvi",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/574/gate-cse-1992-question-02-xvi",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "viii",
+        "year": null,
+        "questionNumber": null,
+        "subject": "Graph Theory",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "A non-planar graph with minimum number of vertices has",
+        "options": [
+            "$9$ edges, $6$ vertices",
+            "$6$ edges, $4$ vertices",
+            "$10$ edges, $5$ vertices",
+            "$9$ edges, $5$ vertices"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/mathematics/discrete-mathematics/graph-theory",
+            "/tag/gate1992",
+            "/tag/graph-theory",
+            "/tag/normal",
+            "/tag/graph-planarity"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/563/gate-cse-1992-question-02-viii",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/563/gate-cse-1992-question-02-viii",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "x",
+        "year": null,
+        "questionNumber": null,
+        "subject": "Graph Theory",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "Maximum number of edges in a planar graph with $n$ vertices is _____",
+        "options": [],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/mathematics/discrete-mathematics/graph-theory",
+            "/tag/gate1992",
+            "/tag/graph-theory",
+            "/tag/graph-planarity",
+            "/tag/easy",
+            "/tag/fill-in-the-blanks"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/554/gate-cse-1992-question-01-x",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/554/gate-cse-1992-question-01-x",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "a",
+        "year": null,
+        "questionNumber": null,
+        "subject": "Combinatory",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "Find the number of binary strings $w$ of length $2n$ with an equal number of $1's$ and $0's$ and the property that every prefix of $w$ has at least as many $0's$ as $1's.$",
+        "options": [],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/mathematics/discrete-mathematics/combinatory",
+            "/tag/gate1991",
+            "/tag/combinatory",
+            "/tag/normal",
+            "/tag/descriptive",
+            "/tag/catalan-number"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/543/gate-cse-1991-question-16-a",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/543/gate-cse-1991-question-16-a",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "xii",
+        "year": null,
+        "questionNumber": null,
+        "subject": "Mathematical Logic",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "If $F_1$, $F_2$ and $F_3$ are propositional formulae such that $F_1 \\land F_2 \\rightarrow F_3$ and $F_1 \\land F_2 \\rightarrow \\sim  F_3$ are both tautologies, then which of the following is true:",
+        "options": [
+            "Both $F_1$ and $F_2$ are tautologies",
+            "The conjunction $F_1 \\land F_2$ is not satisfiable",
+            "Neither is tautologous",
+            "Neither is satisfiable",
+            "None of the above"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/mathematics/discrete-mathematics/mathematical-logic",
+            "/tag/gate1991",
+            "/tag/mathematical-logic",
+            "/tag/normal",
+            "/tag/propositional-logic",
+            "/tag/multiple-selects"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/526/gate-cse-1991-question-03-xii",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/526/gate-cse-1991-question-03-xii",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "iv",
+        "year": null,
+        "questionNumber": null,
+        "subject": "Combinatory",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "Match the pairs in the following questions by writing the corresponding letters only.\n$$\\begin{array}{|c|l|c|l|} \\hline A. & \\text{The number of distinct binary tree} & P. & \\frac{n!}{2} \\\\& \\text{ with n nodes.}\\\\ \\hline B. &  \\text{The number of binary strings of the length } & Q. & \\binom{3n}{n} \\\\& \\text{of 2n with an equal number of 0’s and 1’s}  \\\\ \\hline C. & \\text{The number of even permutation of n } & R. & \\binom{2n}{n} \\\\& \\text{ objects.}\\\\ \\hline D. & \\text {The number of binary strings of length 6n } & S. & \\frac{1}{1+n}\\binom{2n}{n} \\\\& \\text{which are palindromes with 2n 0’s.} \\\\ \\hline \\end{array}$$",
+        "options": [],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/mathematics/discrete-mathematics/combinatory",
+            "/tag/gate1991",
+            "/tag/combinatory",
+            "/tag/normal",
+            "/tag/match-the-following"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/514/gate-cse-1991-question-02-iv",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/514/gate-cse-1991-question-02-iv",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "xv",
+        "year": null,
+        "questionNumber": null,
+        "subject": "Graph Theory",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "The maximum number of possible edges in an undirected graph with $n$ vertices and $k$ components is ______.",
+        "options": [],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/mathematics/discrete-mathematics/graph-theory",
+            "/tag/gate1991",
+            "/tag/graph-theory",
+            "/tag/graph-connectivity",
+            "/tag/normal",
+            "/tag/fill-in-the-blanks"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/510/gate-cse-1991-question-01-xv",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/510/gate-cse-1991-question-01-xv",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "xiv",
+        "year": null,
+        "questionNumber": null,
+        "subject": "Set Theory & Algebra",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "If the longest chain in a partial order is of length $n$, then the partial order can be written as a _____ of $n$ antichains.",
+        "options": [],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/mathematics/discrete-mathematics/set-theory%26algebra",
+            "/tag/gate1991",
+            "/tag/set-theory%26algebra",
+            "/tag/partial-order",
+            "/tag/normal",
+            "/tag/fill-in-the-blanks"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/509/gate-cse-1991-question-01-xiv",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/509/gate-cse-1991-question-01-xiv",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "38",
+        "year": 2012,
+        "questionNumber": 38,
+        "subject": "Graph Theory",
+        "topic": "marks-to-all",
+        "questionType": "multiple-choice",
+        "question": "Let $G$ be a complete undirected graph on $6$ vertices. If vertices of $G$ are labeled, then the number of distinct cycles of length $4$ in $G$ is equal to",
+        "options": [
+            "$15$",
+            "$30$",
+            "$90$",
+            "$360$"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": "marks-to-all",
+        "marks": null,
+        "tags": [
+            "/mathematics/discrete-mathematics/graph-theory",
+            "/tag/gatecse-2012",
+            "/tag/graph-theory",
+            "/tag/normal",
+            "/tag/marks-to-all",
+            "/tag/counting"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/473/gate-cse-2012-question-38",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/473/gate-cse-2012-question-38",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "31",
+        "year": 2008,
+        "questionNumber": 31,
+        "subject": "Mathematical Logic",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "$P$ and $Q$ are two propositions. Which of the following logical expressions are equivalent?\n\n$P ∨ \\neg Q$\n$\\neg(\\neg P ∧ Q)$\n$(P ∧ Q) ∨ (P ∧ \\neg Q) ∨ (\\neg P ∧ \\neg Q)$\n$(P ∧ Q) ∨ (P ∧ \\neg Q) ∨ (\\neg P ∧ Q)$",
+        "options": [
+            "Only I and II",
+            "Only I, II and III",
+            "Only I, II and IV",
+            "All of I, II, III and IV"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/mathematics/discrete-mathematics/mathematical-logic",
+            "/tag/gatecse-2008",
+            "/tag/normal",
+            "/tag/mathematical-logic",
+            "/tag/propositional-logic"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/442/gate-cse-2008-question-31",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/442/gate-cse-2008-question-31",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "30",
+        "year": 2008,
+        "questionNumber": 30,
+        "subject": "Mathematical Logic",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "Let $\\text{fsa}$ and $\\text{pda}$ be two predicates such that $\\text{fsa}(x)$ means $x$ is a finite state automaton and $\\text{pda}(y)$ means that $y$ is a pushdown automaton. Let $\\text{equivalent}$ be another predicate such that $\\text{equivalent} (a,b)$ means $a$ and $b$ are equivalent. Which of the following first order logic statements represent the following?\n\nEach finite state automaton has an equivalent pushdown automaton",
+        "options": [
+            "$\\left(\\forall x \\text{ fsa}\\left(x\\right) \\right) \\implies \\left( \\exists y \\text{ pda}\\left(y\\right) \\wedge \\text{equivalent}\\left(x,y\\right)\\right)$",
+            "$\\neg \\forall y \\left(\\exists x \\text{ fsa}\\left(x\\right)  \\implies \\text{pda}\\left(y\\right) \\wedge \\text{equivalent}\\left(x,y\\right)\\right)$",
+            "$\\forall x \\exists y \\left(\\text{fsa}\\left(x\\right) \\wedge \\text{pda}\\left(y\\right) \\wedge \\text{equivalent}\\left(x,y\\right)\\right)$",
+            "$\\forall x \\exists y \\left(\\text{fsa}\\left(y\\right) \\wedge \\text{pda}\\left(x\\right) \\wedge \\text{equivalent}\\left(x,y\\right)\\right)$"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/mathematics/discrete-mathematics/mathematical-logic",
+            "/tag/gatecse-2008",
+            "/tag/easy",
+            "/tag/mathematical-logic",
+            "/tag/first-order-logic"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/441/gate-cse-2008-question-30",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/441/gate-cse-2008-question-30",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "29",
+        "year": 2008,
+        "questionNumber": 29,
+        "subject": "Probability",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "Let $X$ be a random variable following normal distribution with mean $+1$ and variance $4$. Let $Y$ be another normal variable with mean $-1$ and variance unknown. If $P (X \\leq -1) = P (Y \\geq 2)$ , the standard deviation of $Y$ is",
+        "options": [
+            "$3$",
+            "$2$",
+            "$\\sqrt{2}$",
+            "$1$"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/mathematics/probability",
+            "/tag/gatecse-2008",
+            "/tag/random-variable",
+            "/tag/normal-distribution",
+            "/tag/probability",
+            "/tag/normal"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/427/gate-cse-2008-question-29",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/427/gate-cse-2008-question-29",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "28",
+        "year": 2008,
+        "questionNumber": 28,
+        "subject": "Linear Algebra",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "How many of the following matrices have an eigenvalue 1?$\\left[\\begin{array}{cc}1 & 0 \\\\0 & 0 \\end{array} \\right]\\left[\\begin{array}{cc}0 & 1 \\\\0 & 0 \\end{array} \\right] \\left[\\begin{array}{cc}1 & -1 \\\\1 & 1 \\end{array} \\right]$ and $\\left[\\begin{array}{cc}-1 & 0 \\\\1 & -1 \\end{array} \\right]$onetwothreefour",
+        "options": [],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/mathematics/linear-algebra",
+            "/tag/gatecse-2008",
+            "/tag/eigen-value",
+            "/tag/linear-algebra",
+            "/tag/easy"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/426/gate-cse-2008-question-28",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/426/gate-cse-2008-question-28",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "27",
+        "year": 2008,
+        "questionNumber": 27,
+        "subject": "Probability",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "Aishwarya studies either computer science or mathematics everyday. If she studies computer science on a day, then the probability that she studies mathematics the next day is $0.6$. If she studies mathematics on a day, then the probability that she studies computer science the next day is $0.4$. Given that Aishwarya studies computer science on Monday, what is the probability that she studies computer science on Wednesday?",
+        "options": [
+            "$0.24$",
+            "$0.36$",
+            "$0.4$",
+            "$0.6$"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/mathematics/probability",
+            "/tag/gatecse-2008",
+            "/tag/probability",
+            "/tag/normal",
+            "/tag/conditional-probability"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/425/gate-cse-2008-question-27",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/425/gate-cse-2008-question-27",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "25",
+        "year": 2008,
+        "questionNumber": 25,
+        "subject": "Calculus",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "A point on a curve is said to be an extremum if it is a local minimum or a local maximum. The number of distinct extrema for the curve $3x^4-16x^3+24x^2+37$ is",
+        "options": [
+            "$0$",
+            "$1$",
+            "$2$",
+            "$3$"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/mathematics/calculus",
+            "/tag/gatecse-2008",
+            "/tag/calculus",
+            "/tag/maxima-minima",
+            "/tag/easy"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/423/gate-cse-2008-question-25",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/423/gate-cse-2008-question-25",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "24",
+        "year": 2008,
+        "questionNumber": 24,
+        "subject": "Combinatory",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "Let $P =\\sum \\limits_ {i\\;\\text{odd}}^{1\\le i \\le 2k} i$ and $Q = \\sum\\limits_{i\\;\\text{even}}^{1 \\le i \\le 2k} i$, where $k$ is a positive integer. Then",
+        "options": [
+            "$P = Q - k$",
+            "$P = Q + k$",
+            "$P = Q$",
+            "$P = Q + 2k$"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/mathematics/discrete-mathematics/combinatory",
+            "/tag/gatecse-2008",
+            "/tag/combinatory",
+            "/tag/easy",
+            "/tag/summation"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/422/gate-cse-2008-question-24",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/422/gate-cse-2008-question-24",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "23",
+        "year": 2008,
+        "questionNumber": 23,
+        "subject": "Graph Theory",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "Which of the following statements is true for every planar graph on $n$ vertices?",
+        "options": [
+            "The graph is connected",
+            "The graph is Eulerian",
+            "The graph has a vertex-cover of size at most $\\frac{3n}{4}$",
+            "The graph has an independent set of size at least $\\frac{n}{3}$"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/mathematics/discrete-mathematics/graph-theory",
+            "/tag/gatecse-2008",
+            "/tag/graph-theory",
+            "/tag/normal",
+            "/tag/graph-planarity"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/421/gate-cse-2008-question-23",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/421/gate-cse-2008-question-23",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    }
+]

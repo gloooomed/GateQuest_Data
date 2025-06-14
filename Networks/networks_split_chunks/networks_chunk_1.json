@@ -1,0 +1,1705 @@
+[
+    {
+        "id": "45",
+        "year": 2024,
+        "questionNumber": 45,
+        "subject": "Computer Networks",
+        "topic": "two-marks",
+        "questionType": "multiple-choice",
+        "question": "Consider an Ethernet segment with a transmission speed of $10^{8} \\mathrm{bits} / \\mathrm{sec}$ and a maximum segment length of $500$ meters. If the speed of propagation of the signal in the medium is $2 \\times 10^{8} \\mathrm{~meters} / \\mathrm{sec}$, then the minimum frame size (in bits) required for collision detection is ___________.",
+        "options": [],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": "two-marks",
+        "marks": null,
+        "tags": [
+            "/computer-networks",
+            "/tag/gatecse2024-set2",
+            "/tag/numerical-answers",
+            "/tag/computer-networks",
+            "/tag/ethernet",
+            "/tag/two-marks"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/422852/gate-cse-2024-set-2-question-45",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/422852/gate-cse-2024-set-2-question-45",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "6",
+        "year": 2024,
+        "questionNumber": 6,
+        "subject": "Computer Networks",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "A user starts browsing a webpage hosted at a remote server. The browser opens a single TCP connection to fetch the entire webpage from the server. The webpage consists of a top-level index page with multiple embedded image objects. Assume that all caches (e.g., DNS cache, browser cache) are all initially empty. The following packets leave the user's computer in some order.HTTP GET request for the index pageDNS request to resolve the web server's name to its IP addressHTTP GET request for an image objectTCP SYN to open a connection to the web serverWhich one of the following is the CORRECT chronological order (earliest in time to latest) of the packets leaving the computer?$\\text{(iv), (ii), (iii), (i)}$$\\text{(ii), (iv), (iii), (i)}$$\\text{(ii), (iv), (i), (iii)}$$\\text{(iv), (ii), (i), (iii)}$",
+        "options": [],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/computer-networks",
+            "/tag/gatecse2024-set1",
+            "/tag/computer-networks",
+            "/tag/network-protocols",
+            "/tag/one-mark"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/422836/gate-cse-2024-set-1-question-6",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/422836/gate-cse-2024-set-1-question-6",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "19",
+        "year": 2024,
+        "questionNumber": 19,
+        "subject": "Computer Networks",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "​$\\mathrm{TCP}$ client $\\mathrm{P}$ successfully establishes a connection to $\\text{TCP}$ server $\\mathrm{Q}$. Let $\\text{N}_{P}$ denote the sequence number in the $\\text{SYN}$ sent from $\\mathrm{P}$ to $\\mathrm{Q}$. Let $\\text{N}_{Q}$ denote the acknowledgement number in the SYN ACK from $\\text{Q}$ to $\\text{P}$. Which of the following statements is/are CORRECT?The sequence number $\\text{N}_{P}$ is chosen randomly by $\\mathrm{P}$The sequence number $\\text{N}_{P}$ is always $0$ for a new connectionThe acknowledgement number $\\text{N}_{Q}$ is equal to $\\text{N}_{P}$ The acknowledgement number $\\text{N}_{Q}$ is equal to $\\text{N}_{P}+1$",
+        "options": [],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/computer-networks",
+            "/tag/gatecse2024-set1",
+            "/tag/multiple-selects",
+            "/tag/computer-networks",
+            "/tag/tcp",
+            "/tag/one-mark"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/422823/gate-cse-2024-set-1-question-19",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/422823/gate-cse-2024-set-1-question-19",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "21",
+        "year": 2024,
+        "questionNumber": 21,
+        "subject": "Computer Networks",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "Which of the following fields is/are modified in the $\\text{IP}$ header of a packet going out of a network address translation $\\text{(NAT)}$ device from an internal network to an external network?Source $\\text{IP}$Destination $\\text{IP}$Header ChecksumTotal Length",
+        "options": [],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/computer-networks",
+            "/tag/gatecse2024-set1",
+            "/tag/multiple-selects",
+            "/tag/computer-networks",
+            "/tag/ip-packet",
+            "/tag/one-mark"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/422821/gate-cse-2024-set-1-question-21",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/422821/gate-cse-2024-set-1-question-21",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "26",
+        "year": 2024,
+        "questionNumber": 26,
+        "subject": "Computer Networks",
+        "topic": "two-marks",
+        "questionType": "multiple-choice",
+        "question": "Consider a network path $\\mathrm{P}-\\mathrm{Q}-\\mathrm{R}$ between nodes $\\mathrm{P}$ and $\\mathrm{R}$ via router $\\mathrm{Q}$. Node $\\mathrm{P}$ sends a file of size $10^6$ bytes to $\\text{R}$ via this path by splitting the file into chunks of $10^3$ bytes each. Node $\\text{P}$ sends these chunks one after the other without any wait time between the successive chunk transmissions. Assume that the size of extra headers added to these chunks is negligible, and that the chunk size is less than the $\\text{MTU}$.Each of the links $\\mathrm{P}-\\mathrm{Q}$ and $\\mathrm{Q}-\\mathrm{R}$ has a bandwidth of $10^6 \\mathrm{bits} / \\mathrm{sec}$, and negligible propagation latency. Router $\\text{Q}$ immediately transmits every packet it receives from $\\text{P}$ to $\\text{R}$, with negligible processing and queueing delays. Router $\\text{Q}$ can simultaneously receive on $\\operatorname{link} \\mathrm{P}-\\mathrm{Q}$ and transmit on $\\operatorname{link} \\mathrm{Q}-\\mathrm{R}$.Assume $\\text{P}$ starts transmitting the chunks at time $t=0$.Which one of the following options gives the time (in seconds, rounded off to $3$ decimal places) at which $\\mathrm{R}$ receives all the chunks of the file?$8.000$$8.008$$15.992$$16.000$",
+        "options": [],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": "two-marks",
+        "marks": null,
+        "tags": [
+            "/computer-networks",
+            "/tag/gatecse2024-set1",
+            "/tag/computer-networks",
+            "/tag/routing",
+            "/tag/two-marks"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/422816/gate-cse-2024-set-1-question-26",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/422816/gate-cse-2024-set-1-question-26",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "48",
+        "year": 2024,
+        "questionNumber": 48,
+        "subject": "Computer Networks",
+        "topic": "two-marks",
+        "questionType": "multiple-choice",
+        "question": "Consider the entries shown below in the forwarding table of an $\\text{IP}$ router. Each entry consists of an $\\text{IP}$ prefix and the corresponding next hop router for packets whose destination $\\text{IP}$ address matches the prefix. The notation \" /$\\mathrm{N}$ \" in a prefix indicates a subnet mask with the most significant $\\mathrm{N}$ bits set to $1$.$$\\begin{array}{|ll|ll|} \\hline \\textbf{Prefix} && \\textbf{Next hop router} \\\\\\hline \\text{10.1.1.0 / 24} && \\text{R1} \\\\\\hline \\text{10.1.1.128 / 25}&& \\text{R2} \\\\\\hline   \\text{10.1.1.64 / 26}&& \\text{R3} \\\\\\hline  \\text{10.1.1.192 / 26}&& \\text{R4} \\\\\\hline \\end{array}$$\nThis router forwards $20$ packets each to $5$ hosts. The $\\text{IP}$ addresses of the hosts are $10.1.1.16, 10.1.1.72, 10.1.1.132, 10.1.1.191,$ and $10.1.1.205$. The number of packets forwarded via the next hop router $\\mathrm{R} 2$ is __________.",
+        "options": [],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": "two-marks",
+        "marks": null,
+        "tags": [
+            "/computer-networks",
+            "/tag/gatecse2024-set1",
+            "/tag/numerical-answers",
+            "/tag/computer-networks",
+            "/tag/routing",
+            "/tag/two-marks"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/422794/gate-cse-2024-set-1-question-48",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/422794/gate-cse-2024-set-1-question-48",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "55",
+        "year": 2024,
+        "questionNumber": 55,
+        "subject": "Computer Networks",
+        "topic": "two-marks",
+        "questionType": "multiple-choice",
+        "question": "Consider sending an $\\text{IP}$ datagram of size $1420$ bytes (including $20$ bytes of $\\text{IP}$ header) from a sender to a receiver over a path of two links with a router between them. The first link (sender to router) has an $\\text{MTU}$ (Maximum Transmission Unit) size of $542$ bytes, while the second link (router to receiver) has an $\\text{MTU}$ size of $360$ bytes. The number of fragments that would be delivered at the receiver is ____________.",
+        "options": [],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": "two-marks",
+        "marks": null,
+        "tags": [
+            "/computer-networks",
+            "/tag/gatecse2024-set1",
+            "/tag/numerical-answers",
+            "/tag/computer-networks",
+            "/tag/two-marks"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/422787/gate-cse-2024-set-1-question-55",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/422787/gate-cse-2024-set-1-question-55",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "7",
+        "year": 2023,
+        "questionNumber": 7,
+        "subject": "Computer Networks",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "Suppose two hosts are connected by a point-to-point link and they are configured to use $\\textsf{Stop-and-Wait}$ protocol for reliable data transfer. Identify in which one of the following scenarios, the utilization of the link is the lowest.",
+        "options": [
+            "Longer link length and lower transmission rate",
+            "Longer link length and higher transmission rate",
+            "Shorter link length and lower transmission rate",
+            "Shorter link length and higher transmission rate"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/computer-networks",
+            "/tag/gatecse-2023",
+            "/tag/computer-networks",
+            "/tag/stop-and-wait",
+            "/tag/one-mark"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/399305/gate-cse-2023-question-7",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/399305/gate-cse-2023-question-7",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "15",
+        "year": 2023,
+        "questionNumber": 15,
+        "subject": "Computer Networks",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "Which of the following statements is/are $\\text{INCORRECT}$ about the $\\textsf{OSPF (Open Shortest Path First)}$ routing protocol used in the Internet?",
+        "options": [
+            "$\\textsf{OSPF}$ implements Bellman-Ford algorithm to find shortest paths.",
+            "$\\textsf{OSPF}$ uses Dijkstra's shortest path algorithm to implement least-cost path routing.",
+            "$\\textsf{OSPF}$ is used as an inter-domain routing protocol.",
+            "$\\textsf{OSPF}$ implements hierarchical routing."
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/computer-networks",
+            "/tag/gatecse-2023",
+            "/tag/computer-networks",
+            "/tag/routing",
+            "/tag/multiple-selects",
+            "/tag/one-mark"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/399297/gate-cse-2023-question-15",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/399297/gate-cse-2023-question-15",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "40",
+        "year": 2023,
+        "questionNumber": 40,
+        "subject": "Computer Networks",
+        "topic": "two-marks",
+        "questionType": "multiple-choice",
+        "question": "Suppose you are asked to design a new reliable byte-stream transport protocol like $\\text{TCP}.$ This protocol, named $\\textsf{myTCP}$, runs over a $100 \\mathrm{~Mbps}$ network with Round Trip Time of $150$ milliseconds and the maximum segment lifetime of $2$ minutes.\nWhich of the following is/are valid lengths of the Sequence Number field in the $\\textsf{myTCP}$ header?",
+        "options": [
+            "$30$ bits",
+            "$32$ bits",
+            "$34$ bits",
+            "$36$ bits"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": "two-marks",
+        "marks": null,
+        "tags": [
+            "/computer-networks",
+            "/tag/gatecse-2023",
+            "/tag/computer-networks",
+            "/tag/tcp",
+            "/tag/multiple-selects",
+            "/tag/two-marks"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/399271/gate-cse-2023-question-40",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/399271/gate-cse-2023-question-40",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "42",
+        "year": 2023,
+        "questionNumber": 42,
+        "subject": "Computer Networks",
+        "topic": "two-marks",
+        "questionType": "multiple-choice",
+        "question": "Suppose in a web browser, you click on the $\\textsf{www. gate-2023.in}\\; \\text{URL}$. The browser cache is empty. The $\\text{IP address}$ for this $\\text{URL}$ is not cached in your local host, so a $\\text{DNS}$ lookup is triggered (by the local $\\text{DNS}$ server deployed on your local host) over the $3$-tier $\\text{DNS}$ hierarchy in an iterative mode. No resource records are cached anywhere across all $\\text{DNS}$ servers.\n\nLet $\\text{RTT}$ denote the round trip time between your local host and $\\text{DNS}$ servers in the $\\text{DNS}$ hierarchy. The round trip time between the local host and the web server hosting $\\textsf{www.gate-2023.in}$ is also equal to $\\text{RTT}$. The $\\text{HTML}$ file associated with the $\\text{URL}$ is small enough to have negligible transmission time and negligible rendering time by your web browser, which references $10$ equally small objects on the same web server.\n\nWhich of the following statements is/are $\\text{CORRECT}$ about the minimum elapsed time between clicking on the $\\text{URL}$ and your browser fully rendering it?",
+        "options": [
+            "$7\\; \\text{RTT}$s, in case of non-persistent $\\text{HTTP}$ with $5$ parallel $\\text{TCP}$ connections.",
+            "$5\\; \\text{RTT}$s, in case of persistent $\\text{HTTP}$ with pipelining.",
+            "$9\\; \\text{RTT}$s, in case of non-persistent $\\text{HTTP}$ with $5$ parallel $\\text{TCP}$ connections.",
+            "$6\\; \\text{RTT}$s, in case of persistent $\\text{HTTP}$ with pipelining."
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": "two-marks",
+        "marks": null,
+        "tags": [
+            "/computer-networks",
+            "/tag/gatecse-2023",
+            "/tag/computer-networks",
+            "/tag/ip-addressing",
+            "/tag/multiple-selects",
+            "/tag/two-marks"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/399269/gate-cse-2023-question-42",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/399269/gate-cse-2023-question-42",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "55",
+        "year": 2023,
+        "questionNumber": 55,
+        "subject": "Computer Networks",
+        "topic": "two-marks",
+        "questionType": "multiple-choice",
+        "question": "The forwarding table of a router is shown below.\n$$\\begin{array}{|l|l|c|}\n\\hline \\textbf{Subnet Number} & \\textbf{Subnet Mask} & \\textbf{Interface ID} \\\\\n\\hline 200.150 .0 .0 & 255.255 .0 .0 & 1 \\\\\n\\hline 200.150 .64 .0 & 255.255 .224 .0 & 2 \\\\\n\\hline 200.150 .68 .0 & 255.255 .255 .0 & 3 \\\\\n\\hline 200.150 .68 .64 & 255.255 .255 .224 & 4 \\\\\n\\hline \\text{Default} & & 0 \\\\\n\\hline\n\\end{array}$$\nA packet addressed to a destination address $200.150 .68 .118$ arrives at the router. It will be forwarded to the interface with $\\text{ID}$ __________.",
+        "options": [],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": "two-marks",
+        "marks": null,
+        "tags": [
+            "/computer-networks",
+            "/tag/gatecse-2023",
+            "/tag/computer-networks",
+            "/tag/subnetting",
+            "/tag/numerical-answers",
+            "/tag/two-marks"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/399256/gate-cse-2023-question-55",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/399256/gate-cse-2023-question-55",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "46",
+        "year": null,
+        "questionNumber": 46,
+        "subject": "Computer Networks",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": null,
+        "options": [],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/computer-networks",
+            "/tag/memorybased-gatecse2023",
+            "/tag/goclasses",
+            "/tag/computer-networks",
+            "/tag/stop-and-wait"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/398895/gate-cse-2023-memory-based-question-46",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/398895/gate-cse-2023-memory-based-question-46",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "47",
+        "year": null,
+        "questionNumber": 47,
+        "subject": "Computer Networks",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": null,
+        "options": [],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/computer-networks",
+            "/tag/memorybased-gatecse2023",
+            "/tag/goclasses",
+            "/tag/computer-networks",
+            "/tag/link-state-routing",
+            "/tag/multiple-selects"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/398894/gate-cse-2023-memory-based-question-47",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/398894/gate-cse-2023-memory-based-question-47",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "48",
+        "year": null,
+        "questionNumber": 48,
+        "subject": "Computer Networks",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": null,
+        "options": [],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/computer-networks",
+            "/tag/memorybased-gatecse2023",
+            "/tag/goclasses",
+            "/tag/computer-networks",
+            "/tag/stop-and-wait"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/398893/gate-cse-2023-memory-based-question-48",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/398893/gate-cse-2023-memory-based-question-48",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "12",
+        "year": 2022,
+        "questionNumber": 12,
+        "subject": "Computer Networks",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "Consider an enterprise network with two Ethernet segments, a web server and a firewall, connected via three routers as shown below.\n\nWhat is the number of subnets inside the enterprise network?",
+        "options": [
+            "$3$",
+            "$12$",
+            "$6$",
+            "$8$"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/computer-networks",
+            "/tag/gatecse-2022",
+            "/tag/computer-networks",
+            "/tag/ethernet",
+            "/tag/one-mark"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/371924/gate-cse-2022-question-12",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/371924/gate-cse-2022-question-12",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "25",
+        "year": 2022,
+        "questionNumber": 25,
+        "subject": "Computer Networks",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "Consider the resolution of the domain name $\\textsf{www.gate.org.in}$ by a $\\text{DNS}$ resolver. Assume that no resource records are cached anywhere across the $\\text{DNS}$ servers and that iterative query mechanism is used in the resolution. The number of $\\text{DNS}$ query-response pairs involved in completely resolving the domain name is ________________.",
+        "options": [],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/computer-networks",
+            "/tag/gatecse-2022",
+            "/tag/numerical-answers",
+            "/tag/computer-networks",
+            "/tag/one-mark",
+            "/tag/application-layer-protocols"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/371911/gate-cse-2022-question-25",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/371911/gate-cse-2022-question-25",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "45",
+        "year": 2022,
+        "questionNumber": 45,
+        "subject": "Computer Networks",
+        "topic": "two-marks",
+        "questionType": "multiple-choice",
+        "question": "Consider routing table of an organization’s router shown below:\n$$\\begin{array} {|l|l|l|} \\hline \\text{Subnet Number} & \\text{Subnet Mask} & \\text{Next Hop} \\\\\\hline 12.20.164.0 & 255.255.252.0 & \\text{R1} \\\\\\hline  12.20.170.0 & 255.255.254.0 & \\text{R2} \\\\\\hline 12.20.168.0 & 255.255.254.0 & \\text{Interface 0} \\\\\\hline 12.20.166.0 & 255.255.254.0 & \\text{Interface 1} \\\\\\hline \\text{default} & & \\text{R3} \\\\\\hline \\end{array}$$\nWhich of the following prefixes in $\\text{CIDR}$ notation can be collectively used to correctly aggregate all of the subnets in the routing table?",
+        "options": [
+            "$12.20.164.0/20$",
+            "$12.20.164.0/22$",
+            "$12.20.164.0/21$",
+            "$12.20.168.0/22$"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": "two-marks",
+        "marks": null,
+        "tags": [
+            "/computer-networks",
+            "/tag/gatecse-2022",
+            "/tag/computer-networks",
+            "/tag/subnetting",
+            "/tag/multiple-selects",
+            "/tag/two-marks"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/371891/gate-cse-2022-question-45",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/371891/gate-cse-2022-question-45",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "47",
+        "year": 2022,
+        "questionNumber": 47,
+        "subject": "Computer Networks",
+        "topic": "two-marks",
+        "questionType": "multiple-choice",
+        "question": "Consider a network with three routers $\\text{P, Q, R}$ shown in the figure below. All the links have cost of unity.",
+        "options": [
+            "The routers exchange distance vector routing information and have converged on the routing tables, after which the link $\\text{Q-R}$ fails. Assume that $\\text{P}$ and $\\text{Q}$ send out routing updates at random times, each at the same average rate. The probability of a routing loop formation (rounded off to one decimal place) between $\\text{P}$ and $\\text{Q},$ leading to count-to-infinity problem, is _______________."
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": "two-marks",
+        "marks": null,
+        "tags": [
+            "/computer-networks",
+            "/tag/gatecse-2022",
+            "/tag/numerical-answers",
+            "/tag/computer-networks",
+            "/tag/routing",
+            "/tag/distance-vector-routing",
+            "/tag/two-marks"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/371889/gate-cse-2022-question-47",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/371889/gate-cse-2022-question-47",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "49",
+        "year": 2022,
+        "questionNumber": 49,
+        "subject": "Computer Networks",
+        "topic": "two-marks",
+        "questionType": "multiple-choice",
+        "question": "Consider a $100 \\; \\text{Mbps}$ link between an earth station (sender) and a satellite (receiver) at an altitude of $2100 \\; \\text{km}.$ The signal propagates at a speed of $3 \\times 10^{8} \\; \\text{m/s.}$ The time taken $\\text{(in milliseconds,} \\;  \\textit{rounded off to two decimal places})$ for the receiver to completely receive a packet of $1000 \\; \\text{bytes}$ transmitted by the sender is _______________.",
+        "options": [],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": "two-marks",
+        "marks": null,
+        "tags": [
+            "/computer-networks",
+            "/tag/gatecse-2022",
+            "/tag/numerical-answers",
+            "/tag/computer-networks",
+            "/tag/two-marks",
+            "/tag/communication"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/371887/gate-cse-2022-question-49",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/371887/gate-cse-2022-question-49",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "50",
+        "year": 2022,
+        "questionNumber": 50,
+        "subject": "Computer Networks",
+        "topic": "two-marks",
+        "questionType": "multiple-choice",
+        "question": "Consider the data transfer using $\\text{TCP}$ over a $1 \\; \\text{Gbps}$ link. Assuming that the maximum segment lifetime $\\text{(MSL)}$ is set to $60 \\; \\text{seconds},$ the minimum number of bits required for the sequence number field of the $\\text{TCP}$ header, to prevent the sequence number space from wrapping around during the $\\text{MSL}$ is ________________.",
+        "options": [],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": "two-marks",
+        "marks": null,
+        "tags": [
+            "/computer-networks",
+            "/tag/gatecse-2022",
+            "/tag/numerical-answers",
+            "/tag/computer-networks",
+            "/tag/tcp",
+            "/tag/two-marks"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/371886/gate-cse-2022-question-50",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/371886/gate-cse-2022-question-50",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "7",
+        "year": 2021,
+        "questionNumber": 7,
+        "subject": "Computer Networks",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "Consider the three-way handshake mechanism followed during $\\text{TCP}$ connection establishment between hosts $P$ and $Q$. Let $X$ and $Y$ be two random $32$-bit starting sequence numbers chosen by $P$ and $Q$ respectively. Suppose $P$ sends a $\\text{TCP}$ connection request message to $Q$ with a $\\text{TCP}$ segment having $\\text{SYN}$ bit $=1$, $\\text{SEQ}$ number $=X$, and $\\text{ACK}$ bit $=0$. Suppose $Q$ accepts the connection request. Which one of the following choices represents the information present in the $\\text{TCP}$ segment header that is sent by $Q$ to $P$?",
+        "options": [
+            "$\\text{SYN}$ bit $=1$, $\\text{SEQ}$ number $=X+1$, $\\text{ACK}$ bit $=0$, $\\text{ACK}$ number $=Y$, $\\text{FIN}$ bit $=0$",
+            "$\\text{SYN}$ bit $=0$, $\\text{SEQ}$ number $=X+1$, $\\text{ACK}$ bit $=0$, $\\text{ACK}$ number $=Y$, $\\text{FIN}$ bit $=1$",
+            "$\\text{SYN}$ bit $=1$, $\\text{SEQ}$ number $=Y$, $\\text{ACK}$ bit $=1$, $\\text{ACK}$ number $=X+1$, $\\text{FIN}$ bit $=0$",
+            "$\\text{SYN}$ bit $=1$, $\\text{SEQ}$ number $=Y$, $\\text{ACK}$ bit $=1$, $\\text{ACK}$ number $=X$, $\\text{FIN}$ bit $=0$"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/computer-networks",
+            "/tag/gatecse-2021-set2",
+            "/tag/computer-networks",
+            "/tag/tcp",
+            "/tag/one-mark"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/357533/gate-cse-2021-set-2-question-7",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/357533/gate-cse-2021-set-2-question-7",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "34",
+        "year": 2021,
+        "questionNumber": 34,
+        "subject": "Computer Networks",
+        "topic": "two-marks",
+        "questionType": "multiple-choice",
+        "question": "Consider the cyclic redundancy check $\\text{(CRC)}$ based error detecting scheme having the generator polynomial $X^3+X+1$. Suppose the message $m_4m_3m_2m_1m_0=11000$ is to be transmitted. Check bits $c_2c_1c_0$ are appended at the end of the message by the transmitter using the above $\\text{CRC}$ scheme. The transmitted bit string is denoted by $m_4m_3m_2m_1m_0c_2c_1c_0$. The value of the checkbit sequence $c_2c_1c_0$ is",
+        "options": [
+            "$101$",
+            "$110$",
+            "$100$",
+            "$111$"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": "two-marks",
+        "marks": null,
+        "tags": [
+            "/computer-networks",
+            "/tag/gatecse-2021-set2",
+            "/tag/computer-networks",
+            "/tag/crc-polynomial",
+            "/tag/two-marks"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/357506/gate-cse-2021-set-2-question-34",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/357506/gate-cse-2021-set-2-question-34",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "45",
+        "year": 2021,
+        "questionNumber": 45,
+        "subject": "Computer Networks",
+        "topic": "two-marks",
+        "questionType": "multiple-choice",
+        "question": "Consider a computer network using the distance vector routing algorithm in its network layer. The partial topology of the network is shown below.\n\nThe objective is to find the shortest-cost path from the router $R$ to routers $P$ and $Q$. Assume that $R$ does not initially know the shortest routes to $P$ and $Q$. Assume that $R$ has three neighbouring routers denoted as $X$, $Y$ and $Z$. During one iteration, $R$ measures its distance to its neighbours $X$, $Y$, and $Z$ as $3$, $2$ and $5$, respectively. Router $R$ gets routing vectors from its neighbours that indicate that the distance to router $P$ from routers $X$, $Y$ and $Z$ are $7$, $6$ and $5$, respectively. The routing vector also indicates that the distance to router $Q$ from routers $X$, $Y$ and $Z$ are $4$, $6$ and $8$ respectively. Which of the following statement(s) is/are correct with respect to the new routing table o $R$, after updation during this iteration?",
+        "options": [
+            "The distance from $R$ to $P$ will be stored as $10$",
+            "The distance from $R$ to $Q$ will be stored as $7$",
+            "The next hop router for a packet from $R$ to $P$ is $Y$",
+            "The next hop router for a packet from $R$ to $Q$ is $Z$"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": "two-marks",
+        "marks": null,
+        "tags": [
+            "/computer-networks",
+            "/tag/gatecse-2021-set2",
+            "/tag/multiple-selects",
+            "/tag/computer-networks",
+            "/tag/distance-vector-routing",
+            "/tag/two-marks"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/357495/gate-cse-2021-set-2-question-45",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/357495/gate-cse-2021-set-2-question-45",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "54",
+        "year": 2021,
+        "questionNumber": 54,
+        "subject": "Computer Networks",
+        "topic": "two-marks",
+        "questionType": "multiple-choice",
+        "question": "Consider a network using the pure $\\text{ALOHA}$ medium access control protocol, where each frame is of length $1,000$ bits. The channel transmission rate is $1$ Mbps ($=10^6$ bits per second). The aggregate number of transmissions across all the nodes (including new frame transmissions and retransmitted frames due to collisions) is modelled as a Poisson process with a rate of $1,000$ frames per second. Throughput is defined as the average number of frames successfully transmitted per second. The throughput of the network (rounded to the nearest integer) is ______________",
+        "options": [],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": "two-marks",
+        "marks": null,
+        "tags": [
+            "/computer-networks",
+            "/tag/gatecse-2021-set2",
+            "/tag/computer-networks",
+            "/tag/mac-protocol",
+            "/tag/pure-aloha",
+            "/tag/numerical-answers",
+            "/tag/two-marks"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/357483/gate-cse-2021-set-2-question-54",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/357483/gate-cse-2021-set-2-question-54",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "8",
+        "year": 2021,
+        "questionNumber": 8,
+        "subject": "Computer Networks",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "Consider the following two statements.\n\n$S_1$: Destination $\\text{MAC}$ address of an $\\text{ARP}$ reply is a broadcast address.\n$S_2$: Destination $\\text{MAC}$ address of an $\\text{ARP}$ request is a broadcast address.\n\nWhich one of the following choices is correct?",
+        "options": [
+            "Both $S_1$ and $S_2$ are true",
+            "$S_1$ is true and $S_2$ is false",
+            "$S_1$ is false and $S_2$ is true",
+            "Both $S_1$ and $S_2$ are false"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/computer-networks",
+            "/tag/gatecse-2021-set1",
+            "/tag/computer-networks",
+            "/tag/network-protocols",
+            "/tag/one-mark"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/357444/gate-cse-2021-set-1-question-8",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/357444/gate-cse-2021-set-1-question-8",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "29",
+        "year": 2021,
+        "questionNumber": 29,
+        "subject": "Computer Networks",
+        "topic": "two-marks",
+        "questionType": "multiple-choice",
+        "question": "Assume that a $12$-bit Hamming codeword consisting of $8$-bit data and $4$ check bits is $d_8d_7d_6d_5c_8d_4d_ 4d_3d_2c_4d_1c_2c_1$, where the data bits and the check bits are given in the following tables: $$\\overset{\\textbf{Data bits}}{\\begin{array}{|c|c|c|c|}  \\hline  d_{8} & d_{7} & d_{6} & d_{5} & d_{4} & d_{3} & d_{2} & d_{1} \\\\\\hline 1 & 1 & 0 & x & 0 & 1 & 0 & 1 \\\\\\hline \\end{array}}\\qquad \\overset{\\textbf{Check bits}}{\\begin{array}{|c|c|c|c|} \\hline  c_{8} & c_{4} & c_{2} & c_{1} \\\\\\hline y & 0 & 1 & 0 \\\\\\hline \\end{array}}$$ Which one of the following choices gives the correct values of $x$ and $y$?$x$ is $0$ and $y$ is $0$$x$ is $0$ and $y$ is $1$$x$ is $1$ and $y$ is $0$$x$ is $1$ and $y$ is $1$",
+        "options": [],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": "two-marks",
+        "marks": null,
+        "tags": [
+            "/computer-networks",
+            "/tag/gatecse-2021-set1",
+            "/tag/computer-networks",
+            "/tag/hamming-code",
+            "/tag/two-marks",
+            "/tag/error-detection"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/357422/gate-cse-2021-set-1-question-29",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/357422/gate-cse-2021-set-1-question-29",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "44",
+        "year": 2021,
+        "questionNumber": 44,
+        "subject": "Computer Networks",
+        "topic": "two-marks",
+        "questionType": "multiple-choice",
+        "question": "A $\\text{TCP}$ server application is programmed to listen on port number $P$ on host $S$. A $\\text{TCP}$ client is connected to the $\\text{TCP}$ server over the network.\nConsider that while the $\\text{TCP}$ connection was active, the server machine $S$ crashed and rebooted. Assume that the client does not use the $\\text{TCP}$ keepalive timer. Which of the following behaviors is/are possible?",
+        "options": [
+            "If the client was waiting to receive a packet, it may wait indefinitely",
+            "The $\\text{TCP}$ server application on $S$ can listen on $P$ after reboot",
+            "If the client sends a packet after the server reboot, it will receive a $\\text{RST}$ segment",
+            "If the client sends a packet after the server reboot, it will receive a $\\text{FIN}$ segment"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": "two-marks",
+        "marks": null,
+        "tags": [
+            "/computer-networks",
+            "/tag/gatecse-2021-set1",
+            "/tag/multiple-selects",
+            "/tag/computer-networks",
+            "/tag/tcp",
+            "/tag/two-marks"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/357407/gate-cse-2021-set-1-question-44",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/357407/gate-cse-2021-set-1-question-44",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "45",
+        "year": 2021,
+        "questionNumber": 45,
+        "subject": "Computer Networks",
+        "topic": "two-marks",
+        "questionType": "multiple-choice",
+        "question": "Consider two hosts $P$ and $Q$ connected through a router $R$. The maximum transfer unit $\\text{(MTU)}$ value of the link between $P$ and $R$ is $1500$ bytes, and between $R$ and $Q$ is $820$ bytes.\nA $\\text{TCP}$ segment of size $1400$ bytes was transferred from $P$ to $Q$ through $R$, with $\\text{IP}$ identification value as $\\textsf{0x1234}.$ Assume that the $\\text{IP}$ header size is $20$ bytes. Further, the packet is allowed to be fragmented, i.e., $\\textsf{Don’t Fragment (DF)}$ flag in the $\\text{IP}$ header is $\\textit{not}$ set by $P$.\nWhich of the following statements is/are correct?",
+        "options": [
+            "Two fragments are created at $R$ and the $\\text{IP}$ datagram size carrying the second fragment is $620$ bytes.",
+            "If the second fragment is lost, $R$ will resend the fragment with the $\\text{IP}$ identification value $\\textsf{0x1234}.$",
+            "If the second fragment is lost, $P$ is required to resend the whole $\\text{TCP}$ segment.",
+            "$\\text{TCP}$ destination port can be determined by analysing $\\textit{only}$ the second fragment."
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": "two-marks",
+        "marks": null,
+        "tags": [
+            "/computer-networks",
+            "/tag/gatecse-2021-set1",
+            "/tag/computer-networks",
+            "/tag/tcp",
+            "/tag/two-marks",
+            "/tag/multiple-selects"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/357406/gate-cse-2021-set-1-question-45",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/357406/gate-cse-2021-set-1-question-45",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "49",
+        "year": 2021,
+        "questionNumber": 49,
+        "subject": "Computer Networks",
+        "topic": "two-marks",
+        "questionType": "multiple-choice",
+        "question": "Consider the sliding window flow-control protocol operating between a sender and a receiver over a full-duplex error-free link. Assume the following:\n\nThe time taken for processing the data frame by the receiver is negligible.\nThe time taken for processing the acknowledgement frame by the sender is negligible.\nThe sender has infinite number of frames available for transmission.\nThe size of the data frame is $2,000$ bits and the size of the acknowledgement frame is $10$ bits.\nThe link data rate in each direction is $1$ Mbps ($=10^6$ bits per second).\nOne way propagation delay of the link is $100$ milliseconds.",
+        "options": [
+            "The minimum value of the sender's window size in terms of the number of frames, (rounded to the nearest  integer)  needed  to achieve a link utilization of $50\\%$ is_____________."
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": "two-marks",
+        "marks": null,
+        "tags": [
+            "/computer-networks",
+            "/tag/gatecse-2021-set1",
+            "/tag/computer-networks",
+            "/tag/network-protocols",
+            "/tag/sliding-window",
+            "/tag/numerical-answers",
+            "/tag/two-marks"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/357402/gate-cse-2021-set-1-question-49",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/357402/gate-cse-2021-set-1-question-49",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "15",
+        "year": 2020,
+        "questionNumber": 15,
+        "subject": "Computer Networks",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "Consider the following statements about the functionality of an $\\textsf{IP}$ based router.\n\nA router does not modify the $\\textsf{IP}$ packets during forwarding.\nIt is not necessary for a router to implement any routing protocol.\nA router should reassemble $\\textsf{IP}$ fragments if the $\\textsf{MTU}$ of the outgoing link is larger than the size of the incoming $\\text{IP}$ packet.\n\n  Which of the above statements is/are TRUE?",
+        "options": [
+            "I and II only",
+            "I only",
+            "II and III only",
+            "II only"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/computer-networks",
+            "/tag/gatecse-2020",
+            "/tag/computer-networks",
+            "/tag/routing",
+            "/tag/one-mark"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/333216/gate-cse-2020-question-15",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/333216/gate-cse-2020-question-15",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "25",
+        "year": 2020,
+        "questionNumber": 25,
+        "subject": "Computer Networks",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "Assume that you have made a request for a web page through your web browser to a web server. Initially the browser cache is empty. Further, the browser is configured to send $\\textsf{HTTP}$ requests in non-persistent mode. The web page contains text and five very small images.The minimum number of $\\textsf{TCP}$ connections required to display the web page completely in your browser is__________.",
+        "options": [],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/computer-networks",
+            "/tag/gatecse-2020",
+            "/tag/numerical-answers",
+            "/tag/computer-networks",
+            "/tag/application-layer-protocols",
+            "/tag/one-mark"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/333206/gate-cse-2020-question-25",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/333206/gate-cse-2020-question-25",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "38",
+        "year": 2020,
+        "questionNumber": 38,
+        "subject": "Computer Networks",
+        "topic": "two-marks",
+        "questionType": "multiple-choice",
+        "question": "An organization requires a range of IP address to assign one to each of its $1500$ computers. The organization has approached an Internet Service Provider (ISP) for this task. The ISP uses CIDR and serves the requests from the available IP address space $202.61.0.0/17$. The ISP wants to assign an address space to the organization which will minimize the number of routing entries in the ISP’s router using route aggregation. Which of the following address spaces are potential candidates from which the ISP can allot any one of the organization?\n\n$202.61.84.0/21$\n$202.61.104.0/21$\n$202.61.64.0/21$\n$202.61.144.0/21$",
+        "options": [
+            "$\\text{I}$ and $\\text{II}$ only",
+            "$\\text{II}$ and $\\text{III}$  only",
+            "$\\text{III}$ and $\\text{IV}$ only",
+            "$\\text{I}$ and $\\text{IV}$ only"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": "two-marks",
+        "marks": null,
+        "tags": [
+            "/computer-networks",
+            "/tag/gatecse-2020",
+            "/tag/computer-networks",
+            "/tag/subnetting",
+            "/tag/two-marks"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/333193/gate-cse-2020-question-38",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/333193/gate-cse-2020-question-38",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "55",
+        "year": 2020,
+        "questionNumber": 55,
+        "subject": "Computer Networks",
+        "topic": "two-marks",
+        "questionType": "multiple-choice",
+        "question": "Consider a $\\textsf{TCP}$ connection between a client and a server with the following specifications; the round trip time is $6$ ms, the size of the receiver advertised window is $50$ KB, slow-start threshold at the client is $32$ KB, and the maximum segment size is $2$ KB. The connection is established at time $t=0$. Assume that there are no timeouts and errors during transmission. Then the size of the congestion window (in $\\text{KB}$) at time $t+60$ ms after all acknowledgements are processed is _______",
+        "options": [],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": "two-marks",
+        "marks": null,
+        "tags": [
+            "/computer-networks",
+            "/tag/gatecse-2020",
+            "/tag/numerical-answers",
+            "/tag/computer-networks",
+            "/tag/tcp",
+            "/tag/two-marks"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/333176/gate-cse-2020-question-55",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/333176/gate-cse-2020-question-55",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "16",
+        "year": 2019,
+        "questionNumber": 16,
+        "subject": "Computer Networks",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "Which of the following protocol pairs can be used to send and retrieve e-mails (in that order)?",
+        "options": [
+            "$\\textsf{IMAP, POP3}$",
+            "$\\textsf{SMTP, POP3}$",
+            "$\\textsf{SMTP, MIME}$",
+            "$\\textsf{IMAP, SMTP}$"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/computer-networks",
+            "/tag/gatecse-2019",
+            "/tag/computer-networks",
+            "/tag/application-layer-protocols",
+            "/tag/one-mark"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/302832/gate-cse-2019-question-16",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/302832/gate-cse-2019-question-16",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "28",
+        "year": 2019,
+        "questionNumber": 28,
+        "subject": "Computer Networks",
+        "topic": "two-marks",
+        "questionType": "multiple-choice",
+        "question": "Consider three machines M, N, and P with IP addresses $100.10.5.2, \\: 100.10.5.5$, and $100.10.5.6$ respectively. The subnet mask is set to $255.255.255.252$ for all the three machines. Which one of the following is true?",
+        "options": [
+            "M, N, and P all belong to the same subnet",
+            "Only M and N belong to the same subnet",
+            "Only N and P belong to the same subnet",
+            "M, N, and P belong to three different subnets"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": "two-marks",
+        "marks": null,
+        "tags": [
+            "/computer-networks",
+            "/tag/gatecse-2019",
+            "/tag/computer-networks",
+            "/tag/subnetting",
+            "/tag/two-marks"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/302820/gate-cse-2019-question-28",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/302820/gate-cse-2019-question-28",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "29",
+        "year": 2019,
+        "questionNumber": 29,
+        "subject": "Computer Networks",
+        "topic": "two-marks",
+        "questionType": "multiple-choice",
+        "question": "Suppose that in an IP-over-Ethernet network, a machine X wishes to find the MAC address of another machine Y  in its subnet. Which one of the following techniques can be used for this?",
+        "options": [
+            "X sends an ARP request packet to the local gateway’s IP address which then finds the MAC address of Y and sends to X",
+            "X sends an ARP request packet to the local gateway’s MAC address which then finds the MAC address of Y and sends to X",
+            "X sends an ARP request packet with broadcast MAC address in its local subnet",
+            "X sends an ARP request packet with broadcast IP address in its local subnet"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": "two-marks",
+        "marks": null,
+        "tags": [
+            "/computer-networks",
+            "/tag/gatecse-2019",
+            "/tag/computer-networks",
+            "/tag/network-protocols",
+            "/tag/two-marks"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/302819/gate-cse-2019-question-29",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/302819/gate-cse-2019-question-29",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "49",
+        "year": 2019,
+        "questionNumber": 49,
+        "subject": "Computer Networks",
+        "topic": "two-marks",
+        "questionType": "multiple-choice",
+        "question": "Consider that $15$ machines need to be connected in a LAN using $8$-port Ethernet switches. Assume that these switches do not have any separate uplink ports. The minimum number of switches needed is ______",
+        "options": [],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": "two-marks",
+        "marks": null,
+        "tags": [
+            "/computer-networks",
+            "/tag/gatecse-2019",
+            "/tag/numerical-answers",
+            "/tag/computer-networks",
+            "/tag/lan-technologies",
+            "/tag/two-marks"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/302799/gate-cse-2019-question-49",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/302799/gate-cse-2019-question-49",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "54",
+        "year": 2019,
+        "questionNumber": 54,
+        "subject": "Computer Networks",
+        "topic": "two-marks",
+        "questionType": "multiple-choice",
+        "question": "In an RSA cryptosystem, the value of the public modulus parameter $n$ is $3007$. If it is also known as that $\\phi(n)=2880$ where $\\phi()$ denotes Euler’s Totient Function, then the prime factor of $n$ which is greater than $50$ is _________",
+        "options": [],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": "two-marks",
+        "marks": null,
+        "tags": [
+            "/computer-networks",
+            "/tag/gatecse-2019",
+            "/tag/numerical-answers",
+            "/tag/computer-networks",
+            "/tag/network-security",
+            "/tag/out-of-gatecse-syllabus",
+            "/tag/two-marks"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/302794/gate-cse-2019-question-54",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/302794/gate-cse-2019-question-54",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "55",
+        "year": 2018,
+        "questionNumber": 55,
+        "subject": "Computer Networks",
+        "topic": "two-marks",
+        "questionType": "multiple-choice",
+        "question": "Consider a simple communication system where multiple nodes are connected by a shared broadcast medium (like Ethernet or wireless). The nodes in the system use the following carrier-sense based medium access protocol. A node that receives a packet to transmit will carrier-sense the medium for $5$ units of time. If the node does not detect any other transmission, it starts transmitting its packet in the next time unit. If the node detects another transmission, it waits until this other transmission finishes, and then begins to carrier-sense for $ 5$ time units again. Once they start to transmit, nodes do not perform any collision detection and continue transmission even if a collision occurs. All transmissions last for $20$ units of time. Assume that the transmission signal travels at the speed of $10$ meters per unit time in the medium.\n\nAssume that the system has two nodes $P$ and $Q$, located at a distance $d$ meters from each other. $P$ start transmitting a packet at time $t=0$ after successfully completing its carrier-sense phase. Node $Q$ has a packet to transmit at time $t=0$ and begins to carrier-sense the medium.",
+        "options": [
+            "The maximum distance $d$ (in meters, rounded to the closest integer) that allows $Q$ to successfully avoid a collision between its proposed transmission and $P$’s ongoing transmission is _______."
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": "two-marks",
+        "marks": null,
+        "tags": [
+            "/computer-networks",
+            "/tag/gatecse-2018",
+            "/tag/computer-networks",
+            "/tag/csma-cd",
+            "/tag/numerical-answers",
+            "/tag/two-marks"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/204130/gate-cse-2018-question-55",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/204130/gate-cse-2018-question-55",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "54",
+        "year": 2018,
+        "questionNumber": 54,
+        "subject": "Computer Networks",
+        "topic": "two-marks",
+        "questionType": "multiple-choice",
+        "question": "Consider an IP packet with a length of $4,500\\;\\text{bytes}$ that includes a $20\\text{-byte}\\;\\textsf{IPv4}$ header and a $40\\text{-byte}$ TCP header. The packet is forwarded to an $\\textsf{IPv4}$ router that supports a Maximum Transmission Unit (MTU) of $600\\;\\text{bytes}$. Assume that the length of the IP header in all the outgoing fragments of this packet is $20\\;\\text{bytes}$. Assume that the fragmentation offset value stored in the first fragment is $0$.",
+        "options": [
+            "The fragmentation offset value stored in the third fragment is ________."
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": "two-marks",
+        "marks": null,
+        "tags": [
+            "/computer-networks",
+            "/tag/gatecse-2018",
+            "/tag/computer-networks",
+            "/tag/ip-addressing",
+            "/tag/numerical-answers",
+            "/tag/two-marks"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/204129/gate-cse-2018-question-54",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/204129/gate-cse-2018-question-54",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "25",
+        "year": 2018,
+        "questionNumber": 25,
+        "subject": "Computer Networks",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "Consider a long-lived $\\text{TCP}$ session with an end-to-end bandwidth of $1\\; \\text{Gbps}\\; (=10^9$ bits-per-second$).$ The session starts with a sequence number of $1234$. The minimum time (in seconds, rounded to the closet integer) before this sequence number can be used again is _________.",
+        "options": [],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/computer-networks",
+            "/tag/gatecse-2018",
+            "/tag/computer-networks",
+            "/tag/tcp",
+            "/tag/normal",
+            "/tag/numerical-answers",
+            "/tag/one-mark"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/204099/gate-cse-2018-question-25",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/204099/gate-cse-2018-question-25",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "14",
+        "year": 2018,
+        "questionNumber": 14,
+        "subject": "Computer Networks",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "Consider the following statements regarding the slow start phase of the TCP congestion control algorithm. Note that cwnd stands for the TCP congestion window and MSS window denotes the Maximum Segments Size:\n\nThe cwnd increases by $2$ MSS on every successful acknowledgment\nThe cwnd approximately doubles on every successful acknowledgment\nThe cwnd increases by $1$ MSS every round trip time\nThe cwnd approximately doubles every round trip time\n\nWhich one of the following is correct?",
+        "options": [
+            "Only $\\text{(ii)}$ and $\\text{(iii)}$ are true",
+            "Only $\\text{(i)}$ and $\\text{(iii)}$ are true",
+            "Only $\\text{(iv)}$ is true",
+            "Only $\\text{(i)}$ and $\\text{(iv)}$ are true"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/computer-networks",
+            "/tag/gatecse-2018",
+            "/tag/computer-networks",
+            "/tag/tcp",
+            "/tag/congestion-control",
+            "/tag/normal",
+            "/tag/one-mark"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/204088/gate-cse-2018-question-14",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/204088/gate-cse-2018-question-14",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "13",
+        "year": 2018,
+        "questionNumber": 13,
+        "subject": "Computer Networks",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "Match the following:\n$$\\begin{array}{|l|l|}\\hline \\textbf{Field} & \\textbf{Length in bits} \\\\\\hline  \\text{P. UDP Header's Port Number} & \\text{I.   48} \\\\ \\text{Q. Ethernet MAC Address} & \\text{II.  8} \\\\  \\text{R. IPv6 Next Header} & \\text{III. 32}  \\\\  \\text{S. TCP Header's Sequence Number} & \\text{IV. 16}  \\\\\\hline \\end{array}$$",
+        "options": [
+            "$\\text{P-III, Q-IV, R-II, S-I}$",
+            "$\\text{P-II, Q-I, R-IV, S-III}$",
+            "$\\text{P-IV, Q-I, R-II, S-III}$",
+            "$\\text{P-IV, Q-I, R-III, S-II}$"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/computer-networks",
+            "/tag/gatecse-2018",
+            "/tag/computer-networks",
+            "/tag/network-layering",
+            "/tag/normal",
+            "/tag/one-mark"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/204087/gate-cse-2018-question-13",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/204087/gate-cse-2018-question-13",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "modification",
+        "year": null,
+        "questionNumber": null,
+        "subject": "Computer Networks",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "A sender S sends a message m to receiver R, in which the message digest is digitally signed by S with its private key. In this scenario, one or more of the following security violations can take place.\n\n(I) S can launch a birthday attack to replace mm with a fraudulent message.\n\n(II) A third party attacker can launch a birthday attack to replace mm with a fraudulent message.\n\n(III) R can launch a birthday attack to replace mm with a fraudulent message.\n\nWhich of the following are possible security violations?\n\n(A) (I) and (II) only\n\n(B) (I) only\n\n(C) (II) only",
+        "options": [
+            "(D) (II) and (III) only",
+            "Acoording to the original question https://gateoverflow.in/118295/gate2017-1-15  @shivnash  is considering whole message is encrypted which is case 1 and then arrived at  the answer as option B",
+            "what if it was case 2 the answer is still the same?"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/computer-networks"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/162314/gate-cse-2017-set-1-question-15-with-modification",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/162314/gate-cse-2017-set-1-question-15-with-modification",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "35",
+        "year": 2017,
+        "questionNumber": 35,
+        "subject": "Computer Networks",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "Consider two hosts $X$ and $Y$, connected by a single direct link of rate $10^6\\; \\text{bits/sec}$. The distance between the two hosts is $10,000\\;\\text{km}$ and the propagation speed along the link is $2 \\times 10^8 \\;\\text{m/sec}$. Host $X$ sends a file of $50,000\\;\\text{bytes}$ as one large message to host $Y$ continuously. Let the transmission and propagation delays be $p\\; \\text{milliseconds}$ and $q \\; \\text{milliseconds}$ respectively. Then the value of $p$ and $q$ are",
+        "options": [
+            "$p=50$ and $q=100$",
+            "$p=50$ and $q=400$",
+            "$p=100$ and $q=50$",
+            "$p=400$ and $q=50$"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/computer-networks",
+            "/tag/gatecse-2017-set2",
+            "/tag/computer-networks",
+            "/tag/network-flow"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/118537/gate-cse-2017-set-2-question-35",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/118537/gate-cse-2017-set-2-question-35",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "20",
+        "year": 2017,
+        "questionNumber": 20,
+        "subject": "Computer Networks",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "The maximum number of $\\textsf{IPv4}$ router addresses that can be listed in the record route (RR) option field of an $\\textsf{IPv4}$ header is______.",
+        "options": [],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/computer-networks",
+            "/tag/gatecse-2017-set2",
+            "/tag/computer-networks",
+            "/tag/ip-addressing",
+            "/tag/numerical-answers"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/118427/gate-cse-2017-set-2-question-20",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/118427/gate-cse-2017-set-2-question-20",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "34",
+        "year": 2017,
+        "questionNumber": 34,
+        "subject": "Computer Networks",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "Consider the binary code that consists of only four valid codewords as given below:\n$00000, 01011, 10101, 11110$\nLet the minimum Hamming distance of the code $p$ and the maximum number of erroneous bits that can be corrected by the code be $q$. Then the values of $p$ and $q$ are",
+        "options": [
+            "$p=3$ and $q=1$",
+            "$p=3$ and $q=2$",
+            "$p=4$ and $q=1$",
+            "$p=4$ and $q=2$"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/computer-networks",
+            "/tag/gatecse-2017-set2",
+            "/tag/computer-networks",
+            "/tag/error-detection"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/118376/gate-cse-2017-set-2-question-34",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/118376/gate-cse-2017-set-2-question-34",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "09",
+        "year": 2017,
+        "questionNumber": 9,
+        "subject": "Computer Networks",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "Consider the following statements about the routing protocols. Routing Information Protocol (RIP) and Open Shortest Path First (OSPF) in an $\\textsf{IPv4}$ network.\n\nRIP uses distance vector routing\nRIP packets are sent using UDP\nOSPF packets are sent using TCP\nOSPF operation is based on link-state routing\n\nWhich of the above statements are CORRECT?",
+        "options": [
+            "I and IV only",
+            "I, II and III only",
+            "I, II and IV only",
+            "II, III and IV only"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/computer-networks",
+            "/tag/gatecse-2017-set2",
+            "/tag/computer-networks",
+            "/tag/routing"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/118338/gate-cse-2017-set-2-question-09",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/118338/gate-cse-2017-set-2-question-09",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "45",
+        "year": 2017,
+        "questionNumber": 45,
+        "subject": "Computer Networks",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "The values of parameters for the Stop-and-Wait ARQ protocol are as given below:\n\nBit rate of the transmission channel $= 1$ Mbps.\nPropagation delay from sender to receiver $= 0.75$ ms.\nTime to process a frame $= 0.25$ ms.\nNumber of bytes in the information frame $= 1980$.\nNumber of bytes in the acknowledge frame $= 20$.\nNumber of overhead bytes in the information frame $= 20$.",
+        "options": [
+            "Assume there are no transmission errors. Then, the transmission efficiency (expressed in percentage) of the Stop-and-Wait ARQ protocol for the above parameters is _____________ (correct to $2$ decimal places)."
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/computer-networks",
+            "/tag/gatecse-2017-set1",
+            "/tag/computer-networks",
+            "/tag/stop-and-wait",
+            "/tag/numerical-answers",
+            "/tag/normal"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/118328/gate-cse-2017-set-1-question-45",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/118328/gate-cse-2017-set-1-question-45",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    }
+]

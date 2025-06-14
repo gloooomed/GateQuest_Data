@@ -1,0 +1,1786 @@
+[
+    {
+        "id": "49",
+        "year": 2024,
+        "questionNumber": 49,
+        "subject": "Compiler Design",
+        "topic": "two-marks",
+        "questionType": "multiple-choice",
+        "question": "Let $G=(V, \\Sigma, S, P)$ be a context-free grammar in Chomsky Normal Form with $\\Sigma=\\{a, b, c\\}$ and $V$ containing $10$ variable symbols including the start symbol $S$. The string $w=a^{30} b^{30} c^{30}$ is derivable from $S$. The number of steps (application of rules) in the derivation $S \\rightarrow^* w$ is __________.",
+        "options": [],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": "two-marks",
+        "marks": null,
+        "tags": [
+            "/compiler-design",
+            "/tag/gatecse2024-set1",
+            "/tag/numerical-answers",
+            "/tag/compiler-design",
+            "/tag/grammar",
+            "/tag/two-marks"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/422793/gate-cse-2024-set-1-question-49",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/422793/gate-cse-2024-set-1-question-49",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "1",
+        "year": 2023,
+        "questionNumber": 1,
+        "subject": "Compiler Design",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "Consider the following statements regarding the front-end and back-end of a compiler.\nS1: The front-end includes phases that are independent of the target hardware.\nS2: The back-end includes phases that are specific to the target hardware.\nS3: The back-end includes phases that are specific to the programming language used in the source code.\nIdentify the CORRECT option.",
+        "options": [
+            "Only $\\mathbf{S 1}$ is TRUE.",
+            "Only $\\mathbf{S 1}$ and $\\mathbf{S 2}$ are TRUE.",
+            "$\\mathbf{S 1}, \\mathbf{S 2}$, and $\\mathbf{S 3}$ are all TRUE.",
+            "Only $\\mathbf{S 1}$ and $\\mathbf{S 3}$ are TRUE."
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/compiler-design",
+            "/tag/gatecse-2023",
+            "/tag/compiler-design",
+            "/tag/compilation-phases",
+            "/tag/one-mark"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/399311/gate-cse-2023-question-1",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/399311/gate-cse-2023-question-1",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "26",
+        "year": 2023,
+        "questionNumber": 26,
+        "subject": "Compiler Design",
+        "topic": "two-marks",
+        "questionType": "multiple-choice",
+        "question": "Consider the following program:int main() \n{\n    f1 ();\n    f2(2);\n    f3();\n    return (0);\n} int f1 ()\n{\n    return(1);\n} int f2 (int X)\n{\n    f3();\n    if (X==1);\n        return f1 ();\n    else\n        return (X * f2 (X - 1));\n    \n} int f3 ()\n{\n    return (5);\n} Which one of the following options represents the activation tree corresponding to the main function?",
+        "options": [],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": "two-marks",
+        "marks": null,
+        "tags": [
+            "/compiler-design",
+            "/tag/gatecse-2023",
+            "/tag/compiler-design",
+            "/tag/runtime-environment",
+            "/tag/two-marks"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/399285/gate-cse-2023-question-26",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/399285/gate-cse-2023-question-26",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "27",
+        "year": 2023,
+        "questionNumber": 27,
+        "subject": "Compiler Design",
+        "topic": "two-marks",
+        "questionType": "multiple-choice",
+        "question": "Consider the control flow graph shown.\n\nWhich one of the following choices correctly lists the set of live variables at the exit point of each basic block?",
+        "options": [
+            "$\\text{B1: { }, B2: {a}, B3: {a}, B4: {a}}$",
+            "$\\text{B1: {i, j}, B2: {a}, B3: {a}, B4: {i}}$",
+            "$\\text{B1: {a, i, j}, B2: {a, i, j}, B3: {a, i}, B4: {a}}$",
+            "$\\text{B1: {a, i, j}, B2: {a, j}, B3: {a, j}, B4: {a, i, j}}$"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": "two-marks",
+        "marks": null,
+        "tags": [
+            "/compiler-design",
+            "/tag/gatecse-2023",
+            "/tag/compiler-design",
+            "/tag/live-variable-analysis",
+            "/tag/two-marks"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/399284/gate-cse-2023-question-27",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/399284/gate-cse-2023-question-27",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "50",
+        "year": 2023,
+        "questionNumber": 50,
+        "subject": "Compiler Design",
+        "topic": "two-marks",
+        "questionType": "multiple-choice",
+        "question": "Consider the syntax directed translation given by the following grammar and semantic rules. Here $N, I, F$ and $B$ are non-terminals. $N$ is the starting non-terminal, and $\\#, \\mathbf{0}$ and $\\mathbf{1}$ are lexical tokens corresponding to input letters $\\text{“#\", “0\" and “1\"},$ respectively. $X.val$ denotes the synthesized attribute (a numeric value) associated with a non-terminal $X. \\;I_{1}$ and $F_{1}$ denote occurrences of $I$ and $F$ on the right hand side of a production, respectively. For the tokens $\\mathbf{0}$ and $\\mathbf{1}, \\mathbf{0} . v a l=0$ and $\\mathbf{1}.val =1$.\n\\[\n\\begin{array}{ll}\nN \\rightarrow I \\# F &  N.val =I . v a l+F . v a l \\\\\nI\\rightarrow I_{1} B &  I.val =\\left(2 I_{1} . v a l\\right)+B.val  \\\\\nI \\rightarrow  B & I.val =\\text { B.val } \\\\\nF \\rightarrow B F_{1} & F.val =\\frac{1}{2}\\left(B . v a l+F_{1} . v a l\\right) \\\\\nF \\rightarrow B & \\text { F.val }=\\frac{1}{2} B.val  \\\\\nB \\rightarrow \\mathbf{0} & B . v a l=\\mathbf{0} . v a l \\\\\nB \\rightarrow \\mathbf{1}  & B . v a l=\\mathbf{1} . v a l \\\\\n\\end{array}\n\\]\nThe value computed by the translation scheme for the input string\n$$10\\#011$$\nis ____________. (Rounded off to three decimal places)",
+        "options": [],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": "two-marks",
+        "marks": null,
+        "tags": [
+            "/compiler-design",
+            "/tag/gatecse-2023",
+            "/tag/compiler-design",
+            "/tag/syntax-directed-translation",
+            "/tag/numerical-answers",
+            "/tag/two-marks"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/399261/gate-cse-2023-question-50",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/399261/gate-cse-2023-question-50",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "3",
+        "year": 2022,
+        "questionNumber": 3,
+        "subject": "Compiler Design",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "Which one of the following statements is $\\text{TRUE}?$The $\\textit{LALR}(1)$ parser for a grammar $\\textit{G}$ cannot have reduce-reduce conflict if the $\\textit{LR}(1)$ parser for $\\textit{G}$ does not have reduce-reduce conflict.Symbol table is accessed only during the lexical analysis phase.Data flow analysis is necessary for run-time memory management.$\\textit{LR}(1)$ parsing is sufficient for deterministic context-free languages.",
+        "options": [],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/compiler-design",
+            "/tag/gatecse-2022",
+            "/tag/compiler-design",
+            "/tag/parsing",
+            "/tag/one-mark",
+            "/tag/lr-parser"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/371933/gate-cse-2022-question-3",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/371933/gate-cse-2022-question-3",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "19",
+        "year": 2022,
+        "questionNumber": 19,
+        "subject": "Compiler Design",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "Consider the augmented grammar with $\\{ +, {\\ast}, (,),\\text{id} \\}$ as the set of terminals.\n\n$S’ \\rightarrow S$\n$S \\rightarrow S + R\\; |\\; R$\n$R \\rightarrow R {\\ast} P \\;| \\;P$\n$P \\rightarrow (S)\\; |\\; \\text{id} $",
+        "options": [
+            "If $I_{0}$ is the set of two $\\textit{LR}(0)$ items $\\{ [S’ \\rightarrow S.], [S \\rightarrow S. + R] \\}$, then $\\textit{goto(closure}(I_{0}), +)$ contains exactly ______________ items."
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/compiler-design",
+            "/tag/gatecse-2022",
+            "/tag/numerical-answers",
+            "/tag/compiler-design",
+            "/tag/parsing",
+            "/tag/lr-parser",
+            "/tag/one-mark"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/371917/gate-cse-2022-question-19",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/371917/gate-cse-2022-question-19",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "55",
+        "year": 2022,
+        "questionNumber": 55,
+        "subject": "Compiler Design",
+        "topic": "two-marks",
+        "questionType": "multiple-choice",
+        "question": "Consider the following grammar along with translation rules.\n$$\\begin{aligned} & S \\rightarrow S_{1} \\# T \\qquad \\{S._{\\text{val}} =S_{1}. _{\\text{val}} \\; ^{\\ast} T._{\\text{val}}\\}\\\\ & S \\rightarrow T \\qquad \\qquad \\{S._{\\text{val}} = T._{\\text{val}}\\}\\\\  & T \\rightarrow T_{1} \\% R \\qquad  \\{T._{\\text{val}} =T_{1}._{\\text{val}} ÷ R._{\\text{val}}\\}\\\\  & T \\rightarrow R \\qquad \\qquad \\{T._{\\text{val}} = R._{\\text{val}}\\} \\\\ & R \\rightarrow \\text{id} \\qquad \\qquad \\{R._{\\text{val}} = \\text{id}._{\\text{val}}\\} \\end{aligned}$$\nHere $\\#$ and $\\%$ are operators and $\\text{id}$ is a token that represents an integer and $\\text{id}._{\\text{val}}$ represents the corresponding integer value. The set of non-terminals is $\\{\\text{S, T, R, P}\\}$ and a subscripted non-terminal indicates an instance of the non-terminal.",
+        "options": [
+            "Using this translation scheme, the computed value of $S._{\\text{val}}$ for root of the parse tree for the expression $20 \\# 10 \\% 5 \\# 8 \\% 2 \\% 2$ is ________________."
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": "two-marks",
+        "marks": null,
+        "tags": [
+            "/compiler-design",
+            "/tag/gatecse-2022",
+            "/tag/numerical-answers",
+            "/tag/compiler-design",
+            "/tag/syntax-directed-translation",
+            "/tag/two-marks"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/371881/gate-cse-2022-question-55",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/371881/gate-cse-2022-question-55",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "17b",
+        "year": null,
+        "questionNumber": null,
+        "subject": "Compiler Design",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "State whether the following statements are True or False with reasons for your answer:",
+        "options": [
+            "A two pass assembler uses its machine opcode table in the first pass of assembly."
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/compiler-design",
+            "/tag/gate1994",
+            "/tag/compiler-design",
+            "/tag/normal",
+            "/tag/assembler",
+            "/tag/true-false",
+            "/tag/descriptive"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/360171/gate-cse-1994-question-17b",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/360171/gate-cse-1994-question-17b",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "18b",
+        "year": null,
+        "questionNumber": null,
+        "subject": "Compiler Design",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "State whether the following statements are True or False with reasons for your answer",
+        "options": [
+            "A symbol declared as ‘external’ in an assembly language program is assigned an address outside the program by the assembler itself."
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/compiler-design",
+            "/tag/gate1994",
+            "/tag/compiler-design",
+            "/tag/normal",
+            "/tag/assembler",
+            "/tag/true-false",
+            "/tag/descriptive"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/360170/gate-cse-1994-question-18b",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/360170/gate-cse-1994-question-18b",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "3",
+        "year": 2021,
+        "questionNumber": 3,
+        "subject": "Compiler Design",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "Consider the following $\\text{ANSI C}$ program:\n\nint main () {\n    Integer x;\n    return 0;\n}\nWhich one of the following phases in a seven-phase $C$ compiler will throw an error?",
+        "options": [
+            "Lexical analyzer",
+            "Syntax analyzer",
+            "Semantic analyzer",
+            "Machine dependent optimizer"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/compiler-design",
+            "/tag/gatecse-2021-set2",
+            "/tag/compilation-phases",
+            "/tag/compiler-design",
+            "/tag/one-mark"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/357537/gate-cse-2021-set-2-question-3",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/357537/gate-cse-2021-set-2-question-3",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "13",
+        "year": 2021,
+        "questionNumber": 13,
+        "subject": "Compiler Design",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "In the context of compilers, which of the following is/are $\\text{NOT}$ an intermediate representation of the source program?Three address codeAbstract Syntax Tree $\\text{(AST)}$Control Flow Graph $\\text{(CFG)}$Symbol table",
+        "options": [],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/compiler-design",
+            "/tag/gatecse-2021-set2",
+            "/tag/multiple-selects",
+            "/tag/compiler-design",
+            "/tag/easy",
+            "/tag/intermediate-code",
+            "/tag/one-mark"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/357527/gate-cse-2021-set-2-question-13",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/357527/gate-cse-2021-set-2-question-13",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "30",
+        "year": 2021,
+        "questionNumber": 30,
+        "subject": "Compiler Design",
+        "topic": "two-marks",
+        "questionType": "multiple-choice",
+        "question": "​​​​​​Consider the following $\\text{ANSI C}$ code segment:\n\nz=x + 3 + y->f1 + y->f2;\nfor (i = 0; i < 200; i = i + 2) \n{\n    if (z > i) \n    {\n        p = p + x + 3;\n        q = q + y->f1;\n    } else \n    {\n        p = p + y->f2;\n        q = q + x + 3;\n    }\n}\nAssume that the variable $y$ points to a $\\textsf{struct}$ (allocated on the heap) containing two fields $\\textsf{f1}$ and $\\textsf{f2}$, and the local variables $\\textsf{x, y, z, p, q,}$ and $\\textsf{i}$ are allotted registers. Common sub-expression elimination $\\text{(CSE)}$ optimization is applied on the code. The number of addition and the dereference operations (of the form $\\textsf{ y ->f1}$ or $\\textsf{y ->f2}$) in the optimized code, respectively, are:",
+        "options": [
+            "$403$ and $102$",
+            "$203$ and $2$",
+            "$303$ and $102$",
+            "$303$ and $2$"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": "two-marks",
+        "marks": null,
+        "tags": [
+            "/compiler-design",
+            "/tag/gatecse-2021-set2",
+            "/tag/code-optimization",
+            "/tag/compiler-design",
+            "/tag/two-marks"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/357510/gate-cse-2021-set-2-question-30",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/357510/gate-cse-2021-set-2-question-30",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "38",
+        "year": 2021,
+        "questionNumber": 38,
+        "subject": "Compiler Design",
+        "topic": "two-marks",
+        "questionType": "multiple-choice",
+        "question": "For a statement $S$ in a program, in the context of liveness analysis, the following sets are defined:\n$\\text{USE}(S)$ : the set of variables used in $S$\n$\\text{IN}(S)$ : the set of variables that are live at the entry of $S$\n$\\text{OUT}(S)$ : the set of variables that are live at the exit of $S$\nConsider a basic block that consists of two statements, $S_1$ followed by $S_2$. Which one of the following statements is correct?",
+        "options": [
+            "$\\text{OUT($S_1$)} = \\text{IN ($S_2$)}$",
+            "$\\text{OUT ($S_1$)} = \\text{IN ($S_1$)} \\cup \\text{ USE ($S_1$)}$",
+            "$\\text{OUT ($S_1$)} = \\text{IN ($S_2$) }\\cup \\text{ OUT ($S_2$)}$",
+            "$\\text{OUT ($S_1$)} = \\text{USE ($S_1$)} \\cup \\text{IN ($S_2$)}$"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": "two-marks",
+        "marks": null,
+        "tags": [
+            "/compiler-design",
+            "/tag/gatecse-2021-set2",
+            "/tag/code-optimization",
+            "/tag/live-variable-analysis",
+            "/tag/compiler-design",
+            "/tag/two-marks"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/357502/gate-cse-2021-set-2-question-38",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/357502/gate-cse-2021-set-2-question-38",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "51",
+        "year": 2021,
+        "questionNumber": 51,
+        "subject": "Compiler Design",
+        "topic": "two-marks",
+        "questionType": "multiple-choice",
+        "question": "Consider the following augmented grammar with $\\{ \\#, @, <, >, a, b, c \\}$ as the set of terminals. $$\\begin{array}{l} S’ \\rightarrow S \\\\ S \\rightarrow S \\# cS \\\\ S \\rightarrow SS \\\\ S \\rightarrow S @ \\\\ S \\rightarrow < S > \\\\ S \\rightarrow a \\\\ S \\rightarrow b \\\\ S \\rightarrow c \\end{array}$$Let $I_0 = \\text{CLOSURE}(\\{S’ \\rightarrow \\bullet S\\})$. The number of items in the set $\\text{GOTO(GOTO}(I_0<), <)$ is ___________",
+        "options": [],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": "two-marks",
+        "marks": null,
+        "tags": [
+            "/compiler-design",
+            "/tag/gatecse-2021-set2",
+            "/tag/compiler-design",
+            "/tag/lr-parser",
+            "/tag/numerical-answers",
+            "/tag/two-marks"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/357486/gate-cse-2021-set-2-question-51",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/357486/gate-cse-2021-set-2-question-51",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "4",
+        "year": 2021,
+        "questionNumber": 4,
+        "subject": "Compiler Design",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "Consider the following statements.\n\n$S_1:$ The sequence of procedure calls corresponds to a preorder traversal of the activation tree.\n$S_2:$ The sequence of procedure returns corresponds to a postorder traversal of the activation tree.\n\nWhich one of the following options is correct?",
+        "options": [
+            "$S_1$ is true and $S_2$ is false",
+            "$S_1$ is false and $S_2$ is true",
+            "$S_1$ is true and $S_2$ is true",
+            "$S_1$ is false and $S_2$ is false"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/compiler-design",
+            "/tag/gatecse-2021-set1",
+            "/tag/runtime-environment",
+            "/tag/normal",
+            "/tag/one-mark"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/357448/gate-cse-2021-set-1-question-4",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/357448/gate-cse-2021-set-1-question-4",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "5",
+        "year": 2021,
+        "questionNumber": 5,
+        "subject": "Compiler Design",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "Consider the following statements.\n\n$S_1:$ Every $\\text{SLR(1)}$ grammar is unambiguous but there are certain unambiguous grammars that are not $\\text{SLR(1)}$.\n$S_2:$ For any context-free grammar, there is a parser that takes at most $O(n^3)$ time to parse a string of length $n$.\n\nWhich one of the following options is correct?",
+        "options": [
+            "$S_1$ is true and $S_2$ is false",
+            "$S_1$ is false and $S_2$ is true",
+            "$S_1$ is true and $S_2$ is true",
+            "$S_1$ is false and $S_2$ is false"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/compiler-design",
+            "/tag/gatecse-2021-set1",
+            "/tag/compiler-design",
+            "/tag/lr-parser",
+            "/tag/one-mark"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/357447/gate-cse-2021-set-1-question-5",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/357447/gate-cse-2021-set-1-question-5",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "26",
+        "year": 2021,
+        "questionNumber": 26,
+        "subject": "Compiler Design",
+        "topic": "two-marks",
+        "questionType": "multiple-choice",
+        "question": "​​​Consider the following grammar (that admits a series of declarations, followed by expressions) and the associated syntax directed translation $\\text{(SDT)}$ actions, given as pseudo-code\n$\\begin{array}{lll} P & \\rightarrow & D^* E^* \\\\ D & \\rightarrow & \\textsf{int ID} \\{ \\text{record that } \\textsf{ID.} \\text{lexeme is of type} \\textsf{ int\\}} \\\\  D & \\rightarrow & \\textsf{bool ID} \\{ \\text{record that } \\textsf{ID.} \\text{lexeme is of type} \\textsf{ bool\\}}  \\\\ E& \\rightarrow & E_1 +E_2 \\{ \\text{check that } E_1. \\text{type}=E_2. \\text{type} = \\textsf{int}; \\text{set }  E.\\text{type }:= \\textsf{int} \\} \\\\ E & \\rightarrow & !E_1 \\{ \\text{check that } E_1. \\text{type} = \\textsf{bool}; \\text{ set } E.\\text{type} := \\textsf{bool} \\} \\\\ E & \\rightarrow & \\textsf{ID} \\{ \\text{set } E. \\text{type } := \\textsf{int} \\} \\end{array}$\nWith respect to the above grammar, which one of the following choices is correct?",
+        "options": [
+            "The actions can be used to correctly type-check any syntactically correct program",
+            "The actions can be used to type-check syntactically correct integer variable declarations and integer expressions",
+            "The actions can be used to type-check syntactically correct boolean variable declarations and boolean expressions.",
+            "The actions will lead to an infinite loop"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": "two-marks",
+        "marks": null,
+        "tags": [
+            "/compiler-design",
+            "/tag/gatecse-2021-set1",
+            "/tag/compiler-design",
+            "/tag/syntax-directed-translation",
+            "/tag/two-marks"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/357425/gate-cse-2021-set-1-question-26",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/357425/gate-cse-2021-set-1-question-26",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "31",
+        "year": 2021,
+        "questionNumber": 31,
+        "subject": "Compiler Design",
+        "topic": "two-marks",
+        "questionType": "multiple-choice",
+        "question": "Consider the following context-free grammar where the set of terminals is $\\{a,b,c,d,f\\}$. $$\\begin{array}{lll} \\text{S} & \\rightarrow & d \\: a \\: \\text{T} \\mid \\text{R} \\: f \\\\ \\text{T} & \\rightarrow & a \\: \\text{S} \\: \\mid \\: b \\: a \\: \\text{T} \\: \\mid \\epsilon \\\\ \\text{R} & \\rightarrow & c \\: a \\: \\text{T} \\: \\text{R} \\: \\mid \\epsilon \\end{array}$$\nThe following is a partially-filled $\\textsf{LL(1)}$ parsing table.$$\\begin{array} {c c c }  & a & b & c & d & f & \\$ \\\\\\hline  \\text{S} & & & \\boxed{1} & \\text{S} \\rightarrow da \\text{T} & \\boxed{2} & \\\\\\hline \\text{T} & \\text{T} \\rightarrow a\\text{S} & \\text{T} \\rightarrow ba\\text{T} & \\boxed{3} &  & \\text{T} \\rightarrow \\varepsilon & \\boxed{4}\\\\\\hline \\text{R} &  & & \\text{R} \\rightarrow ca\\text{T}\\text{R} & &   \\text{R} \\rightarrow \\varepsilon &  \\end{array}$$ Which one of the following choices represents the correct combination for the numbered cells in the parsing table (“blank” denotes that the corresponding cell is empty)?",
+        "options": [
+            "$\\boxed{1}\\;\\text{S} \\rightarrow \\text{R}f \\qquad \\boxed{2}\\;\\text{S} \\rightarrow \\text{R}f \\qquad \\boxed{3}\\; \\text{T} \\rightarrow \\varepsilon \\qquad \\boxed{4}\\;\\text{T} \\rightarrow \\varepsilon$",
+            "$\\boxed{1}\\;\\text{blank} \\qquad \\boxed{2}\\;\\text{S} \\rightarrow \\text{R}f \\qquad \\boxed{3}\\; \\text{T} \\rightarrow \\varepsilon \\qquad \\boxed{4}\\;\\text{T} \\rightarrow \\varepsilon$",
+            "$\\boxed{1}\\;\\text{S} \\rightarrow \\text{R}f  \\qquad \\boxed{2}\\;\\text{blank} \\qquad \\boxed{3}\\; \\text{blank} \\qquad \\boxed{4}\\;\\text{T} \\rightarrow \\varepsilon$",
+            "$\\boxed{1}\\;\\text{blank} \\qquad \\boxed{2}\\;\\text{S} \\rightarrow \\text{R}f \\qquad \\boxed{3}\\; \\text{blank} \\qquad \\boxed{4}\\;\\text{blank} $"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": "two-marks",
+        "marks": null,
+        "tags": [
+            "/compiler-design",
+            "/tag/gatecse-2021-set1",
+            "/tag/compiler-design",
+            "/tag/grammar",
+            "/tag/two-marks"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/357420/gate-cse-2021-set-1-question-31",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/357420/gate-cse-2021-set-1-question-31",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "50",
+        "year": 2021,
+        "questionNumber": 50,
+        "subject": "Compiler Design",
+        "topic": "two-marks",
+        "questionType": "multiple-choice",
+        "question": "Consider the following $C$ code segment:",
+        "options": [
+            "a = b + c;",
+            "e = a + 1;",
+            "d = b + c;",
+            "f = d + 1;",
+            "g = e + f;",
+            "In a compiler, this code segment is represented internally as a directed acyclic graph $\\text{(DAG)}$. The number of nodes in the $\\text{DAG}$ is _____________"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": "two-marks",
+        "marks": null,
+        "tags": [
+            "/compiler-design",
+            "/tag/gatecse-2021-set1",
+            "/tag/compiler-design",
+            "/tag/code-optimization",
+            "/tag/directed-acyclic-graph",
+            "/tag/numerical-answers",
+            "/tag/two-marks"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/357401/gate-cse-2021-set-1-question-50",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/357401/gate-cse-2021-set-1-question-50",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "9",
+        "year": 2020,
+        "questionNumber": 9,
+        "subject": "Compiler Design",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "Consider the following statements.\n\nSymbol table is accessed only during lexical analysis and syntax analysis.\nCompilers for programming languages that support recursion necessarily need heap storage for memory allocation in the run-time environment.\nErrors violating the condition ‘any variable must be declared before its use’ are detected during syntax analysis.\n\n  Which of the above statements is/are TRUE?",
+        "options": [
+            "I only",
+            "I and III only",
+            "Ⅱ only",
+            "None of  Ⅰ, Ⅱ and  Ⅲ"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/compiler-design",
+            "/tag/gatecse-2020",
+            "/tag/compiler-design",
+            "/tag/compilation-phases",
+            "/tag/runtime-environment",
+            "/tag/one-mark"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/333222/gate-cse-2020-question-9",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/333222/gate-cse-2020-question-9",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "24",
+        "year": 2020,
+        "questionNumber": 24,
+        "subject": "Compiler Design",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "Consider the following  grammar.\n\n$S \\rightarrow aSB \\mid d$\n$B \\rightarrow b$",
+        "options": [
+            "The number of reduction steps taken by a bottom-up parser while accepting the string $aaadbbb$ is ___________."
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/compiler-design",
+            "/tag/gatecse-2020",
+            "/tag/numerical-answers",
+            "/tag/compiler-design",
+            "/tag/lr-parser",
+            "/tag/one-mark"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/333207/gate-cse-2020-question-24",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/333207/gate-cse-2020-question-24",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "33",
+        "year": 2020,
+        "questionNumber": 33,
+        "subject": "Compiler Design",
+        "topic": "two-marks",
+        "questionType": "multiple-choice",
+        "question": "Consider the productions $A \\rightarrow PQ$ and $A \\rightarrow  XY$. Each of the five non-terminals $A, P, Q, X,$ and $Y$ has two attributes: $s$ is a synthesized attribute, and $i$ is an inherited attribute. Consider the following rules.\n\nRule $1: P . i = A.i + 2, \\: Q.i = P. i + A.i,$ and $A.s = P.s +Q. s$\nRule $2: X.i = A.i + Y.s$ and $Y. i = X. s +A .i$\n\nWhich one of the following is TRUE?",
+        "options": [
+            "Both Rule $1$ and Rule $2$ are $L$-attributed.",
+            "Only Rule $1$ is $L$-attributed.",
+            "Only Rule $2$ is $L$-attributed.",
+            "Neither Rule $1$ nor Rule $2$ is $L$-attributed."
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": "two-marks",
+        "marks": null,
+        "tags": [
+            "/compiler-design",
+            "/tag/gatecse-2020",
+            "/tag/compiler-design",
+            "/tag/syntax-directed-translation",
+            "/tag/two-marks"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/333198/gate-cse-2020-question-33",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/333198/gate-cse-2020-question-33",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "3",
+        "year": 2019,
+        "questionNumber": 3,
+        "subject": "Compiler Design",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "Which one of the following kinds of derivation is used by LR parsers?LeftmostLeftmost in reverseRightmostRightmost in reverse",
+        "options": [],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/compiler-design",
+            "/tag/gatecse-2019",
+            "/tag/compiler-design",
+            "/tag/parsing",
+            "/tag/one-mark",
+            "/tag/lr-parser"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/302845/gate-cse-2019-question-3",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/302845/gate-cse-2019-question-3",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "19",
+        "year": 2019,
+        "questionNumber": 19,
+        "subject": "Compiler Design",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "Consider the grammar given below:$S \\rightarrow Aa$$A \\rightarrow BD$$B \\rightarrow b \\mid \\epsilon $$D \\rightarrow d \\mid \\epsilon $Let $a,b,d$ and $\\$$ be indexed as follows:$$\\begin{array}{|l|l|l|l|} \\hline a & b & d & \\$ \\\\ \\hline 3 & 2 & 1 & 0 \\\\ \\hline \\end{array}$$Compute the FOLLOW set of the non-terminal B and write the index values for the symbols in the FOLLOW set in the descending order.(For example, if the FOLLOW set is $(a,b,d, \\$)$ , then the answer should be $3210$)",
+        "options": [],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/compiler-design",
+            "/tag/gatecse-2019",
+            "/tag/numerical-answers",
+            "/tag/compiler-design",
+            "/tag/parsing",
+            "/tag/one-mark",
+            "/tag/first-and-follow"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/302829/gate-cse-2019-question-19",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/302829/gate-cse-2019-question-19",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "36",
+        "year": 2019,
+        "questionNumber": 36,
+        "subject": "Compiler Design",
+        "topic": "two-marks",
+        "questionType": "multiple-choice",
+        "question": "Consider the following grammar and the semantic actions to support the inherited type declaration attributes. Let $X_1, X_2, X_3, X_4, X_5$, and $X_6$ be the placeholders for the non-terminals $D, T, L$ or $L_1$ in the following table:\n$$\\begin{array}{|l|l|} \\hline  \\text{Production rule} & \\text{Semantic action} \\\\ \\hline D \\rightarrow T L & X_1.\\text{type} = X_2.\\text{type} \\\\ \\hline T \\rightarrow \\text{int} & T.\\text{type} = \\text{int} \\\\ \\hline T \\rightarrow \\text{float} & T.\\text{type} = \\text{float} \\\\ \\hline\nL \\rightarrow L_1, id & X_3.\\text{type}= X_4.\\text{type}  \\\\ \n&\\text{addType}(id. \\text{entry}, X_5.\\text{type})\\\\ \\hline\nL \\rightarrow id & \\text{addType}(id. \\text{entry}, X_6.\\text{type}) \\\\ \\hline \\end{array}$$\nWhich one of the following are appropriate choices for $X_1, X_2, X_3$ and $X_4$?",
+        "options": [
+            "$X_1=L, \\: X_2=T, \\: X_3=L_1, \\: X_4 = L$",
+            "$X_1=T, \\: X_2=L, \\: X_3=L_1, \\: X_4 = T$",
+            "$X_1=L, \\: X_2=L, \\: X_3=L_1, \\: X_4 = T$",
+            "$X_1=T, \\: X_2=L, \\: X_3=T, \\: X_4 = L_1$"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": "two-marks",
+        "marks": null,
+        "tags": [
+            "/compiler-design",
+            "/tag/gatecse-2019",
+            "/tag/compiler-design",
+            "/tag/syntax-directed-translation",
+            "/tag/two-marks"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/302812/gate-cse-2019-question-36",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/302812/gate-cse-2019-question-36",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "43",
+        "year": 2019,
+        "questionNumber": 43,
+        "subject": "Compiler Design",
+        "topic": "two-marks",
+        "questionType": "multiple-choice",
+        "question": "Consider the augmented grammar given below:\n\n$S’ \\rightarrow S$\n$S \\rightarrow \\langle L \\rangle \\mid id$\n$L \\rightarrow L, S \\mid S$",
+        "options": [
+            "Let $I_0 = \\text{CLOSURE} (\\{[S’ \\rightarrow \\cdot S ]\\}).$ The number of items in the set $\\text{GOTO} (I_0, \\langle \\: )$ is______"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": "two-marks",
+        "marks": null,
+        "tags": [
+            "/compiler-design",
+            "/tag/gatecse-2019",
+            "/tag/numerical-answers",
+            "/tag/compiler-design",
+            "/tag/grammar",
+            "/tag/two-marks"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/302805/gate-cse-2019-question-43",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/302805/gate-cse-2019-question-43",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "38",
+        "year": 2018,
+        "questionNumber": 38,
+        "subject": "Compiler Design",
+        "topic": "two-marks",
+        "questionType": "multiple-choice",
+        "question": "Consider the following parse tree for the expression a#b$\\$$c$\\$$d#e#f, involving two binary operators $\\$$  and #.\n\nWhich one of the following is correct for the given parse tree?",
+        "options": [
+            "$ has higher precedence and is left associative; # is right associative",
+            "# has higher precedence and is left associative; $ is right associative",
+            "$ has higher precedence and is left associative; # is left associative",
+            "$ has higher precedence and is right associative; # is left associative"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": "two-marks",
+        "marks": null,
+        "tags": [
+            "/compiler-design",
+            "/tag/gatecse-2018",
+            "/tag/compiler-design",
+            "/tag/parsing",
+            "/tag/normal",
+            "/tag/two-marks"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/204112/gate-cse-2018-question-38",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/204112/gate-cse-2018-question-38",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "37",
+        "year": 2018,
+        "questionNumber": 37,
+        "subject": "Compiler Design",
+        "topic": "two-marks",
+        "questionType": "multiple-choice",
+        "question": "A lexical analyzer uses the following patterns to recognize three tokens $T_1, T_2$, and $T_3$ over the alphabet $\\{a, b, c\\}$.\n\n$T_1: a?(b \\mid c)^\\ast a$\n$T_2: b?(a \\mid c)^\\ast b$\n$T_3: c?(b \\mid a)^\\ast c$\n\nNote that ‘$x?$’ means $0$ or $1$ occurrence of the symbol $x.$ Note also that the analyzer outputs the token that matches the longest possible prefix.\nIf the string $bbaacabc$ is processed by the analyzer, which one of the following is the sequence of tokens it outputs?",
+        "options": [
+            "$T_1T_2T_3$",
+            "$T_1T_1T_3$",
+            "$T_2T_1T_3$",
+            "$T_3T_3$"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": "two-marks",
+        "marks": null,
+        "tags": [
+            "/compiler-design",
+            "/tag/gatecse-2018",
+            "/tag/compiler-design",
+            "/tag/lexical-analysis",
+            "/tag/normal",
+            "/tag/two-marks"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/204111/gate-cse-2018-question-37",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/204111/gate-cse-2018-question-37",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "8",
+        "year": 2018,
+        "questionNumber": 8,
+        "subject": "Compiler Design",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "Which one of the following statements is FALSE?",
+        "options": [
+            "Context-free grammar can be used to specify both lexical and syntax rules",
+            "Type checking is done before parsing",
+            "High-level language programs can be translated to different Intermediate Representations",
+            "Arguments to a function can be passed using the program stack"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/compiler-design",
+            "/tag/gatecse-2018",
+            "/tag/compiler-design",
+            "/tag/easy",
+            "/tag/compilation-phases",
+            "/tag/one-mark"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/204082/gate-cse-2018-question-8",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/204082/gate-cse-2018-question-8",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "52",
+        "year": 2017,
+        "questionNumber": 52,
+        "subject": "Compiler Design",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "Consider the expression $(a-1) * (((b+c)/3)+d)$. Let $X$ be the minimum number of registers required by an optimal code generation (without any register spill) algorithm for a load/store architecture, in which \n\n only load and store instructions can have memory operands and \n arithmetic instructions can have only register or immediate operands.",
+        "options": [
+            "​​​​​​​The value of $X$ is _____________ ."
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/compiler-design",
+            "/tag/gatecse-2017-set1",
+            "/tag/compiler-design",
+            "/tag/register-allocation",
+            "/tag/normal",
+            "/tag/numerical-answers"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/118746/gate-cse-2017-set-1-question-52",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/118746/gate-cse-2017-set-1-question-52",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "05",
+        "year": 2017,
+        "questionNumber": 5,
+        "subject": "Compiler Design",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "Match the following according to input (from the left column) to the compiler phase (in the right column) that processes it:\n$$\\begin{array}{|l|l|}\\hline \\text{P. Syntax tree}  &  \\text{i. Code generator} \\\\\\hline  \\text{Q. Character stream} & \\text{ii. Syntax analyser} \\\\\\hline  \\text{R. Intermediate representation} & \\text{iii. Semantic analyser} \\\\\\hline  \\text{S. Token stream} & \\text{iv. Lexical analyser} \\\\\\hline \\end{array}$$",
+        "options": [
+            "$\\text{P-ii; Q-iii; R-iv; S-i}$",
+            "$\\text{P-ii; Q-i; R-iii; S-iv}$",
+            "$\\text{P-iii; Q-iv; R-i; S-ii}$",
+            "$\\text{P-i; Q-iv; R-ii; S-iii}$"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/compiler-design",
+            "/tag/gatecse-2017-set2",
+            "/tag/compiler-design",
+            "/tag/match-the-following",
+            "/tag/compilation-phases",
+            "/tag/easy"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/118592/gate-cse-2017-set-2-question-05",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/118592/gate-cse-2017-set-2-question-05",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "32",
+        "year": 2017,
+        "questionNumber": 32,
+        "subject": "Compiler Design",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "Consider the following expression grammar $G$:\n\n$E \\rightarrow E-T \\mid T$\n$T \\rightarrow T + F \\mid F$\n$F \\rightarrow (E) \\mid id$\n\nWhich of the following grammars is not left recursive, but is equivalent to $G$?\n\n\n$E \\rightarrow E-T \\mid T$\n$T  \\rightarrow T +F \\mid F$\n\t$F \\rightarrow (E) \\mid id$\n\n$E \\rightarrow TE’$\n$E’ \\rightarrow -TE’ \\mid \\epsilon$\n$T \\rightarrow T + F \\mid F$\n$F \\rightarrow (E) \\mid id$\n\n\n$E \\rightarrow TX $\n$X \\rightarrow -TX \\mid \\epsilon$\n$T \\rightarrow FY$\n$Y \\rightarrow +FY \\mid \\epsilon$\n$F \\rightarrow (E) \\mid id$",
+        "options": [
+            "$E \\rightarrow TX \\mid (TX)$",
+            "$X \\rightarrow -TX \\mid +TX \\mid \\epsilon$",
+            "$T \\rightarrow  id$"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/compiler-design",
+            "/tag/gatecse-2017-set2",
+            "/tag/grammar"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/118374/gate-cse-2017-set-2-question-32",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/118374/gate-cse-2017-set-2-question-32",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "6",
+        "year": 2017,
+        "questionNumber": 6,
+        "subject": "Compiler Design",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "Which of the following statements about parser is/are CORRECT?$\\text{Canonical LR}$ is more powerful than $\\text{SLR}$$\\text{SLR}$ is more powerful than $\\text{LALR}$$\\text{SLR}$ is more powerful than $\\text{Canonical LR}$I onlyII onlyIII onlyII and III only",
+        "options": [],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/compiler-design",
+            "/tag/gatecse-2017-set2",
+            "/tag/compiler-design",
+            "/tag/parsing",
+            "/tag/lr-parser"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/118343/gate-cse-2017-set-2-question-6",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/118343/gate-cse-2017-set-2-question-6",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "43",
+        "year": 2017,
+        "questionNumber": 43,
+        "subject": "Compiler Design",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "Consider the following grammar:\n\nstmt $\\rightarrow$ if expr then expr else expr; stmt | $Ò$\nexpr $\\rightarrow$ term relop term | term\nterm $\\rightarrow$ id | number\nid $\\rightarrow$ a | b | c\nnumber $\\rightarrow [0-9]$",
+        "options": [
+            "where relop is a relational operator $($e.g., $< , >,\\ldots),$ $Ò$ refers to the empty statement, and if, then, else are terminals.",
+            "Consider a program $P$ following the above grammar containing ten if terminals. The number of control flow paths in $P$ is________ . For example. the program",
+            "if $e_1$ then $e_2$ else $e_3$",
+            "has $2$ control flow paths. $e_1 \\rightarrow e_2$ and $e_1 \\rightarrow e_3$."
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/compiler-design",
+            "/tag/gatecse-2017-set1",
+            "/tag/compiler-design",
+            "/tag/parsing",
+            "/tag/normal",
+            "/tag/numerical-answers"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/118326/gate-cse-2017-set-1-question-43",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/118326/gate-cse-2017-set-1-question-43",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "17",
+        "year": 2017,
+        "questionNumber": 17,
+        "subject": "Compiler Design",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "Consider the following grammar:$P\\rightarrow xQRS$$Q\\rightarrow yz\\mid z$$R\\rightarrow w\\mid \\varepsilon$$S\\rightarrow y$What is FOLLOW($Q$)?$\\left \\{ R \\right \\}$$\\left \\{ w \\right \\}$$\\left \\{ w,y \\right \\}$$\\left \\{ w,\\$ \\right \\}$",
+        "options": [],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/compiler-design",
+            "/tag/gatecse-2017-set1",
+            "/tag/compiler-design",
+            "/tag/parsing",
+            "/tag/easy",
+            "/tag/first-and-follow"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/118297/gate-cse-2017-set-1-question-17",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/118297/gate-cse-2017-set-1-question-17",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "12",
+        "year": 2017,
+        "questionNumber": 12,
+        "subject": "Compiler Design",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "Consider the following intermediate program in three address code\n\np = a - b\nq = p * c\np = u * v\nq = p + q\nWhich one of the following corresponds to a static single assignment form of the above code?\n\n\n\np1 = a  - b\nq1 = p1 * c\np1 = u  * v\nq1 = p1 + q1\n\n\n\np3 = a  - b\nq4 = p3 * c\np4 = u  * v\nq5 = p4 + q4\n\n\n\np1 = a  - b\nq1 = p2 * c\np3 = u  * v\nq2 = p4 + q3",
+        "options": [
+            "p1 = a - b",
+            "q1 = p * c",
+            "p2 = u * v",
+            "q2 = p + q"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/compiler-design",
+            "/tag/gatecse-2017-set1",
+            "/tag/compiler-design",
+            "/tag/intermediate-code",
+            "/tag/normal",
+            "/tag/static-single-assignment"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/118292/gate-cse-2017-set-1-question-12",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/118292/gate-cse-2017-set-1-question-12",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "10iia",
+        "year": null,
+        "questionNumber": null,
+        "subject": "Compiler Design",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "Translate the executable statements of the following Pascal Program into quadruples. Assume that integer and real values require four words each.",
+        "options": [
+            "repeat",
+            "flag[i]:=true;",
+            "while turn !=i",
+            "do begin",
+            "while flag[j] do skip",
+            "turn:=i;",
+            "end",
+            "critical section",
+            "flag[i]:=false;",
+            "until false",
+            "Program Test;",
+            "var i:integer;",
+            "a: array [1...10] of real;",
+            "begin   i:=0;",
+            "While   i:<=10 do",
+            "begin",
+            "a[i]:=0;",
+            "i:=i+1",
+            "end;",
+            "end."
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/compiler-design",
+            "/tag/gate1988",
+            "/tag/descriptive",
+            "/tag/compiler-design",
+            "/tag/intermediate-code",
+            "/tag/pascal",
+            "/tag/out-of-gatecse-syllabus"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/94392/gate-cse-1988-question-10iia",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/94392/gate-cse-1988-question-10iia",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "10ib",
+        "year": null,
+        "questionNumber": null,
+        "subject": "Compiler Design",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "Consider the following grammar:\n\n$S \\rightarrow S$\n$S \\rightarrow SS \\mid a \\mid \\epsilon$",
+        "options": [
+            "Indicate the shift-reduce and reduce-reduce conflict (if any) in the various states of the $\\text{LR(0)}$ parser."
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/compiler-design",
+            "/tag/gate1988",
+            "/tag/compiler-design",
+            "/tag/descriptive",
+            "/tag/grammar",
+            "/tag/parsing"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/94391/gate-cse-1988-question-10ib",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/94391/gate-cse-1988-question-10ib",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "10ia",
+        "year": null,
+        "questionNumber": null,
+        "subject": "Compiler Design",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "Consider the following grammar:\n\n$S \\rightarrow S$\n$S \\rightarrow SS \\mid a \\mid \\epsilon$",
+        "options": [
+            "Construct the collection of sets of $\\text{LR (0)}$ items for this grammar and draw its goto graph."
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/compiler-design",
+            "/tag/gate1988",
+            "/tag/compiler-design",
+            "/tag/descriptive",
+            "/tag/grammar",
+            "/tag/parsing"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/94390/gate-cse-1988-question-10ia",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/94390/gate-cse-1988-question-10ia",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "8i",
+        "year": null,
+        "questionNumber": null,
+        "subject": "Compiler Design",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "Consider the procedure declaration:\n\nProcedure\nP (k: integer)\nwhere the parameter passing mechanism is call-by-value-result. Is it correct if the call, P (A[i]), where A is an array and i an integer, is implemented as below.\n\ncreate a new local variable, say z;\nassign to z, the value of A [i];\nexecute the body of P using z for k;\nset A [i] to z;",
+        "options": [
+            "Explain your answer. If this is incorrect implementation, suggest a correct one."
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/compiler-design",
+            "/tag/gate1988",
+            "/tag/descriptive",
+            "/tag/compiler-design",
+            "/tag/runtime-environment",
+            "/tag/parameter-passing"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/94371/gate-cse-1988-question-8i",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/94371/gate-cse-1988-question-8i",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "2xvii",
+        "year": null,
+        "questionNumber": null,
+        "subject": "Compiler Design",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "Construct a DAG for the following set of quadruples:",
+        "options": [
+            "E:=A+B",
+            "F:=E-C",
+            "G:=F*D",
+            "H:=A+B",
+            "I:=I-C",
+            "J:=I+G"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/compiler-design",
+            "/tag/gate1988",
+            "/tag/descriptive",
+            "/tag/compiler-design",
+            "/tag/intermediate-code"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/94350/gate-cse-1988-question-2xvii",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/94350/gate-cse-1988-question-2xvii",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "2xv",
+        "year": null,
+        "questionNumber": null,
+        "subject": "Compiler Design",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "What is printed by following program, assuming call-by reference method of passing parameters for all variables in the parameter list of procedure P?",
+        "options": [
+            "program     Main(inout, output);",
+            "var     a, b:integer;",
+            "procedure P(x, y, z:integer);",
+            "begin",
+            "y:=y+1",
+            "z:=x+x",
+            "end P;",
+            "begin",
+            "a:=2; b:=3;",
+            "p(a+b, a, a);",
+            "Write(a)",
+            "end."
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/compiler-design",
+            "/tag/gate1988",
+            "/tag/descriptive",
+            "/tag/compiler-design",
+            "/tag/runtime-environment",
+            "/tag/parameter-passing",
+            "/tag/numerical-answers"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/94333/gate-cse-1988-question-2xv",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/94333/gate-cse-1988-question-2xv",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "2xii",
+        "year": null,
+        "questionNumber": null,
+        "subject": "Compiler Design",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "Consider the following program skeleton and below figure which shows activation records of procedures involved in the calling sequence. $$p \\rightarrow s \\rightarrow q \\rightarrow r \\rightarrow q.$$Write the access links of the activation records to enable correct access and variables in the procedures from other procedures involved in the calling sequence",
+        "options": [
+            "procedure p;",
+            "procedure q;",
+            "procedure r;",
+            "begin",
+            "q",
+            "end r;",
+            "begin",
+            "r",
+            "end q;",
+            "procedure s;",
+            "begin",
+            "q",
+            "end s;",
+            "begin",
+            "s",
+            "end p;"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/compiler-design",
+            "/tag/gate1988",
+            "/tag/normal",
+            "/tag/descriptive",
+            "/tag/runtime-environment",
+            "/tag/compiler-design"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/93966/gate-cse-1988-question-2xii",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/93966/gate-cse-1988-question-2xii",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "10b",
+        "year": null,
+        "questionNumber": null,
+        "subject": "Compiler Design",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "Consider the following grammar for variable declarations:\n\n<vardecl> $\\rightarrow$ <vardecl><idlist> : <type>;\n<vardecl> $\\rightarrow \\in$\n<idlist> $\\rightarrow$ <idlist>, id\n<idlist> $\\rightarrow$ id\n<type> $\\rightarrow$ integer\n<type> $\\rightarrow$ real",
+        "options": [
+            "Write a syntax - directed translation scheme to install the identifiers into the symbol table. You must also issue appropriate error messages wherever necessary. Make suitable assumptions regarding procedures operating on the symbol table; you need not elaborate upon these procedures."
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/compiler-design",
+            "/tag/descriptive",
+            "/tag/gate1989",
+            "/tag/compiler-design",
+            "/tag/syntax-directed-translation",
+            "/tag/unsolved"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/89643/gate-cse-1989-question-10b",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/89643/gate-cse-1989-question-10b",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "10a",
+        "year": null,
+        "questionNumber": null,
+        "subject": "Compiler Design",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "Will recursion work correctly in a language with static allocation of all variables? Explain.",
+        "options": [],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/compiler-design",
+            "/tag/gate1989",
+            "/tag/descriptive",
+            "/tag/compiler-design",
+            "/tag/runtime-environment"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/89636/gate-cse-1989-question-10a",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/89636/gate-cse-1989-question-10a",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "8b",
+        "year": null,
+        "questionNumber": null,
+        "subject": "Compiler Design",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "Indicate the result of the following program if the language uses (i) static scope rules and (ii) dynamic scope rules.",
+        "options": [
+            "var x, y:integer;",
+            "procedure A (var z:integer);",
+            "var x:integer;",
+            "begin x:=1; B; z:= x end;",
+            "procedure B;",
+            "begin x:=x+1 end;",
+            "begin",
+            "x:=5; A(y); write (y)",
+            "...end."
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/compiler-design",
+            "/tag/gate1989",
+            "/tag/descriptive",
+            "/tag/compiler-design",
+            "/tag/runtime-environment"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/89082/gate-cse-1989-question-8b",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/89082/gate-cse-1989-question-8b",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "vi",
+        "year": null,
+        "questionNumber": null,
+        "subject": "Compiler Design",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "Consider the definition of macro $B,$ nested within the definition of a macro $A.$ Can a call to macro $B$ also appear within macro $A?$ If not, why not? If yes, explain if there are any restrictions.",
+        "options": [],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/compiler-design",
+            "/tag/gate1989",
+            "/tag/descriptive",
+            "/tag/compiler-design",
+            "/tag/macros",
+            "/tag/unsolved"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/88148/gate-cse-1989-question-4-vi",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/88148/gate-cse-1989-question-4-vi",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "v",
+        "year": null,
+        "questionNumber": null,
+        "subject": "Compiler Design",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "Is the following code template for the if-then-else statement correct? if not, correct it.\n\n$\\text{if} \\text{ expression then statement } 1$\n\t$\\text{else statement }2$\n\nTemplate:\nCode for expression",
+        "options": [
+            "(*result in $E, E > O$ indicates true *)",
+            "Branch on $E > O$ to $L1$",
+            "Code for statement $1$",
+            "$L1$: Code for statement $2$"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/compiler-design",
+            "/tag/descriptive",
+            "/tag/gate1989",
+            "/tag/compiler-design",
+            "/tag/intermediate-code"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/87885/gate-cse-1989-question-4-v",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/87885/gate-cse-1989-question-4-v",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "iii",
+        "year": null,
+        "questionNumber": null,
+        "subject": "Compiler Design",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "Merging states with a common core may produce __________ conflicts and does not produce ___________ conflicts in an LALR parser.",
+        "options": [],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/compiler-design",
+            "/tag/gate1989",
+            "/tag/descriptive",
+            "/tag/compiler-design",
+            "/tag/parsing"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/87046/gate-cse-1989-question-1-iii",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/87046/gate-cse-1989-question-1-iii",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    }
+]

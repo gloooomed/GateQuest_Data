@@ -1,0 +1,1802 @@
+[
+    {
+        "id": "36",
+        "year": null,
+        "questionNumber": 36,
+        "subject": "Programming in C",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "https://gateoverflow.in/118319/gate2017-1-36\nwhat is the logic of bar() function please help",
+        "options": [],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/programming-in-c/programming/programming-in-c"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/162681/gate-cse-2017-set-1-question-36",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/162681/gate-cse-2017-set-1-question-36",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "08",
+        "year": 2017,
+        "questionNumber": 8,
+        "subject": "Data Structures",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "Consider the C code fragment given below.\n\ntypedef struct node {\n    int data;\n    node* next;\n} node;\n\nvoid join(node* m, node* n) {\n    node* p = n;\n    while(p->next != NULL) {\n        p = p->next;\n    }\n    p->next = m;\n}\nAssuming that m and n point to valid NULL-terminated linked lists, invocation of join will",
+        "options": [
+            "append list m to the end of list n for all inputs.",
+            "either cause a null pointer dereference or append list m to the end of list n.",
+            "cause a null pointer dereference for all inputs.",
+            "append list n to the end of list m for all inputs."
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/programming-in-c/data-structures",
+            "/tag/gatecse-2017-set1",
+            "/tag/data-structures",
+            "/tag/linked-list",
+            "/tag/normal"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/118711/gate-cse-2017-set-1-question-08",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/118711/gate-cse-2017-set-1-question-08",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "53",
+        "year": 2017,
+        "questionNumber": 53,
+        "subject": "Programming in C",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "Consider the following C program.\n\n#include<stdio.h>\n#include<string.h>\n\nvoid printlength(char *s, char *t) {\n    unsigned int c=0;\n    int len = ((strlen(s) - strlen(t)) > c) ? strlen(s) : strlen(t);\n    printf(\"%d\\n\", len);\n}",
+        "options": [
+            "void main() {",
+            "char *x = \"abc\";",
+            "char *y = \"defgh\";",
+            "printlength(x,y);",
+            "}",
+            "Recall that $strlen$ is defined in $string.h$ as returning a value of type $size\\_t$, which is an unsigned int. The output of the program is __________ ."
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/programming-in-c/programming/programming-in-c",
+            "/tag/gatecse-2017-set1",
+            "/tag/programming",
+            "/tag/programming-in-c",
+            "/tag/normal",
+            "/tag/numerical-answers"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/118473/gate-cse-2017-set-1-question-53",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/118473/gate-cse-2017-set-1-question-53",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "55",
+        "year": 2017,
+        "questionNumber": 55,
+        "subject": "Programming in C",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "The output of executing the following C program is _______________ .\n\n#include<stdio.h>\n\nint total(int v) {\n    static int count = 0;\n    while(v) {\n        count += v&1;\n        v >>= 1;\n    }\n    return count;\n}",
+        "options": [
+            "void main() {",
+            "static int x=0;",
+            "int i=5;",
+            "for(; i>0; i--) {",
+            "x = x + total(i);",
+            "}",
+            "printf(\"%d\\n\", x);",
+            "}"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/programming-in-c/programming/programming-in-c",
+            "/tag/gatecse-2017-set1",
+            "/tag/programming",
+            "/tag/programming-in-c",
+            "/tag/normal",
+            "/tag/numerical-answers"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/118442/gate-cse-2017-set-1-question-55",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/118442/gate-cse-2017-set-1-question-55",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "43",
+        "year": 2017,
+        "questionNumber": 43,
+        "subject": "Programming in C",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "Consider the following snippet of a C program. Assume that swap $(\\&x, \\&y)$ exchanges the content of $x$ and $y$:",
+        "options": [
+            "int main () {",
+            "int array[] = {3, 5, 1, 4, 6, 2};",
+            "int done =0;",
+            "int i;",
+            "while (done==0) {",
+            "done =1;",
+            "for (i=0; i<=4; i++) {",
+            "if (array[i] < array[i+1]) {",
+            "swap(&array[i], &array[i+1]);",
+            "done=0;",
+            "}",
+            "}",
+            "for (i=5; i>=1; i--) {",
+            "if (array[i] > array[i-1]) {",
+            "swap(&array[i], &array[i-1]);",
+            "done =0;",
+            "}",
+            "}",
+            "}",
+            "printf(“%d”, array[3]);",
+            "}",
+            "The output of the program is _______"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/programming-in-c/programming/programming-in-c",
+            "/tag/gatecse-2017-set2",
+            "/tag/programming",
+            "/tag/algorithms",
+            "/tag/numerical-answers",
+            "/tag/identify-function"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/118388/gate-cse-2017-set-2-question-43",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/118388/gate-cse-2017-set-2-question-43",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "37",
+        "year": 2017,
+        "questionNumber": 37,
+        "subject": "Programming in C",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "Consider the C program fragment below which is meant to divide $x$ by $y$ using repeated subtractions. The variables $x$, $y$, $q$ and $r$ are all unsigned int.\n\nwhile (r >= y) {\n    r=r-y;\n    q=q+1;\n}\nWhich of the following conditions on the variables $x, y, q$ and $r$ before the execution of the fragment will ensure that the loop terminated in a state satisfying the condition $x==(y*q + r)$?",
+        "options": [
+            "$(q==r) \\ \\&\\& \\ (r==0)$",
+            "$(x>0) \\ \\&\\&  \\ (r==x) \\ \\&\\& \\ (y>0)$",
+            "$(q==0) \\ \\&\\& \\ (r==x) \\ \\&\\& \\ (y >0)$",
+            "$(q==0) \\ \\&\\& \\ (y>0)$"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/programming-in-c/programming/programming-in-c",
+            "/tag/gatecse-2017-set2",
+            "/tag/programming",
+            "/tag/loop-invariants"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/118381/gate-cse-2017-set-2-question-37",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/118381/gate-cse-2017-set-2-question-37",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "36",
+        "year": 2017,
+        "questionNumber": 36,
+        "subject": "Data Structures",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "The pre-order traversal of a binary search tree is given by $12, 8, 6, 2, 7, 9, 10, 16, 15, 19, 17, 20$. Then the post-order traversal of this tree is",
+        "options": [
+            "$2, 6, 7, 8, 9, 10, 12, 15, 16, 17, 19, 20$",
+            "$2, 7, 6, 10, 9, 8, 15, 17, 20, 19, 16, 12$",
+            "$7, 2, 6, 8, 9, 10, 20, 17, 19, 15, 16, 12$",
+            "$7, 6, 2, 10, 9, 8, 15, 16, 17, 20, 19, 12$"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/programming-in-c/data-structures",
+            "/tag/gatecse-2017-set2",
+            "/tag/data-structures",
+            "/tag/binary-search-tree"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/118378/gate-cse-2017-set-2-question-36",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/118378/gate-cse-2017-set-2-question-36",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "55",
+        "year": 2017,
+        "questionNumber": 55,
+        "subject": "Programming in C",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "Consider the following C program.",
+        "options": [
+            "#include<stdio.h>",
+            "#include<string.h>",
+            "int main() {",
+            "char* c=\"GATECSIT2017\";",
+            "char* p=c;",
+            "printf(\"%d\", (int)strlen(c+2[p]-6[p]-1));",
+            "return 0;",
+            "}",
+            "The output of the program is _______"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/programming-in-c/programming/programming-in-c",
+            "/tag/gatecse-2017-set2",
+            "/tag/programming-in-c",
+            "/tag/numerical-answers",
+            "/tag/array",
+            "/tag/pointers"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/118335/gate-cse-2017-set-2-question-55",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/118335/gate-cse-2017-set-2-question-55",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "36",
+        "year": 2017,
+        "questionNumber": 36,
+        "subject": "Programming in C",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "Consider the C functions foo and bar given below:\n\nint foo(int val) {\n    int x=0;\n    while(val > 0) {\n        x = x + foo(val--);\n    }\n    return val;\n}\n\nint bar(int val) {\n    int x = 0;\n    while(val > 0) {\n        x= x + bar(val-1);\n    }\n    return val;\n}\nInvocations of $foo(3)$ and $bar(3)$ will result in:",
+        "options": [
+            "Return of $6$ and $6$ respectively.",
+            "Infinite loop and abnormal termination respectively.",
+            "Abnormal termination and infinite loop respectively.",
+            "Both terminating abnormally."
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/programming-in-c/programming/programming-in-c",
+            "/tag/gatecse-2017-set1",
+            "/tag/programming-in-c",
+            "/tag/programming",
+            "/tag/normal",
+            "/tag/recursion"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/118319/gate-cse-2017-set-1-question-36",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/118319/gate-cse-2017-set-1-question-36",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "35",
+        "year": 2017,
+        "questionNumber": 35,
+        "subject": "Programming in C",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "Consider the following two functions.\n\nvoid fun1(int n) {\n    if(n == 0) return;\n    printf(\"%d\", n);\n    fun2(n - 2);\n    printf(\"%d\", n);\n}\nvoid fun2(int n) {\n    if(n == 0) return;\n    printf(\"%d\", n);\n    fun1(++n);\n    printf(\"%d\", n);\n}\n\nThe output printed when $\\text{fun1}(5)$ is called is",
+        "options": [
+            "$53423122233445$",
+            "$53423120112233$",
+            "$53423122132435$",
+            "$53423120213243$"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/programming-in-c/programming/programming-in-c",
+            "/tag/gatecse-2017-set1",
+            "/tag/programming",
+            "/tag/normal",
+            "/tag/tricky",
+            "/tag/recursion"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/118317/gate-cse-2017-set-1-question-35",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/118317/gate-cse-2017-set-1-question-35",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "20",
+        "year": 2017,
+        "questionNumber": 20,
+        "subject": "Data Structures",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "Let $T$ be a tree with $10$ vertices. The sum of the degrees of all the vertices in $T$ is ________",
+        "options": [],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/programming-in-c/data-structures",
+            "/tag/gatecse-2017-set1",
+            "/tag/data-structures",
+            "/tag/tree",
+            "/tag/easy",
+            "/tag/numerical-answers"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/118300/gate-cse-2017-set-1-question-20",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/118300/gate-cse-2017-set-1-question-20",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "13",
+        "year": 2017,
+        "questionNumber": 13,
+        "subject": "Programming in C",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "Consider the following C code:\n\n#include<stdio.h>\nint *assignval (int *x, int val) {\n    *x = val;\n    return x;\n}\n\nvoid main () {\n    int *x = malloc(sizeof(int));\n    if (NULL == x) return;\n    x = assignval (x,0);\n    if (x) {\n        x = (int *)malloc(sizeof(int));\n        if (NULL == x) return;\n        x = assignval (x,10);\n    }\n    printf(\"%d\\n\", *x);\n    free(x);\n}\nThe code suffers from which one of the following problems:",
+        "options": [
+            "compiler error as the return of $malloc$ is not typecast appropriately.",
+            "compiler error because the comparison should be made as $x == \\text{NULL}$ and not as shown.",
+            "compiles successfully but execution may result in dangling pointer.",
+            "compiles successfully but execution may result in memory leak."
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/programming-in-c/programming/programming-in-c",
+            "/tag/gatecse-2017-set1",
+            "/tag/programming-in-c",
+            "/tag/programming",
+            "/tag/pointers"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/118293/gate-cse-2017-set-1-question-13",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/118293/gate-cse-2017-set-1-question-13",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "6",
+        "year": 2017,
+        "questionNumber": 6,
+        "subject": "Data Structures",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "Let $T$ be a binary search tree with $15$ nodes. The minimum and maximum possible heights of $T$ are:\nNote: The height of a tree with a single node is $0$.",
+        "options": [
+            "$4$ and $15$ respectively.",
+            "$3$ and $14$ respectively.",
+            "$4$ and $14$ respectively.",
+            "$3$ and $15$ respectively."
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/programming-in-c/data-structures",
+            "/tag/gatecse-2017-set1",
+            "/tag/data-structures",
+            "/tag/binary-search-tree",
+            "/tag/easy"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/118286/gate-cse-2017-set-1-question-6",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/118286/gate-cse-2017-set-1-question-6",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "54",
+        "year": 2017,
+        "questionNumber": 54,
+        "subject": "Programming in C",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "Consider the following C program.",
+        "options": [
+            "#include<stdio.h>",
+            "int main () {",
+            "int m=10;",
+            "int n, n1;",
+            "n=++m;",
+            "n1=m++;",
+            "n--;",
+            "--n1;",
+            "n-=n1;",
+            "printf(“%d”, n);",
+            "return 0;",
+            "}",
+            "The output of the program is ______"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/programming-in-c/programming/programming-in-c",
+            "/tag/gatecse-2017-set2",
+            "/tag/programming-in-c",
+            "/tag/numerical-answers",
+            "/tag/easy"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/118272/gate-cse-2017-set-2-question-54",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/118272/gate-cse-2017-set-2-question-54",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "13",
+        "year": 2017,
+        "questionNumber": 13,
+        "subject": "Data Structures",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "A circular queue has been implemented using a singly linked list where each node consists of a value and a single pointer pointing to the next node. We maintain exactly two external pointers FRONT and REAR pointing to the front node and the rear node of the queue, respectively. Which of the following statements is/are CORRECT for such a circular queue, so that insertion and deletion operations can be performed in $O(1)$ time?\n\nNext pointer of front node points to the rear node.\nNext pointer of rear node points to the front node.",
+        "options": [
+            "(I) only.",
+            "(II) only.",
+            "Both (I) and (II).",
+            "Neither (I) nor (II)."
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/programming-in-c/data-structures",
+            "/tag/gatecse-2017-set2",
+            "/tag/data-structures",
+            "/tag/queue"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/118253/gate-cse-2017-set-2-question-13",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/118253/gate-cse-2017-set-2-question-13",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "14",
+        "year": 2017,
+        "questionNumber": 14,
+        "subject": "Programming in C",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "Consider the following function implemented in C:\n\nvoid printxy(int x, int y) {\n    int *ptr;\n    x=0;\n    ptr=&x;\n    y=*ptr;\n    *ptr=1;\n    printf(“%d, %d”, x, y);\n}\nThe output of invoking $printxy(1,1)$ is:",
+        "options": [
+            "$0, 0$",
+            "$0, 1$",
+            "$1, 0$",
+            "$1, 1$"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/programming-in-c/programming/programming-in-c",
+            "/tag/gatecse-2017-set2",
+            "/tag/programming-in-c",
+            "/tag/identify-function",
+            "/tag/pointers"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/118245/gate-cse-2017-set-2-question-14",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/118245/gate-cse-2017-set-2-question-14",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "2",
+        "year": 2017,
+        "questionNumber": 2,
+        "subject": "Programming in C",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "Match the following:$$\\begin{array}{|ll|ll|}\\hline P. & \\text{static char var ;} & \\text{i.} & \\text{Sequence of memory locations to store addresses} \\\\\\hline  Q. & \\text{m = malloc(10); m =NULL ;} & \\text{ii.} & \\text{A variable located in data section of memory} \\\\\\hline R. & \\text{char *ptr[10] ;} & \\text{iii.} & \\text{Request to allocate a CPU register to store data} \\\\\\hline S. & \\text{ register int varl;} & \\text{iv.} & \\text{A lost memory which cannot be freed} \\\\\\hline\\end{array}$$",
+        "options": [
+            "P-ii; Q-iv; R-i; S-iii",
+            "P-ii; Q-i; R-iv; S-iii",
+            "P-ii; Q-iv; R-iii; S-i",
+            "P-iii; Q-iv; R-i; S-ii"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/programming-in-c/programming/programming-in-c",
+            "/tag/gatecse-2017-set2",
+            "/tag/programming",
+            "/tag/programming-in-c",
+            "/tag/match-the-following"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/118171/gate-cse-2017-set-2-question-2",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/118171/gate-cse-2017-set-2-question-2",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "8iv",
+        "year": null,
+        "questionNumber": null,
+        "subject": "Programming in C",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "Consider the following Ada program:",
+        "options": [
+            "Procedure P is",
+            "BAD-FORMAT: exception",
+            "Procedure   Q is",
+            "begin",
+            "...",
+            "if S/='b' then",
+            "raise BAD-FORMAT",
+            "end if;",
+            "...",
+            "end Q;",
+            "Procedure R is",
+            "begin",
+            "Q;",
+            "exception when BAD-Format",
+            "=> ... handler body 1",
+            "end R;",
+            "begin",
+            "R;",
+            "Q;",
+            "exception when BAD-FORMAT",
+            "=> ... handler body 2",
+            "end P;",
+            "Under what conditions are the two handler bodies $1$ and $2$ executed?"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/programming-in-c/programming/programming-in-c",
+            "/tag/gate1988",
+            "/tag/normal",
+            "/tag/descriptive",
+            "/tag/programming",
+            "/tag/ada",
+            "/tag/out-of-gatecse-syllabus"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/94381/gate-cse-1988-question-8iv",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/94381/gate-cse-1988-question-8iv",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "8iii",
+        "year": null,
+        "questionNumber": null,
+        "subject": "Programming in C",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "Write a LISP function to compute the product of all the numbers in a list. Assume that the list contains only number.",
+        "options": [],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/programming-in-c/programming/programming-in-c",
+            "/tag/gate1988",
+            "/tag/descriptive",
+            "/tag/programming",
+            "/tag/lisp",
+            "/tag/out-of-gatecse-syllabus"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/94380/gate-cse-1988-question-8iii",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/94380/gate-cse-1988-question-8iii",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "8ii",
+        "year": null,
+        "questionNumber": null,
+        "subject": "Programming in C",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "Consider the two program segments below:\n\n\n\nfor\n    i:=1 to f(x) by 1 do\n    S\nend\n\n\n\ni:=1;\nWhile   i<=f(x) do\n        S\n        i:=i+1\nend",
+        "options": [
+            "Under what conditions are these two programs equivalent? Treat $S$ as any sequence of statements and $f$ as a function."
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/programming-in-c/programming/programming-in-c",
+            "/tag/gate1988",
+            "/tag/programming",
+            "/tag/descriptive",
+            "/tag/loop-invariants"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/94379/gate-cse-1988-question-8ii",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/94379/gate-cse-1988-question-8ii",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "7iii",
+        "year": null,
+        "questionNumber": null,
+        "subject": "Data Structures",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "Consider the tree given in the below figure, insert $13$ and show the new balance factors that would arise if the tree is not rebalanced. Finally, carry out the required rebalancing of the tree and show the new tree with the balance factors on each mode.",
+        "options": [],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/programming-in-c/data-structures",
+            "/tag/gate1988",
+            "/tag/normal",
+            "/tag/descriptive",
+            "/tag/data-structures",
+            "/tag/binary-tree"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/94368/gate-cse-1988-question-7iii",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/94368/gate-cse-1988-question-7iii",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "7ii",
+        "year": null,
+        "questionNumber": null,
+        "subject": "Data Structures",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "Mark the balance factor of each node on the tree given in the below figure and state whether it is height-balanced.",
+        "options": [],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/programming-in-c/data-structures",
+            "/tag/gate1988",
+            "/tag/data-structures",
+            "/tag/normal",
+            "/tag/descriptive",
+            "/tag/avl-tree",
+            "/tag/binary-tree"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/94367/gate-cse-1988-question-7ii",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/94367/gate-cse-1988-question-7ii",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "7i",
+        "year": null,
+        "questionNumber": null,
+        "subject": "Data Structures",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "Define the height of a binary tree or subtree and also define a height-balanced (AVL) tree.",
+        "options": [],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/programming-in-c/data-structures",
+            "/tag/gate1988",
+            "/tag/normal",
+            "/tag/descriptive",
+            "/tag/data-structures",
+            "/tag/binary-tree"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/94366/gate-cse-1988-question-7i",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/94366/gate-cse-1988-question-7i",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "6ii",
+        "year": null,
+        "questionNumber": null,
+        "subject": "Programming in C",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "Below figure is the flow-chart corresponding to a program to calculate the $\\gcd$ of two integers, $M$ and $N$ respectively, $(M, N >0).$ Use assertions at the cut point $C_1$, $C_2$ and $C_3$ to prove that the flow-chart is correct.",
+        "options": [],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/programming-in-c/programming/programming-in-c",
+            "/tag/gate1988",
+            "/tag/normal",
+            "/tag/descriptive",
+            "/tag/loop-invariants"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/94364/gate-cse-1988-question-6ii",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/94364/gate-cse-1988-question-6ii",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "2xiv",
+        "year": null,
+        "questionNumber": null,
+        "subject": "Programming in C",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "Which of the following features are available in Ada?",
+        "options": [
+            "procedures, monitors, packages, common statement, goto statement, generic unit tasks, backtracking, recursion, exceptions, pragmas, classes."
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/programming-in-c/programming/programming-in-c",
+            "/tag/gate1988",
+            "/tag/programming",
+            "/tag/descriptive",
+            "/tag/ada",
+            "/tag/out-of-gatecse-syllabus"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/94330/gate-cse-1988-question-2xiv",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/94330/gate-cse-1988-question-2xiv",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "2xiii",
+        "year": null,
+        "questionNumber": null,
+        "subject": "Programming in C",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "What is referential transparency?",
+        "options": [],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/programming-in-c/programming/programming-in-c",
+            "/tag/gate1988",
+            "/tag/normal",
+            "/tag/descriptive",
+            "/tag/programming-languages",
+            "/tag/out-of-gatecse-syllabus"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/94327/gate-cse-1988-question-2xiii",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/94327/gate-cse-1988-question-2xiii",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "11b",
+        "year": null,
+        "questionNumber": null,
+        "subject": "Data Structures",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "Write a constant time algorithm to insert a node with data $D$ just before the node with address $p$ of a singly linked list.",
+        "options": [],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/programming-in-c/data-structures",
+            "/tag/gate1999",
+            "/tag/data-structures",
+            "/tag/linked-list",
+            "/tag/descriptive"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/93575/gate-cse-1999-question-11b",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/93575/gate-cse-1999-question-11b",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "xi",
+        "year": null,
+        "questionNumber": null,
+        "subject": "Data Structures",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "Express the following list in terms of a linked list structure suitable for internal representation.",
+        "options": [
+            "$(((ab)c)d((e)))$"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/programming-in-c/data-structures",
+            "/tag/gate1989",
+            "/tag/descriptive",
+            "/tag/data-structures",
+            "/tag/linked-list",
+            "/tag/unsolved"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/88167/gate-cse-1989-question-4-xi",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/88167/gate-cse-1989-question-4-xi",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "ii",
+        "year": null,
+        "questionNumber": null,
+        "subject": "Data Structures",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "Compute the postfix equivalent of the following infix arithmetic expression\n\n$a + b \\ast c + d * e  \\uparrow f$",
+        "options": [
+            "where $\\uparrow$ represents exponentiation. Assume normal operator precedences."
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/programming-in-c/data-structures",
+            "/tag/gate1989",
+            "/tag/descriptive",
+            "/tag/data-structures",
+            "/tag/stack",
+            "/tag/infix-prefix"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/87881/gate-cse-1989-question-4-ii",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/87881/gate-cse-1989-question-4-ii",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "77",
+        "year": 2006,
+        "questionNumber": 77,
+        "subject": "Data Structures",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "Statement for Linked Answer Questions 76 & 77:\n\nA $3$-ary max heap is like a binary max heap, but instead of $2$ children, nodes have $3$ children. A $3$-ary heap can be represented by an array as follows: The root is stored in the first location, $a[0]$, nodes in the next level, from left to right, is stored from $a[1]$ to $a[3]$. The nodes from the second level of the tree from left to right are stored from $a[4]$ location onward. An item $x$ can be inserted into a $3$-ary heap containing $n$ items by placing $x$ in the location $a[n]$ and pushing it up the tree to satisfy the heap property.\n76. Which one of the following is a valid sequence of elements in an array representing $3-$ary max heap?\n\n$1,3,5,6,8,9$\n$9,6,3,1,8,5$\n$9,3,6,8,5,1$\n$9,5,6,8,3,1$\n\n\n77. Suppose the elements $7, 2, 10$ and $4$ are inserted, in that order, into the valid $3$-ary max heap found in the previous question, Q.76. Which one of the following is the sequence of items in the array representing the resultant heap?",
+        "options": [
+            "$10, 7, 9, 8, 3, 1, 5, 2, 6, 4$",
+            "$10, 9, 8, 7, 6, 5, 4, 3, 2, 1$",
+            "$10, 9, 4, 5, 7, 6, 8, 2, 1, 3$",
+            "$10, 8, 6, 9, 7, 2, 3, 4, 1, 5$"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/programming-in-c/data-structures",
+            "/tag/gatecse-2006",
+            "/tag/data-structures",
+            "/tag/binary-heap",
+            "/tag/normal"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/87191/gate-cse-2006-question-77",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/87191/gate-cse-2006-question-77",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "ixa",
+        "year": null,
+        "questionNumber": null,
+        "subject": "Data Structures",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "Which one of the following statements (s) is/are FALSE?Overlaying is used to run a program, which is longer than the address space of the computer.Optimal binary search tree construction can be performed efficiently by using dynamic programming.Depth first search cannot be used to find connected components of a graph.Given the prefix and postfix walls over a binary tree, the binary tree can be uniquely constructed.",
+        "options": [],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/programming-in-c/data-structures",
+            "/tag/normal",
+            "/tag/gate1989",
+            "/tag/binary-tree",
+            "/tag/multiple-selects"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/87143/gate-cse-1989-question-3-ixa",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/87143/gate-cse-1989-question-3-ixa",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "i",
+        "year": null,
+        "questionNumber": null,
+        "subject": "Programming in C",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "An unrestricted use of the \"go to\" statement is harmful because of which of the following reason (s):",
+        "options": [
+            "It makes it more difficult to verify programs.",
+            "It makes programs more inefficient.",
+            "It makes it more difficult to modify existing programs.",
+            "It results in the compiler generating longer machine code."
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/programming-in-c/programming/programming-in-c",
+            "/tag/gate1989",
+            "/tag/normal",
+            "/tag/programming",
+            "/tag/goto"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/87095/gate-cse-1989-question-3-i",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/87095/gate-cse-1989-question-3-i",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "13a",
+        "year": null,
+        "questionNumber": null,
+        "subject": "Data Structures",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "Consider the height-balanced tree $T_{t}$ with values stored at only the leaf nodes, shown in Fig$.4.$\n\n(i) Show how to merge to the tree, $T_{1}$ elements from tree $T_{2}$ shown in Fig$.5$ using node D of tree $T_{1}$.",
+        "options": [
+            "(ii) What is the time complexity of a merge operation of balanced trees $T_{1}$ and $T_{2}$ where $T_{1}$ and $T_{2}$ are of height $h_{1}$ and $h_{2}$ respectively, assuming that rotation schemes are given. Give reasons."
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/programming-in-c/data-structures",
+            "/tag/gate1990",
+            "/tag/data-structures",
+            "/tag/tree",
+            "/tag/descriptive"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/86224/gate-cse-1990-question-13a",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/86224/gate-cse-1990-question-13a",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "iv",
+        "year": null,
+        "questionNumber": null,
+        "subject": "Data Structures",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "The total external path length, $\\text{EPL},$ of a binary tree with $n$ external nodes is, $\\text{EPL}= \\displaystyle \\sum_{w} I_w$, where $I_{w}$ is the path length of external node $w$),",
+        "options": [
+            "$\\leq n^{2}$ always.",
+            "$\\geq n \\log_{2} n$ always.",
+            "Equal to $n^{2}$ always.",
+            "$O(n)$ for some special trees."
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/programming-in-c/data-structures",
+            "/tag/gate1990",
+            "/tag/normal",
+            "/tag/data-structures",
+            "/tag/binary-tree",
+            "/tag/multiple-selects"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/84828/gate-cse-1990-question-3-iv",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/84828/gate-cse-1990-question-3-iv",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "viii",
+        "year": null,
+        "questionNumber": null,
+        "subject": "Data Structures",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "Match the pairs in the following questions:$$\\begin{array}{|ll|ll|} \\hline  (a) & \\text{A heap construction} & (p) & \\ \\Omega(n\\log_{10}n)  \\\\\\hline (b) & \\text{Constructing Hashtable with linear probing} & (q) & \\ O(n) \\\\\\hline (c) & \\text{AVL tree construction} &  (r) & \\ O(n^{2})  \\\\\\hline (d) & \\text{Digital trie construction} & (s) & \\ O(n\\log_{2}n) \\\\\\hline \\end{array}$$",
+        "options": [],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/programming-in-c/data-structures",
+            "/tag/gate1990",
+            "/tag/match-the-following",
+            "/tag/data-structures",
+            "/tag/binary-heap"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/83993/gate-cse-1990-question-2-viii",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/83993/gate-cse-1990-question-2-viii",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "vi",
+        "year": null,
+        "questionNumber": null,
+        "subject": "Programming in C",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "Match the pairs in the following questions:\n\n\n\n(a) Small talk\n(p) Logic programming\n\n\n(b) LISP\n(q) Data flow programming\n\n\n(c) Prolog\n(r) Functional programming\n\n\n(d) VAL\n(s) Object-oriented programming",
+        "options": [
+            "$$\\begin{array}{|ll|ll|}\\hline (a) & \\text{Small talk} & (p) & \\text{Logic programming} \\\\\\hline  (b) & \\text{LISP} & (q) & \\text{ Data flow programming} \\\\\\hline   (c) & \\text{ Prolog} & (r)  & \\text{Functional programming} \\\\\\hline (d) & \\text{ VAL} & (s)  & \\text{Object-oriented programming}  \\\\\\hline \\end{array}$$"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/programming-in-c/programming/programming-in-c",
+            "/tag/gate1990",
+            "/tag/match-the-following",
+            "/tag/programming",
+            "/tag/out-of-gatecse-syllabus"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/83988/gate-cse-1990-question-2-vi",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/83988/gate-cse-1990-question-2-vi",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "7b",
+        "year": null,
+        "questionNumber": null,
+        "subject": "Data Structures",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "Construct a binary tree whose preorder traversal is\n\n$K\\;L\\;N\\;M\\;P\\;R\\;Q\\;S\\;T$\n\nand inorder traversal is",
+        "options": [
+            "$N\\;L\\;K\\;P\\;R\\;M\\;S\\;Q\\;T$"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/programming-in-c/data-structures",
+            "/tag/gate1987",
+            "/tag/data-structures",
+            "/tag/binary-tree",
+            "/tag/descriptive"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/82427/gate-cse-1987-question-7b",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/82427/gate-cse-1987-question-7b",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "7a",
+        "year": null,
+        "questionNumber": null,
+        "subject": "Programming in C",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "List the invariant assertions at points $A, B, C, D$ and $E$ in program given below:",
+        "options": [
+            "Program division (input, output)",
+            "Const",
+            "dividend = 81;",
+            "divisor = 9;",
+            "Var  remainder, quotient:interger",
+            "begin",
+            "(*(dividend >= 0) AND (divisor > 0)*)",
+            "remainder := dividend;",
+            "quotient := 0;",
+            "(*A*)",
+            "While (remainder >= 0) do",
+            "begin (*B*)",
+            "quotient := quotient + 1;",
+            "remainder := remainder - divisor;",
+            "(*C*)",
+            "end;",
+            "(*D*)",
+            "quotient := quotient - 1;",
+            "remainder := remainder + divisor;",
+            "(*E*)",
+            "end"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/programming-in-c/programming/programming-in-c",
+            "/tag/gate1987",
+            "/tag/programming",
+            "/tag/loop-invariants",
+            "/tag/descriptive"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/82425/gate-cse-1987-question-7a",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/82425/gate-cse-1987-question-7a",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "6a",
+        "year": null,
+        "questionNumber": null,
+        "subject": "Data Structures",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "A list of $n$ elements is commonly written as a sequence of $n$ elements enclosed in a pair of square brackets. For example. $[10, 20, 30]$ is a list of three elements and $[]$ is a nil list. Five functions are defined below:\n\n$car (l)$ returns the first element of its argument list $l$;\n$cdr (l)$ returns the list obtained by removing the first element of the argument list $l$;\n$glue (a, l)$ returns a list $m$ such that $car (m)= a$ and $cdr (m)=l$.\n$f (x, y) \\equiv$ if $x= []$ then $y$\n\t                            else $glue (car (x), f (cdr (x), y))$;\n$g(x) \\equiv$ if $x = []$ then $[ ]$\n\t                        else $f (g (cdr (x))$, $glue (car (x), [ ]))$\n\nWhat do the following compute?",
+        "options": [
+            "$f ([32, 16, 8], [9, 11, 12])$",
+            "$g ([5, 1, 8, 9])$"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/programming-in-c/data-structures",
+            "/tag/gate1987",
+            "/tag/data-structures",
+            "/tag/linked-list",
+            "/tag/descriptive"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/82419/gate-cse-1987-question-6a",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/82419/gate-cse-1987-question-6a",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "81b",
+        "year": 2005,
+        "questionNumber": null,
+        "subject": "Programming in C",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "double foo(int n)\n{\n    int i;\n    double sum;\n    if(n == 0)\n    {\n        return 1.0;\n    }\n    else\n    {\n        sum = 0.0;\n        for(i = 0; i < n; i++)\n        {\n            sum += foo(i);\n        }\n        return sum;\n    }\n\n}\n\n\nSuppose we modify the above function $foo()$ and stores the value of $foo(i) \\ 0 \\leq i < n$, as and when they are computed. With this modification the time complexity for function $foo()$ is significantly reduced. The space complexity of the modified function would be:",
+        "options": [
+            "$O(1)$",
+            "$O(n)$",
+            "$O(n^2)$",
+            "$n!$"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/programming-in-c/programming/programming-in-c",
+            "/tag/gatecse-2005",
+            "/tag/programming",
+            "/tag/recursion",
+            "/tag/normal"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/82146/gate-cse-2005-question-81b",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/82146/gate-cse-2005-question-81b",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "2g",
+        "year": null,
+        "questionNumber": null,
+        "subject": "Data Structures",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "State whether the following statements are TRUE or FALSE:",
+        "options": [
+            "If the number of leaves in a tree is not a power of $2,$ then the tree is not a binary tree."
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/programming-in-c/data-structures",
+            "/tag/gate1987",
+            "/tag/data-structures",
+            "/tag/binary-tree",
+            "/tag/true-false"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/80588/gate-cse-1987-question-2g",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/80588/gate-cse-1987-question-2g",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "2c",
+        "year": null,
+        "questionNumber": null,
+        "subject": "Data Structures",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "State whether the following statements are TRUE or FALSE:",
+        "options": [
+            "It is possible to construct a binary tree uniquely whose pre-order and post-order traversals are given?"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/programming-in-c/data-structures",
+            "/tag/gate1987",
+            "/tag/binary-tree",
+            "/tag/data-structures",
+            "/tag/normal",
+            "/tag/true-false"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/80579/gate-cse-1987-question-2c",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/80579/gate-cse-1987-question-2c",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "xv",
+        "year": null,
+        "questionNumber": null,
+        "subject": "Data Structures",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "In a circular linked list organization, insertion of a record involves modification of",
+        "options": [
+            "One pointer.",
+            "Two pointers.",
+            "Multiple pointers.",
+            "No pointer."
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/programming-in-c/data-structures",
+            "/tag/gate1987",
+            "/tag/data-structures",
+            "/tag/linked-list"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/80298/gate-cse-1987-question-1-xv",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/80298/gate-cse-1987-question-1-xv",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "10b",
+        "year": null,
+        "questionNumber": null,
+        "subject": "Programming in C",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "Show the activation records and the display structure just after the procedures called at lines marked $x$ and $y$ have started their execution. Be sure to indicate which of the two procedures named $A$ you are referring to.\n\nProgram Test;\n    Procedure A;\n        Procedure B;\n            Procedure A;\n            begin\n            ……\n            end A;\n        begin\n            y: A;\n        end B;\n    begin\n        B;\n    end A;",
+        "options": [
+            "begin",
+            "x: A;",
+            "end Test"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/programming-in-c/programming/programming-in-c",
+            "/tag/gate1992",
+            "/tag/parameter-passing",
+            "/tag/programming",
+            "/tag/runtime-environment",
+            "/tag/normal",
+            "/tag/descriptive"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/43584/gate-cse-1992-question-10b",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/43584/gate-cse-1992-question-10b",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "60",
+        "year": 2009,
+        "questionNumber": 60,
+        "subject": "Data Structures",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "Consider a binary max-heap implemented using an array.\nWhat is the content of the array after two delete operations on $\\left\\{25,14,16,13,10,8,12\\right\\}$",
+        "options": [
+            "$\\left\\{14,13,12,10, 8\\right\\}$",
+            "$\\left\\{14,12,13,8,10\\right\\}$",
+            "$\\left\\{14,13,8,12,10\\right\\}$",
+            "$\\left\\{14,13,12,8,10\\right\\}$"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/programming-in-c/data-structures",
+            "/tag/gatecse-2009",
+            "/tag/data-structures",
+            "/tag/binary-heap",
+            "/tag/normal"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/43466/gate-cse-2009-question-60",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/43466/gate-cse-2009-question-60",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "53",
+        "year": 2010,
+        "questionNumber": 53,
+        "subject": "Data Structures",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "A hash table of length $10$ uses open addressing with hash function $h(k) = k \\: \\mod \\: 10$, and linear probing. After inserting $6$ values into an empty hash table, the table is shown as below\n$$\\begin{array}{|l|l|}\\hline \\text{0}  &  \\text{} \\\\ \\hline \\text{1} & \\text{} \\\\\\hline  \\text{2} & \\text{42} \\\\ \\hline  \\text{3} & \\text{23} \\\\\\hline   \\text{4} & \\text{34} \\\\\\hline   \\text{5} & \\text{52} \\\\\\hline   \\text{6} & \\text{46} \\\\\\hline   \\text{7} & \\text{33} \\\\\\hline   \\text{8} & \\text{} \\\\\\hline   \\text{9} & \\text{}  \\\\\\hline \\end{array}$$\nHow many different insertion sequences of the key values using the same hash function and linear probing will result in the hash table shown above?",
+        "options": [
+            "$10$",
+            "$20$",
+            "$30$",
+            "$40$"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/programming-in-c/data-structures",
+            "/tag/data-structures",
+            "/tag/hashing",
+            "/tag/normal",
+            "/tag/gatecse-2010"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/43327/gate-cse-2010-question-53",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/43327/gate-cse-2010-question-53",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "49",
+        "year": 2012,
+        "questionNumber": 49,
+        "subject": "Programming in C",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "Consider the following C code segment.\n\nint a, b, c = 0; \nvoid prtFun(void); \nmain()\n{ \n    static int a = 1;       /* Line 1 */\n    prtFun(); \n    a += 1;\n    prtFun();\n    printf(“ \\n %d %d ”, a, b);\n}\n\nvoid prtFun(void)\n{\n    static int a = 2;       /* Line 2 */\n    int b = 1;\n    a += ++b;\n    printf(“ \\n %d %d ”, a, b);\n}\n\nWhat output will be generated by the given code segment if:\nLine 1 is replaced by auto int $a = 1$;\nLine 2 is replaced by register int $a = 2$;",
+        "options": [
+            "$\\begin{array}{ll}  \\text{3}  & \\text{1} \\\\ \\text{4}  & \\text{1} \\\\ \\text{4}  & \\text{2} \\\\ \\end{array}$",
+            "$\\begin{array}{ll}  \\text{4}  & \\text{2} \\\\ \\text{6}  & \\text{1} \\\\ \\text{6}  & \\text{1} \\\\ \\end{array}$",
+            "$\\begin{array}{ll}  \\text{4}  & \\text{2} \\\\ \\text{6}  & \\text{2} \\\\ \\text{2}  & \\text{0} \\\\ \\end{array}$",
+            "$\\begin{array}{ll}  \\text{4}  & \\text{2} \\\\ \\text{4}  & \\text{2} \\\\ \\text{2}  & \\text{0} \\\\ \\end{array}$"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/programming-in-c/programming/programming-in-c",
+            "/tag/normal",
+            "/tag/gatecse-2012",
+            "/tag/programming-in-c",
+            "/tag/programming"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/43314/gate-cse-2012-question-49",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/43314/gate-cse-2012-question-49",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "51",
+        "year": 2013,
+        "questionNumber": 51,
+        "subject": "Data Structures",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "The procedure given below is required to find and replace certain characters inside an input character string supplied in array $A$. The characters to be replaced are supplied in array $oldc$, while their respective replacement characters are supplied in array $newc$. Array $A$ has a fixed length of five characters, while arrays $oldc$ and $newc$ contain three characters each. However, the procedure is flawed.\n\nvoid find_and_replace (char *A, char *oldc, char *newc) {\n    for (int i=0; i<5; i++)\n        for (int j=0; j<3; j++)\n            if (A[i] == oldc[j])\n                A[i] = newc[j];\n}\n\nThe procedure is tested with the following four test cases.\n\n$oldc = “abc”, newc = “dab”$     \n$oldc = “cde”, newc = “bcd”$\n$oldc = “bca”, newc = “cda”$     \n$oldc = “abc”, newc = “bac”$\n\nIf array $A$ is made to hold the string “$abcde$”, which of the above four test cases will be successful in exposing the flaw in this procedure?",
+        "options": [
+            "None",
+            "$2$ only",
+            "$3$ and $4$ only",
+            "$4$ only"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/programming-in-c/data-structures",
+            "/tag/gatecse-2013",
+            "/tag/data-structures",
+            "/tag/array",
+            "/tag/normal"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/43291/gate-cse-2013-question-51",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/43291/gate-cse-2013-question-51",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "c",
+        "year": null,
+        "questionNumber": null,
+        "subject": "Data Structures",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "Consider the binary tree in the figure below:",
+        "options": [
+            "Outline a procedure in Pseudo-code to delete an arbitrary node from such a binary tree with $n$ nodes that preserves the structures. What is the worst-case time complexity of your procedure?"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/programming-in-c/data-structures",
+            "/tag/gate1991",
+            "/tag/normal",
+            "/tag/data-structures",
+            "/tag/binary-tree",
+            "/tag/time-complexity",
+            "/tag/descriptive"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/43027/gate-cse-1991-question-14-c",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/43027/gate-cse-1991-question-14-c",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "b",
+        "year": null,
+        "questionNumber": null,
+        "subject": "Data Structures",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "Consider the binary tree in the figure below:",
+        "options": [
+            "Give different steps for deleting the node with key $5$ so that the structure is preserved."
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/programming-in-c/data-structures",
+            "/tag/gate1991",
+            "/tag/data-structures",
+            "/tag/binary-tree",
+            "/tag/normal",
+            "/tag/descriptive"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/43026/gate-cse-1991-question-14-b",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/43026/gate-cse-1991-question-14-b",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    }
+]

@@ -1,0 +1,612 @@
+[
+    {
+        "id": "vii",
+        "year": null,
+        "questionNumber": null,
+        "subject": "Data Structures",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "A $2-3$ tree is such that\n\nAll internal nodes have either $2$ or $3$ children\nAll paths from root to the leaves have the same length\n\nThe number of internal nodes of a $2-3$ tree having $9$ leaves could be",
+        "options": [
+            "$4$",
+            "$5$",
+            "$6$",
+            "$7$"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/programming-in-c/data-structures",
+            "/tag/gate1992",
+            "/tag/tree",
+            "/tag/data-structures",
+            "/tag/normal",
+            "/tag/multiple-selects"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/562/gate-cse-1992-question-02-vii",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/562/gate-cse-1992-question-02-vii",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "a",
+        "year": null,
+        "questionNumber": null,
+        "subject": "Data Structures",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "Consider the binary tree in the figure below:",
+        "options": [
+            "What structure is represented by the binary tree?"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/programming-in-c/data-structures",
+            "/tag/gate1991",
+            "/tag/data-structures",
+            "/tag/binary-tree",
+            "/tag/time-complexity",
+            "/tag/easy",
+            "/tag/descriptive"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/541/gate-cse-1991-question-14-a",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/541/gate-cse-1991-question-14-a",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "vii",
+        "year": null,
+        "questionNumber": null,
+        "subject": "Data Structures",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "The following sequence of operations is performed on a stack:\n$PUSH  (10), PUSH (20), POP, PUSH (10), PUSH (20), POP, POP, POP, PUSH (20), POP$\nThe sequence of values popped out is",
+        "options": [
+            "$20,10,20,10,20$",
+            "$20,20,10,10,20$",
+            "$10,20,20,10,20$",
+            "$20,20,10,20,10$"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/programming-in-c/data-structures",
+            "/tag/gate1991",
+            "/tag/data-structures",
+            "/tag/stack",
+            "/tag/easy"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/522/gate-cse-1991-question-03-vii",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/522/gate-cse-1991-question-03-vii",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "x",
+        "year": null,
+        "questionNumber": null,
+        "subject": "Programming in C",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "Consider the following recursive definition of $fib$:",
+        "options": [
+            "fib(n) :=  if n = 0 then 1",
+            "else if n = 1 then 1",
+            "else fib(n-1) + fib(n-2)",
+            "The number of times $fib$  is called (including the first call) for evaluation of $fib(7)$ is___________."
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/programming-in-c/programming/programming-in-c",
+            "/tag/gate1991",
+            "/tag/programming",
+            "/tag/recursion",
+            "/tag/normal",
+            "/tag/numerical-answers"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/507/gate-cse-1991-question-01-x",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/507/gate-cse-1991-question-01-x",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "viii",
+        "year": null,
+        "questionNumber": null,
+        "subject": "Data Structures",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "The weighted external path length of the binary tree in figure is ______",
+        "options": [],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/programming-in-c/data-structures",
+            "/tag/gate1991",
+            "/tag/binary-tree",
+            "/tag/data-structures",
+            "/tag/normal",
+            "/tag/numerical-answers"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/506/gate-cse-1991-question-01-viii",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/506/gate-cse-1991-question-01-viii",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "vi",
+        "year": null,
+        "questionNumber": null,
+        "subject": "Programming in C",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "Consider the following PASCAL program segment:\n\nif i mod 2 = 0 then\n    while i >= 0 do \n    begin\n        i := i div 2;\n        if i mod 2 < > 0  then i := i - 1;\n        else i := i – 2;\n    end;",
+        "options": [
+            "An appropriate loop-invariant for the while-loop is ________"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/programming-in-c/programming/programming-in-c",
+            "/tag/gate1991",
+            "/tag/programming",
+            "/tag/loop-invariants",
+            "/tag/normal",
+            "/tag/fill-in-the-blanks"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/504/gate-cse-1991-question-1-vi",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/504/gate-cse-1991-question-1-vi",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "ix",
+        "year": null,
+        "questionNumber": null,
+        "subject": "Data Structures",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "If the binary tree in figure is traversed in inorder, then the order in which the nodes will be visited is ______",
+        "options": [],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/programming-in-c/data-structures",
+            "/tag/gate1991",
+            "/tag/binary-tree",
+            "/tag/easy",
+            "/tag/data-structures",
+            "/tag/descriptive"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/502/gate-cse-1991-question-1-ix",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/502/gate-cse-1991-question-1-ix",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "62",
+        "year": 2008,
+        "questionNumber": 62,
+        "subject": "Data Structures",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "The following C function takes a single-linked list of integers as a parameter and rearranges the elements of the list. The function is called with the list containing the integers $1, 2, 3, 4, 5, 6, 7$ in the given order. What will be the contents of the list after function completes execution?\n\nstruct node {\n    int value;\n    struct node *next;\n};\n\nvoid rearrange(struct node *list) {\n    struct node *p, *q;\n    int temp;\n    if (!list || !list -> next) return;\n    p = list; q = list -> next;\n    while(q) {\n        temp = p -> value; p->value =  q -> value;\n        q->value = temp; p = q ->next;\n        q = p? p ->next : 0;\n    }   \n}",
+        "options": [
+            "$1, 2 ,3, 4, 5, 6, 7$",
+            "$2, 1, 4 ,3, 6, 5, 7$",
+            "$1, 3, 2, 5, 4, 7, 6$",
+            "$2, 3, 4, 5, 6, 7, 1$"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/programming-in-c/data-structures",
+            "/tag/gatecse-2008",
+            "/tag/data-structures",
+            "/tag/linked-list",
+            "/tag/normal"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/485/gate-cse-2008-question-62",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/485/gate-cse-2008-question-62",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "61",
+        "year": 2008,
+        "questionNumber": 61,
+        "subject": "Programming in C",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "Choose the correct option to fill $?1$ and $?2$ so that the program below prints an input string in reverse order. Assume that the input string is terminated by a new line character.\n\nvoid reverse(void) \n{ \n    int c;\n    if(?1) reverse();\n    ?2 \n} \nmain() \n{ \n    printf(\"Enter text\"); \n    printf(\"\\n\"); \n    reverse(); \n    printf(\"\\n\"); \n}\n\n\n$?1$ is $(getchar() != ’\\setminus n’)$\n\t$?2$ is $getchar(c);$\n\n$?1$ is $((c = getchar() ) !=’\\setminus n’)$\n$?2$ is $getchar(c);$\n\n\n$?1$ is $(c != ’\\setminus n’)$\n$?2$ is $putchar(c);$",
+        "options": [
+            "$?1$ is $((c = getchar() ) != ’\\setminus n’)$",
+            "$?2$ is $putchar(c);$"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/programming-in-c/programming/programming-in-c",
+            "/tag/gatecse-2008",
+            "/tag/programming",
+            "/tag/normal",
+            "/tag/programming-in-c"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/484/gate-cse-2008-question-61",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/484/gate-cse-2008-question-61",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "60",
+        "year": 2008,
+        "questionNumber": 60,
+        "subject": "Programming in C",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "What is printed by the following C program?\n\nint f(int x, int *py, int **ppz)\t\t\t\n{\t\t\t\t\t\t                    \t\n    int y, z;\t\t\t\t\t                \t\t\n    **ppz += 1; z = **ppz;\t\t // corrected z = *ppz; to z = **ppz;                \n    *py += 2; y = *py;\t\t\t\t\t                \t\n    x += 3;\t\t\t\t\t                    \t\n    return x+y+z;\n}\n\nvoid main()\n{\n    int c, *b, **a;\n    c = 4; b = &c; a = &b;\n    printf(\"%d\", f(c, b, a));\n    \t\n}",
+        "options": [
+            "$18$",
+            "$19$",
+            "$21$",
+            "$22$"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/programming-in-c/programming/programming-in-c",
+            "/tag/gatecse-2008",
+            "/tag/programming",
+            "/tag/programming-in-c",
+            "/tag/normal",
+            "/tag/parameter-passing"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/483/gate-cse-2008-question-60",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/483/gate-cse-2008-question-60",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "46",
+        "year": 2008,
+        "questionNumber": 46,
+        "subject": "Data Structures",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "You are given the postorder traversal, $P$,  of a binary search tree on the $n$ elements $1, 2, \\dots, n$. You have to determine the unique binary search tree that has $P$ as its postorder traversal. What is the time complexity of the most efficient algorithm for doing this?",
+        "options": [
+            "$\\Theta(\\log n)$",
+            "$\\Theta(n)$",
+            "$\\Theta(n\\log n)$",
+            "None of the above, as the tree cannot be uniquely determined"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/programming-in-c/data-structures",
+            "/tag/gatecse-2008",
+            "/tag/data-structures",
+            "/tag/binary-search-tree",
+            "/tag/normal"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/458/gate-cse-2008-question-46",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/458/gate-cse-2008-question-46",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "18",
+        "year": 2008,
+        "questionNumber": 18,
+        "subject": "Programming in C",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "Which combination of the integer variables $x, y,$ and $z$ makes the variable $a$ get the value $4$ in the following expression?\n$$a=(x > y)?((x > z) ?x:z): ((y > z) ?y:z)$$",
+        "options": [
+            "$x=3, y=4, z=2$",
+            "$x=6, y=5, z=3$",
+            "$x=6, y=3, z=5$",
+            "$x=5, y=4, z=5$"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/programming-in-c/programming/programming-in-c",
+            "/tag/gatecse-2008",
+            "/tag/programming",
+            "/tag/programming-in-c",
+            "/tag/easy"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/416/gate-cse-2008-question-18",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/416/gate-cse-2008-question-18",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "20",
+        "year": null,
+        "questionNumber": 20,
+        "subject": "Programming in C",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "In which of the following cases is it possible to obtain different results for call-by-reference and call-by-name parameter passing methods?",
+        "options": [
+            "Passing a constant value as a parameter",
+            "Passing the address of an array as a parameter",
+            "Passing an array element as a parameter",
+            "Passing an array"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/programming-in-c/programming/programming-in-c",
+            "/tag/gate1994",
+            "/tag/programming",
+            "/tag/parameter-passing",
+            "/tag/easy"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/305/gate-cse-1994-question-1-20",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/305/gate-cse-1994-question-1-20",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "44",
+        "year": 2013,
+        "questionNumber": 44,
+        "subject": "Data Structures",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "Consider the following operation along with Enqueue and Dequeue operations on queues, where $k$ is a global parameter.\n\nMultiDequeue(Q){\n    m = k\n    while (Q is not empty) and (m > 0) {\n        Dequeue(Q)\n        m = m – 1\n    }\n}\n\nWhat is the worst case time complexity of a sequence of $n$ queue operations on an initially empty\nqueue?",
+        "options": [
+            "$Θ(n)$",
+            "$Θ(n + k)$",
+            "$Θ(nk)$",
+            "$Θ(n^2)$"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/programming-in-c/data-structures",
+            "/tag/gatecse-2013",
+            "/tag/data-structures",
+            "/tag/algorithms",
+            "/tag/normal",
+            "/tag/queue"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/61/gate-cse-2013-question-44",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/61/gate-cse-2013-question-44",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "42",
+        "year": 2013,
+        "questionNumber": 42,
+        "subject": "Programming in C",
+        "topic": "marks-to-all",
+        "questionType": "multiple-choice",
+        "question": "What is the return value of $f(p,p)$, if the value of $p$ is initialized to $5$ before the call? Note that the first parameter is passed by reference, whereas the second parameter is passed by value.",
+        "options": [
+            "int f (int &x, int c) {",
+            "c = c - 1;",
+            "if (c==0) return 1;",
+            "x = x + 1;",
+            "return f(x,c) * x;",
+            "}"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": "marks-to-all",
+        "marks": null,
+        "tags": [
+            "/programming-in-c/programming/programming-in-c",
+            "/tag/gatecse-2013",
+            "/tag/compiler-design",
+            "/tag/normal",
+            "/tag/marks-to-all",
+            "/tag/numerical-answers",
+            "/tag/parameter-passing",
+            "/tag/runtime-environment"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/60/gate-cse-2013-question-42",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/60/gate-cse-2013-question-42",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "5",
+        "year": 2012,
+        "questionNumber": 5,
+        "subject": "Data Structures",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "The worst case running time to search for an element in a balanced binary search tree with $n2^{n}$ elements is",
+        "options": [
+            "$\\Theta(n\\log n)$",
+            "$\\Theta(n2^n)$",
+            "$\\Theta(n)$",
+            "$\\Theta(\\log n)$"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/programming-in-c/data-structures",
+            "/tag/gatecse-2012",
+            "/tag/data-structures",
+            "/tag/normal",
+            "/tag/binary-search-tree"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/37/gate-cse-2012-question-5",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/37/gate-cse-2012-question-5",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "3",
+        "year": 2012,
+        "questionNumber": 3,
+        "subject": "Programming in C",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "What will be the output of the following C program segment?\n\n char inChar = 'A';\n    switch ( inChar ) {\n       case 'A' : printf (\"Choice A \\ n\");\n       case 'B' :\n       case 'C' : printf (\"Choice B\");\n       case 'D' :\n       case 'E' :\n       default : printf (\"No Choice\"); \n    }",
+        "options": [
+            "No Choice",
+            "Choice A",
+            "Choice A",
+            "Choice B No Choice",
+            "Program gives no output as it is erroneous"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/programming-in-c/programming/programming-in-c",
+            "/tag/gatecse-2012",
+            "/tag/programming",
+            "/tag/easy",
+            "/tag/programming-in-c",
+            "/tag/switch-case"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/35/gate-cse-2012-question-3",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/35/gate-cse-2012-question-3",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    }
+]

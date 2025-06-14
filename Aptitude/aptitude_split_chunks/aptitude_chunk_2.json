@@ -1,0 +1,1774 @@
+[
+    {
+        "id": "10",
+        "year": 2022,
+        "questionNumber": 10,
+        "subject": "Spatial Aptitude",
+        "topic": "two-marks",
+        "questionType": "multiple-choice",
+        "question": "A plot of land must be divided between four families. They want their individual plots to be similar in shape, not necessarily equal in area. The land has equally spaced poles, marked as dots in the below figure. Two ropes, $\\text{R1}$ and $\\text{R2},$ are already present and cannot be moved.\nWhat is the least number of $\\textsf{additional}$ straight ropes needed to create the desired plots? A single rope can pass through three poles that are aligned in a straight line.",
+        "options": [
+            "$2$",
+            "$4$",
+            "$5$",
+            "$3$"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": "two-marks",
+        "marks": null,
+        "tags": [
+            "/general-aptitude/spatial-aptitude",
+            "/tag/gatecse-2022",
+            "/tag/spatial-aptitude",
+            "/tag/patterns-in-two-dimensions",
+            "/tag/two-marks"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/371496/gate-cse-2022-ga-question-10",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/371496/gate-cse-2022-ga-question-10",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "2022",
+        "year": null,
+        "questionNumber": 2022,
+        "subject": "Verbal Aptitude",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "How To Prepare For GATE CSE 2022 APTITUTE, from scratch, please provide me suggestions.. I have downloaded the syllabus.",
+        "options": [],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/general-aptitude/verbal-aptitude"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/363716/gate-cse-2022",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/363716/gate-cse-2022",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "1",
+        "year": 2021,
+        "questionNumber": 1,
+        "subject": "Verbal Aptitude",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "Gauri said that she can play the keyboard __________ her sister.as well asas better asas nicest asas worse as",
+        "options": [],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/general-aptitude/verbal-aptitude",
+            "/tag/gatecse-2021-set2",
+            "/tag/verbal-aptitude",
+            "/tag/comparative-forms",
+            "/tag/one-mark"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/357549/gate-cse-2021-set-2-ga-question-1",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/357549/gate-cse-2021-set-2-ga-question-1",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "2",
+        "year": 2021,
+        "questionNumber": 2,
+        "subject": "Spatial Aptitude",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "A transparent square sheet shown above is folded along the dotted line. The folded sheet will look like ___________.",
+        "options": [],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/general-aptitude/spatial-aptitude",
+            "/tag/gatecse-2021-set2",
+            "/tag/spatial-aptitude",
+            "/tag/paper-folding",
+            "/tag/one-mark"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/357548/gate-cse-2021-set-2-ga-question-2",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/357548/gate-cse-2021-set-2-ga-question-2",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "3",
+        "year": 2021,
+        "questionNumber": 3,
+        "subject": "Quantitative Aptitude",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "If $\\theta$ is the angle, in degrees, between the longest diagonal of the cube and any one of the edges of the cube, then, $\\cos \\theta =$$\\frac{1}{2}$$\\frac{1}{\\sqrt{3}}$$\\frac{1}{\\sqrt{2}}$$\\frac{\\sqrt{3}}{2}$",
+        "options": [],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/general-aptitude/quantitative-aptitude",
+            "/tag/gatecse-2021-set2",
+            "/tag/quantitative-aptitude",
+            "/tag/mensuration",
+            "/tag/cube",
+            "/tag/one-mark"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/357547/gate-cse-2021-set-2-ga-question-3",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/357547/gate-cse-2021-set-2-ga-question-3",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "4",
+        "year": 2021,
+        "questionNumber": 4,
+        "subject": "Quantitative Aptitude",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "​​​​​​If $\\left( x  – \\dfrac{1}{2} \\right)^2 – \\left( x- \\dfrac{3}{2} \\right) ^2 = x+2$, then the value of $x$ is:",
+        "options": [
+            "$2$",
+            "$4$",
+            "$6$",
+            "$8$"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/general-aptitude/quantitative-aptitude",
+            "/tag/gatecse-2021-set2",
+            "/tag/quantitative-aptitude",
+            "/tag/quadratic-equations",
+            "/tag/one-mark"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/357546/gate-cse-2021-set-2-ga-question-4",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/357546/gate-cse-2021-set-2-ga-question-4",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "5",
+        "year": 2021,
+        "questionNumber": 5,
+        "subject": "Verbal Aptitude",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "$\\text{Pen : Write :: Knife :}$ _______Which one of the following options maintains a similar logical relation in the above?VegetablesSharpCutBlunt",
+        "options": [],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/general-aptitude/verbal-aptitude",
+            "/tag/gatecse-2021-set2",
+            "/tag/verbal-aptitude",
+            "/tag/word-pairs",
+            "/tag/one-mark",
+            "/tag/easy"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/357545/gate-cse-2021-set-2-ga-question-5",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/357545/gate-cse-2021-set-2-ga-question-5",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "6",
+        "year": 2021,
+        "questionNumber": 6,
+        "subject": "Verbal Aptitude",
+        "topic": "two-marks",
+        "questionType": "multiple-choice",
+        "question": "Listening to music during exercise improves performance and reduces discomfort. Scientists researched whether listening to music while studying can help students learn better and the results were inconclusive. Students who needed external stimulation for studying fared worse while students who did not need any external stimulation benefited from music.\nWhich one of the following statements is the $\\text{CORRECT}$ inference of the above passage?",
+        "options": [
+            "Listening to music has no effect on learning and a positive effect on physical exercise",
+            "Listening to music has a clear positive effect both in physical exercise and on learning",
+            "Listening to music has a clear positive effect on physical exercise. Music has a positive effect on learning only in some students",
+            "Listening to music has a clear positive effect on learning in all students. Music has a positive effect only in some students who exercise"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": "two-marks",
+        "marks": null,
+        "tags": [
+            "/general-aptitude/verbal-aptitude",
+            "/tag/gatecse-2021-set2",
+            "/tag/verbal-aptitude",
+            "/tag/verbal-reasoning",
+            "/tag/passage-reading",
+            "/tag/two-marks"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/357544/gate-cse-2021-set-2-ga-question-6",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/357544/gate-cse-2021-set-2-ga-question-6",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "7",
+        "year": 2021,
+        "questionNumber": 7,
+        "subject": "Spatial Aptitude",
+        "topic": "two-marks",
+        "questionType": "multiple-choice",
+        "question": "A jigsaw puzzle has $2$ pieces. One of the pieces is shown above. Which one of the given options for the missing piece when assembled will form a rectangle? The piece can be moved, rotated or flipped to assemble with the above piece.",
+        "options": [],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": "two-marks",
+        "marks": null,
+        "tags": [
+            "/general-aptitude/spatial-aptitude",
+            "/tag/gatecse-2021-set2",
+            "/tag/spatial-aptitude",
+            "/tag/assembling-pieces",
+            "/tag/two-marks"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/357543/gate-cse-2021-set-2-ga-question-7",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/357543/gate-cse-2021-set-2-ga-question-7",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "8",
+        "year": 2021,
+        "questionNumber": 8,
+        "subject": "Quantitative Aptitude",
+        "topic": "two-marks",
+        "questionType": "multiple-choice",
+        "question": "The number of students in three classes is in the ratio $3:13:6$. If $18$ students are added to each class, the ratio changes to $15:35:21$.\nThe total number of students in all the three classes in the beginning was:",
+        "options": [
+            "$22$",
+            "$66$",
+            "$88$",
+            "$110$"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": "two-marks",
+        "marks": null,
+        "tags": [
+            "/general-aptitude/quantitative-aptitude",
+            "/tag/gatecse-2021-set2",
+            "/tag/ratio-proportion",
+            "/tag/quantitative-aptitude",
+            "/tag/two-marks"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/357542/gate-cse-2021-set-2-ga-question-8",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/357542/gate-cse-2021-set-2-ga-question-8",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "9",
+        "year": 2021,
+        "questionNumber": 9,
+        "subject": "Quantitative Aptitude",
+        "topic": "two-marks",
+        "questionType": "multiple-choice",
+        "question": "The number of units of a product sold in three different years and the respective net profits are presented in the figure above. The cost/unit in Year $3$ was ₹$\\;1$, which was half the cost/unit in Year $2$. The cost/unit in Year $3$ was one-third of the cost/unit in Year $1$. Taxes were paid on the selling price at $10 \\%$, $13 \\%$, and $15 \\%$ respectively for the three years. Net profit is calculated as the difference between the selling price and the sum of cost and taxes paid in that year.\nThe ratio of the selling price in Year $2$ to the selling price in Year $3$ is _________.",
+        "options": [
+            "$4:3$",
+            "$1:1$",
+            "$3:4$",
+            "$1:2$"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": "two-marks",
+        "marks": null,
+        "tags": [
+            "/general-aptitude/quantitative-aptitude",
+            "/tag/gatecse-2021-set2",
+            "/tag/quantitative-aptitude",
+            "/tag/data-interpretation",
+            "/tag/bar-graph",
+            "/tag/two-marks"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/357541/gate-cse-2021-set-2-ga-question-9",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/357541/gate-cse-2021-set-2-ga-question-9",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "10",
+        "year": 2021,
+        "questionNumber": 10,
+        "subject": "Analytical Aptitude",
+        "topic": "two-marks",
+        "questionType": "multiple-choice",
+        "question": "Six students $\\text{P, Q, R, S, T and U}$, with distinct heights, compare their heights and make the following observations.\n\n$\\text{Observation I}$: $\\text{S}$ is taller than $\\text{R}$.\n$\\text{Observation II}$: $\\text{Q}$ is the shortest of all.\n$\\text{Observation III}$: $\\text{U}$ is taller than only one student.\n$\\text{Observation IV}$: $\\text{T}$ is taller than $\\text{S}$ but is not the tallest\n\nThe number of students that are taller than $\\text{R}$ is the same as the number of students shorter than ____________.",
+        "options": [
+            "$\\text{T}$",
+            "$\\text{R}$",
+            "$\\text{S}$",
+            "$\\text{P}$"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": "two-marks",
+        "marks": null,
+        "tags": [
+            "/general-aptitude/analytical-aptitude",
+            "/tag/gatecse-2021-set2",
+            "/tag/analytical-aptitude",
+            "/tag/logical-reasoning",
+            "/tag/two-marks"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/357540/gate-cse-2021-set-2-ga-question-10",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/357540/gate-cse-2021-set-2-ga-question-10",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "1",
+        "year": 2021,
+        "questionNumber": 1,
+        "subject": "Quantitative Aptitude",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "​​​​​​The ratio of boys to girls in a class is $7$ to $3$.\nAmong the options below, an acceptable value for the total number of students in the class is:",
+        "options": [
+            "$21$",
+            "$37$",
+            "$50$",
+            "$73$"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/general-aptitude/quantitative-aptitude",
+            "/tag/gatecse-2021-set1",
+            "/tag/quantitative-aptitude",
+            "/tag/ratio-proportion",
+            "/tag/one-mark"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/357476/gate-cse-2021-set-1-ga-question-1",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/357476/gate-cse-2021-set-1-ga-question-1",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "2",
+        "year": 2021,
+        "questionNumber": 2,
+        "subject": "Spatial Aptitude",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "A polygon is convex if, for every pair of points, $\\text{P}$ and $\\text{Q}$ belonging to the polygon, the line segment $\\text{PQ}$ lies completely inside or on the polygon.\nWhich one of the following is $\\underline{\\text{NOT}}$ a convex polygon?",
+        "options": [],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/general-aptitude/spatial-aptitude",
+            "/tag/gatecse-2021-set1",
+            "/tag/spatial-aptitude",
+            "/tag/patterns-in-two-dimensions",
+            "/tag/one-mark"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/357475/gate-cse-2021-set-1-ga-question-2",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/357475/gate-cse-2021-set-1-ga-question-2",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "3",
+        "year": 2021,
+        "questionNumber": 3,
+        "subject": "Verbal Aptitude",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "Consider the following sentences:\n\nEverybody in the class is prepared for the exam.\nBabu invited Danish to his home because he enjoys playing chess.\n\nWhich of the following is the $\\text{CORRECT}$ observation about the above two sentences?",
+        "options": [
+            "$\\text{(i)}$ is grammatically correct and $\\text{(ii)}$ is unambiguous",
+            "$\\text{(i)}$ is grammatically incorrect and $\\text{(ii)}$ is unambiguous",
+            "$\\text{(i)}$ is grammatically correct and $\\text{(ii)}$ is ambiguous",
+            "$\\text{(i)}$ is grammatically incorrect and $\\text{(ii)}$ is ambiguous"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/general-aptitude/verbal-aptitude",
+            "/tag/gatecse-2021-set1",
+            "/tag/verbal-aptitude",
+            "/tag/english-grammar",
+            "/tag/one-mark"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/357474/gate-cse-2021-set-1-ga-question-3",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/357474/gate-cse-2021-set-1-ga-question-3",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "4",
+        "year": 2021,
+        "questionNumber": 4,
+        "subject": "Spatial Aptitude",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "A circular sheet of paper is folded along the lines in the directions shown. The paper, after being punched in the final folded state as shown and unfolded in the reverse order of folding, will look like _______.",
+        "options": [],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/general-aptitude/spatial-aptitude",
+            "/tag/gatecse-2021-set1",
+            "/tag/spatial-aptitude",
+            "/tag/paper-folding",
+            "/tag/one-mark"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/357473/gate-cse-2021-set-1-ga-question-4",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/357473/gate-cse-2021-set-1-ga-question-4",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "5",
+        "year": 2021,
+        "questionNumber": 5,
+        "subject": "Verbal Aptitude",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "___________ is to surgery as writer is to ___________\nWhich one of the following options maintains a similar logical relation in the above sentence?",
+        "options": [
+            "Plan, outline",
+            "Hospital, library",
+            "Doctor, book",
+            "Medicine, grammar"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/general-aptitude/verbal-aptitude",
+            "/tag/gatecse-2021-set1",
+            "/tag/verbal-aptitude",
+            "/tag/word-pairs",
+            "/tag/one-mark"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/357472/gate-cse-2021-set-1-ga-question-5",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/357472/gate-cse-2021-set-1-ga-question-5",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "6",
+        "year": 2021,
+        "questionNumber": 6,
+        "subject": "Quantitative Aptitude",
+        "topic": "two-marks",
+        "questionType": "multiple-choice",
+        "question": "We have $2$ rectangular sheets of paper, $\\text{M}$ and $\\text{N}$, of dimensions $\\text{6 cm $\\times$ 1 cm}$ each. Sheet $\\text{M}$ is rolled to form an open cylinder by bringing the short edges of the sheet together. Sheet $\\text{N}$ is cut into equal square patches and assembled to form the largest possible closed cube. Assuming the ends of the cylinder are closed, the ratio of the volume of the cylinder to that of the cube is _________.$\\dfrac{\\pi}{2}$$\\dfrac{3}{\\pi}$$\\dfrac{9}{\\pi}$$3\\pi$",
+        "options": [],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": "two-marks",
+        "marks": null,
+        "tags": [
+            "/general-aptitude/quantitative-aptitude",
+            "/tag/gatecse-2021-set1",
+            "/tag/quantitative-aptitude",
+            "/tag/mensuration",
+            "/tag/volume",
+            "/tag/two-marks"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/357471/gate-cse-2021-set-1-ga-question-6",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/357471/gate-cse-2021-set-1-ga-question-6",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "7",
+        "year": 2021,
+        "questionNumber": 7,
+        "subject": "Quantitative Aptitude",
+        "topic": "two-marks",
+        "questionType": "multiple-choice",
+        "question": "$$\\begin{array}{|c|c|c|c|} \\hline \\textbf{Items} & \\textbf{Cost} & \\textbf{Profit %} & \\textbf{Marked Price} \\\\ & \\text{(₹)} & & \\text{(₹)} \\\\\\hline P &5,400 &---&5,860\\\\\\hline Q&---&25&10,000\\\\\\hline\\end{array}$$\nDetails of prices of two items $P$ and $Q$ are presented in the above table. The ratio of cost of item $P$ to cost of item $Q$ is $3:4$. Discount is calculated as the difference between the marked price and the selling price. The profit percentage is calculated as the ratio of the difference between selling price and cost, to the cost \n$(\\text{Profit} \\%=\\dfrac{\\text{Selling price – Cost}}{\\text{Cost}} \\times 100)$\nThe discount on item $Q$, as a percentage of its marked price, is _______",
+        "options": [
+            "$25$",
+            "$12.5$",
+            "$10$",
+            "$5$"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": "two-marks",
+        "marks": null,
+        "tags": [
+            "/general-aptitude/quantitative-aptitude",
+            "/tag/gatecse-2021-set1",
+            "/tag/quantitative-aptitude",
+            "/tag/profit-loss",
+            "/tag/two-marks"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/357470/gate-cse-2021-set-1-ga-question-7",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/357470/gate-cse-2021-set-1-ga-question-7",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "8",
+        "year": 2021,
+        "questionNumber": 8,
+        "subject": "Quantitative Aptitude",
+        "topic": "two-marks",
+        "questionType": "multiple-choice",
+        "question": "There are five bags each containing identical sets of ten distinct chocolates. One chocolate is picked from each bag.\nThe probability that at least two chocolates are identical is __________",
+        "options": [
+            "$0.3024$",
+            "$0.4235$",
+            "$0.6976$",
+            "$0.8125$"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": "two-marks",
+        "marks": null,
+        "tags": [
+            "/general-aptitude/quantitative-aptitude",
+            "/tag/gatecse-2021-set1",
+            "/tag/quantitative-aptitude",
+            "/tag/probability",
+            "/tag/two-marks"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/357469/gate-cse-2021-set-1-ga-question-8",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/357469/gate-cse-2021-set-1-ga-question-8",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "9",
+        "year": 2021,
+        "questionNumber": 9,
+        "subject": "Analytical Aptitude",
+        "topic": "two-marks",
+        "questionType": "multiple-choice",
+        "question": "Given below are two statements $1$ and $2$, and two conclusions $\\text{I}$ and $\\text{II}$\n\n$\\text{Statement 1:}$ All bacteria are microorganisms.\n$\\text{Statement 2:}$ All pathogens are microorganisms.\n\n\n$\\text{Conclusion I:}$ Some pathogens are bacteria.\n$\\text{Conclusion II:}$ All pathogens are not bacteria.\n\nBased on the above statements and conclusions, which one of the following options is logically $\\text{CORRECT}$?",
+        "options": [
+            "Only conclusion $\\text{I}$ is correct",
+            "Only conclusion $\\text{II}$ is correct",
+            "Either conclusion $\\text{I}$ or $\\text{II}$ is correct",
+            "Neither conclusion $\\text{I}$ nor $\\text{II}$ is correct"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": "two-marks",
+        "marks": null,
+        "tags": [
+            "/general-aptitude/analytical-aptitude",
+            "/tag/gatecse-2021-set1",
+            "/tag/analytical-aptitude",
+            "/tag/logical-reasoning",
+            "/tag/statements-follow",
+            "/tag/two-marks"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/357468/gate-cse-2021-set-1-ga-question-9",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/357468/gate-cse-2021-set-1-ga-question-9",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "10",
+        "year": 2021,
+        "questionNumber": 10,
+        "subject": "Verbal Aptitude",
+        "topic": "two-marks",
+        "questionType": "multiple-choice",
+        "question": "Some people suggest anti-obesity measures $\\text{(AOM)}$ such as displaying calorie information in restaurant menus. Such measures sidestep addressing the core problems that cause obesity: poverty and income inequality.\nWhich one of the following statements summarizes the passage?",
+        "options": [
+            "The proposed $\\text{AOM}$ addresses the core problems that cause obesity",
+            "If obesity reduces, poverty will naturally reduce, since obesity causes poverty",
+            "$\\text{AOM}$ are addressing the core problems and are likely to succeed",
+            "$\\text{AOM}$ are addressing the problem superficially"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": "two-marks",
+        "marks": null,
+        "tags": [
+            "/general-aptitude/verbal-aptitude",
+            "/tag/gatecse-2021-set1",
+            "/tag/verbal-aptitude",
+            "/tag/verbal-reasoning",
+            "/tag/passage-reading",
+            "/tag/two-marks"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/357467/gate-cse-2021-set-1-ga-question-10",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/357467/gate-cse-2021-set-1-ga-question-10",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "1",
+        "year": 2020,
+        "questionNumber": 1,
+        "subject": "Verbal Aptitude",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "Raman is confident of speaking English _______six months as he has been practising regularly_______the last three weeks",
+        "options": [
+            "during, for",
+            "for, since",
+            "for, in",
+            "within, for"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/general-aptitude/verbal-aptitude",
+            "/tag/gatecse-2020",
+            "/tag/verbal-aptitude",
+            "/tag/english-grammar",
+            "/tag/one-mark"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/333240/gate-cse-2020-question-ga-1",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/333240/gate-cse-2020-question-ga-1",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "2",
+        "year": 2020,
+        "questionNumber": 2,
+        "subject": "Verbal Aptitude",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "His knowledge of the subject was excellent but his classroom performance was_______.",
+        "options": [
+            "extremely poor",
+            "good",
+            "desirable",
+            "praiseworthy"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/general-aptitude/verbal-aptitude",
+            "/tag/gatecse-2020",
+            "/tag/verbal-aptitude",
+            "/tag/english-grammar",
+            "/tag/word-meaning",
+            "/tag/one-mark"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/333239/gate-cse-2020-question-ga-2",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/333239/gate-cse-2020-question-ga-2",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "3",
+        "year": 2020,
+        "questionNumber": 3,
+        "subject": "Verbal Aptitude",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "Select the word that fits the analogy:\nCook : Cook :: Fly : _______",
+        "options": [
+            "Flyer",
+            "Flying",
+            "Flew",
+            "Flighter"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/general-aptitude/verbal-aptitude",
+            "/tag/gatecse-2020",
+            "/tag/verbal-aptitude",
+            "/tag/word-pairs",
+            "/tag/one-mark"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/333238/gate-cse-2020-question-ga-3",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/333238/gate-cse-2020-question-ga-3",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "4",
+        "year": 2020,
+        "questionNumber": 4,
+        "subject": "Verbal Aptitude",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "The dawn of the $21$st century witnessed the melting glaciers oscillating between giving too much and too little to billions of people who depend on them for fresh water. The UN climate report estimates that without deep cuts to man-made emissions, at least $30\\%$ of the northern hemisphere’s surface permafrost could melt by the end of the century. Given this situation of imminent global exodus of billions of people displaced by rising seas, nation-states need to rethink their carbon footprint for political concerns, if not for environmental ones.\nWhich one of the following statements can be inferred from the given passage?",
+        "options": [
+            "Nation-states do not have environmental concerns.",
+            "Nation-states are responsible for providing fresh water to billions of people.",
+            "Billions of people are responsible for man-made emissions.",
+            "Billions of people are affected by melting glaciers."
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/general-aptitude/verbal-aptitude",
+            "/tag/gatecse-2020",
+            "/tag/verbal-aptitude",
+            "/tag/verbal-reasoning",
+            "/tag/passage-reading",
+            "/tag/one-mark"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/333237/gate-cse-2020-question-ga-4",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/333237/gate-cse-2020-question-ga-4",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "5",
+        "year": 2020,
+        "questionNumber": 5,
+        "subject": "Quantitative Aptitude",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "There are multiple routes to reach from node $1$ to node $2$, as shown in the network.\n\nThe cost of travel on an edge between two nodes is given in rupees. Nodes $\\text{‘}a\\text{’}, \\text{‘}b\\text{’}, \\text{‘}c\\text{’}, \\text{‘}d\\text{’}, \\text{‘}e\\text{’},$ and $\\text{‘}f\\text{’}$ are toll booths. The toll price at toll booths marked $\\text{‘}a\\text{’}$ and $\\text{‘}e\\text{’}$ is Rs. $200$, and is Rs. $100$ for the other toll booths. Which is the cheapest route from node $1$ to node $2$?",
+        "options": [
+            "$1-a-c-2$",
+            "$1-f-b-2$",
+            "$1-b-2$",
+            "$1-f-e-2$"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/general-aptitude/quantitative-aptitude",
+            "/tag/gatecse-2020",
+            "/tag/quantitative-aptitude",
+            "/tag/graph-theory",
+            "/tag/one-mark"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/333236/gate-cse-2020-question-ga-5",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/333236/gate-cse-2020-question-ga-5",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "6",
+        "year": 2020,
+        "questionNumber": 6,
+        "subject": "Verbal Aptitude",
+        "topic": "two-marks",
+        "questionType": "multiple-choice",
+        "question": "Goods and Services Tax (GST) is an indirect tax introduced in India in $2017$ that is imposed on the supply of goods and services, and it subsumes all indirect taxes except few. It is a destination-based tax imposed on goods and services used, and it is not imposed at the point of origin from where goods come. GST also has a few components specific to state governments, central government  and Union Territories (UTs).\nWhich one of the following statements can be inferred from the given passage?",
+        "options": [
+            "GST is imposed on the production of goods and services.",
+            "GST includes all indirect taxes.",
+            "GST does not have a component specific to UT.",
+            "GST is imposed at the point of usage of goods and services."
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": "two-marks",
+        "marks": null,
+        "tags": [
+            "/general-aptitude/verbal-aptitude",
+            "/tag/gatecse-2020",
+            "/tag/verbal-aptitude",
+            "/tag/verbal-reasoning",
+            "/tag/passage-reading",
+            "/tag/two-marks"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/333235/gate-cse-2020-question-ga-6",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/333235/gate-cse-2020-question-ga-6",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "7",
+        "year": 2020,
+        "questionNumber": 7,
+        "subject": "Analytical Aptitude",
+        "topic": "two-marks",
+        "questionType": "multiple-choice",
+        "question": "If $P = 3$, $R = 27$, $T = 243$, then $Q + S =$ ________",
+        "options": [
+            "$40$",
+            "$80$",
+            "$90$",
+            "$110$"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": "two-marks",
+        "marks": null,
+        "tags": [
+            "/general-aptitude/analytical-aptitude",
+            "/tag/gatecse-2020",
+            "/tag/analytical-aptitude",
+            "/tag/logical-reasoning",
+            "/tag/sequence-series",
+            "/tag/two-marks"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/333234/gate-cse-2020-question-ga-7",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/333234/gate-cse-2020-question-ga-7",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "8",
+        "year": 2020,
+        "questionNumber": 8,
+        "subject": "Quantitative Aptitude",
+        "topic": "two-marks",
+        "questionType": "multiple-choice",
+        "question": "The figure below shows an annular ring with outer and inner as $b$ and $a$, respectively. The annular space has been painted in the form of blue colour circles touching the outer and inner periphery of annular space. If maximum $n$ number of circles can be painted, then the unpainted area available in annular space is _____.",
+        "options": [
+            "$\\pi [(b^{2}-a^{2})-\\frac{n}{4}(b-a)^{2}]$",
+            "$\\pi [(b^{2}-a^{2})-n(b-a)^{2}]$",
+            "$\\pi [(b^{2}-a^{2})+\\frac{n}{4}(b-a)^{2}]$",
+            "$\\pi [(b^{2}-a^{2})+n(b-a)^{2}]$"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": "two-marks",
+        "marks": null,
+        "tags": [
+            "/general-aptitude/quantitative-aptitude",
+            "/tag/gatecse-2020",
+            "/tag/quantitative-aptitude",
+            "/tag/geometry",
+            "/tag/circle",
+            "/tag/area",
+            "/tag/two-marks"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/333233/gate-cse-2020-question-ga-8",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/333233/gate-cse-2020-question-ga-8",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "9",
+        "year": 2020,
+        "questionNumber": 9,
+        "subject": "Quantitative Aptitude",
+        "topic": "two-marks",
+        "questionType": "multiple-choice",
+        "question": "Two straight lines are drawn perpendicular to each other in $X-Y$ plane. If $\\alpha$ and $\\beta$ are the acute angles the straight lines make with the $\\text{X-}$ axis, then $\\alpha + \\beta$ is ________.",
+        "options": [
+            "$60^{\\circ}$",
+            "$90^{\\circ}$",
+            "$120^{\\circ}$",
+            "$180^{\\circ}$"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": "two-marks",
+        "marks": null,
+        "tags": [
+            "/general-aptitude/quantitative-aptitude",
+            "/tag/gatecse-2020",
+            "/tag/quantitative-aptitude",
+            "/tag/geometry",
+            "/tag/cartesian-coordinates",
+            "/tag/two-marks"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/333232/gate-cse-2020-question-ga-9",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/333232/gate-cse-2020-question-ga-9",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "10",
+        "year": 2020,
+        "questionNumber": 10,
+        "subject": "Quantitative Aptitude",
+        "topic": "two-marks",
+        "questionType": "multiple-choice",
+        "question": "The total revenue of a company during $2014-2018$ is shown in the bar graph. If the total expenditure of the company in each year is $500$ million rupees, then the aggregate profit or loss (in percentage) on the total expenditure of the company during $2014-2018$ is ___________.",
+        "options": [
+            "$16.67 \\%$ profit",
+            "$16.67 \\%$ loss",
+            "$20 \\%$ profit",
+            "$20 \\%$ loss"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": "two-marks",
+        "marks": null,
+        "tags": [
+            "/general-aptitude/quantitative-aptitude",
+            "/tag/gatecse-2020",
+            "/tag/quantitative-aptitude",
+            "/tag/data-interpretation",
+            "/tag/bar-graph",
+            "/tag/two-marks"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/333231/gate-cse-2020-question-ga-10",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/333231/gate-cse-2020-question-ga-10",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "1",
+        "year": 2019,
+        "questionNumber": 1,
+        "subject": "Verbal Aptitude",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "The expenditure on the project _____ as follows: equipment Rs.$20$ lakhs, salaries Rs.$12$ lakhs, and contingency Rs.$3$ lakhs.",
+        "options": [
+            "break down",
+            "break",
+            "breaks down",
+            "breaks"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/general-aptitude/verbal-aptitude",
+            "/tag/gatecse-2019",
+            "/tag/general-aptitude",
+            "/tag/verbal-aptitude",
+            "/tag/most-appropriate-word",
+            "/tag/one-mark"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/302872/gate-cse-2019-question-ga-1",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/302872/gate-cse-2019-question-ga-1",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "2",
+        "year": 2019,
+        "questionNumber": 2,
+        "subject": "Verbal Aptitude",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "The search engine’s business model ____ around the fulcrum of trust.revolvesplayssinksbursts",
+        "options": [],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/general-aptitude/verbal-aptitude",
+            "/tag/gatecse-2019",
+            "/tag/general-aptitude",
+            "/tag/verbal-aptitude",
+            "/tag/most-appropriate-word",
+            "/tag/one-mark"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/302871/gate-cse-2019-question-ga-2",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/302871/gate-cse-2019-question-ga-2",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "3",
+        "year": 2019,
+        "questionNumber": 3,
+        "subject": "Quantitative Aptitude",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "Two cars at the same time from the same location and go in the same direction. The speed of the first car is $50$ km/h and the speed of the second car is $60$ km/h. The number of hours it takes for the distance between the two cars to be $20$ km is _____.",
+        "options": [
+            "$1$",
+            "$2$",
+            "$3$",
+            "$6$"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/general-aptitude/quantitative-aptitude",
+            "/tag/gatecse-2019",
+            "/tag/general-aptitude",
+            "/tag/quantitative-aptitude",
+            "/tag/speed-time-distance",
+            "/tag/one-mark"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/302870/gate-cse-2019-question-ga-3",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/302870/gate-cse-2019-question-ga-3",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "4",
+        "year": 2019,
+        "questionNumber": 4,
+        "subject": "Quantitative Aptitude",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "Ten friends planned to share equally the cost of buying a gift for their teacher. When two of them decided not to contribute, each of the other friends had to pay Rs. $150$ more. The cost of the gift was Rs. ____",
+        "options": [
+            "$666$",
+            "$3000$",
+            "$6000$",
+            "$12000$"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/general-aptitude/quantitative-aptitude",
+            "/tag/gatecse-2019",
+            "/tag/general-aptitude",
+            "/tag/quantitative-aptitude",
+            "/tag/cost-market-price",
+            "/tag/one-mark"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/302869/gate-cse-2019-question-ga-4",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/302869/gate-cse-2019-question-ga-4",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "5",
+        "year": 2019,
+        "questionNumber": 5,
+        "subject": "Verbal Aptitude",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "A court is to a judge as _________ is to a teacher",
+        "options": [
+            "a student",
+            "a punishment",
+            "a syllabus",
+            "a school"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/general-aptitude/verbal-aptitude",
+            "/tag/gatecse-2019",
+            "/tag/general-aptitude",
+            "/tag/verbal-aptitude",
+            "/tag/most-appropriate-word",
+            "/tag/one-mark"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/302868/gate-cse-2019-question-ga-5",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/302868/gate-cse-2019-question-ga-5",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "6",
+        "year": 2019,
+        "questionNumber": 6,
+        "subject": "Verbal Aptitude",
+        "topic": "two-marks",
+        "questionType": "multiple-choice",
+        "question": "The police arrested four criminals – $P, Q, R$ and $S.$ The criminals knew each other. They made the following statements:\n\n$P$ says “Q committed the crime.”\n$Q$ says “S committed the crime.”\n$R$ says “ I did not do it.”\n$S$ says “What Q said about me is false”.\n\nAssume only one of the arrested four committed the crime and only one of the statements made above is true. Who committed the crime?",
+        "options": [
+            "$P$",
+            "$R$",
+            "$S$",
+            "$Q$"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": "two-marks",
+        "marks": null,
+        "tags": [
+            "/general-aptitude/verbal-aptitude",
+            "/tag/gatecse-2019",
+            "/tag/verbal-aptitude",
+            "/tag/verbal-reasoning",
+            "/tag/two-marks"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/302867/gate-cse-2019-question-ga-6",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/302867/gate-cse-2019-question-ga-6",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "7",
+        "year": 2019,
+        "questionNumber": 7,
+        "subject": "Quantitative Aptitude",
+        "topic": "two-marks",
+        "questionType": "multiple-choice",
+        "question": "In the given diagram, teachers are represented in the triangle, researchers in the circle and administrators in the rectangle. Out of the total number of the people, the percentage of administrators shall be in the range of _______",
+        "options": [
+            "$0$ to $15$",
+            "$16$ to $30$",
+            "$31$ to $45$",
+            "$46$ to $60$"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": "two-marks",
+        "marks": null,
+        "tags": [
+            "/general-aptitude/quantitative-aptitude",
+            "/tag/gatecse-2019",
+            "/tag/general-aptitude",
+            "/tag/quantitative-aptitude",
+            "/tag/venn-diagram",
+            "/tag/two-marks"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/302866/gate-cse-2019-question-ga-7",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/302866/gate-cse-2019-question-ga-7",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "8",
+        "year": 2019,
+        "questionNumber": 8,
+        "subject": "Verbal Aptitude",
+        "topic": "two-marks",
+        "questionType": "multiple-choice",
+        "question": "“A recent High Court judgement has sought to dispel the idea of begging as a disease – which leads to its stigmatization and criminalization  – and to regard it as a symptom. The underlying disease is the failure of the state to protect citizens who fall through the social security net.”\nWhich one of the following statements can be inferred from the given passage?",
+        "options": [
+            "Beggars are lazy people who beg because they are unwilling to work",
+            "Beggars are created because of the lack of social welfare schemes",
+            "Begging is an offence that has to be dealt with firmly",
+            "Begging has to be banned because it adversely affects the welfare of the state"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": "two-marks",
+        "marks": null,
+        "tags": [
+            "/general-aptitude/verbal-aptitude",
+            "/tag/gatecse-2019",
+            "/tag/general-aptitude",
+            "/tag/verbal-aptitude",
+            "/tag/verbal-reasoning",
+            "/tag/two-marks"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/302865/gate-cse-2019-question-ga-8",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/302865/gate-cse-2019-question-ga-8",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "9",
+        "year": 2019,
+        "questionNumber": 9,
+        "subject": "Quantitative Aptitude",
+        "topic": "two-marks",
+        "questionType": "multiple-choice",
+        "question": "In a college, there are three student clubs, $60$ students are only in the Drama club, $80$ students are only in the Dance club, $30$ students are only in Maths club, $40$ students are in both Drama and Dance clubs, $12$ students are in both Dance and Maths clubs, $7$ students are in both Drama and Maths clubs, and $2$ students are in all clubs. If $75 \\%$ of the students in the college are not in any of these clubs, then the total number of students in the college is _____.",
+        "options": [
+            "$1000$",
+            "$975$",
+            "$900$",
+            "$225$"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": "two-marks",
+        "marks": null,
+        "tags": [
+            "/general-aptitude/quantitative-aptitude",
+            "/tag/gatecse-2019",
+            "/tag/general-aptitude",
+            "/tag/quantitative-aptitude",
+            "/tag/venn-diagram",
+            "/tag/two-marks"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/302864/gate-cse-2019-question-ga-9",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/302864/gate-cse-2019-question-ga-9",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "10",
+        "year": 2019,
+        "questionNumber": 10,
+        "subject": "Analytical Aptitude",
+        "topic": "two-marks",
+        "questionType": "multiple-choice",
+        "question": "Three of the five students are allocated to a hostel put in special requests to the warden, Given the floor plan of the vacant rooms, select the allocation plan that will accommodate all their requests.\nRequest by X: Due to pollen allergy, I want to avoid a wing next to the garden.\nRequest by Y: I want to live as far from the washrooms as possible, since I am very much sensitive to smell.\nRequest by Z: I believe in Vaastu and so I want to stay in South-West wing.\nThe shaded rooms are already occupied. WR is washroom",
+        "options": [],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": "two-marks",
+        "marks": null,
+        "tags": [
+            "/general-aptitude/analytical-aptitude",
+            "/tag/gatecse-2019",
+            "/tag/general-aptitude",
+            "/tag/analytical-aptitude",
+            "/tag/direction-sense",
+            "/tag/two-marks"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/302863/gate-cse-2019-question-ga-10",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/302863/gate-cse-2019-question-ga-10",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "7",
+        "year": 2018,
+        "questionNumber": 7,
+        "subject": "Quantitative Aptitude",
+        "topic": "two-marks",
+        "questionType": "multiple-choice",
+        "question": "If $pqr \\ne 0$ and $p^{-x}=\\dfrac{1}{q},q^{-y}=\\dfrac{1}{r},r^{-z}=\\dfrac{1}{p},$ what is the value of the product $xyz$ ?",
+        "options": [
+            "$-1$",
+            "$\\dfrac{1}{pqr}$",
+            "$1$",
+            "$pqr$"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": "two-marks",
+        "marks": null,
+        "tags": [
+            "/general-aptitude/quantitative-aptitude",
+            "/tag/gatecse-2018",
+            "/tag/quantitative-aptitude",
+            "/tag/ratio-proportion",
+            "/tag/two-marks",
+            "/tag/logarithms"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/204068/gate-cse-2018-question-ga-7",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/204068/gate-cse-2018-question-ga-7",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "8",
+        "year": 2018,
+        "questionNumber": 8,
+        "subject": "Quantitative Aptitude",
+        "topic": "two-marks",
+        "questionType": "multiple-choice",
+        "question": "In a party, $60\\%$ of the invited guests are male and $40\\%$ are female.If $80\\%$ of the invited guests attended the party and if all the invited female guests attended, what would be the ratio of males to females among the attendees in the party?",
+        "options": [
+            "$2\\colon 3$",
+            "$1\\colon 1$",
+            "$3\\colon 2$",
+            "$2\\colon 1$"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": "two-marks",
+        "marks": null,
+        "tags": [
+            "/general-aptitude/quantitative-aptitude",
+            "/tag/gatecse-2018",
+            "/tag/quantitative-aptitude",
+            "/tag/ratio-proportion",
+            "/tag/two-marks"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/204069/gate-cse-2018-question-ga-8",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/204069/gate-cse-2018-question-ga-8",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "10",
+        "year": 2018,
+        "questionNumber": 10,
+        "subject": "Quantitative Aptitude",
+        "topic": "two-marks",
+        "questionType": "multiple-choice",
+        "question": "A six sided unbiased die with four green faces and two red faces is rolled seven times. Which of the following combinations is the most likely outcome of the experiment?",
+        "options": [
+            "Three green faces and four red faces.",
+            "Four green faces and three red faces.",
+            "Five green faces and two red faces.",
+            "Six green faces and one red face"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": "two-marks",
+        "marks": null,
+        "tags": [
+            "/general-aptitude/quantitative-aptitude",
+            "/tag/gatecse-2018",
+            "/tag/quantitative-aptitude",
+            "/tag/probability",
+            "/tag/normal",
+            "/tag/two-marks"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/204071/gate-cse-2018-question-ga-10",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/204071/gate-cse-2018-question-ga-10",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "9",
+        "year": 2018,
+        "questionNumber": 9,
+        "subject": "Quantitative Aptitude",
+        "topic": "two-marks",
+        "questionType": "multiple-choice",
+        "question": "In the figure below, $\\angle DEC + \\angle BFC$ is equal to _____",
+        "options": [
+            "$\\angle BCD - \\angle BAD$",
+            "$\\angle BAD + \\angle BCF$",
+            "$\\angle BAD + \\angle BCD$",
+            "$\\angle CBA + \\angle ADC$"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": "two-marks",
+        "marks": null,
+        "tags": [
+            "/general-aptitude/quantitative-aptitude",
+            "/tag/gatecse-2018",
+            "/tag/quantitative-aptitude",
+            "/tag/geometry",
+            "/tag/normal",
+            "/tag/triangles",
+            "/tag/two-marks"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/204070/gate-cse-2018-question-ga-9",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/204070/gate-cse-2018-question-ga-9",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "5",
+        "year": 2018,
+        "questionNumber": 5,
+        "subject": "Quantitative Aptitude",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "$\\text{ What is the missing number in the following sequence?}$\n$$2,\\,12,\\,60,\\,240,\\,720,\\,1440,\\,\\underline{\\;\\;\\;\\;\\;\\;\\;\\;},0$$",
+        "options": [
+            "$2880$",
+            "$1440$",
+            "$720$",
+            "$0$"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/general-aptitude/quantitative-aptitude",
+            "/tag/gatecse-2018",
+            "/tag/quantitative-aptitude",
+            "/tag/sequence-series",
+            "/tag/easy",
+            "/tag/one-mark"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/204066/gate-cse-2018-question-ga-5",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/204066/gate-cse-2018-question-ga-5",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "4",
+        "year": 2018,
+        "questionNumber": 4,
+        "subject": "Quantitative Aptitude",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "What would be the smallest natural number which when divided either by $20$ or by $42$ or by $76$ leaves a remainder of  $7$ in each case?",
+        "options": [
+            "$3047$",
+            "$6047$",
+            "$7987$",
+            "$63847$"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/general-aptitude/quantitative-aptitude",
+            "/tag/gatecse-2018",
+            "/tag/quantitative-aptitude",
+            "/tag/factors",
+            "/tag/one-mark"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/204065/gate-cse-2018-question-ga-4",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/204065/gate-cse-2018-question-ga-4",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "6",
+        "year": 2018,
+        "questionNumber": 6,
+        "subject": "Quantitative Aptitude",
+        "topic": "two-marks",
+        "questionType": "multiple-choice",
+        "question": "In appreciation of the social improvements completed in a town, a wealthy philanthropist decided to gift $Rs\\; 750$ to each male senior citizen in the town and $Rs\\; 1000$ to each female senior citizen. Altogether, there were 300 senior citizens eligible for this gift. However, only $\\dfrac{8}{9}^{\\text{th}}$ of the eligible men and $\\dfrac{2}{3}^{\\text{rd}}$ of the eligible women claimed the gift.How much money (in Rupees) did the philanthropist give away in total?",
+        "options": [
+            "$1,50,000$",
+            "$2,00,000$",
+            "$1,75,000$",
+            "$1,51,000$"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": "two-marks",
+        "marks": null,
+        "tags": [
+            "/general-aptitude/quantitative-aptitude",
+            "/tag/gatecse-2018",
+            "/tag/quantitative-aptitude",
+            "/tag/fractions",
+            "/tag/normal",
+            "/tag/two-marks"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/204067/gate-cse-2018-question-ga-6",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/204067/gate-cse-2018-question-ga-6",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "1",
+        "year": 2018,
+        "questionNumber": 1,
+        "subject": "Verbal Aptitude",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "\"From where are they bringing their books? _______ bringing _______ books from ________\"\nThe words that best fill the blanks in the above sentence are",
+        "options": [
+            "$\\text{Their, they're, there}$",
+            "$\\text{They're, their, there}$",
+            "$\\text{There, their, they're}$",
+            "$\\text{They're, there,there}$"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/general-aptitude/verbal-aptitude",
+            "/tag/gatecse-2018",
+            "/tag/verbal-aptitude",
+            "/tag/most-appropriate-word",
+            "/tag/easy",
+            "/tag/one-mark"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/204062/gate-cse-2018-question-ga-1",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/204062/gate-cse-2018-question-ga-1",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    }
+]

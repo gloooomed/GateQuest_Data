@@ -1,0 +1,1683 @@
+[
+    {
+        "id": "72",
+        "year": 2008,
+        "questionNumber": 72,
+        "subject": "CO & Architecture",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "Consider a machine with a $2$-way set associative data cache of size $64$ Kbytes and block size $16$ bytes. The cache is managed using $32$ bit virtual addresses and the page size is $4$ Kbytes. A program to be run on this machine begins as follows:\n\ndouble ARR[1024][1024];\nint i, j;\n/*Initialize array ARR to 0.0 */\nfor(i = 0; i < 1024; i++)\n    for(j = 0; j < 1024; j++)\n        ARR[i][j] = 0.0;\n\nThe size of double is $8$ bytes. Array $\\text{ARR}$ is located in memory starting at the beginning of virtual page $\\textsf{0xFF000}$ and stored in row major order. The cache is initially empty and no pre-fetching is done. The only data memory references made by the program are those to array $\\text{ARR}$.\nWhich of the following array elements have the same cache index as $\\text{ARR[0][0]}$?",
+        "options": [
+            "$\\text{ARR[0][4]}$",
+            "$\\text{ARR[4][0]}$",
+            "$\\text{ARR[0][5]}$",
+            "$\\text{ARR[5][0]}$"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/co-and-architecture",
+            "/tag/gatecse-2008",
+            "/tag/co-and-architecture",
+            "/tag/cache-memory",
+            "/tag/normal"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/43490/gate-cse-2008-question-72",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/43490/gate-cse-2008-question-72",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "77",
+        "year": 2008,
+        "questionNumber": 77,
+        "subject": "CO & Architecture",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "Delayed branching can help in the handling of control hazards\nThe following code is to run on a pipelined processor with one branch delay slot:\nI1: ADD $R2 \\leftarrow R7 + R8$\nI2: Sub $R4 \\leftarrow R5 – R6$\nI3: ADD $R1 \\leftarrow R2 + R3$\nI4: STORE Memory $[R4] \\leftarrow R1$\n     BRANCH to Label if $R1 == 0$\nWhich of the instructions I1, I2, I3 or I4 can legitimately occupy the delay slot without any program modification?\nI1\nI2\nI3\nI4",
+        "options": [],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/co-and-architecture",
+            "/tag/gatecse-2008",
+            "/tag/co-and-architecture",
+            "/tag/pipelining",
+            "/tag/normal"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/43487/gate-cse-2008-question-77",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/43487/gate-cse-2008-question-77",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "49",
+        "year": 2010,
+        "questionNumber": 49,
+        "subject": "CO & Architecture",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "A computer system has an $L1$ cache, an $L2$ cache, and a main memory unit connected as shown below. The block size in $L1$ cache is $4$ words. The block size in $L2$ cache is $16$ words. The memory access times are $2$ nanoseconds, $20$ nanoseconds and $200$ nanoseconds for $L1$ cache, $L2$ cache and the main memory unit respectively.\n\n \nWhen there is a miss in both $L1$ cache and $L2$ cache, first a block is transferred from main memory to $L2$ cache, and then a block is transferred from $L2$ cache to $L1$ cache. What is the total time taken for these transfers?",
+        "options": [
+            "$222$ nanoseconds",
+            "$888$ nanoseconds",
+            "$902$ nanoseconds",
+            "$968$ nanoseconds"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/co-and-architecture",
+            "/tag/gatecse-2010",
+            "/tag/co-and-architecture",
+            "/tag/cache-memory",
+            "/tag/normal"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/43329/gate-cse-2010-question-49",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/43329/gate-cse-2010-question-49",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "55",
+        "year": 2012,
+        "questionNumber": 55,
+        "subject": "CO & Architecture",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "A computer has a $256$-$\\text{KByte}$, 4-way set associative, write back data cache with block size of $32$ $\\text{Bytes}$. The processor sends $32$ $\\text{bit}$ addresses to the cache controller. Each cache tag directory entry contains, in addition to address tag, $2$ valid bits, $1$ modified bit and $1$ replacement bit.\nThe size of the cache tag directory is:",
+        "options": [
+            "$160$ $\\text{Kbits}$",
+            "$136$ $\\text{Kbits}$",
+            "$40$ $\\text{Kbits}$",
+            "$32$ $\\text{Kbits}$"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/co-and-architecture",
+            "/tag/normal",
+            "/tag/gatecse-2012",
+            "/tag/co-and-architecture",
+            "/tag/cache-memory"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/43311/gate-cse-2012-question-55",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/43311/gate-cse-2012-question-55",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "31",
+        "year": 2016,
+        "questionNumber": 31,
+        "subject": "CO & Architecture",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "The size of the data count register of a $\\text{DMA}$ controller is $16\\;\\text{bits}$. The processor needs to transfer a file of $29,154$ kilobytes from disk to main memory. The memory is byte addressable. The minimum number of times the $\\text{DMA}$ controller needs to get the control of the system bus from the processor to transfer the file from the disk to main memory is _________.",
+        "options": [],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/co-and-architecture",
+            "/tag/gatecse-2016-set1",
+            "/tag/co-and-architecture",
+            "/tag/dma",
+            "/tag/normal",
+            "/tag/numerical-answers"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/39698/gate-cse-2016-set-1-question-31",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/39698/gate-cse-2016-set-1-question-31",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "32",
+        "year": 2016,
+        "questionNumber": 32,
+        "subject": "CO & Architecture",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "The stage delays in a $4$-stage pipeline are $800, 500, 400$ and $300$ picoseconds. The first stage (with delay $800$ picoseconds) is replaced with a functionality equivalent design involving two stages with respective delays $600$ and $350$ picoseconds. The throughput increase of the pipeline is ___________ percent.",
+        "options": [],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/co-and-architecture",
+            "/tag/gatecse-2016-set1",
+            "/tag/co-and-architecture",
+            "/tag/pipelining",
+            "/tag/normal",
+            "/tag/numerical-answers"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/39691/gate-cse-2016-set-1-question-32",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/39691/gate-cse-2016-set-1-question-32",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "09",
+        "year": 2016,
+        "questionNumber": 9,
+        "subject": "CO & Architecture",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "A processor can support a maximum memory of $4\\;\\textsf{GB}$, where the memory is word-addressable (a word consists of two bytes). The size of address bus of the processor is at least _________bits.",
+        "options": [],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/co-and-architecture",
+            "/tag/gatecse-2016-set1",
+            "/tag/co-and-architecture",
+            "/tag/easy",
+            "/tag/numerical-answers",
+            "/tag/memory-interfacing"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/39632/gate-cse-2016-set-1-question-09",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/39632/gate-cse-2016-set-1-question-09",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "30",
+        "year": 2016,
+        "questionNumber": 30,
+        "subject": "CO & Architecture",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "Suppose the functions $F$ and $G$ can be computed in $5$ and $3$ nanoseconds by functional units $U_{F}$ and $U_{G}$, respectively. Given two instances of $U_{F}$ and two instances of $U_{G}$, it is required to implement the computation $F(G(X_{i}))$ for $1 \\leq i \\leq 10$. Ignoring all other delays, the minimum time required to complete this computation is ____________ nanoseconds.",
+        "options": [],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/co-and-architecture",
+            "/tag/gatecse-2016-set2",
+            "/tag/co-and-architecture",
+            "/tag/data-path",
+            "/tag/normal",
+            "/tag/numerical-answers"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/39627/gate-cse-2016-set-2-question-30",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/39627/gate-cse-2016-set-2-question-30",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "32",
+        "year": 2016,
+        "questionNumber": 32,
+        "subject": "CO & Architecture",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "The width of the physical address on a machine is $40$ bits. The width of the tag field in a $512$ KB $8$-way set associative cache is ________ bits.",
+        "options": [],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/co-and-architecture",
+            "/tag/gatecse-2016-set2",
+            "/tag/co-and-architecture",
+            "/tag/cache-memory",
+            "/tag/normal",
+            "/tag/numerical-answers"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/39622/gate-cse-2016-set-2-question-32",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/39622/gate-cse-2016-set-2-question-32",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "31",
+        "year": 2016,
+        "questionNumber": 31,
+        "subject": "CO & Architecture",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "Consider a processor with $64$ registers and an instruction set of size twelve. Each instruction has five distinct fields, namely, opcode, two source register identifiers, one destination register identifier, and twelve-bit immediate value. Each instruction must be stored in memory in a byte-aligned fashion. If a program has $100$ instructions, the amount of memory (in bytes) consumed by the program text is _________.",
+        "options": [],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/co-and-architecture",
+            "/tag/gatecse-2016-set2",
+            "/tag/instruction-format",
+            "/tag/machine-instruction",
+            "/tag/co-and-architecture",
+            "/tag/normal",
+            "/tag/numerical-answers"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/39601/gate-cse-2016-set-2-question-31",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/39601/gate-cse-2016-set-2-question-31",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "50",
+        "year": 2016,
+        "questionNumber": 50,
+        "subject": "CO & Architecture",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "A file system uses an in-memory cache to cache disk blocks. The miss rate of the cache is shown in the figure. The latency to read a block from the cache is $1$ ms and to read a block from the disk is $10$ ms. Assume that the cost of checking whether a block exists in the cache is negligible. Available cache sizes are in multiples of $10$ MB.",
+        "options": [
+            "The smallest cache size required to ensure an average read latency of less than $6$ ms is _________ MB."
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/co-and-architecture",
+            "/tag/gatecse-2016-set2",
+            "/tag/co-and-architecture",
+            "/tag/cache-memory",
+            "/tag/normal",
+            "/tag/numerical-answers"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/39592/gate-cse-2016-set-2-question-50",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/39592/gate-cse-2016-set-2-question-50",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "33",
+        "year": 2016,
+        "questionNumber": 33,
+        "subject": "CO & Architecture",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "Consider a $3 \\ \\text{GHz}$ (gigahertz) processor with a three stage pipeline and stage latencies $\\large\\tau_1,\\tau_2$ and $\\large\\tau_3$ such that $\\large\\tau_1 =\\dfrac{3 \\tau_2}{4}=2\\tau_3$. If the longest pipeline stage is split into two pipeline stages of equal latency , the new frequency is __________ $\\text{GHz}$, ignoring delays in the pipeline registers.",
+        "options": [],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/co-and-architecture",
+            "/tag/gatecse-2016-set2",
+            "/tag/co-and-architecture",
+            "/tag/pipelining",
+            "/tag/normal",
+            "/tag/numerical-answers"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/39580/gate-cse-2016-set-2-question-33",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/39580/gate-cse-2016-set-2-question-33",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "10",
+        "year": 2016,
+        "questionNumber": 10,
+        "subject": "CO & Architecture",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "A processor has $40$ distinct instruction and $24$ general purpose registers. A $32$-bit instruction word has an opcode, two registers operands and an immediate operand. The number of bits available for the immediate operand field is_______.",
+        "options": [],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/co-and-architecture",
+            "/tag/gatecse-2016-set2",
+            "/tag/machine-instruction",
+            "/tag/co-and-architecture",
+            "/tag/easy",
+            "/tag/numerical-answers"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/39547/gate-cse-2016-set-2-question-10",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/39547/gate-cse-2016-set-2-question-10",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "51",
+        "year": 2015,
+        "questionNumber": 51,
+        "subject": "CO & Architecture",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "Consider the following reservation table for a pipeline having three stages $S_1, S_2 \\text{ and } S_3$.\n$$\\begin{array}{|l|l|} \\hline \\textbf{Time} \\rightarrow \\\\\\hline & \\text{1}& \\text{2} & \\text{$3$}  & \\text{$4$} & \\text{$5$} \\\\\\hline \\textbf{$S _1$} & \\text{$X$} & &   & &  \\text{$X$}\\\\\\hline  \\textbf{$S _2$} &  & \\text{$X$}  &  &   \\text{$X$}\\\\\\hline \\textbf{$S _3$} &  & & \\text{$X$}  &  \\\\\\hline \\end{array}$$\nThe minimum average latency (MAL) is ______",
+        "options": [],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/co-and-architecture",
+            "/tag/gatecse-2015-set3",
+            "/tag/co-and-architecture",
+            "/tag/pipelining",
+            "/tag/difficult",
+            "/tag/numerical-answers"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/8560/gate-cse-2015-set-3-question-51",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/8560/gate-cse-2015-set-3-question-51",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "47",
+        "year": 2015,
+        "questionNumber": 47,
+        "subject": "CO & Architecture",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "Consider the following code sequence having five instructions from $I_1 \\text{ to } I_5$. Each of these instructions has the following format. \nOP Ri, Rj, Rk\nWhere operation OP is performed on contents of registers Rj and Rk and the result is stored in register Ri.\n$I_1$: ADD R1, R2, R3\n$I_2$: MUL R7, R1, R3\n$I_3$: SUB R4, R1, R5\n$I_4$: ADD R3, R2, R4\n$I_5$: MUL R7, R8, R9\nConsider the following three statements.\nS1: There is an anti-dependence between instructions $I_2 \\text{ and } I_5$\nS2: There is an anti-dependence between instructions $I_2 \\text{ and } I_4$\nS3: Within an instruction pipeline an anti-dependence always creates one or more stalls\nWhich one of the above statements is/are correct?\nOnly S1 is true\nOnly S2 is true\nOnly S1 and S3 are true\nOnly S2 and S3 are true",
+        "options": [],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/co-and-architecture",
+            "/tag/gatecse-2015-set3",
+            "/tag/co-and-architecture",
+            "/tag/pipelining",
+            "/tag/data-dependency",
+            "/tag/normal"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/8556/gate-cse-2015-set-3-question-47",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/8556/gate-cse-2015-set-3-question-47",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "14",
+        "year": 2015,
+        "questionNumber": 14,
+        "subject": "CO & Architecture",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "Consider a machine with a byte addressable main memory of $2^{20}$ bytes, block size of $16$ bytes and a direct mapped cache having $2^{12}$ cache lines. Let the addresses of two consecutive bytes in main memory be $\\textsf{(E201F)}_{16}$ and $\\textsf{(E2020)}_{16}$. What are the tag and cache line addresses ( in hex) for main memory address $\\textsf{(E201F)}_{16}$?",
+        "options": [
+            "$\\textsf{E, 201}$",
+            "$\\textsf{F, 201}$",
+            "$\\textsf{E, E20}$",
+            "$\\textsf{2, 01F}$"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/co-and-architecture",
+            "/tag/gatecse-2015-set3",
+            "/tag/co-and-architecture",
+            "/tag/cache-memory",
+            "/tag/normal"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/8410/gate-cse-2015-set-3-question-14",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/8410/gate-cse-2015-set-3-question-14",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "38",
+        "year": 2015,
+        "questionNumber": 38,
+        "subject": "CO & Architecture",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "Consider a non-pipelined processor with a clock rate of $2.5$ gigahertz and average cycles per instruction of four. The same processor is upgraded to a pipelined processor with five stages; but due to the internal pipeline delay, the clock speed is reduced to $2$ gigahertz. Assume that there are no stalls in the pipeline. The speedup achieved in this pipelined processor is_______________.",
+        "options": [],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/co-and-architecture",
+            "/tag/gatecse-2015-set1",
+            "/tag/co-and-architecture",
+            "/tag/pipelining",
+            "/tag/normal",
+            "/tag/numerical-answers"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/8288/gate-cse-2015-set-1-question-38",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/8288/gate-cse-2015-set-1-question-38",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "44",
+        "year": 2015,
+        "questionNumber": 44,
+        "subject": "CO & Architecture",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "Consider the sequence of machine instruction given below:\n$$\\begin{array}{ll} \\text{MUL} & \\text{R5, R0, R1} \\\\  \\text{DIV} & \\text{R6, R2, R3} \\\\   \\text{ADD} & \\text{R7, R5, R6} \\\\  \\text{SUB} & \\text{R8, R7, R4}  \\\\ \\end{array}$$\nIn  the above sequence, $R0$ to $R8$ are general purpose registers. In the instructions shown, the first register shows the result of the operation performed on the second and the third registers. This sequence of instructions is to be executed in a pipelined instruction processor with the following $4$ stages: $(1)$ Instruction Fetch and Decode $(IF)$, $(2)$ Operand Fetch $(OF)$, $(3)$ Perform Operation $(PO)$ and $(4)$ Write back the result $(WB)$. The $IF$, $OF$ and $WB$ stages take $1$ clock cycle each for any instruction. The $PO$ stage takes $1$ clock cycle for ADD and SUB instruction, $3$ clock cycles for MUL instruction and $5$ clock cycles for DIV instruction. The pipelined processor uses operand forwarding from the PO stage to the OF stage. The number of clock cycles taken for the execution of the above sequence of instruction is _________.",
+        "options": [],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/co-and-architecture",
+            "/tag/gatecse-2015-set2",
+            "/tag/co-and-architecture",
+            "/tag/pipelining",
+            "/tag/normal",
+            "/tag/numerical-answers"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/8218/gate-cse-2015-set-2-question-44",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/8218/gate-cse-2015-set-2-question-44",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "42",
+        "year": 2015,
+        "questionNumber": 42,
+        "subject": "CO & Architecture",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "Consider a processor with byte-addressable memory. Assume that all registers, including program counter (PC) and Program Status Word (PSW), are size of two bytes. A stack in the main memory is implemented from memory location $(0100)_{16}$ and it grows upward. The stack pointer (SP) points to the top element of the stack. The current value of SP is $(016E)_{16}$. The CALL instruction is of two words, the first word is the op-code and the second word is the starting address of the subroutine (one word = 2 bytes). The CALL instruction is implemented as follows:\n\nStore the current value of PC in the stack\nStore the value of PSW register in the stack\nLoad the statring address of the subroutine in PC\n\nThe content of PC just before the fetch of a CALL instruction is $(5FA0)_{16}$. After execution of the CALL instruction, the value of the stack pointer is:",
+        "options": [
+            "$(016A)_{16}$",
+            "$(016C)_{16}$",
+            "$(0170)_{16}$",
+            "$(0172)_{16}$"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/co-and-architecture",
+            "/tag/gatecse-2015-set2",
+            "/tag/co-and-architecture",
+            "/tag/machine-instruction",
+            "/tag/easy"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/8215/gate-cse-2015-set-2-question-42",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/8215/gate-cse-2015-set-2-question-42",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "24",
+        "year": 2015,
+        "questionNumber": 24,
+        "subject": "CO & Architecture",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "Assume that for a certain processor, a read request takes $50\\:\\text{nanoseconds}$ on a cache miss and $5\\:\\text{nanoseconds}$ on a cache hit. Suppose while running a program, it was observed that $80\\%$ of the processor's read requests result in a cache hit. The average read access time in nanoseconds is ______.",
+        "options": [],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/co-and-architecture",
+            "/tag/gatecse-2015-set2",
+            "/tag/co-and-architecture",
+            "/tag/cache-memory",
+            "/tag/easy",
+            "/tag/numerical-answers"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/8119/gate-cse-2015-set-2-question-24",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/8119/gate-cse-2015-set-2-question-24",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "26",
+        "year": null,
+        "questionNumber": 26,
+        "subject": "CO & Architecture",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "A computer system has a three-level memory hierarchy, with access time and hit ratios as shown below:\n$$\\overset{ \\text {Level $1$ (Cache memory)} \\\\  \\text{Access time = $50 nsec/byte$}}{\\begin{array}{|l|l|} \\hline  \\textbf{Size} & \\textbf{Hit ratio} \\\\\\hline \\text{$8 M $ bytes} & \\text{$0.80$} \\\\\\hline \\text{$16 M $ bytes} & \\text{$0.90$}   \\\\\\hline  \\text{$64 M $ bytes} & \\text{$0.95$}   \\\\\\hline \\end{array}} \\quad \\overset{\\text {Level $2$ (Main memory)} \\\\  \\text{Access time = $200 nsec/byte$}}{\\begin{array}{|l|l|l|}   \\hline  \\textbf{Size} & \\textbf{Hit ratio} \\\\\\hline \\text{$4 M$ bytes} & \\text{$0.98$} \\\\\\hline \\text{$16 M$ bytes} & \\text{$0.99$}   \\\\\\hline  \\text{$64 M$ bytes} & \\text{$0.995$}   \\\\\\hline \\end{array}} \\quad \\overset{ \\text {Level $3$} \\\\  \\text{Access time = $5$} \\mu \\text{sec/byte}}{\\begin{array}{|l|l|l|} \\hline  \\textbf{Size} & \\textbf{Hit ratio} \\\\\\hline \\text{$260M$ bytes} & \\text{$1.0$} \\\\\\hline\\end{array}}$$\n\n\nWhat should be the minimum sizes of level $1$ and $2$ memories to achieve an average access time of less than $100 nsec$?",
+        "options": [
+            "What is the average access time achieved using the chosen sizes of level $1$ and level $2$ memories?"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/co-and-architecture",
+            "/tag/gate1996",
+            "/tag/co-and-architecture",
+            "/tag/cache-memory",
+            "/tag/normal"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/2778/gate-cse-1996-question-26",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/2778/gate-cse-1996-question-26",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "25",
+        "year": null,
+        "questionNumber": 25,
+        "subject": "CO & Architecture",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "A hard disk is connected to a $50$ MHz processor through a DMA controller.  Assume that the initial set-up of a DMA transfer takes $1000$ clock cycles for the processor, and assume that the handling of the interrupt at DMA completion requires $500$ clock cycles for the processor. The hard disk has a transfer rate of $2000$ Kbytes/sec and average block transferred is $4$ K bytes.  What fraction of the processor time is consumed by the disk, if the disk is actively transferring $100\\%$ of the time?",
+        "options": [],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/co-and-architecture",
+            "/tag/gate1996",
+            "/tag/co-and-architecture",
+            "/tag/io-handling",
+            "/tag/dma",
+            "/tag/numerical-answers",
+            "/tag/normal"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/2777/gate-cse-1996-question-25",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/2777/gate-cse-1996-question-25",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "6",
+        "year": null,
+        "questionNumber": 6,
+        "subject": "CO & Architecture",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "An 8052 based system has an output port with address 00H. Consider the following assembly language program.\n\nORG 0100H\nMVI A, 00H\nLXI H, 0105H\nOUT 00H\nINR A\nPCHL\t\nHLT\t\n\nWhat does the program do with respect to the output port $00H$ ?",
+        "options": [
+            "Show the waveforms at the three least significant bits of the port $00H$."
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/co-and-architecture",
+            "/tag/gate1996",
+            "/tag/co-and-architecture",
+            "/tag/8085-microprocessor",
+            "/tag/out-of-syllabus-now"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/2758/gate-cse-1996-question-6",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/2758/gate-cse-1996-question-6",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "25",
+        "year": null,
+        "questionNumber": 25,
+        "subject": "CO & Architecture",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "A micro program control unit is required to generate a total of $25$ control signals. Assume that during any micro instruction, at most two control signals are active. Minimum number of bits required in the control word to generate the required control signals will be:",
+        "options": [
+            "$2$",
+            "$2.5$",
+            "$10$",
+            "$12$"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/co-and-architecture",
+            "/tag/gate1996",
+            "/tag/co-and-architecture",
+            "/tag/microprogramming",
+            "/tag/normal"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/2754/gate-cse-1996-question-2-25",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/2754/gate-cse-1996-question-2-25",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "24",
+        "year": null,
+        "questionNumber": 24,
+        "subject": "CO & Architecture",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "For the daisy chain scheme of connecting I/O devices, which of the following statements is true?\nIt gives non-uniform priority to various devices\nIt gives uniform priority to all devices\nIt is only useful for connecting slow devices to a processor device\nIt requires a separate interrupt pin on the processor for each device",
+        "options": [],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/co-and-architecture",
+            "/tag/gate1996",
+            "/tag/co-and-architecture",
+            "/tag/io-handling",
+            "/tag/normal"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/2728/gate-cse-1996-question-1-24",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/2728/gate-cse-1996-question-1-24",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "22",
+        "year": null,
+        "questionNumber": 22,
+        "subject": "CO & Architecture",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "Number of machine cycles required for RET instruction in 8085 microprocessor is\n1\n2\n3\n5",
+        "options": [],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/co-and-architecture",
+            "/tag/gate1996",
+            "/tag/co-and-architecture",
+            "/tag/8085-microprocessor",
+            "/tag/out-of-syllabus-now"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/2726/gate-cse-1996-question-1-22",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/2726/gate-cse-1996-question-1-22",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "42",
+        "year": null,
+        "questionNumber": 42,
+        "subject": "CO & Architecture",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "Relative mode of addressing is most relevant to writing:\n\n\nCo – routines\n\n\nPosition – independent code\n\n\nShareable code",
+        "options": [
+            "Interrupt Handlers"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/co-and-architecture",
+            "/tag/gate1996",
+            "/tag/co-and-architecture",
+            "/tag/addressing-modes",
+            "/tag/easy",
+            "/tag/isro2016"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/2720/gate-cse-1996-question-1-16-isro2016-42",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/2720/gate-cse-1996-question-1-16-isro2016-42",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "16",
+        "year": null,
+        "questionNumber": 16,
+        "subject": "CO & Architecture",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "",
+        "options": [],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/co-and-architecture",
+            "/tag/gate1995",
+            "/tag/co-and-architecture",
+            "/tag/8085-microprocessor",
+            "/tag/out-of-syllabus-now"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/2652/gate-cse-1995-question-16",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/2652/gate-cse-1995-question-16",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "25",
+        "year": null,
+        "questionNumber": 25,
+        "subject": "CO & Architecture",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "A computer system has a $4 \\ K$ word cache organized in block-set-associative manner with $4$ blocks per set, $64$ words per block. The number of bits in the SET and WORD fields of the main memory address format is:",
+        "options": [
+            "$15, 40$",
+            "$6, 4$",
+            "$7, 2$",
+            "$4, 6$"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/co-and-architecture",
+            "/tag/gate1995",
+            "/tag/co-and-architecture",
+            "/tag/cache-memory",
+            "/tag/normal"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/2638/gate-cse-1995-question-2-25",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/2638/gate-cse-1995-question-2-25",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "1",
+        "year": null,
+        "questionNumber": 1,
+        "subject": "CO & Architecture",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "A sequence of two instructions that multiplies the contents of the DE register pair by 2 and stores the result in the HL register pair (in 8085 assembly language) is:\n\n\nXCHG and DAD B\n\n\nXTHL and DAD H\n\n\nPCHL and DAD D",
+        "options": [
+            "XCHG and DAD H"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/co-and-architecture",
+            "/tag/gate1995",
+            "/tag/co-and-architecture",
+            "/tag/8085-microprocessor",
+            "/tag/out-of-gatecse-syllabus"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/2613/gate-cse-1995-question-2-1",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/2613/gate-cse-1995-question-2-1",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "6",
+        "year": null,
+        "questionNumber": 6,
+        "subject": "CO & Architecture",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "The principle of locality justifies the use of:",
+        "options": [
+            "Interrupts",
+            "DMA",
+            "Polling",
+            "Cache Memory"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/co-and-architecture",
+            "/tag/gate1995",
+            "/tag/co-and-architecture",
+            "/tag/cache-memory",
+            "/tag/easy"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/2593/gate-cse-1995-question-1-6",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/2593/gate-cse-1995-question-1-6",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "3",
+        "year": null,
+        "questionNumber": 3,
+        "subject": "CO & Architecture",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "In a vectored interrupt:\n\n\nThe branch address is assigned to a fixed location in memory\n\n\nThe interrupting source supplies the branch information to the processor through an interrupt vector\n\n\nThe branch address is obtained from a register in the processor",
+        "options": [
+            "None of the above"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/co-and-architecture",
+            "/tag/gate1995",
+            "/tag/co-and-architecture",
+            "/tag/interrupts",
+            "/tag/normal"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/2590/gate-cse-1995-question-1-3",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/2590/gate-cse-1995-question-1-3",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "2",
+        "year": null,
+        "questionNumber": 2,
+        "subject": "CO & Architecture",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "Which of the following statements is true?\n\n\nROM is a Read/Write memory\n\n\nPC points to the last instruction that was executed\n\n\nStack works on the principle of LIFO",
+        "options": [
+            "All instructions affect the flags"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/co-and-architecture",
+            "/tag/gate1995",
+            "/tag/co-and-architecture",
+            "/tag/normal",
+            "/tag/instruction-execution"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/2589/gate-cse-1995-question-1-2",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/2589/gate-cse-1995-question-1-2",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "1",
+        "year": null,
+        "questionNumber": 1,
+        "subject": "CO & Architecture",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "A single instruction to clear the lower four bits of the accumulator in 8085 assembly language?",
+        "options": [
+            "XRI 0FH",
+            "ANI F0H",
+            "XRI F0H",
+            "ANI 0FH"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/co-and-architecture",
+            "/tag/gate1995",
+            "/tag/co-and-architecture",
+            "/tag/8085-microprocessor",
+            "/tag/out-of-gatecse-syllabus"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/2588/gate-cse-1995-question-1-1",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/2588/gate-cse-1995-question-1-1",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "12",
+        "year": null,
+        "questionNumber": 12,
+        "subject": "CO & Architecture",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "Assume that a CPU has only two registers $R_1$ and $R_2$ and that only the following instruction is available $XOR \\: R_i, R_j;\\{R_j \\leftarrow R_i \\oplus R_j, \\text{ for } i, j =1, 2\\}$\nUsing this XOR instruction, find an instruction sequence in order to exchange the contents of the registers $R_1$ and $R_2$",
+        "options": [
+            "The line p of the circuit shown in figure has stuck at $1$ fault. Determine an input test to detect the fault."
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/co-and-architecture",
+            "/tag/gate1994",
+            "/tag/co-and-architecture",
+            "/tag/machine-instruction",
+            "/tag/normal",
+            "/tag/descriptive"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/2508/gate-cse-1994-question-12",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/2508/gate-cse-1994-question-12",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "10",
+        "year": null,
+        "questionNumber": 10,
+        "subject": "CO & Architecture",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "",
+        "options": [],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/co-and-architecture",
+            "/tag/gate1994",
+            "/tag/co-and-architecture",
+            "/tag/8085-microprocessor",
+            "/tag/out-of-syllabus-now"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/2506/gate-cse-1994-question-10",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/2506/gate-cse-1994-question-10",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "2",
+        "year": null,
+        "questionNumber": 2,
+        "subject": "CO & Architecture",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "State True or False with one line explanation",
+        "options": [
+            "Expanding opcode instruction formats are commonly employed in RISC. (Reduced Instruction Set Computers) machines."
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/co-and-architecture",
+            "/tag/gate1994",
+            "/tag/co-and-architecture",
+            "/tag/machine-instruction",
+            "/tag/instruction-format",
+            "/tag/normal",
+            "/tag/true-false"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/2479/gate-cse-1994-question-3-2",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/2479/gate-cse-1994-question-3-2",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "1",
+        "year": null,
+        "questionNumber": 1,
+        "subject": "CO & Architecture",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "",
+        "options": [],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/co-and-architecture",
+            "/tag/gate1994",
+            "/tag/co-and-architecture",
+            "/tag/8085-microprocessor",
+            "/tag/out-of-syllabus-now"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/2478/gate-cse-1994-question-3-1",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/2478/gate-cse-1994-question-3-1",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "48",
+        "year": 2010,
+        "questionNumber": 48,
+        "subject": "CO & Architecture",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "A computer system has an $L1$ cache, an $L2$ cache, and a main memory unit connected as shown below. The block size in $L1$ cache is $4$ words. The block size in $L2$ cache is $16$ words. The memory access times are $2$ nanoseconds, $20$ nanoseconds and $200$ nanoseconds for $L1$ cache, $L2$ cache and the main memory unit respectively.\n\n \nWhen there is a miss in $L1$ cache and a hit in $L2$ cache, a block is transferred from $L2$ cache to $L1$ cache. What is the time taken for this transfer?",
+        "options": [
+            "$2$ nanoseconds",
+            "$20$ nanoseconds",
+            "$22$ nanoseconds",
+            "$88$ nanoseconds"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/co-and-architecture",
+            "/tag/gatecse-2010",
+            "/tag/co-and-architecture",
+            "/tag/cache-memory",
+            "/tag/normal",
+            "/tag/barc2017"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/2352/gate-cse-2010-question-48",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/2352/gate-cse-2010-question-48",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "20",
+        "year": null,
+        "questionNumber": 20,
+        "subject": "CO & Architecture",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "",
+        "options": [],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/co-and-architecture",
+            "/tag/gate1993",
+            "/tag/co-and-architecture",
+            "/tag/8085-microprocessor",
+            "/tag/out-of-gatecse-syllabus"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/2317/gate-cse-1993-question-20",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/2317/gate-cse-1993-question-20",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "11",
+        "year": null,
+        "questionNumber": 11,
+        "subject": "CO & Architecture",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "In the three-level memory hierarchy shown in the following table, $p_i$ denotes the probability that an access request will refer to $M_i$.\n$$\\begin{array}{|c|c|c|c|} \\hline \\textbf {Hierarchy Level } &  \\textbf{Access Time}& \\textbf{Probability of Access} & \\textbf{Page Transfer Time}  \\\\\n(M_i) &(t_i)&(p_i) &(T_i)\\\\ \\hline\nM _1 & 10^{-6} & 0.99000 & \\text{0.001 sec} \\\\ M _2 & 10^{-5} & 0.00998 & \\text{0.1 sec} \\\\ M _3 & 10^{-4} & 0.00002 & \\text{---} \\\\\\hline \\end{array}$$\nIf a miss occurs at level $M_i$, a page transfer occurs from $M_{i+1}$ to $M_i$ and the average time required for such a page swap is $T_i$. Calculate the average time $t_A$ required for a processor to read one word from this memory system.",
+        "options": [],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/co-and-architecture",
+            "/tag/gate1993",
+            "/tag/co-and-architecture",
+            "/tag/cache-memory",
+            "/tag/normal",
+            "/tag/descriptive"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/2308/gate-cse-1993-question-11",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/2308/gate-cse-1993-question-11",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "10",
+        "year": null,
+        "questionNumber": 10,
+        "subject": "CO & Architecture",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "The instruction format of a CPU is:\n\n$\\text{Mode}$ and $\\text{RegR}$ together specify the operand. $\\text{RegR}$ specifies a CPU register and $\\text{Mode}$ specifies an addressing mode. In particular, $\\text{Mode}=2$ specifies that ‘the register $\\text{RegR}$ contains the address of the operand, after fetching the operand, the contents of $\\text{RegR}$ are incremented by $1$'.\nAn instruction at memory location $2000$ specifies $\\text{Mode}= 2$ and the $\\text{RegR}$ refers to program counter (PC).\n\n\nWhat is the address of the operand?",
+        "options": [
+            "Assuming that is a non-jump instruction, what are the contents of PC after the execution of this instruction?"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/co-and-architecture",
+            "/tag/gate1993",
+            "/tag/co-and-architecture",
+            "/tag/addressing-modes",
+            "/tag/normal",
+            "/tag/descriptive"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/2307/gate-cse-1993-question-10",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/2307/gate-cse-1993-question-10",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "3",
+        "year": null,
+        "questionNumber": 3,
+        "subject": "CO & Architecture",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "A micro instruction is to be designed to specify:\n\nnone or one of the three micro operations of one kind and\nnone or upto six micro operations of another kind\n\nThe minimum number of bits in the micro-instruction is:",
+        "options": [
+            "$9$",
+            "$5$",
+            "$8$",
+            "None of the above"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/co-and-architecture",
+            "/tag/gate1997",
+            "/tag/co-and-architecture",
+            "/tag/microprogramming",
+            "/tag/normal"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/2254/gate-cse-1997-question-5-3",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/2254/gate-cse-1997-question-5-3",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "2",
+        "year": null,
+        "questionNumber": 2,
+        "subject": "CO & Architecture",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "Contents of A register after the execution of the following 8085 microprocessor program is",
+        "options": [
+            "MVIA, 55 H",
+            "MVI C, 25 H",
+            "ADDC",
+            "DAA",
+            "7AH",
+            "80H",
+            "50H",
+            "22H"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/co-and-architecture",
+            "/tag/gate1997",
+            "/tag/co-and-architecture",
+            "/tag/8085-microprocessor",
+            "/tag/non-gatecse"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/2253/gate-cse-1997-question-5-2",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/2253/gate-cse-1997-question-5-2",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "4",
+        "year": null,
+        "questionNumber": 4,
+        "subject": "CO & Architecture",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "The correct matching for the following pairs is:\n$$\\begin{array}{ll} \\text{(A) DMA I/O} & \\text{(1) High speed RAM} \\\\\n  \\text{(B) Cache} & \\text{(2) Disk} \\\\\n   \\text{(C) Interrupt I/O} & \\text{(3) Printer} \\\\\n  \\text{(D) Condition Code Register} & \\text{(4) ALU}  \\\\\n \\end{array}$$\n\n\n$A-4\\quad B-3\\quad C-1\\quad D-2$\n\n\n$A-2\\quad B-1\\quad C-3\\quad D-4$\n\n\n$A-4\\quad B-3\\quad C-2\\quad D-1$",
+        "options": [
+            "$A-2\\quad B-3\\quad C-4\\quad D-1$"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/co-and-architecture",
+            "/tag/gate1997",
+            "/tag/co-and-architecture",
+            "/tag/normal",
+            "/tag/io-handling",
+            "/tag/match-the-following"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/2230/gate-cse-1997-question-2-4",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/2230/gate-cse-1997-question-2-4",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "2",
+        "year": null,
+        "questionNumber": 2,
+        "subject": "CO & Architecture",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "RST 7.5 interrupt in 8085 microprocessor executes the interrupt service routing from interrupt vector location\n0000H\n0075H\n003CH\n0034H",
+        "options": [],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/co-and-architecture",
+            "/tag/gate1997",
+            "/tag/co-and-architecture",
+            "/tag/8085-microprocessor",
+            "/tag/out-of-syllabus-now"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/2228/gate-cse-1997-question-2-2",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/2228/gate-cse-1997-question-2-2",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "33",
+        "year": 2010,
+        "questionNumber": 33,
+        "subject": "CO & Architecture",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "A $5-$stage pipelined processor has Instruction Fetch (IF), Instruction Decode (ID), Operand Fetch (OF), Perform Operation (PO) and Write Operand (WO) stages. The IF, ID, OF and WO stages take $1$ clock cycle each for any instruction. The PO stage takes $1$ clock cycle for ADD and SUB instructions, $3$ clock cycles for MUL instruction and $6$ clock cycles for DIV instruction respectively. Operand forwarding is used in the pipeline. What is the number of clock cycles needed to execute the following sequence of instructions?\n$$\\begin{array}{|c|l||} \\hline  \\textbf {Instruction} &  \\textbf{Meaning of instruction}  \\\\\\hline  \\text{$t _0$: MUL $R _2$,$R _0$,$R _1$} & \\text{R}_2  \\gets \\text{R}_0*\\text{R}_1\\\\\\hline  \\text{$t _1$: DIV $R _5,R _3,R _4$} & \\text{R}_5 \\gets \\text{R}_3 ∕ \\text{R}_4\\\\\\hline   \\text{$t _2$: ADD $R _2,R _5,R _2$} & \\text{R}_2 \\gets \\text{R}_5 + \\text{R}_2 \\\\\\hline t_3: \\text{SUB} \\:\\text{R}_5,\\text{R}_2,\\text{R}_6 & \\text{R}_5 \\gets \\text{R}_2 - \\text{R}_6  \\\\\\hline\\end{array}$$",
+        "options": [
+            "$13$",
+            "$15$",
+            "$17$",
+            "$19$"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/co-and-architecture",
+            "/tag/gatecse-2010",
+            "/tag/co-and-architecture",
+            "/tag/pipelining",
+            "/tag/normal"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/2207/gate-cse-2010-question-33",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/2207/gate-cse-2010-question-33",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "54",
+        "year": 2012,
+        "questionNumber": 54,
+        "subject": "CO & Architecture",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "A computer has a $256\\text{-KByte}$, 4-way set associative, write back data cache with block size of $32\\text{-Bytes}$. The processor sends $32\\text{-bit}$ addresses to the cache controller. Each cache tag directory entry contains, in addition to address tag, $2$ valid bits, $1$ modified bit and $1$ replacement bit.\nThe number of bits in the tag field of an address is",
+        "options": [
+            "$11$",
+            "$14$",
+            "$16$",
+            "$27$"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/co-and-architecture",
+            "/tag/gatecse-2012",
+            "/tag/co-and-architecture",
+            "/tag/cache-memory",
+            "/tag/normal"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/2192/gate-cse-2012-question-54",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/2192/gate-cse-2012-question-54",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "43",
+        "year": 2011,
+        "questionNumber": 43,
+        "subject": "CO & Architecture",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "An $8\\text{KB}$ direct-mapped write-back cache is organized as multiple blocks, each size of $32\\text{-bytes}$. The processor generates $32\\text{-bit}$ addresses. The cache controller contains the tag information for each cache block comprising of the following.\n\n$1$ valid bit\n$1$ modified bit\nAs many bits as the minimum needed to identify the memory block mapped in the cache.\n\nWhat is the total size of memory needed at the cache controller to store meta-data (tags) for the cache?",
+        "options": [
+            "$4864$ bits",
+            "$6144$ bits",
+            "$6656$ bits",
+            "$5376$ bits"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/co-and-architecture",
+            "/tag/gatecse-2011",
+            "/tag/co-and-architecture",
+            "/tag/cache-memory",
+            "/tag/normal"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/2145/gate-cse-2011-question-43",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/2145/gate-cse-2011-question-43",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "41",
+        "year": 2011,
+        "questionNumber": 41,
+        "subject": "CO & Architecture",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "Consider an instruction pipeline with four stages $\\text{(S1, S2, S3 and S4)}$ each with combinational circuit only. The pipeline registers are required between each stage and at the end of the last stage. Delays for the stages and for the pipeline registers are as given in the figure.\n\nWhat is the approximate speed up of the pipeline in steady state under ideal conditions when compared to the corresponding non-pipeline implementation?",
+        "options": [
+            "$4.0$",
+            "$2.5$",
+            "$1.1$",
+            "$3.0$"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/co-and-architecture",
+            "/tag/gatecse-2011",
+            "/tag/co-and-architecture",
+            "/tag/pipelining",
+            "/tag/normal"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/2143/gate-cse-2011-question-41",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/2143/gate-cse-2011-question-41",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    }
+]

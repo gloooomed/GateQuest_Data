@@ -1,0 +1,1757 @@
+[
+    {
+        "id": "62",
+        "year": 2004,
+        "questionNumber": 62,
+        "subject": "Digital Logic",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "A 4-bit carry look ahead adder, which adds two 4-bit numbers, is designed using AND, OR, NOT, NAND, NOR gates only. Assuming that all the inputs are available in both complemented and uncomplemented forms and the delay of each gate is one time unit, what is the overall propagation delay of the adder? Assume that the carry network has been implemented using two-level AND-OR logic.",
+        "options": [
+            "4 time units",
+            "6 time units",
+            "10 time units",
+            "12 time units"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/digital-logic",
+            "/tag/gatecse-2004",
+            "/tag/digital-logic",
+            "/tag/normal",
+            "/tag/adder"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/1057/gate-cse-2004-question-62",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/1057/gate-cse-2004-question-62",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "61",
+        "year": 2004,
+        "questionNumber": 61,
+        "subject": "Digital Logic",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "Consider the partial implementation of a $2-bit$ counter using $T$ flip-flops following the sequence $0-2-3-1-0,$ as shown below.\n\nTo complete the circuit, the input $X$ should be",
+        "options": [
+            "$Q_2^c$",
+            "$Q_2 + Q_1$",
+            "$\\left(Q_1 + Q_2\\right)^c$",
+            "$Q_1 \\oplus Q_2$"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/digital-logic",
+            "/tag/gatecse-2004",
+            "/tag/digital-logic",
+            "/tag/circuit-output",
+            "/tag/normal"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/1056/gate-cse-2004-question-61",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/1056/gate-cse-2004-question-61",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "60",
+        "year": 2004,
+        "questionNumber": 60,
+        "subject": "Digital Logic",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "Consider a multiplexer with $X$ and $Y$ as data inputs and $Z$ the as the control input. $Z=0$ selects input $X$, and $Z=1$ selects input $Y$. What are the connections required to realize the 2-variable Boolean function $f=T+R$, without using any additional hardware?",
+        "options": [
+            "$\\text{R to X, 1 to Y, T to Z}$",
+            "$\\text{T to X, R to Y, T to Z}$",
+            "$\\text{T to X, R to Y, 0 to Z}$",
+            "$\\text{R to X, 0 to Y, T to Z}$"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/digital-logic",
+            "/tag/gatecse-2004",
+            "/tag/digital-logic",
+            "/tag/normal",
+            "/tag/multiplexer"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/1055/gate-cse-2004-question-60",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/1055/gate-cse-2004-question-60",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "59",
+        "year": 2004,
+        "questionNumber": 59,
+        "subject": "Digital Logic",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "Which are the essential prime implicants of the following Boolean function?\n$f(a, b, c)= a' c+ ac'+b' c$",
+        "options": [
+            "$a' c$ and $ac'$",
+            "$a' c$ and $b' c$",
+            "$a' c$ only.",
+            "$ac'$ and $bc'$"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/digital-logic",
+            "/tag/gatecse-2004",
+            "/tag/digital-logic",
+            "/tag/normal",
+            "/tag/prime-implicants"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/1054/gate-cse-2004-question-59",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/1054/gate-cse-2004-question-59",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "58",
+        "year": 2004,
+        "questionNumber": 58,
+        "subject": "Digital Logic",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "A circuit outputs a digit in the form of $4$ bits. $0$ is represented by $0000, 1$ by $0001, \\ldots, 9$ by $1001$. A combinational circuit is to be designed which takes these $4$ bits as input and outputs $1$ if the digit $\\geq$ $5$, and $0$ otherwise. If only $\\textsf{AND}, \\textsf{OR}$ and $\\textsf{NOT}$ gates may be used, what is the minimum number of gates required?",
+        "options": [
+            "$2$",
+            "$3$",
+            "$4$",
+            "$5$"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/digital-logic",
+            "/tag/gatecse-2004",
+            "/tag/digital-logic",
+            "/tag/normal",
+            "/tag/min-no-gates"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/1053/gate-cse-2004-question-58",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/1053/gate-cse-2004-question-58",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "28",
+        "year": 2004,
+        "questionNumber": 28,
+        "subject": "Digital Logic",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "What is the result of evaluating the following two expressions using three-digit floating point arithmetic with rounding?\n$(113. + -111.) + 7.51$\n$113. + (-111. + 7.51)$\n\n\n$9.51$ and $10.0$ respectively\n\n\n$10.0$ and $9.51$ respectively\n\n\n$9.51$ and $9.51$ respectively",
+        "options": [
+            "$10.0$ and $10.0$ respectively"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/digital-logic",
+            "/tag/gatecse-2004",
+            "/tag/digital-logic",
+            "/tag/number-representation",
+            "/tag/normal"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/1025/gate-cse-2004-question-28",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/1025/gate-cse-2004-question-28",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "19",
+        "year": 2004,
+        "questionNumber": 19,
+        "subject": "Digital Logic",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "If $73_x$ (in base-x number system) is equal to $54_y$ (in base $y$-number system), the possible values of $x$ and $y$ are",
+        "options": [
+            "$8, 16$",
+            "$10, 12$",
+            "$9, 13$",
+            "$8, 11$"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/digital-logic",
+            "/tag/gatecse-2004",
+            "/tag/digital-logic",
+            "/tag/number-representation",
+            "/tag/easy"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/1016/gate-cse-2004-question-19",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/1016/gate-cse-2004-question-19",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "31",
+        "year": 2004,
+        "questionNumber": 31,
+        "subject": "Digital Logic",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "In an $SR$ latch made by cross-coupling two NAND gates, if both $S$ and $R$ inputs are set to $0$, then it will result in",
+        "options": [
+            "$Q = 0, Q' = 1$",
+            "$Q = 1, Q' = 0$",
+            "$Q = 1, Q' = 1$",
+            "Indeterminate states"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/digital-logic",
+            "/tag/gatecse-2004",
+            "/tag/digital-logic",
+            "/tag/easy",
+            "/tag/isro2007",
+            "/tag/flip-flop"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/1015/gate-cse-2004-question-18-isro2007-31",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/1015/gate-cse-2004-question-18-isro2007-31",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "17",
+        "year": 2004,
+        "questionNumber": 17,
+        "subject": "Digital Logic",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "A Boolean function $x’y’ + xy + x’y$ is equivalent to",
+        "options": [
+            "$x' + y'$",
+            "$x + y$",
+            "$x + y'$",
+            "$x' + y$"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/digital-logic",
+            "/tag/gatecse-2004",
+            "/tag/digital-logic",
+            "/tag/easy",
+            "/tag/boolean-algebra"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/1014/gate-cse-2004-question-17",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/1014/gate-cse-2004-question-17",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "46",
+        "year": 2003,
+        "questionNumber": 46,
+        "subject": "Digital Logic",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "Consider the ALU shown below.\n\n \nIf the operands are in $2’s$ complement representation, which of the following operations can be performed by suitably setting the control lines $K$ and $C_0$ only (+ and – denote addition and subtraction respectively)?",
+        "options": [
+            "$A + B$, and $A – B$, but not $A + 1$",
+            "$A + B$, and $A + 1$, but not $A – B$",
+            "$A + B$, but not $A – B$ or $A + 1$",
+            "$A + B$, and $A – B$, and $A + 1$"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/digital-logic",
+            "/tag/gatecse-2003",
+            "/tag/digital-logic",
+            "/tag/normal",
+            "/tag/adder"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/937/gate-cse-2003-question-46",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/937/gate-cse-2003-question-46",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "45",
+        "year": 2003,
+        "questionNumber": 45,
+        "subject": "Digital Logic",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "The literal count of a Boolean expression is the sum of the number of times each literal appears in the expression. For example, the literal count of $\\left(xy+xz'\\right)$ is $4.$ What are the minimum possible literal counts of the product-of-sum and sum-of-product representations respectively of the function given by the following Karnaugh map? Here, $X$ denotes \"don't care\"$(11, 9)$$(9, 13)$$(9, 10)$$(11,11)$",
+        "options": [],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/digital-logic",
+            "/tag/gatecse-2003",
+            "/tag/digital-logic",
+            "/tag/k-map",
+            "/tag/normal"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/936/gate-cse-2003-question-45",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/936/gate-cse-2003-question-45",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "44",
+        "year": 2003,
+        "questionNumber": 44,
+        "subject": "Digital Logic",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "A $\\text{1-input}$, $\\text{2-output}$ synchronous sequential circuit behaves as follows:\nLet $z_k, n_k$ denote the number of $0’s$ and $1’s$ respectively in initial $k$ bits of the input\n$(z_k+n_k=k)$. The circuit outputs $00$ until one of the following conditions holds.\n\n$z_k-n_k=2$. In this case, the output at the k-th and all subsequent clock ticks is $10$.\n$n_k-z_k=2$. In this case, the output at the k-th and all subsequent clock ticks is $01$.\n\nWhat is the minimum number of states required in the state transition graph of the above circuit?",
+        "options": [
+            "$5$",
+            "$6$",
+            "$7$",
+            "$8$"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/digital-logic",
+            "/tag/gatecse-2003",
+            "/tag/digital-logic",
+            "/tag/synchronous-asynchronous-circuits",
+            "/tag/normal"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/935/gate-cse-2003-question-44",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/935/gate-cse-2003-question-44",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "43",
+        "year": 2003,
+        "questionNumber": 43,
+        "subject": "Digital Logic",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "The following is a scheme for floating point number representation using $16$ bits.\n\nLet $s, e,$ and $m$ be the numbers represented in binary in the sign, exponent, and mantissa fields respectively. Then the floating point number represented is:\n$$\\begin{cases}(-1)^s \\left(1+m \\times 2^{-9}\\right) 2^{e-31}, & \\text{ if the exponent } \\neq 111111 \\\\  0, & \\text{ otherwise} \\end{cases}$$\nWhat is the maximum difference between two successive real numbers representable in this system?",
+        "options": [
+            "$2^{-40}$",
+            "$2^{-9}$",
+            "$2^{22}$",
+            "$2^{31}$"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/digital-logic",
+            "/tag/gatecse-2003",
+            "/tag/digital-logic",
+            "/tag/number-representation",
+            "/tag/floating-point-representation",
+            "/tag/normal"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/934/gate-cse-2003-question-43",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/934/gate-cse-2003-question-43",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "11",
+        "year": 2003,
+        "questionNumber": 11,
+        "subject": "Digital Logic",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "Consider an array multiplier for multiplying two $n$ bit numbers. If each gate in the circuit has a unit delay, the total delay of the multiplier is",
+        "options": [
+            "$\\Theta(1)$",
+            "$\\Theta(\\log n)$",
+            "$\\Theta(n)$",
+            "$\\Theta(n^2)$"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/digital-logic",
+            "/tag/gatecse-2003",
+            "/tag/digital-logic",
+            "/tag/normal",
+            "/tag/array-multiplier"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/902/gate-cse-2003-question-11",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/902/gate-cse-2003-question-11",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "9",
+        "year": 2003,
+        "questionNumber": 9,
+        "subject": "Digital Logic",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "Assuming all numbers are in $2’s$ complement representation, which of the following numbers is divisible by $11111011$?\n\n\n$11100111$\n\n\n$11100100$\n\n\n$11010111$",
+        "options": [
+            "$11011011$"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/digital-logic",
+            "/tag/gatecse-2003",
+            "/tag/digital-logic",
+            "/tag/number-representation",
+            "/tag/normal"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/900/gate-cse-2003-question-9",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/900/gate-cse-2003-question-9",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "8",
+        "year": 2006,
+        "questionNumber": 8,
+        "subject": "Digital Logic",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "You are given a free running clock with a duty cycle of $50\\%$ and a digital waveform $f$ which changes only at the negative edge of the clock. Which one of the following circuits (using clocked D flip-flops) will delay the phase of $f$ by $180°$?",
+        "options": [],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/digital-logic",
+            "/tag/gatecse-2006",
+            "/tag/digital-logic",
+            "/tag/normal",
+            "/tag/circuit-output"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/887/gate-cse-2006-question-8",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/887/gate-cse-2006-question-8",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "9",
+        "year": 2002,
+        "questionNumber": 9,
+        "subject": "Digital Logic",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "Consider the following $32\\text{-bit}$ floating-point representation scheme as shown in the format below. A value is specified by $3$ fields, a one bit sign field (with $0$ for positive and $1$ for negative values), a $24 \\;\\text{bit}$ fraction field (with the binary point is at the left end of the fraction bits), and a $7\\;\\text{bit}$ exponent field (in $\\text{excess-}64$ signed integer representation, with $16$ is the base of exponentiation). The sign bit is the most significant bit.",
+        "options": [
+            "It is required to represent the decimal value $- 7.5$ as a normalized floating point number in the given format. Derive the values of the various fields. Express your final answer in the hexadecimal.",
+            "What is the largest value that can be represented using this format? Express your answer as the nearest power of $10$."
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/digital-logic",
+            "/tag/gatecse-2002",
+            "/tag/digital-logic",
+            "/tag/number-representation",
+            "/tag/normal",
+            "/tag/descriptive"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/862/gate-cse-2002-question-9",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/862/gate-cse-2002-question-9",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "8",
+        "year": 2002,
+        "questionNumber": 8,
+        "subject": "Digital Logic",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "Consider the following circuit. $A = a_2a_1a_0$ and $B=b_2b_1b_0$ are three bit binary numbers input to the circuit. The output is $Z=z_3z_2z_1z_0$. R0, R1 and R2 are registers with loading clock shown. The registers are loaded with their input data with the falling edge of a clock pulse (signal CLOCK shown) and appears as shown. The bits of input number A, B and the full adders are as shown in the circuit. Assume Clock period is greater than the settling time of all circuits.",
+        "options": [
+            "a. For 8 clock pulses on the CLOCK terminal and the inputs $A, B$ as shown, obtain the output $Z$ (sequence of $4-bit$ values of $Z).$ Assume initial contents of $R_0, R_1$ and $R_2$ as all zeros. $$\\begin{array}{|l|l|l|l|l|l|l|l|l|} \\hline \\text{A} & 110 & 011 & 111 & 101 & 000 & 000 & 000 & 000\\\\\\hline \\text{B} & 101 & 101 & 011 & 110 & 000 & 000 & 000 & 000 \\\\\\hline  \\text{Clock No} & 1 & 2 & 3 &4 &5 &6 &7&8\\\\\\hline \\end{array}$$",
+            "b. What does the circuit implement?"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/digital-logic",
+            "/tag/gatecse-2002",
+            "/tag/digital-logic",
+            "/tag/normal",
+            "/tag/descriptive",
+            "/tag/digital-counter"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/861/gate-cse-2002-question-8",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/861/gate-cse-2002-question-8",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "7",
+        "year": 2002,
+        "questionNumber": 7,
+        "subject": "Digital Logic",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "Express the function $f(x,y,z) = xy' + yz'$ with only one complement operation and one or more AND/OR operations. Draw the logic circuit implementing the expression obtained, using a single NOT gate and one or more AND/OR gates.\nTransform the following logic circuit (without expressing  its switching function) into an equivalent logic circuit that employs only $6$ NAND gates each with $2$-inputs.",
+        "options": [],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/digital-logic",
+            "/tag/gatecse-2002",
+            "/tag/digital-logic",
+            "/tag/normal",
+            "/tag/descriptive",
+            "/tag/digital-circuits"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/860/gate-cse-2002-question-7",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/860/gate-cse-2002-question-7",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "3",
+        "year": 2002,
+        "questionNumber": 3,
+        "subject": "Digital Logic",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "Let $f(A,B) = A'+B$. Simplified expression for function $f(f(x+y, y), z)$ is",
+        "options": [
+            "$x' + z$",
+            "$xyz$",
+            "$xy' + z$",
+            "None of the above"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/digital-logic",
+            "/tag/gatecse-2002",
+            "/tag/digital-logic",
+            "/tag/boolean-algebra",
+            "/tag/normal"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/833/gate-cse-2002-question-2-3",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/833/gate-cse-2002-question-2-3",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "2",
+        "year": 2002,
+        "questionNumber": 2,
+        "subject": "Digital Logic",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "Consider the following multiplexer where $I0, I1, I2, I3$ are four data input lines selected by two address line combinations $A1A0=00,01,10,11$ respectively and $f$ is the output of the multiplexor. EN is the Enable input.\n\nThe function $f(x,y,z)$ implemented by the above circuit is",
+        "options": [
+            "$xyz'$",
+            "$xy + z$",
+            "$x + y$",
+            "None of the above"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/digital-logic",
+            "/tag/gatecse-2002",
+            "/tag/digital-logic",
+            "/tag/circuit-output",
+            "/tag/normal"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/832/gate-cse-2002-question-2-2",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/832/gate-cse-2002-question-2-2",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "1",
+        "year": 2002,
+        "questionNumber": 1,
+        "subject": "Digital Logic",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "Consider the following logic circuit whose inputs are functions $f_1, f_2, f_3$ and output is $f$\n\nGiven that\n\n$f_1(x,y,z) = \\Sigma (0,1,3,5)$\n$f_2(x,y,z) = \\Sigma (6,7),$ and\n$f(x,y,z) = \\Sigma (1,4,5).$\n\n$f_3$ is",
+        "options": [
+            "$\\Sigma (1,4,5)$",
+            "$\\Sigma (6,7)$",
+            "$\\Sigma (0,1,3,5)$",
+            "None of the above"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/digital-logic",
+            "/tag/gatecse-2002",
+            "/tag/digital-logic",
+            "/tag/normal",
+            "/tag/canonical-normal-form",
+            "/tag/circuit-output"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/831/gate-cse-2002-question-2-1",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/831/gate-cse-2002-question-2-1",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "21",
+        "year": 2002,
+        "questionNumber": 21,
+        "subject": "Digital Logic",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "In $2's$ complement addition, overflow",
+        "options": [
+            "is flagged whenever there is carry from sign bit addition",
+            "cannot occur when a positive value is added to a negative value",
+            "is flagged when the carries from sign bit and previous bit match",
+            "None of the above"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/digital-logic",
+            "/tag/gatecse-2002",
+            "/tag/digital-logic",
+            "/tag/number-representation",
+            "/tag/normal"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/826/gate-cse-2002-question-1-21",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/826/gate-cse-2002-question-1-21",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "16",
+        "year": 2002,
+        "questionNumber": 16,
+        "subject": "Digital Logic",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "Sign extension is a step in",
+        "options": [
+            "floating point multiplication",
+            "signed $16$ bit integer addition",
+            "arithmetic left shift",
+            "converting a signed integer from one size to another"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/digital-logic",
+            "/tag/gatecse-2002",
+            "/tag/digital-logic",
+            "/tag/easy",
+            "/tag/number-representation"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/821/gate-cse-2002-question-1-16",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/821/gate-cse-2002-question-1-16",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "15",
+        "year": 2002,
+        "questionNumber": 15,
+        "subject": "Digital Logic",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "The $2's$ complement representation of the decimal value $-15$ is",
+        "options": [
+            "$1111$",
+            "$11111$",
+            "$111111$",
+            "$10001$"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/digital-logic",
+            "/tag/gatecse-2002",
+            "/tag/digital-logic",
+            "/tag/number-representation",
+            "/tag/easy"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/819/gate-cse-2002-question-1-15",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/819/gate-cse-2002-question-1-15",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "14",
+        "year": 2002,
+        "questionNumber": 14,
+        "subject": "Digital Logic",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "The decimal value $0.25$",
+        "options": [
+            "is equivalent to the binary value $0.1$",
+            "is equivalent to the binary value $0.01$",
+            "is equivalent to the binary value $0.00111$",
+            "cannot be represented precisely in binary"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/digital-logic",
+            "/tag/gatecse-2002",
+            "/tag/digital-logic",
+            "/tag/number-representation",
+            "/tag/easy"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/818/gate-cse-2002-question-1-14",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/818/gate-cse-2002-question-1-14",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "12",
+        "year": 2002,
+        "questionNumber": 12,
+        "subject": "Digital Logic",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "Minimum sum of product expression for $f(w,x,y,z)$ shown in Karnaugh-map below",
+        "options": [
+            "$xz + y'z$",
+            "$xz' + zx'$",
+            "$x'y + zx'$",
+            "None of the above"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/digital-logic",
+            "/tag/gatecse-2002",
+            "/tag/digital-logic",
+            "/tag/k-map",
+            "/tag/normal"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/816/gate-cse-2002-question-1-12",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/816/gate-cse-2002-question-1-12",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "11",
+        "year": 2001,
+        "questionNumber": 11,
+        "subject": "Digital Logic",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "A sequential circuit takes an input stream of $0's$ and $1's$ and produces an output stream of $0's$ and $1's.$ Initially it replicates the input on its output until two consecutive $0's$ are encountered on the input. From then onward, it produces an output stream, which is the bit-wise complement of input stream until it encounters two consecutive 1's, whereupon the process repeats. An example input and output stream is shown below.\n\n$\\begin{array}{ll}\n\\text{The input stream:} &  101100|01001011|011\\\\\n\\text{The desired output:}&  101100|10110100|011\\\\\n\\end{array}$\n\n$\\text{J-K}$ master-slave flip-flops are to be used to design the circuit.",
+        "options": [
+            "Give the state transition diagram",
+            "Give the minimized sum-of-product expression for $\\text{J}$ and $\\text{K}$ inputs of one of its state flip-flops"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/digital-logic",
+            "/tag/gatecse-2001",
+            "/tag/digital-logic",
+            "/tag/normal",
+            "/tag/descriptive",
+            "/tag/flip-flop"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/752/gate-cse-2001-question-11",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/752/gate-cse-2001-question-11",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "10",
+        "year": 2001,
+        "questionNumber": 10,
+        "subject": "Digital Logic",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "Is the $3\\text{-variable}$ function $f= \\Sigma(0,1,2,4)$ its self-dual? Justify your answer.\nGive a minimal product-of-sum form of the $b$ output of the following $\\text{excess-3}$ to $\\text{BCD}$ converter.",
+        "options": [],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/digital-logic",
+            "/tag/gatecse-2001",
+            "/tag/digital-logic",
+            "/tag/normal",
+            "/tag/descriptive",
+            "/tag/min-sum-of-products-form"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/751/gate-cse-2001-question-10",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/751/gate-cse-2001-question-10",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "12",
+        "year": 2001,
+        "questionNumber": 12,
+        "subject": "Digital Logic",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "Consider the circuit given below with initial state $Q_0=1, Q_1=Q_2=0$. The state of the circuit is given by the value $4Q_2+2Q_1+Q_0$\n\nWhich one of the following is correct state sequence of the circuit?",
+        "options": [
+            "$1, 3, 4, 6, 7, 5, 2$",
+            "$1, 2, 5, 3, 7, 6, 4$",
+            "$1, 2, 7, 3, 5, 6, 4$",
+            "$1, 6, 5, 7, 2, 3, 4$"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/digital-logic",
+            "/tag/gatecse-2001",
+            "/tag/digital-logic",
+            "/tag/normal",
+            "/tag/synchronous-asynchronous-circuits"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/730/gate-cse-2001-question-2-12",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/730/gate-cse-2001-question-2-12",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "11",
+        "year": 2001,
+        "questionNumber": 11,
+        "subject": "Digital Logic",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "Consider the circuit shown below. The output of a $2:1$ MUX is given by the function $(ac' + bc)$.\n\nWhich of the following is true?",
+        "options": [
+            "$f=X_1'+X_2$",
+            "$f=X_1'X_2+X_1X_2'$",
+            "$f=X_1X_2+X_1'X_2'$",
+            "$f=X_1+X_2'$"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/digital-logic",
+            "/tag/gatecse-2001",
+            "/tag/digital-logic",
+            "/tag/normal",
+            "/tag/multiplexer"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/729/gate-cse-2001-question-2-11",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/729/gate-cse-2001-question-2-11",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "10",
+        "year": 2001,
+        "questionNumber": 10,
+        "subject": "Digital Logic",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "The $2's$ complement representation of (-539)10 in hexadecimal is",
+        "options": [
+            "$ABE$",
+            "$DBC$",
+            "$DE5$",
+            "$9E7$"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/digital-logic",
+            "/tag/gatecse-2001",
+            "/tag/digital-logic",
+            "/tag/number-representation",
+            "/tag/easy"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/728/gate-cse-2001-question-2-10",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/728/gate-cse-2001-question-2-10",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "8",
+        "year": 2001,
+        "questionNumber": 8,
+        "subject": "Digital Logic",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "Consider the following circuit with initial state $Q_0 = Q_1 = 0$. The D Flip-flops are positive edged triggered and have set up times 20 nanosecond and hold times $0.$",
+        "options": [
+            "Consider the following timing diagrams of X and C. The clock period of $C \\geq 40$ nanosecond. Which one is the correct plot of Y?"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/digital-logic",
+            "/tag/gatecse-2001",
+            "/tag/digital-logic",
+            "/tag/circuit-output",
+            "/tag/normal"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/726/gate-cse-2001-question-2-8",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/726/gate-cse-2001-question-2-8",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "11",
+        "year": 2001,
+        "questionNumber": 11,
+        "subject": "Digital Logic",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "Given the following karnaugh map, which one of the following represents the minimal Sum-Of-Products of the map?$XY+Y'Z$$WX'Y' + XY +XZ$$W'X+Y'Z+XY$$XZ+Y$",
+        "options": [],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/digital-logic",
+            "/tag/gatecse-2001",
+            "/tag/k-map",
+            "/tag/digital-logic",
+            "/tag/normal"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/704/gate-cse-2001-question-1-11",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/704/gate-cse-2001-question-1-11",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "9",
+        "year": 2000,
+        "questionNumber": 9,
+        "subject": "Digital Logic",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "Design a logic circuit to convert a single digit BCD number to the number modulo six as follows (Do not detect illegal input):",
+        "options": [
+            "Write the truth table for all bits. Label the input bits $I_1, I_2, \\ldots$ with $I_1$ as the least significant bit. Label the output bits $R_1, R_2\\ldots$ with $R_1$ as the least significant bit. Use $1$ to signify truth.",
+            "Draw one circuit for each output bit using, altogether, two two-input AND gates, one two-input  OR gate and two NOT gates."
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/digital-logic",
+            "/tag/gatecse-2000",
+            "/tag/digital-logic",
+            "/tag/min-no-gates",
+            "/tag/descriptive"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/680/gate-cse-2000-question-9",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/680/gate-cse-2000-question-9",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "14",
+        "year": 2000,
+        "questionNumber": 14,
+        "subject": "Digital Logic",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "Consider the values of $A = 2.0 \\times 10^{30}, B = -2.0 \\times 10^{30}, C = 1.0,$ and the sequence \n\n   X:= A + B          Y:= A + C   \n   X:= X + C          Y:= Y + B\nexecuted on a computer where floating point numbers are represented with $32$ bits. The values for $X$ and $Y$ will be",
+        "options": [
+            "$X = 1.0, Y = 1.0$",
+            "$X = 1.0, Y = 0.0$",
+            "$X = 0.0, Y = 1.0$",
+            "$X = 0.0, Y = 0.0$"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/digital-logic",
+            "/tag/gatecse-2000",
+            "/tag/digital-logic",
+            "/tag/number-representation",
+            "/tag/normal"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/661/gate-cse-2000-question-2-14",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/661/gate-cse-2000-question-2-14",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "12",
+        "year": 2000,
+        "questionNumber": 12,
+        "subject": "Digital Logic",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "The following arrangement of master-slave flip flops\n\nhas the initial state of $P, Q$ as $0, 1$ (respectively). After three clock cycles the output state $P, Q$ is (respectively),",
+        "options": [
+            "$1, 0$",
+            "$1, 1$",
+            "$0, 0$",
+            "$0, 1$"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/digital-logic",
+            "/tag/gatecse-2000",
+            "/tag/digital-logic",
+            "/tag/circuit-output",
+            "/tag/normal",
+            "/tag/flip-flop"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/659/gate-cse-2000-question-2-12",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/659/gate-cse-2000-question-2-12",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "11",
+        "year": 2000,
+        "questionNumber": 11,
+        "subject": "Digital Logic",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "Which functions does NOT implement the Karnaugh map given below?",
+        "options": [
+            "$(w + x) y$",
+            "$xy + yw$",
+            "$(w + x) (\\bar{w} + y) (\\bar{x} + y)$",
+            "None of the above"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/digital-logic",
+            "/tag/gatecse-2000",
+            "/tag/digital-logic",
+            "/tag/k-map",
+            "/tag/normal"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/658/gate-cse-2000-question-2-11",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/658/gate-cse-2000-question-2-11",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "10",
+        "year": 2000,
+        "questionNumber": 10,
+        "subject": "Digital Logic",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "The simultaneous equations on the Boolean variables $x, y, z$ and $w$,\n\n$x + y + z = 1 $\n$xy = 0$\n$xz + w = 1$\n$xy + \\bar{z}\\bar{w} = 0$\n\nhave the following solution for $x, y, z$ and $w,$ respectively:",
+        "options": [
+            "$0 \\ 1 \\ 0 \\ 0$",
+            "$1 \\ 1 \\ 0 \\ 1$",
+            "$1 \\ 0 \\ 1 \\ 1$",
+            "$1 \\ 0 \\ 0 \\ 0$"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/digital-logic",
+            "/tag/gatecse-2000",
+            "/tag/digital-logic",
+            "/tag/boolean-algebra",
+            "/tag/easy"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/657/gate-cse-2000-question-2-10",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/657/gate-cse-2000-question-2-10",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "6",
+        "year": 2000,
+        "questionNumber": 6,
+        "subject": "Digital Logic",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "The number $43$ in $2's$ complement representation is",
+        "options": [
+            "$01010101$",
+            "$11010101$",
+            "$00101011$",
+            "$10101011$"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/digital-logic",
+            "/tag/gatecse-2000",
+            "/tag/digital-logic",
+            "/tag/number-representation",
+            "/tag/easy"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/629/gate-cse-2000-question-1-6",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/629/gate-cse-2000-question-1-6",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "b",
+        "year": null,
+        "questionNumber": null,
+        "subject": "Digital Logic",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "A microprocessor is capable of addressing 1 megabyte of memory with a 20-bit address bus. The system to be designed requires 256 K bytes of RAM, 256 K bytes of EPROM, 16 I/O devices (memory mapped I/O) and 1 K byte of EERAM (electrically erasable RAM).\n\n(a) Design a memory map (to reduce decoding logic) and show the decoding logic if the components available are:\n\n\n\nType          \nSize\nSpeed\n\n\n\n\nRAM\n6 K x 8\n140 ns\n\n\nEPROM\n256 K x 8\n150 ns\n\n\nEERAM\n256 x 8\n500 ns - read, 3 microsec - write",
+        "options": [
+            "(b) The microprocessor is operating at 12.5 mHz and provides time equivalent to two clock cycles for memory read and write. Assuming control signals similar to 8085, design the extra logic required for interfacing EERAM."
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/digital-logic",
+            "/tag/gate1992",
+            "/tag/digital-logic",
+            "/tag/descriptive",
+            "/tag/memory-interfacing",
+            "/tag/out-of-gatecse-syllabus",
+            "/tag/8085-microprocessor"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/585/gate-cse-1992-question-06-a-b",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/585/gate-cse-1992-question-06-a-b",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "a",
+        "year": null,
+        "questionNumber": null,
+        "subject": "Digital Logic",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "Consider addition in two's complement arithmetic. A carry from the most significant bit does not always correspond to an overflow. Explain what is the condition for overflow in two's complement arithmetic.",
+        "options": [],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/digital-logic",
+            "/tag/gate1992",
+            "/tag/digital-logic",
+            "/tag/normal",
+            "/tag/number-representation",
+            "/tag/descriptive"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/583/gate-cse-1992-question-4-a",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/583/gate-cse-1992-question-4-a",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "ii",
+        "year": null,
+        "questionNumber": null,
+        "subject": "Digital Logic",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "All digital circuits can be realized using only",
+        "options": [
+            "Ex-OR gates",
+            "Multiplexers",
+            "Half adders",
+            "OR gates"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/digital-logic",
+            "/tag/gate1992",
+            "/tag/normal",
+            "/tag/digital-logic",
+            "/tag/digital-circuits",
+            "/tag/multiple-selects",
+            "/tag/functional-completeness",
+            "/tag/combinational-circuit"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/556/gate-cse-1992-question-02-ii",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/556/gate-cse-1992-question-02-ii",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "i",
+        "year": null,
+        "questionNumber": null,
+        "subject": "Digital Logic",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "The operation which is commutative but not associative is:",
+        "options": [
+            "AND",
+            "OR",
+            "EX-OR",
+            "NAND"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/digital-logic",
+            "/tag/gate1992",
+            "/tag/easy",
+            "/tag/digital-logic",
+            "/tag/boolean-algebra",
+            "/tag/multiple-selects"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/555/gate-cse-1992-question-02-i",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/555/gate-cse-1992-question-02-i",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "i",
+        "year": null,
+        "questionNumber": null,
+        "subject": "Digital Logic",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "The Boolean function in sum of products form where K-map is given below (figure) is _______",
+        "options": [],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/digital-logic",
+            "/tag/gate1992",
+            "/tag/digital-logic",
+            "/tag/k-map",
+            "/tag/normal",
+            "/tag/fill-in-the-blanks"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/545/gate-cse-1992-question-01-i",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/545/gate-cse-1992-question-01-i",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "a",
+        "year": null,
+        "questionNumber": null,
+        "subject": "Digital Logic",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "Using $\\text{D}$ flip-flop gates, design a parallel-in/serial-out shift register that shifts data from left to right with the following input lines:\n\n\nClock $\\text{CLK}$\n\n\nThree parallel data inputs $A, B, C$\n\n\nSerial input $S$",
+        "options": [
+            "Control input $\\text{LOAD} / \\overline{\\text{SHIFT}}$."
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/digital-logic",
+            "/tag/gate1991",
+            "/tag/digital-logic",
+            "/tag/difficult",
+            "/tag/sequential-circuit",
+            "/tag/flip-flop",
+            "/tag/shift-registers",
+            "/tag/descriptive"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/532/gate-cse-1991-question-06-a",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/532/gate-cse-1991-question-06-a",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "a",
+        "year": null,
+        "questionNumber": null,
+        "subject": "Digital Logic",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "Analyse the circuit in Fig below and complete the following table\n$${\\begin{array}{|c|c|c|}\\hline\n\\textbf{a}&    \\textbf{b}& \\bf{ Q_n} \\\\\\hline\n0&0\\\\\\ 0&1 \\\\     1&0 \\\\    1&1 \\\\ \\hline  \n \\end{array}}$$",
+        "options": [],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/digital-logic",
+            "/tag/gate1991",
+            "/tag/digital-logic",
+            "/tag/normal",
+            "/tag/circuit-output",
+            "/tag/sequential-circuit",
+            "/tag/descriptive"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/531/gate-cse-1991-question-5-a",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/531/gate-cse-1991-question-5-a",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "ii",
+        "year": null,
+        "questionNumber": null,
+        "subject": "Digital Logic",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "Advantage of synchronous sequential circuits over asynchronous ones is:",
+        "options": [
+            "faster operation",
+            "ease of avoiding problems due to hazards",
+            "lower hardware requirement",
+            "better noise immunity",
+            "none of the above"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/digital-logic",
+            "/tag/gate1991",
+            "/tag/digital-logic",
+            "/tag/normal",
+            "/tag/sequential-circuit",
+            "/tag/synchronous-asynchronous-circuits",
+            "/tag/multiple-selects"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/516/gate-cse-1991-question-03-ii",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/516/gate-cse-1991-question-03-ii",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "i",
+        "year": null,
+        "questionNumber": null,
+        "subject": "Digital Logic",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "Choose the correct alternatives (more than one may be correct) and write the corresponding letters only:\n\n(i). The advantages of CMOS technology over a MOS is:\n\n(A). lower power dissipation\n\n(B). greater speed\n\n(C). smaller chip size\n\n(D). fewer masks for fabrication",
+        "options": [
+            "(E). none of the above"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/digital-logic",
+            "/tag/gate1991",
+            "/tag/digital-logic",
+            "/tag/integrated-circuits",
+            "/tag/out-of-gatecse-syllabus"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/515/gate-cse-1991-question-03-i",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/515/gate-cse-1991-question-03-i",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "v",
+        "year": null,
+        "questionNumber": null,
+        "subject": "Digital Logic",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "When two $4$-bit numbers $A = a_3a_2a_1a_0$ and $B=b_3b_2b_1b_0$ are multiplied, the bit $c_1$ of the product $C$ is given by ________",
+        "options": [],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/digital-logic",
+            "/tag/gate1991",
+            "/tag/digital-logic",
+            "/tag/normal",
+            "/tag/number-representation",
+            "/tag/fill-in-the-blanks"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/503/gate-cse-1991-question-01-v",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/503/gate-cse-1991-question-01-v",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    }
+]

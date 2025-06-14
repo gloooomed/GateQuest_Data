@@ -1,0 +1,1735 @@
+[
+    {
+        "id": "21",
+        "year": null,
+        "questionNumber": 21,
+        "subject": "Databases",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "Consider a B-tree with degree $m$, that is, the number of children, $c$, of any internal node (except the root) is such that $m \\leq c \\leq 2m-1$. Derive the maximum and minimum number of records in the leaf nodes for such a B-tree with height $h, h \\geq 1. ($Assume that the root of a tree is at height $0).$",
+        "options": [],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/databases",
+            "/tag/gate1999",
+            "/tag/databases",
+            "/tag/b-tree",
+            "/tag/normal",
+            "/tag/descriptive"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/1520/gate-cse-1999-question-21",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/1520/gate-cse-1999-question-21",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "25",
+        "year": null,
+        "questionNumber": 25,
+        "subject": "Databases",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "Which of the following is/are correct?",
+        "options": [
+            "An SQL query automatically eliminates duplicates",
+            "An SQL query will not work if there are no indexes on the relations",
+            "SQL permits attribute names to be repeated in the same relation",
+            "None of the above"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/databases",
+            "/tag/gate1999",
+            "/tag/databases",
+            "/tag/sql",
+            "/tag/easy"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/1502/gate-cse-1999-question-2-25",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/1502/gate-cse-1999-question-2-25",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "25",
+        "year": null,
+        "questionNumber": 25,
+        "subject": "Databases",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "Consider the schema $R=(S,T, U, V)$ and the dependencies $S \\rightarrow T, T \\rightarrow U, U \\rightarrow V$ and $V \\rightarrow S$. Let $R = (R1\\text{ and } R2)$ be a decomposition such that $R1 \\cap R2 \\neq \\phi$. The decomposition is",
+        "options": [
+            "not in $\\textsf{2NF}$",
+            "in $\\textsf{2NF}$ but not $\\textsf{3NF}$",
+            "in $\\textsf{3NF}$ but not in $\\textsf{2NF}$",
+            "in both $\\textsf{2NF}$ and $\\textsf{3NF}$"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/databases",
+            "/tag/gate1999",
+            "/tag/databases",
+            "/tag/database-normalization",
+            "/tag/normal",
+            "/tag/ugcnetjune2014iii"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/1485/gate-cse-1999-question-2-7-ugcnet-june2014-iii-25",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/1485/gate-cse-1999-question-2-7-ugcnet-june2014-iii-25",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "6",
+        "year": null,
+        "questionNumber": 6,
+        "subject": "Databases",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "For the schedule given below, which of the following is correct:\n$$\\begin{array}{ll} \\text{1} & \\text{Read A} & \\text{} \\\\  \\text{2} & \\text{} & \\text{Read B} \\\\   \\text{3} & \\text{Write A} & \\text{} \\\\  \\text{4} & \\text{} & \\text{Read A} \\\\ \\text{5} & \\text{} & \\text{Write A} \\\\ \\text{6} & \\text{} & \\text{Write B} \\\\ \\text{7} & \\text{Read B} & \\text{} \\\\ \\text{8} & \\text{Write B} & \\text{} \\\\\\end{array}$$\n\n\nThis schedule is serializable and can occur in a scheme using 2PL protocol\n\n\nThis schedule is serializable but cannot occur in a scheme using 2PL protocol\n\n\nThis schedule is not serializable but can occur in a scheme using 2PL protocol",
+        "options": [
+            "This schedule is not serializable and cannot occur in a scheme using 2PL protocol"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/databases",
+            "/tag/gate1999",
+            "/tag/databases",
+            "/tag/transaction-and-concurrency",
+            "/tag/normal"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/1484/gate-cse-1999-question-2-6",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/1484/gate-cse-1999-question-2-6",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "25",
+        "year": null,
+        "questionNumber": 25,
+        "subject": "Databases",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "Which of the following is correct?\n\nB-trees are for storing data on disk and B$^+$ trees are for main memory.\n\n\nRange queries are faster on B$^+$ trees.\n\n\nB-trees are for primary indexes and B$^+$ trees are for secondary indexes.",
+        "options": [
+            "The height of a B$^+$ tree is independent of the number of records."
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/databases",
+            "/tag/gate1999",
+            "/tag/databases",
+            "/tag/b-tree",
+            "/tag/normal"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/1478/gate-cse-1999-question-1-25",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/1478/gate-cse-1999-question-1-25",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "24",
+        "year": null,
+        "questionNumber": 24,
+        "subject": "Databases",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "Let $R = (A, B, C, D, E, F)$ be a relation scheme with the following dependencies $C \\rightarrow F, E \\rightarrow A, EC \\rightarrow D, A \\rightarrow B $. Which one of the following is a key for $R$?\nCD\nEC\nAE\nAC",
+        "options": [],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/databases",
+            "/tag/gate1999",
+            "/tag/databases",
+            "/tag/database-normalization",
+            "/tag/easy"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/1477/gate-cse-1999-question-1-24",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/1477/gate-cse-1999-question-1-24",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "19",
+        "year": null,
+        "questionNumber": 19,
+        "subject": "Databases",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "The relational algebra expression equivalent to the following tuple calculus expression:\n$\\left\\{t \\mid t \\in r \\land \\left(t[A] = 10 \\land t[B]=20\\right)\\right\\}$ is\n\n\n$\\sigma_{(A=10 \\lor B=20)} (r)$\n\n\n$\\sigma_{(A=10)} (r) \\cup \\sigma_{(B=20)} (r)$\n\n\n$\\sigma_{(A=10)} (r) \\cap \\sigma_{(B=20)} (r)$",
+        "options": [
+            "$\\sigma_{(A=10)} (r) - \\sigma_{(B=20)} (r)$"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/databases",
+            "/tag/gate1999",
+            "/tag/databases",
+            "/tag/relational-calculus",
+            "/tag/normal"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/1472/gate-cse-1999-question-1-19",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/1472/gate-cse-1999-question-1-19",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "53",
+        "year": null,
+        "questionNumber": 53,
+        "subject": "Databases",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "Consider the join of a relation $R$ with a relation $S$. If $R$ has $m$ tuples and $S$ has $n$ tuples then the maximum and minimum sizes of the join respectively are",
+        "options": [
+            "$m+n$ and $0$",
+            "$mn$ and $0$",
+            "$m+n$ and $|m-n|$",
+            "$mn$ and $m+n$"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/databases",
+            "/tag/gate1999",
+            "/tag/databases",
+            "/tag/relational-algebra",
+            "/tag/easy",
+            "/tag/isro2016"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/1471/gate-cse-1999-question-1-18-isro2016-53",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/1471/gate-cse-1999-question-1-18-isro2016-53",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "15",
+        "year": 2013,
+        "questionNumber": 15,
+        "subject": "Databases",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "An index is clustered, if",
+        "options": [
+            "it is on a set of fields that form a candidate key",
+            "it is on a set of fields that include the primary key",
+            "the data records of the file are organized in the same order as the data entries of the index",
+            "the data records of the file are organized not in the same order as the data entries of the index"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/databases",
+            "/tag/gatecse-2013",
+            "/tag/databases",
+            "/tag/indexing",
+            "/tag/normal"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/1437/gate-cse-2013-question-15",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/1437/gate-cse-2013-question-15",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "78",
+        "year": 2005,
+        "questionNumber": 78,
+        "subject": "Databases",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "Consider a relation scheme $R = (A, B, C, D, E, H)$ on which the following functional dependencies hold: {$A \\rightarrow B$, $BC \\rightarrow D$, $E \\rightarrow C$, $D \\rightarrow A$}. What are the candidate keys R?",
+        "options": [
+            "$\\text{AE, BE}$",
+            "$\\text{AE, BE, DE}$",
+            "$\\text{AEH, BEH, BCH}$",
+            "$\\text{AEH, BEH, DEH}$"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/databases",
+            "/tag/gatecse-2005",
+            "/tag/databases",
+            "/tag/database-normalization",
+            "/tag/easy"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/1401/gate-cse-2005-question-78",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/1401/gate-cse-2005-question-78",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "55",
+        "year": 2005,
+        "questionNumber": 55,
+        "subject": "Databases",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "The relation book (title, price) contains the titles and prices of different books. Assuming that no two books have the same price, what does the following SQL query list?\n\nselect title\nfrom book as B\nwhere (select count(*)\n    from book as T\n    where T.price>B.price) < 5",
+        "options": [
+            "Titles of the four most expensive books",
+            "Title of the fifth most inexpensive book",
+            "Title of the fifth most expensive book",
+            "Titles of the five most expensive books"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/databases",
+            "/tag/gatecse-2005",
+            "/tag/databases",
+            "/tag/sql",
+            "/tag/easy",
+            "/tag/isro2016"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/1400/gate-cse-2005-question-77-isro2016-55",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/1400/gate-cse-2005-question-77-isro2016-55",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "76",
+        "year": 2005,
+        "questionNumber": 76,
+        "subject": "Databases",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "The following table has two attributes $A$ and $C$ where $A$ is the primary key and $C$ is the foreign key referencing $A$ with on-delete cascade.\n$$\\begin{array}{|c|c|} \\hline \\textbf {A} &  \\textbf {C} \\\\\\hline \\text {2} &  \\text{4} \\\\\\hline \\text{3} & \\text{4} \\\\\\hline \\text{4} & \\text{3} \\\\\\hline \\text{5} &  \\text{2} \\\\\\hline \\text {7} &  \\text{2} \\\\\\hline \\text{9} & \\text{5} \\\\\\hline \\text{6} & \\text{4} \\\\\\hline \\end{array}$$\nThe set of all tuples that must be additionally deleted to preserve referential integrity when the tuple $(2, 4)$ is deleted is:",
+        "options": [
+            "$(3, 4)$ and $(6, 4)$",
+            "$(5, 2)$ and $(7, 2)$",
+            "$(5, 2), (7, 2)$ and $(9, 5)$",
+            "$(3, 4), (4, 3)$ and $(6, 4)$"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/databases",
+            "/tag/gatecse-2005",
+            "/tag/databases",
+            "/tag/referential-integrity",
+            "/tag/normal"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/1399/gate-cse-2005-question-76",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/1399/gate-cse-2005-question-76",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "75",
+        "year": 2005,
+        "questionNumber": 75,
+        "subject": "Databases",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "Let $E_1$ and $E_2$ be two entities in an $E/R$ diagram with simple-valued attributes. $R_1$ and $R_2$ are two relationships between $E_1$ and $E_2$, where $R_1$ is one-to-many and $R_2$ is many-to-many. $R_1$ and $R_2$ do not have any attributes of their own. What is the minimum number of tables required to represent this situation in the relational model?",
+        "options": [
+            "$2$",
+            "$3$",
+            "$4$",
+            "$5$"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/databases",
+            "/tag/gatecse-2005",
+            "/tag/databases",
+            "/tag/er-diagram",
+            "/tag/normal"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/1398/gate-cse-2005-question-75",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/1398/gate-cse-2005-question-75",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "30",
+        "year": 2005,
+        "questionNumber": 30,
+        "subject": "Databases",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "Let r be a relation instance with schema R = (A, B, C, D). We define $r_1 = \\pi_{A, B, C} (R)$ and $r_2=\\pi_{A, D} (r)$. Let $s =r_1 \\: * \\: r_2$ where $*$ denotes natural join. Given that the decomposition of $r$ into $r_1$ and $r_2$ is lossy, which one of the following is TRUE?\n\n\n$s \\subset r$\n\n\n$r \\cup s =r$\n\n\n$r \\subset s$",
+        "options": [
+            "$r*s=s$"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/databases",
+            "/tag/gatecse-2005",
+            "/tag/databases",
+            "/tag/relational-algebra",
+            "/tag/natural-join",
+            "/tag/normal"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/1366/gate-cse-2005-question-30",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/1366/gate-cse-2005-question-30",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "9",
+        "year": 2005,
+        "questionNumber": 9,
+        "subject": "Databases",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "Which one of the following statements about normal forms is $\\text{FALSE}?$\n\n\n$\\text{BCNF}$ is stricter than $\\text{3NF}$\n\n\nLossless, dependency-preserving decomposition into $\\text{3NF}$ is always possible\n\n\nLossless, dependency-preserving decomposition into $\\text{BCNF}$ is always possible",
+        "options": [
+            "Any relation with two attributes is in $\\text{BCNF}$"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/databases",
+            "/tag/gatecse-2005",
+            "/tag/databases",
+            "/tag/database-normalization",
+            "/tag/easy",
+            "/tag/ugcnetcse-june2015-paper3"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/1365/gate-cse-2005-question-29-ugcnet-june2015-iii-9",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/1365/gate-cse-2005-question-29-ugcnet-june2015-iii-9",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "28",
+        "year": 2005,
+        "questionNumber": 28,
+        "subject": "Databases",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "Which of the following is a key factor for preferring $B^+$-trees to binary search trees for indexing database relations?Database relations have a large number of recordsDatabase relations are sorted on the primary key$B^+$-trees require less memory than binary search treesData transfer from disks is in blocks",
+        "options": [],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/databases",
+            "/tag/gatecse-2005",
+            "/tag/databases",
+            "/tag/b-tree",
+            "/tag/normal"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/1364/gate-cse-2005-question-28",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/1364/gate-cse-2005-question-28",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "55",
+        "year": 2009,
+        "questionNumber": 55,
+        "subject": "Databases",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "Consider the following relational schema:\n$\\text{Suppliers}(\\underline{\\text{sid:integer}},\\text{ sname:string, city:string, street:string})$ \n$\\text{Parts}(\\underline{\\text{pid:integer}}, \\text{ pname:string, color:string})$ \n$\\text{Catalog}(\\underline {\\text{sid:integer, pid:integer}}, \\text{cost:real})$\nConsider the following relational query on the above database:\n\nSELECT\tS.sname\nFROM    Suppliers S\nWHERE S.sid NOT IN (SELECT C.sid \n                    FROM Catalog C \n                    WHERE C.pid NOT IN (SELECT P.pid \n                                        FROM Parts P \n                                        WHERE P.color<>'blue'))\n\nAssume that relations corresponding to the above schema are not empty. Which one of the following is the correct interpretation of the above query?\n\n\nFind the names of all suppliers who have supplied a non-blue part.\n\n\nFind the names of all suppliers who have not supplied a non-blue part.\n\n\nFind the names of all suppliers who have supplied only non-blue part.",
+        "options": [
+            "Find the names of all suppliers who have not supplied only blue parts."
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/databases",
+            "/tag/gatecse-2009",
+            "/tag/databases",
+            "/tag/sql",
+            "/tag/normal"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/1339/gate-cse-2009-question-55",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/1339/gate-cse-2009-question-55",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "45",
+        "year": 2009,
+        "questionNumber": 45,
+        "subject": "Databases",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "Let $R$ and $S$ be relational schemes such that $R=\\{a,b,c\\}$ and $S=\\{c\\}.$ Now consider the following queries on the database:\n\n$\\pi_{R-S}(r) - \\pi_{R-S} \\left (\\pi_{R-S} (r) \\times s - \\pi_{R-S,S}(r)\\right )$\n$\\left\\{t \\mid t \\in \\pi_{R-S} (r) \\wedge \\forall u \\in s \\left(\\exists v \\in r \\left(u = v[S] \\wedge t = v\\left[R-S\\right]\\right )\\right )\\right\\}$\n$\\left\\{t \\mid t \\in \\pi_{R-S} (r) \\wedge \\forall v \\in r \\left(\\exists u \\in s \\left(u = v[S] \\wedge t = v\\left[R-S\\right]\\right )\\right ) \\right\\}$\n\n\nSelect R.a,R.b\n    From R,S\n    Where R.c = S.c\n\n\nWhich of the above queries are equivalent?",
+        "options": [
+            "$1$ and $2$",
+            "$1$ and $3$",
+            "$2$ and $4$",
+            "$3$ and $4$"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/databases",
+            "/tag/gatecse-2009",
+            "/tag/databases",
+            "/tag/relational-calculus",
+            "/tag/difficult"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/1331/gate-cse-2009-question-45",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/1331/gate-cse-2009-question-45",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "44",
+        "year": 2009,
+        "questionNumber": 44,
+        "subject": "Databases",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "The following key values are inserted into a $B^+$ - tree in which order of the internal nodes is $3$, and that of the leaf nodes is $2$, in the sequence given below. The order of internal nodes is the maximum number of tree pointers in each node, and the order of leaf nodes is the maximum number of data items that can be stored in it. The $B^+$ - tree is initially empty$10$, $3$, $6$, $8$, $4$, $2$, $1$The maximum number of times leaf nodes would get split up as a result of these insertions is$2$$3$$4$$5$",
+        "options": [],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/databases",
+            "/tag/gatecse-2009",
+            "/tag/databases",
+            "/tag/b-tree",
+            "/tag/normal"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/1330/gate-cse-2009-question-44",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/1330/gate-cse-2009-question-44",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "43",
+        "year": 2009,
+        "questionNumber": 43,
+        "subject": "Databases",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "Consider two transactions $T_1$ and $T_2$, and four schedules $S_1, S_2, S_3, S_4$,  of  $T_1$  and  $T_2$ as given below:\n$T_1: R_1[x]W_1[x]W_1[y]$\n$T_2: R_2[x]R_2[y]W_2[y]$\n$S_1: R_1[x]R_2[x]R_2[y] W_1[x] W_1[y] W_2[y]$\n$S_2: R_1[x]R_2[x]R_2[y] W_1[x] W_2[y] W_1[y]$\n$S_3: R_1[x]W_1[x]R_2[x] W_1[y] R_2[y] W_2[y]$\n$S_4: R_2[x]R_2[y]R_1[x] W_1[x] W_1[y] W_2[y]$\nWhich of the above schedules are conflict-serializable?",
+        "options": [
+            "$S_1 \\text{ and } S_2$",
+            "$S_2 \\text{ and } S_3$",
+            "$S_3$ only",
+            "$S_4$ only"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/databases",
+            "/tag/gatecse-2009",
+            "/tag/databases",
+            "/tag/transaction-and-concurrency",
+            "/tag/normal"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/1329/gate-cse-2009-question-43",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/1329/gate-cse-2009-question-43",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "64",
+        "year": 2007,
+        "questionNumber": 64,
+        "subject": "Databases",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "Consider the following schedules involving two transactions. Which one of the following statements is TRUE?\n\n$S_1 :r_1(X); r_1(Y); r_2(X); r_2(Y); w_2(Y); w_1(X)$\n$S_2 :r_1(X); r_2(X); r_2(Y); w_2(Y); r_1(Y); w_1(X)$\n\n\n\nBoth $S_1$ and $S_2$ are conflict serializable.\n\n\n$S_1$ is conflict serializable and $S_2$ is not conflict serializable.\n\n\n$S_1$ is not conflict serializable and $S_2$ is conflict serializable.",
+        "options": [
+            "Both $S_1$ and $S_2$ are not conflict serializable."
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/databases",
+            "/tag/gatecse-2007",
+            "/tag/databases",
+            "/tag/transaction-and-concurrency",
+            "/tag/normal"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/1262/gate-cse-2007-question-64",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/1262/gate-cse-2007-question-64",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "59",
+        "year": 2007,
+        "questionNumber": 59,
+        "subject": "Databases",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "The order of a leaf node in a $B^+$ - tree is the maximum number of (value, data record pointer) pairs it can hold. Given that the block size is $1K\\;\\text{bytes}$, data record pointer is $7\\;\\text{bytes}$ long, the value field is $9\\;\\text{bytes}$ long and a block pointer is $6 \\;\\text{bytes}$ long, what is the order of the leaf node?",
+        "options": [
+            "$63$",
+            "$64$",
+            "$67$",
+            "$68$"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/databases",
+            "/tag/gatecse-2007",
+            "/tag/databases",
+            "/tag/b-tree",
+            "/tag/normal",
+            "/tag/isro2016"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/1261/gate-cse-2007-question-63-isro2016-59",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/1261/gate-cse-2007-question-63-isro2016-59",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "47",
+        "year": 2007,
+        "questionNumber": 47,
+        "subject": "Databases",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "Which one of the following statements is $\\text{FALSE}$?",
+        "options": [
+            "Any relation with two attributes is in $\\text{BCNF}$",
+            "A relation in which every key has only one attribute is in $\\text{2NF}$",
+            "A prime attribute can be transitively dependent on a key in a $\\text{3 NF}$ relation",
+            "A prime attribute can be transitively dependent on a key in a $\\text{BCNF}$ relation"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/databases",
+            "/tag/gatecse-2007",
+            "/tag/databases",
+            "/tag/database-normalization",
+            "/tag/normal",
+            "/tag/ugcnetcse-june2014-paper2"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/1260/gate-cse-2007-question-62-ugcnet-june2014-ii-47",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/1260/gate-cse-2007-question-62-ugcnet-june2014-ii-47",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "61",
+        "year": 2007,
+        "questionNumber": 61,
+        "subject": "Databases",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "Consider the table employee(empId, name, department, salary) and the two queries $Q_1, \\, Q_2$ below. Assuming that department $5$ has more than one employee, and we want to find the employees who get higher salary than anyone in the department $5,$ which one of the statements is TRUE for any arbitrary employee table?\n\n\n\n$Q_1:$\n\n\nSelect e.empId\nFrom employee e\nWhere not exists\n    (Select * From employee s Where s.department = \"5\" and s.salary >= e.salary)\n\n\n\n\n$Q_2:$\n\n\nSelect e.empId\nFrom employee e\nWhere e.salary > Any\n    (Select distinct salary From employee s Where s.department = \"5\")",
+        "options": [
+            "$Q_1$ is the correct query",
+            "$Q_2$ is the correct query",
+            "Both $Q_1$ and $Q_2$ produce the same answer",
+            "Neither $Q_1$ nor $Q_2$ is the correct query"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/databases",
+            "/tag/gatecse-2007",
+            "/tag/databases",
+            "/tag/sql",
+            "/tag/normal",
+            "/tag/verbal-aptitude"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/1259/gate-cse-2007-question-61",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/1259/gate-cse-2007-question-61",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "60",
+        "year": 2007,
+        "questionNumber": 60,
+        "subject": "Databases",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "Consider the relation employee(name, sex, supervisorName) with name as the key, supervisorName gives the name of the supervisor of the employee under consideration. What does the following Tuple Relational Calculus query produce?\n$\\left\\{e.name \\mid employee(e) \\wedge \\left(\\forall x\\right)\\left[\\neg employee\\left(x \\right) \\vee x.supervisorName \\neq e.name \\vee x.sex = ``male\" \\right]\\right\\}$",
+        "options": [
+            "Names of employees with a male supervisor.",
+            "Names of employees with no immediate male subordinates.",
+            "Names of employees with no immediate female subordinates.",
+            "Names of employees with a female supervisor."
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/databases",
+            "/tag/gatecse-2007",
+            "/tag/databases",
+            "/tag/relational-calculus",
+            "/tag/normal"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/1258/gate-cse-2007-question-60",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/1258/gate-cse-2007-question-60",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "53",
+        "year": 2004,
+        "questionNumber": 53,
+        "subject": "Databases",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "The employee information in a company is stored in the relationEmployee (name, sex, salary, deptName)Consider the following SQL querySelect deptName\n    From Employee\n    Where sex = ‘M’\n    Group by deptName\n    Having avg(salary) >\n        (select avg (salary) from Employee)It returns the names of the department in whichthe average salary is more than the average salary in the companythe average salary of male employees is more than the average salary of all male employees in the companythe average salary of male employees is more than the average salary of employees in same the departmentthe average salary of male employees is more than the average salary in the company",
+        "options": [],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/databases",
+            "/tag/gatecse-2004",
+            "/tag/databases",
+            "/tag/sql",
+            "/tag/normal"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/1049/gate-cse-2004-question-53",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/1049/gate-cse-2004-question-53",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "52",
+        "year": 2004,
+        "questionNumber": 52,
+        "subject": "Databases",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "The order of an internal node in a $B+$ tree index is the maximum number of children it can have. Suppose that a child pointer takes $6$ bytes, the search field value takes $14$ bytes, and the block size is $512$ bytes. What is the order of the internal node?",
+        "options": [
+            "$24$",
+            "$25$",
+            "$26$",
+            "$27$"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/databases",
+            "/tag/gatecse-2004",
+            "/tag/databases",
+            "/tag/b-tree",
+            "/tag/normal"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/1048/gate-cse-2004-question-52",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/1048/gate-cse-2004-question-52",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "51",
+        "year": 2004,
+        "questionNumber": 51,
+        "subject": "Databases",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "Consider the relation Student (name, sex, marks), where the primary key is shown underlined, pertaining to students in a class that has at least one boy and one girl. What does the following relational algebra expression produce? (Note: $\\rho$ is the rename operator).\n$\\displaystyle \\pi_{name} \\{\\sigma_{sex=female} (\\text{Student}) \\} - \\pi_{name} (\\text{Student}\\bowtie _{(sex=female \\wedge x=male \\wedge marks \\leq m)} \\rho_{n, x, m}(\\text{Student}))$",
+        "options": [
+            "names of girl students with the highest marks",
+            "names of girl students with more marks than some boy student",
+            "names of girl students with marks not less than some boy student",
+            "names of girl students with more marks than all the boy students"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/databases",
+            "/tag/gatecse-2004",
+            "/tag/databases",
+            "/tag/relational-algebra",
+            "/tag/normal"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/1047/gate-cse-2004-question-51",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/1047/gate-cse-2004-question-51",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "50",
+        "year": 2004,
+        "questionNumber": 50,
+        "subject": "Databases",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "The relation scheme $\\text{Student Performance (name, courseNo, rollNo, grade)}$ has the following functional dependencies:\n\nname, courseNo, $\\rightarrow$ grade\nrollNo, courseNo $\\rightarrow$ grade\nname $\\rightarrow$ rollNo\nrollNo $\\rightarrow$ name\n\nThe highest normal form of this relation scheme is",
+        "options": [
+            "$\\text{2NF}$",
+            "$\\text{3NF}$",
+            "$\\text{BCNF}$",
+            "$\\text{4NF}$"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/databases",
+            "/tag/gatecse-2004",
+            "/tag/databases",
+            "/tag/database-normalization",
+            "/tag/normal"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/1046/gate-cse-2004-question-50",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/1046/gate-cse-2004-question-50",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "14",
+        "year": 2004,
+        "questionNumber": 14,
+        "subject": "Databases",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "Consider the following relation schema pertaining to a students database:\n\nStudents (rollno, name, address)\nEnroll (rollno, courseno, coursename)\n\nwhere the primary keys are shown underlined. The number of tuples in the student and Enroll tables are $120$ and $8$ respectively. What are the maximum and minimum number of tuples that can be present in (Student * Enroll), where ‘*’ denotes natural join?",
+        "options": [
+            "$8, 8$",
+            "$120, 8$",
+            "$960, 8$",
+            "$960, 120$"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/databases",
+            "/tag/gatecse-2004",
+            "/tag/databases",
+            "/tag/easy",
+            "/tag/joins",
+            "/tag/natural-join"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/1011/gate-cse-2004-question-14",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/1011/gate-cse-2004-question-14",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "13",
+        "year": 2004,
+        "questionNumber": 13,
+        "subject": "Databases",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "Let $R_1 \\left(\\underline{A}, B, C\\right)$ and $R_2\\left(\\underline{D}, E \\right) $ be two relation schema, where the primary keys are shown underlined, and let C be a foreign key in $R_1$ referring to $R_2$. Suppose there is no violation of the above referential integrity constraint in the corresponding relation instances $r_1$ and $r_2$. Which of the following relational algebra expressions would necessarily produce an empty relation?\n\n\n$\\Pi_D (r_2) - \\Pi_C (r_1)$\n\n\n$\\Pi_C (r_1) - \\Pi_D (r_2)$\n\n\n$\\Pi_D \\left(r_1 \\bowtie_{C \\neq  D}r_2\\right)$",
+        "options": [
+            "$\\Pi_C \\left(r_1 \\bowtie_{C = D}r_2\\right)$"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/databases",
+            "/tag/gatecse-2004",
+            "/tag/databases",
+            "/tag/relational-calculus",
+            "/tag/easy"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/1010/gate-cse-2004-question-13",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/1010/gate-cse-2004-question-13",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "17",
+        "year": 2006,
+        "questionNumber": 17,
+        "subject": "Databases",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "Consider the following log sequence of two transactions on a bank account, with initial balance $12000,$ that transfer $2000$ to a mortgage payment and then apply a $5\\%$ interest. \n\nT1 start \nT1 B old $=12000$ new $=10000$\nT1 M old $=0$ new $=2000$\nT1 commit\nT2 start\nT2 B old $=10000$ new $=10500$\nT2 commit\n\nSuppose the database system crashes just before log record $7$ is written. When  the system is restarted, which one statement is true of the recovery procedure?",
+        "options": [
+            "We must redo log record $6$ to set B to $10500$",
+            "We must undo log record $6$ to set B to $10000$ and then redo log records $2$  and $3$",
+            "We need not redo log records $2$ and $3$ because transaction T1 has committed",
+            "We can apply redo and undo operations in arbitrary order because they are idempotent"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/databases",
+            "/tag/gatecse-2006",
+            "/tag/databases",
+            "/tag/transaction-and-concurrency",
+            "/tag/normal",
+            "/tag/isro2015"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/981/gate-cse-2006-question-20-isro2015-17",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/981/gate-cse-2006-question-20-isro2015-17",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "87",
+        "year": 2003,
+        "questionNumber": 87,
+        "subject": "Databases",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "Consider three data items $D1, D2,$ and $D3,$ and the following execution schedule of transactions $T1, T2,$ and $T3.$ In the diagram, $R(D)$ and $W(D)$ denote the actions reading and writing the data item $D$ respectively.\n$$ \\begin{array}{|l|l|l|}\\hline \\textbf{T1}  &  \\textbf{T2} & \\textbf{T3}  \\\\\\hline \\text{} & \\text{R(D3);} & \\text{}\\\\ \\text{} & \\text{R(D2);} & \\text{} \\\\ \\text{} & \\text{W(D2);} & \\text{} \\\\ \\text{} & \\text{} & \\text{R(D2);} \\\\ \\text{} & \\text{} & \\text{R(D3);} \\\\ \\text{R(D1);} & \\text{} & \\text{} \\\\ \\text{W(D1);} & \\text{} & \\text{} \\\\ \\text{} & \\text{} & \\text{W(D2);} \\\\ \\text{} & \\text{} & \\text{W(D3);} \\\\ \\text{} & \\text{R(D1);} & \\text{} \\\\ \\text{R(D2);} & \\text{} & \\text{}   \\\\ \\text{W(D2);} & \\text{} & \\text{} \\\\ \\text{} & \\text{W(D1);} & \\text{}\\\\\\hline \\end{array}$$Which of the following statements is correct?\n\n\nThe schedule is serializable as $T2; T3; T1$\n\n\nThe schedule is serializable as $T2; T1; T3$\n\n\nThe schedule is serializable as $T3; T2; T1$",
+        "options": [
+            "The schedule is not serializable"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/databases",
+            "/tag/gatecse-2003",
+            "/tag/databases",
+            "/tag/transaction-and-concurrency",
+            "/tag/normal"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/970/gate-cse-2003-question-87",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/970/gate-cse-2003-question-87",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "86",
+        "year": 2003,
+        "questionNumber": 86,
+        "subject": "Databases",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "Consider the set of relations shown below and the SQL query that follows.\nStudents: (Roll_number, Name, Date_of_birth)\nCourses: (Course_number, Course_name, Instructor)\nGrades: (Roll_number, Course_number, Grade)\n\nSelect distinct Name\nfrom Students, Courses, Grades\nwhere Students.Roll_number=Grades.Roll_number\n\tand Courses.Instructor = 'Korth'\n\tand Courses.Course_number = Grades.Course_number\n\tand Grades.Grade = 'A'\n\nWhich of the following sets is computed by the above query?\n\nNames of students who have got an A grade in all courses taught by Korth\n\nNames of students who have got an A grade in all courses\n\n\nNames of students who have got an A grade in at least one of the courses taught by Korth",
+        "options": [
+            "None of the above"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/databases",
+            "/tag/gatecse-2003",
+            "/tag/databases",
+            "/tag/sql",
+            "/tag/easy"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/969/gate-cse-2003-question-86",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/969/gate-cse-2003-question-86",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "85",
+        "year": 2003,
+        "questionNumber": 85,
+        "subject": "Databases",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "Consider the following functional dependencies in a database.$$\\begin{array}{|l|l|}\\hline \\text{Date_of_Birth } \\to \\text{Age} & \\text{Age } \\to \\text{Eligibility} \\\\\\hline  \\text{Name } \\to \\text{Roll_number} & \\text{Roll_number }\\to \\text{Name} \\\\\\hline   \\text{Course_number }\\to \\text{Course_name} & \\text{Course_number } \\to\\text{Instructor} \\\\\\hline  \\text{(Roll_number, Course_number) }\\to\\text{Grade} & \\text{}  \\\\\\hline \\end{array}$$The relation (Roll_number, Name, Date_of_birth, Age) is",
+        "options": [
+            "in second normal form but not in third normal form",
+            "in third normal form but not in BCNF",
+            "in BCNF",
+            "in none of the above"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/databases",
+            "/tag/gatecse-2003",
+            "/tag/databases",
+            "/tag/database-normalization",
+            "/tag/normal"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/968/gate-cse-2003-question-85",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/968/gate-cse-2003-question-85",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "65",
+        "year": 2003,
+        "questionNumber": 65,
+        "subject": "Databases",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "Consider the following $2-3-4$ tree (i.e., B-tree with a minimum degree of two) in which each data item is a letter. The usual alphabetical ordering of letters is used in constructing the tree.\n\nWhat is the result of inserting $G$ in the above tree?",
+        "options": [
+            "None of the above"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/databases",
+            "/tag/gatecse-2003",
+            "/tag/databases",
+            "/tag/b-tree",
+            "/tag/normal"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/952/gate-cse-2003-question-65",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/952/gate-cse-2003-question-65",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "30",
+        "year": 2003,
+        "questionNumber": 30,
+        "subject": "Databases",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "Consider the following SQL query\nSelect distinct $a_1, a_2, …, a_n$\nfrom $r_1, r_2, …, r_m$\nwhere P\nFor an arbitrary predicate P, this query is equivalent to which of the following relational algebra expressions?\n\n\n$\\Pi_{a_1, a_2, … a_n}  \\sigma_p \\left(r_1 \\times r_2 \\times \\dots \\times r_m\\right)$\n\n\n$\\Pi_{a_1, a_2, … a_n}  \\sigma_p \\left(r_1 \\bowtie r_2 \\bowtie \\dots \\bowtie r_m \\right)$\n\n\n$\\Pi_{a_1, a_2, … a_n}  \\sigma_p \\left(r_1 \\cup r_2 \\cup \\dots \\cup r_m \\right)$",
+        "options": [
+            "$\\Pi_{a_1, a_2, … a_n}  \\sigma_p \\left(r_1 \\cap r_2 \\cap \\dots \\cap r_m \\right)$"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/databases",
+            "/tag/gatecse-2003",
+            "/tag/databases",
+            "/tag/relational-algebra",
+            "/tag/normal"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/920/gate-cse-2003-question-30",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/920/gate-cse-2003-question-30",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "73",
+        "year": 2003,
+        "questionNumber": 73,
+        "subject": "Databases",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "Which of the following scenarios may lead to an irrecoverable error in a database system?\nA transaction writes a data item after it is read by an uncommitted transaction\nA transaction reads a data item after it is read by an uncommitted transaction\nA transaction reads a data item after it is written by a committed transaction\nA transaction reads a data item after it is written by an uncommitted transaction",
+        "options": [],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/databases",
+            "/tag/gatecse-2003",
+            "/tag/databases",
+            "/tag/transaction-and-concurrency",
+            "/tag/easy",
+            "/tag/isro2009"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/919/gate-cse-2003-question-29-isro2009-73",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/919/gate-cse-2003-question-29-isro2009-73",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "17",
+        "year": 2002,
+        "questionNumber": 17,
+        "subject": "Databases",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "The following table refers to search items for a key in $B$-trees and $B^+$ trees.\n$$\\begin{array}{|ll|ll|} \\hline & \\textbf {B-tree} & & \\textbf {B}^+\\text{-tree}   \\\\\\hline \\text{Successful search      } &\\text{    Unsuccessful search} &\\text{Successful search     } & \\text{     Unsuccessful search}   \\\\\\hline  \\text{$X_1$} &\\text{$X_2$} & \\text{$X_3$} &\\text{$X_4$}\\\\\\hline  \\end{array}$$\nA successful search means that the key exists in the database and unsuccessful means that it is not present in the database. Each of the entries $X_1, X_2, X_3$ and $X_4$ can have a value of either Constant or Variable. Constant means that the search time is the same, independent of the specific key value, where variable means that it is dependent on the specific key value chosen for the search.\nGive the correct values for the entries $X_1, X_2, X_3$ and $X_4$ (for example $X_1 = \\text{Constant},$ $X_2 = \\text{Constant }, X_3 = \\text{Constant}, X_4=\\text{ Constant})$\nRelation $R(A,B)$ has the following view defined on it:\n\nCREATE VIEW V AS \n(SELECT R1.A,R2.B \nFROM R AS R1, R as R2 \nWHERE R1.B=R2.A)",
+        "options": [
+            "The current contents of relation $R$ are shown below. What are the contents of the view $V$?",
+            "$$ \\begin{array}{|c|c|} \\hline \\text {A} & \\text {B} \\\\\\hline  \\text {1} &  \\text{2} \\\\ \\text{2}& \\text{3} \\\\ \\text{2} &\\text{4}\\\\ \\text {4} &  \\text{5} \\\\ \\text{6}& \\text{7} \\\\ \\text{6} &\\text{8} \\\\ \\text{9} & \\text{10}\\\\\\hline \\end{array}$$",
+            "The tuples $(2,11)$ and $(11,6)$ are now inserted into $R.$ What are the additional tuples that are inserted in $V$?"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/databases",
+            "/tag/gatecse-2002",
+            "/tag/databases",
+            "/tag/b-tree",
+            "/tag/normal",
+            "/tag/descriptive"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/870/gate-cse-2002-question-17",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/870/gate-cse-2002-question-17",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "16",
+        "year": 2002,
+        "questionNumber": 16,
+        "subject": "Databases",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "For relation R = (L, M, N, O, P), the following dependencies hold:$ M \\rightarrow O,$ $NO \\rightarrow P,$ $P \\rightarrow L$ and $L \\rightarrow MN$R is decomposed into R1 = (L, M, N, P) and R2 = (M, O).Is the above decomposition a lossless-join decomposition? Explain.Is the above decomposition dependency-preserving? If not, list all the dependencies that are not preserved.What is the highest normal form satisfied by the above decomposition?",
+        "options": [],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/databases",
+            "/tag/gatecse-2002",
+            "/tag/databases",
+            "/tag/database-normalization",
+            "/tag/normal",
+            "/tag/descriptive"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/869/gate-cse-2002-question-16",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/869/gate-cse-2002-question-16",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "15",
+        "year": 2002,
+        "questionNumber": 15,
+        "subject": "Databases",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "A university placement center maintains a relational database of companies that interview students on campus and make job offers to those successful in the interview. The schema of the database is given below:\n$$\\begin{array}{|ll|}\\hline \\text{COMPANY(}\\underline{\\text{cname}}\\text{, clocation)} & \\text{STUDENT(}\\underline{\\text{srollno}}\\text{, sname, sdegree)} \\\\\n\\text{INTERVIEW(}\\underline{\\text{cname, srollno}}, \\text{idate)} & \\text{OFFER(}\\underline{\\text{cname, srollno}}\\text{, osalary)} \\\\\\hline   \\end{array}$$\nThe COMPANY relation gives the name and location of the company. The STUDENT relation gives the student’s roll number, name and the degree program for which the student is registered in the university. The INTERVIEW relation gives the date on which a student is interviewed by a company. The OFFER relation gives the salary offered to a student who is successful in a company’s interview. The key for each relation is indicated by the underlined attributes\n\nWrite a relational algebra expressions (using only the operators $\\bowtie, \\sigma, \\pi, \\cup, -$ ) for the following queries.\n\n\nList the $rollnumbers$ and $names$ of students who attended at least one interview but did not receive $any$ job offer.\nList the $rollnumbers$ and $names$ of students who went for interviews and received job offers from $every$ company with which they interviewed.",
+        "options": [
+            "Write an SQL query to list, for each degree program in which more than $five$ students were offered jobs, the name of the degree and the average offered salary of students in this degree program."
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/databases",
+            "/tag/gatecse-2002",
+            "/tag/databases",
+            "/tag/normal",
+            "/tag/descriptive",
+            "/tag/relational-algebra",
+            "/tag/sql"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/868/gate-cse-2002-question-15",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/868/gate-cse-2002-question-15",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "25",
+        "year": 2002,
+        "questionNumber": 25,
+        "subject": "Databases",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "From the following instance of a relation schema $R(A,B,C)$, we can conclude that:\n$$\\begin{array}{|l|l|}\\hline \\textbf{A} & \\textbf{B} & \\textbf{C} \\\\\\hline  \\text{1} & \\text{1} & \\text{1} \\\\   \\text{1} & \\text{1} & \\text{0} \\\\ \\text{2} & \\text{3} & \\text{2} \\\\ \\text{2} & \\text{3} & \\text{2} \\\\\\hline \\end{array}$$",
+        "options": [
+            "$A$ functionally determines $B$ and $B$ functionally determines $C$",
+            "$A$ functionally determines $B$ and $B$ does not functionally determine $C$",
+            "$B$ does not functionally determine $C$",
+            "$A$ does not functionally determine $B$ and $B$ does not functionally determine $C$"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/databases",
+            "/tag/gatecse-2002",
+            "/tag/databases",
+            "/tag/database-normalization"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/855/gate-cse-2002-question-2-25",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/855/gate-cse-2002-question-2-25",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "24",
+        "year": 2002,
+        "questionNumber": 24,
+        "subject": "Databases",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "Relation $R$ is decomposed using a set of functional dependencies, $F$, and relation $S$ is decomposed using another set of functional dependencies, $G$. One decomposition is definitely $\\text{BCNF}$, the other is definitely $3NF$, but it is not known which is which. To make a guaranteed identification, which one of the following tests should be used on the decompositions? (Assume that the closures of $F$ and $G$ are available).",
+        "options": [
+            "Dependency-preservation",
+            "Lossless-join",
+            "$\\text{BCNF}$ definition",
+            "$3NF$ definition"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/databases",
+            "/tag/gatecse-2002",
+            "/tag/databases",
+            "/tag/database-normalization",
+            "/tag/easy"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/854/gate-cse-2002-question-2-24",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/854/gate-cse-2002-question-2-24",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "26",
+        "year": 2002,
+        "questionNumber": 26,
+        "subject": "Databases",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "A $B^+$ - tree index is to be built on the Name attribute of the relation STUDENT. Assume that all the student names are of length $8$ bytes, disk blocks are of size $512$ bytes, and index pointers are of size $4$ bytes. Given the scenario, what would be the best choice of the degree (i.e. number of pointers per node) of the $B^+$ - tree?",
+        "options": [
+            "$16$",
+            "$42$",
+            "$43$",
+            "$44$"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/databases",
+            "/tag/gatecse-2002",
+            "/tag/databases",
+            "/tag/b-tree",
+            "/tag/normal",
+            "/tag/ugcnetcse-june2012-paper2"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/853/gate-cse-2002-question-2-23-ugcnet-june2012-ii-26",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/853/gate-cse-2002-question-2-23-ugcnet-june2012-ii-26",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "20",
+        "year": 2002,
+        "questionNumber": 20,
+        "subject": "Databases",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "With regards to the expressive power of the formal relational query languages, which of the following statements is true?",
+        "options": [
+            "Relational algebra is more powerful than relational calculus",
+            "Relational algebra has the same power as relational calculus",
+            "Relational algebra has the same power as safe relational calculus",
+            "None of the above"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/databases",
+            "/tag/gatecse-2002",
+            "/tag/databases",
+            "/tag/relational-calculus",
+            "/tag/normal"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/825/gate-cse-2002-question-1-20",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/825/gate-cse-2002-question-1-20",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "19",
+        "year": 2002,
+        "questionNumber": 19,
+        "subject": "Databases",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "Relation $R$ with an associated set of functional dependencies, $F$, is decomposed into $\\text{BCNF}$. The redundancy (arising out of functional dependencies) in the resulting set of relations isZeroMore than zero but less than that of an equivalent $3\\text{NF}$ decompositionProportional to the size of $F^+$ Indeterminate",
+        "options": [],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/databases",
+            "/tag/gatecse-2002",
+            "/tag/databases",
+            "/tag/database-normalization",
+            "/tag/normal"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/824/gate-cse-2002-question-1-19",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/824/gate-cse-2002-question-1-19",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "22",
+        "year": 2001,
+        "questionNumber": 22,
+        "subject": "Databases",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "We wish to construct a $B^+$ tree with fan-out (the number of pointers per node) equal to $3$ for the following set of key values:\n$80, 50, 10, 70, 30, 100, 90$\nAssume that the tree is initially empty and the values are added in the order given.",
+        "options": [
+            "Show the tree after insertion of $10$, after insertion of $30$, and after insertion of $90$. Intermediate trees need not be shown.",
+            "The key values $30$ and $10$ are now deleted from the tree in that order show the tree after each deletion."
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/databases",
+            "/tag/gatecse-2001",
+            "/tag/databases",
+            "/tag/b-tree",
+            "/tag/normal",
+            "/tag/descriptive"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/763/gate-cse-2001-question-22",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/763/gate-cse-2001-question-22",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "a",
+        "year": 2001,
+        "questionNumber": null,
+        "subject": "Databases",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "Consider a relation examinee (regno, name, score), where regno is the primary key to score is a real number.",
+        "options": [
+            "Write a relational algebra using $( \\Pi, \\sigma, \\rho, \\times)$ to find the list of names which appear more than once in examinee."
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/databases",
+            "/tag/gatecse-2001",
+            "/tag/databases",
+            "/tag/sql",
+            "/tag/normal",
+            "/tag/descriptive"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/762/gate-cse-2001-question-21-a",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/762/gate-cse-2001-question-21-a",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "25",
+        "year": 2001,
+        "questionNumber": 25,
+        "subject": "Databases",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "Consider a relation geq which represents \"greater than or equal to\", that is, $(x,y) \\in $ geq only if $y \\geq x$.\n\ncreate table geq\n(\t\n    ib\tinteger\tnot null,\n    ub\tinteger\tnot null,\n    primary key ib,\t\n    foreign key (ub) references geq on delete cascade\n);\nWhich of the following is possible if tuple (x,y) is deleted?",
+        "options": [
+            "A tuple (z,w) with z > y is deleted",
+            "A tuple (z,w) with z > x is deleted",
+            "A tuple (z,w) with w < x is deleted",
+            "The deletion of (x,y) is prohibited"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/databases",
+            "/tag/gatecse-2001",
+            "/tag/databases",
+            "/tag/sql",
+            "/tag/normal"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/743/gate-cse-2001-question-2-25",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/743/gate-cse-2001-question-2-25",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "24",
+        "year": 2001,
+        "questionNumber": 24,
+        "subject": "Databases",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "Which of the following relational calculus expression is not safe?",
+        "options": [
+            "$\\left\\{t \\mid \\exists u \\in R_1\\left(t[A] = u[A]\\right) \\land \\neg \\exists s \\in R_2 \\left(t[A] = s[A]\\right)\\right\\}$",
+            "$\\left\\{ t \\mid \\forall u \\in R_1\\left(u[A]=\"x\" \\Rightarrow \\exists s \\in R_2\\left(t[A] = s[A] \\land s[A] = u[A]\\right)\\right) \\right\\} $",
+            "$\\left\\{t \\mid \\neg (t \\in R_1)\\right\\} $",
+            "$\\left\\{t \\mid \\exists u \\in R_1\\left(t[A]=u[A]\\right) \\land \\exists s \\in R_2 \\left(t[A] = s[A]\\right)\\right\\}$"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/databases",
+            "/tag/gatecse-2001",
+            "/tag/relational-calculus",
+            "/tag/normal",
+            "/tag/databases"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/742/gate-cse-2001-question-2-24",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/742/gate-cse-2001-question-2-24",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    }
+]

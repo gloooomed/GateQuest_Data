@@ -1,0 +1,1756 @@
+[
+    {
+        "id": "7",
+        "year": 2015,
+        "questionNumber": 7,
+        "subject": "Analytical Aptitude",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "The head of newly formed government desires to appoint five of the six selected members $P, Q, R, S, T$ and $U$ to portfolios of Home, Power, Defense, Telecom, and Finance. U does not want any portfolio if $S$ gets one of the five. $R$ wants either Home or Finance or no portfolio. $Q$ says that if $S$ gets Power or Telecom, then she must get the other one. T insists on a portfolio if $P$ gets one.\nWhich is the valid distribution of portfolios?",
+        "options": [
+            "$P$-Home, $Q$-Power, $R$-Defense, $S$-Telecom, $T$-Finance",
+            "$R$-Home, $S$-Power, $P$-Defense, $Q$-Telecom, $T$-Finance",
+            "$P$-Home, $Q$-Power, $T$-Defense, $S$-Telecom, $U$-Finance",
+            "$Q$-Home, $U$-Power, $T$-Defense, $R$-Telecom, $P$-Finance"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/general-aptitude/analytical-aptitude",
+            "/tag/gatecse-2015-set3",
+            "/tag/analytical-aptitude",
+            "/tag/normal",
+            "/tag/logical-reasoning"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/8308/gate-cse-2015-set-3-question-ga-7",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/8308/gate-cse-2015-set-3-question-ga-7",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "6",
+        "year": 2015,
+        "questionNumber": 6,
+        "subject": "Verbal Aptitude",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "Alexander turned his attention towards India, since he had conquered Persia.\nWhich one of the statements below is logically valid and can be inferred from the above sentence?",
+        "options": [
+            "Alexander would not have turned his attention towards India had he not conquered Persia.",
+            "Alexander was not ready to rest on his laurels, and wanted to march to India.",
+            "Alexander was not completely in control of his army and could command it to move towards India.",
+            "Since Alexander's kingdom extended to Indian borders after the conquest of Persia, he was keen to move further."
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/general-aptitude/verbal-aptitude",
+            "/tag/gatecse-2015-set3",
+            "/tag/verbal-aptitude",
+            "/tag/normal",
+            "/tag/verbal-reasoning"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/8306/gate-cse-2015-set-3-question-ga-6",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/8306/gate-cse-2015-set-3-question-ga-6",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "5",
+        "year": 2015,
+        "questionNumber": 5,
+        "subject": "Quantitative Aptitude",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "A function $f(x)$ is linear and has a value of $29$ at $x=-2$ and $39$ at $x=3$. Find its value at $x=5$.",
+        "options": [
+            "$59$",
+            "$45$",
+            "$43$",
+            "$35$"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/general-aptitude/quantitative-aptitude",
+            "/tag/gatecse-2015-set3",
+            "/tag/quantitative-aptitude",
+            "/tag/normal",
+            "/tag/functions"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/8303/gate-cse-2015-set-3-question-ga-5",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/8303/gate-cse-2015-set-3-question-ga-5",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "4",
+        "year": 2015,
+        "questionNumber": 4,
+        "subject": "Verbal Aptitude",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "Select the pair of best expresses a relationship similar to that expressed in the pair:\nChildren : Pediatrician",
+        "options": [
+            "Adult : Orthopaedist",
+            "Females : Gynaecologist",
+            "Kidney : Nephrologist",
+            "Skin : Dermatologist"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/general-aptitude/verbal-aptitude",
+            "/tag/gatecse-2015-set3",
+            "/tag/verbal-aptitude",
+            "/tag/easy",
+            "/tag/word-pairs"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/8302/gate-cse-2015-set-3-question-ga-4",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/8302/gate-cse-2015-set-3-question-ga-4",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "3",
+        "year": 2015,
+        "questionNumber": 3,
+        "subject": "Verbal Aptitude",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "Extreme focus on syllabus and studying for tests has become such a dominant concern of Indian student that they close their minds to anything ___________ to the requirements of the exam.",
+        "options": [
+            "related",
+            "extraneous",
+            "outside",
+            "useful"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/general-aptitude/verbal-aptitude",
+            "/tag/gatecse-2015-set3",
+            "/tag/verbal-aptitude",
+            "/tag/normal",
+            "/tag/most-appropriate-word"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/8301/gate-cse-2015-set-3-question-ga-3",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/8301/gate-cse-2015-set-3-question-ga-3",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "2",
+        "year": 2015,
+        "questionNumber": 2,
+        "subject": "Verbal Aptitude",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "The Tamil version of __________ John Abraham-starrer Madras Cafe __________ cleared by the Censor Board with no cuts last week, but the film's distributor _______ no takers among the exhibitors for a release in Tamilnadu _______ this Friday.Mr., was, found, ona, was, found, atthe, was, found, ona, being, find, at",
+        "options": [],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/general-aptitude/verbal-aptitude",
+            "/tag/gatecse-2015-set3",
+            "/tag/verbal-aptitude",
+            "/tag/normal",
+            "/tag/english-grammar"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/8300/gate-cse-2015-set-3-question-ga-2",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/8300/gate-cse-2015-set-3-question-ga-2",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "1",
+        "year": 2015,
+        "questionNumber": 1,
+        "subject": "Analytical Aptitude",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "If $\\text{ROAD}$ is written as $\\text{URDG}$, then $\\text{SWAN}$should be written as:",
+        "options": [
+            "$\\text{VXDQ}$",
+            "$\\text{VZDQ}$",
+            "$\\text{VZDP}$",
+            "$\\text{UXDQ}$"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/general-aptitude/analytical-aptitude",
+            "/tag/gatecse-2015-set3",
+            "/tag/analytical-aptitude",
+            "/tag/easy",
+            "/tag/logical-reasoning",
+            "/tag/code-words",
+            "/tag/code-language"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/8298/gate-cse-2015-set-3-question-ga-1",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/8298/gate-cse-2015-set-3-question-ga-1",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "10",
+        "year": 2015,
+        "questionNumber": 10,
+        "subject": "Verbal Aptitude",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "Out of the following $4$ sentences, select the most suitable sentence with respect to grammar and usage:",
+        "options": [
+            "Since the report lacked needed information, it was of no use to them.",
+            "The report was useless to them because there were no needed information in it.",
+            "Since the report did not contain the needed information, it was not real useful to them.",
+            "Since the report lacked needed information, it would not had been useful to them."
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/general-aptitude/verbal-aptitude",
+            "/tag/gatecse-2015-set2",
+            "/tag/verbal-aptitude",
+            "/tag/normal",
+            "/tag/english-grammar",
+            "/tag/grammatical-error"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/8041/gate-cse-2015-set-2-question-ga-10",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/8041/gate-cse-2015-set-2-question-ga-10",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "9",
+        "year": 2015,
+        "questionNumber": 9,
+        "subject": "Quantitative Aptitude",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "If $p, q, r, s$ are distinct integers such that:\n\n$f (p, q, r, s) = \\text{ max } (p, q, r, s)$\n\n$g (p, q, r, s) = \\text{ min } (p, q, r, s)$\n\n$h (p, q, r, s) = \\text {remainder of } \\frac{(p \\times q)} {(r \\times s)} \\text{ if } (p \\times q) > (r \\times s)$\n$\\text{ or remainder of } \\frac {(r \\times s)}{(p \\times q)} \\text{ if } (r \\times s) > (p \\times q)$",
+        "options": [
+            "Also a function $fgh (p, q, r, s) = f(p, q, r, s) \\times g(p, q, r, s) \\times h (p, q, r, s)$",
+            "Also the same operations are valid with two variable functions of the form $f(p, q)$",
+            "What is the value of $fg \\left(h \\left(2, 5, 7, 3\\right), 4, 6, 8\\right)$?"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/general-aptitude/quantitative-aptitude",
+            "/tag/gatecse-2015-set2",
+            "/tag/functions",
+            "/tag/normal",
+            "/tag/numerical-answers"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/8040/gate-cse-2015-set-2-question-ga-9",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/8040/gate-cse-2015-set-2-question-ga-9",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "8",
+        "year": 2015,
+        "questionNumber": 8,
+        "subject": "Quantitative Aptitude",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "In a triangle $PQR, PS$ is the angle bisector of $\\angle QPR \\text{ and } \\angle QPS =60^\\circ$. What is the length of $PS$ ?",
+        "options": [
+            "$\\left(\\dfrac{(q+r)} {qr}\\right)$",
+            "$\\left(\\dfrac {qr} {q+r}\\right)$",
+            "$\\large \\sqrt {(q^2 + r^2)}$",
+            "$\\left(\\dfrac{(q+r)^2} {qr}\\right)$"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/general-aptitude/quantitative-aptitude",
+            "/tag/gatecse-2015-set2",
+            "/tag/quantitative-aptitude",
+            "/tag/geometry",
+            "/tag/difficult",
+            "/tag/triangles"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/8039/gate-cse-2015-set-2-question-ga-8",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/8039/gate-cse-2015-set-2-question-ga-8",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "7",
+        "year": 2015,
+        "questionNumber": 7,
+        "subject": "Analytical Aptitude",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "Four branches of a company are located at $\\text{M, N, O}$ and $\\text{P.  M}$ is north of $\\text{N}$ at a distance of $4\\;\\text{km; P}$ is south of $\\text{O}$ at a distance of $2\\;\\text{km; N}$ is southeast of $\\text{O}$ by $1\\;\\text{km}$. What is the distance between $\\text{M}$ and $\\text{P}$ in $\\text{km}$?",
+        "options": [
+            "$5.34$",
+            "$6.74$",
+            "$28.5$",
+            "$45.49$"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/general-aptitude/analytical-aptitude",
+            "/tag/gatecse-2015-set2",
+            "/tag/analytical-aptitude",
+            "/tag/normal",
+            "/tag/direction-sense"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/8036/gate-cse-2015-set-2-question-ga-7",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/8036/gate-cse-2015-set-2-question-ga-7",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "6",
+        "year": 2015,
+        "questionNumber": 6,
+        "subject": "Quantitative Aptitude",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "If the list of letters $P$, $R$, $S$, $T$, $U$ is an arithmetic sequence, which of the following are also in arithmetic sequence?\n\n$2P, 2R, 2S, 2T, 2U$\n$P-3, R-3, S-3, T-3, U-3$\n$P^2, R^2, S^2, T^2, U^2$",
+        "options": [
+            "I only",
+            "I and II",
+            "II and III",
+            "I and III"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/general-aptitude/quantitative-aptitude",
+            "/tag/gatecse-2015-set2",
+            "/tag/quantitative-aptitude",
+            "/tag/normal",
+            "/tag/arithmetic-series"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/8035/gate-cse-2015-set-2-question-ga-6",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/8035/gate-cse-2015-set-2-question-ga-6",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "5",
+        "year": 2015,
+        "questionNumber": 5,
+        "subject": "Verbal Aptitude",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "Based on the given statements, select the most appropriate option to solve the given question.\nWhat will be the total weight of $10$ poles each of same weight?\nStatements:\n\nOne fourth of the weight of the pole is $5\\;\\text{Kg}$.\nThe total weight of these poles is $160\\;\\text{Kg}$ more than the total weight of two poles.",
+        "options": [
+            "Statement I alone is not sufficient.",
+            "Statement II alone is not sufficient.",
+            "Either I or II alone is sufficient.",
+            "Both statements I and II together are not sufficient."
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/general-aptitude/verbal-aptitude",
+            "/tag/gatecse-2015-set2",
+            "/tag/normal",
+            "/tag/logical-reasoning",
+            "/tag/statement-sufficiency"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/8033/gate-cse-2015-set-2-question-ga-5",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/8033/gate-cse-2015-set-2-question-ga-5",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "4",
+        "year": 2015,
+        "questionNumber": 4,
+        "subject": "Verbal Aptitude",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "A generic term that includes various items of clothing such as a skirt, a pair of trousers and a shirt is",
+        "options": [
+            "fabric",
+            "textile",
+            "fiber",
+            "apparel"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/general-aptitude/verbal-aptitude",
+            "/tag/gatecse-2015-set2",
+            "/tag/verbal-aptitude",
+            "/tag/easy",
+            "/tag/most-appropriate-word"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/8032/gate-cse-2015-set-2-question-ga-4",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/8032/gate-cse-2015-set-2-question-ga-4",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "2",
+        "year": 2015,
+        "questionNumber": 2,
+        "subject": "Verbal Aptitude",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "Choose the statement where underlined word is used correctly.\nThe industrialist had a personnel jet.\nI write my experience in my personnel diary.\nAll personnel are being given the day off.\nBeing religious is a personnel aspect.",
+        "options": [],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/general-aptitude/verbal-aptitude",
+            "/tag/gatecse-2015-set2",
+            "/tag/verbal-aptitude",
+            "/tag/word-meaning",
+            "/tag/normal"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/8029/gate-cse-2015-set-2-question-ga-2",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/8029/gate-cse-2015-set-2-question-ga-2",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "1",
+        "year": 2015,
+        "questionNumber": 1,
+        "subject": "Verbal Aptitude",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "We __________ our friends's birthday and we _________ how to make it up to him.",
+        "options": [
+            "completely forgot --- don't just know",
+            "forgot completely --- don't just know",
+            "completely forgot --- just don't know",
+            "forgot completely --- just don't know"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/general-aptitude/verbal-aptitude",
+            "/tag/gatecse-2015-set2",
+            "/tag/verbal-aptitude",
+            "/tag/easy",
+            "/tag/english-grammar"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/8028/gate-cse-2015-set-2-question-ga-1",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/8028/gate-cse-2015-set-2-question-ga-1",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "10",
+        "year": 2015,
+        "questionNumber": 10,
+        "subject": "Quantitative Aptitude",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "The probabilities that a student passes in mathematics, physics and chemistry are $m,p$ and $c$ respectively. Of these subjects, the student has $75\\%$ chance of passing in at least one, a $50\\%$ chance of passing in at least two and a $40\\%$ chance of passing in exactly two. Following relations are drawn in $m, p, c$:\n\n$p + m + c = 27/20$\n$p + m + c = 13/20$\n$(p) \\times (m) \\times (c) = 1/10$",
+        "options": [
+            "Only relation I is true.",
+            "Only relation II is true.",
+            "Relations II and III are true.",
+            "Relations I and III are true."
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/general-aptitude/quantitative-aptitude",
+            "/tag/gatecse-2015-set1",
+            "/tag/quantitative-aptitude",
+            "/tag/probability"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/8014/gate-cse-2015-set-1-question-ga-10",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/8014/gate-cse-2015-set-1-question-ga-10",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "9",
+        "year": 2015,
+        "questionNumber": 9,
+        "subject": "Quantitative Aptitude",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "The pie chart below has the breakup of the number of students from different departments in an engineering college for the year $2012$. The proportion of male to female students in each department is $5:4$. There are $40$ males in Electrical Engineering. What is the difference between the numbers of female students in the civil department and the female students in the Mechanical department?",
+        "options": [],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/general-aptitude/quantitative-aptitude",
+            "/tag/gatecse-2015-set1",
+            "/tag/quantitative-aptitude",
+            "/tag/data-interpretation",
+            "/tag/numerical-answers",
+            "/tag/pie-chart"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/8013/gate-cse-2015-set-1-question-ga-9",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/8013/gate-cse-2015-set-1-question-ga-9",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "8",
+        "year": 2015,
+        "questionNumber": 8,
+        "subject": "Verbal Aptitude",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "The given statement is followed by some courses of action. Assuming the statement to be true, decide the correct option.\nStatement:\nThere has been a significant drop in the water level in the lakes supplying water to the city.\nCourse of action:\n\nThe water supply authority should impose a partial cut in supply to tackle the situation.\nThe government should appeal to all the residents through mass media for minimal use of water.\nThe government should ban the water supply in lower areas.",
+        "options": [
+            "Statements I and II follow.",
+            "Statements I and III follow.",
+            "Statements II and III follow.",
+            "All the statements follow."
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/general-aptitude/verbal-aptitude",
+            "/tag/gatecse-2015-set1",
+            "/tag/verbal-aptitude",
+            "/tag/normal",
+            "/tag/statements-follow"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/8012/gate-cse-2015-set-1-question-ga-8",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/8012/gate-cse-2015-set-1-question-ga-8",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "7",
+        "year": 2015,
+        "questionNumber": 7,
+        "subject": "Verbal Aptitude",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "Select the alternative meaning of the underlined part of the sentence.The chain snatchers $\\underline{\\text{took to their heels}}$ when the police party arrived.Took shelter in a thick jungleOpen indiscriminate fireTook to flightUnconditionally surrendered",
+        "options": [],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/general-aptitude/verbal-aptitude",
+            "/tag/gatecse-2015-set1",
+            "/tag/verbal-aptitude",
+            "/tag/phrase-meaning",
+            "/tag/easy"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/8011/gate-cse-2015-set-1-question-ga-7",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/8011/gate-cse-2015-set-1-question-ga-7",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "6",
+        "year": 2015,
+        "questionNumber": 6,
+        "subject": "Quantitative Aptitude",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "The number of students in a class who have answered correctly, wrongly, or not attempted each question in an exam, are listed in the table below. The marks for each question are also listed. There is no negative or partial marking.$$\\begin{array}{|c|c|c|c|c|} \\hline \\textbf{Q No.} & \\textbf{Marks} &\\textbf{Answered}&\\textbf{Answered}&\\textbf{Not}\\\\&&\\textbf{ Correctly} &\\textbf{Wrongly} & \\textbf{Attempted} \\\\\\hline \\text{1} & \\text{2} &\\text{21} &\\text{17} &\\text{6}\\\\\\hline \\text{2} & \\text{3} &\\text{15} & \\text{27}& \\text{2}\\\\\\hline \\text{3} & \\text{1} &\\text{11} & \\text{29} & \\text{4}\\\\\\hline \\text{4} & \\text{2} &\\text{23} & \\text{18} & \\text{3}\\\\\\hline \\text{5} & \\text{5} &\\text{31} & \\text{12} & \\text{1} \\\\\\hline \\end{array}$$What is the average of the marks obtained by the class in the examination?",
+        "options": [
+            "$2.290$",
+            "$2.970$",
+            "$6.795$",
+            "$8.795$"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/general-aptitude/quantitative-aptitude",
+            "/tag/gatecse-2015-set1",
+            "/tag/quantitative-aptitude",
+            "/tag/easy",
+            "/tag/data-interpretation",
+            "/tag/tabular-data"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/8010/gate-cse-2015-set-1-question-ga-6",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/8010/gate-cse-2015-set-1-question-ga-6",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "5",
+        "year": 2015,
+        "questionNumber": 5,
+        "subject": "Verbal Aptitude",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "Which one of the following combinations is incorrect?",
+        "options": [
+            "Acquiescence - Submission",
+            "Wheedle - Roundabout",
+            "Flippancy - Lightness",
+            "Profligate - Extravagant"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/general-aptitude/verbal-aptitude",
+            "/tag/gatecse-2015-set1",
+            "/tag/verbal-aptitude",
+            "/tag/difficult",
+            "/tag/word-pairs"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/8008/gate-cse-2015-set-1-question-ga-5",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/8008/gate-cse-2015-set-1-question-ga-5",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "4",
+        "year": 2015,
+        "questionNumber": 4,
+        "subject": "Verbal Aptitude",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "Based on the given statements, select the most appropriate option to solve the given question.\nIf two floors in a certain building are $9$ feet apart, how many steps are there in a set of stairs that extends from the first floor to the second floor of the building?\nStatements:\n\nEach step is $3/4$ foot high.\nEach step is $1$ foot wide.",
+        "options": [
+            "Statements I alone is sufficient, but statement II alone is not sufficient.",
+            "Statements II alone is sufficient, but statement I alone is not sufficient.",
+            "Both statements together are sufficient, but neither statement alone is sufficient.",
+            "Statements I and II together are not sufficient."
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/general-aptitude/verbal-aptitude",
+            "/tag/gatecse-2015-set1",
+            "/tag/verbal-aptitude",
+            "/tag/easy",
+            "/tag/statement-sufficiency"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/8006/gate-cse-2015-set-1-question-ga-4",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/8006/gate-cse-2015-set-1-question-ga-4",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "3",
+        "year": 2015,
+        "questionNumber": 3,
+        "subject": "Quantitative Aptitude",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "Given Set $A= {2, 3, 4, 5}$ and Set $B= { 11, 12, 13, 14, 15}$, two numbers are randomly selected, one from each set. What is the probability that the sum of the two numbers equals $16$?",
+        "options": [
+            "$0.20$",
+            "$0.25$",
+            "$0.30$",
+            "$0.33$"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/general-aptitude/quantitative-aptitude",
+            "/tag/gatecse-2015-set1",
+            "/tag/quantitative-aptitude",
+            "/tag/probability",
+            "/tag/normal"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/8004/gate-cse-2015-set-1-question-ga-3",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/8004/gate-cse-2015-set-1-question-ga-3",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "2",
+        "year": 2015,
+        "questionNumber": 2,
+        "subject": "Verbal Aptitude",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "Which of the following options is the closest in meaning of the sentence below?She enjoyed herself immensely at the party.She had a terrible time at the partyShe had a horrible time at the partyShe had a terrific time at the partyShe had a terrifying time at the party",
+        "options": [],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/general-aptitude/verbal-aptitude",
+            "/tag/gatecse-2015-set1",
+            "/tag/verbal-aptitude",
+            "/tag/easy",
+            "/tag/phrase-meaning"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/8003/gate-cse-2015-set-1-question-ga-2",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/8003/gate-cse-2015-set-1-question-ga-2",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "1",
+        "year": 2015,
+        "questionNumber": 1,
+        "subject": "Verbal Aptitude",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "Didn't you buy ____ when you went shopping?any papermuch paperno papera few paper",
+        "options": [],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/general-aptitude/verbal-aptitude",
+            "/tag/gatecse-2015-set1",
+            "/tag/verbal-aptitude",
+            "/tag/easy",
+            "/tag/english-grammar",
+            "/tag/comparative-forms"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/7995/gate-cse-2015-set-1-question-ga-1",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/7995/gate-cse-2015-set-1-question-ga-1",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "65",
+        "year": 2010,
+        "questionNumber": 65,
+        "subject": "Quantitative Aptitude",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "Given digits $ 2, 2, 3, 3, 3, 4, 4, 4, 4$ how many distinct $4$ digit numbers greater than $3000$ can be formed?",
+        "options": [
+            "$50$",
+            "$51$",
+            "$52$",
+            "$54$"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/general-aptitude/quantitative-aptitude",
+            "/tag/gatecse-2010",
+            "/tag/quantitative-aptitude",
+            "/tag/combinatory",
+            "/tag/normal"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/2373/gate-cse-2010-question-65",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/2373/gate-cse-2010-question-65",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "64",
+        "year": 2010,
+        "questionNumber": 64,
+        "subject": "Quantitative Aptitude",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "$5$ skilled workers can build a wall in $20$ days; $8$ semi-skilled workers can build a wall in $25$ days; $10$ unskilled workers can build a wall in $30$ days. If a team has $2$ skilled, $6$ semi-skilled and $5$ unskilled workers, how long it will take to build the wall?",
+        "options": [
+            "$20$ days",
+            "$18$ days",
+            "$16$ days",
+            "$15$ days"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/general-aptitude/quantitative-aptitude",
+            "/tag/gatecse-2010",
+            "/tag/quantitative-aptitude",
+            "/tag/normal",
+            "/tag/work-time"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/2372/gate-cse-2010-question-64",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/2372/gate-cse-2010-question-64",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "63",
+        "year": 2010,
+        "questionNumber": 63,
+        "subject": "Verbal Aptitude",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "Modern warfare has changed from large scale clashes of armies to suppression of civilian populations. Chemical agents that do their work silently appear to be suited to such warfare; and regretfully, there exist people in military establishments who think that chemical agents are useful tools for their cause.\nWhich of the following statements best sums up the meaning of the above passage:",
+        "options": [
+            "Modern warfare has resulted in civil strife.",
+            "Chemical agents are useful in modern warfare.",
+            "Use of chemical agents in warfare would be undesirable.",
+            "People in military establishments like to use chemical agents in war."
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/general-aptitude/verbal-aptitude",
+            "/tag/gatecse-2010",
+            "/tag/verbal-aptitude",
+            "/tag/passage-reading",
+            "/tag/normal"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/2371/gate-cse-2010-question-63",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/2371/gate-cse-2010-question-63",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "62",
+        "year": 2010,
+        "questionNumber": 62,
+        "subject": "Analytical Aptitude",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "Hari(H), Gita(G), Irfan(I) and Saira(S) are siblings (i.e., brothers and sisters). All were born on $1^{\\text{st}}$ January. The age difference between any two successive siblings (that is born one after another) is less than three years. Given the following facts:Hari's age $+$ Gita's age $>$ Irfan's age $+$ Saira's ageThe age difference between Gita and Saira is one year. However Gita is not the oldest and Saira is not the youngest.There are no twins.In what order they were born (oldest first)?$\\text{HSIG}$$\\text{SGHI}$$\\text{IGSH}$$\\text{IHSG}$",
+        "options": [],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/general-aptitude/analytical-aptitude",
+            "/tag/gatecse-2010",
+            "/tag/analytical-aptitude",
+            "/tag/logical-reasoning",
+            "/tag/normal",
+            "/tag/age-relation"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/2370/gate-cse-2010-question-62",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/2370/gate-cse-2010-question-62",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "61",
+        "year": 2010,
+        "questionNumber": 61,
+        "subject": "Analytical Aptitude",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "If $137 + 276 = 435$ how much is $731+672?$",
+        "options": [
+            "$534$",
+            "$1403$",
+            "$1623$",
+            "$1513$"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/general-aptitude/analytical-aptitude",
+            "/tag/gatecse-2010",
+            "/tag/analytical-aptitude",
+            "/tag/normal",
+            "/tag/logical-reasoning"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/2369/gate-cse-2010-question-61",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/2369/gate-cse-2010-question-61",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "60",
+        "year": 2010,
+        "questionNumber": 60,
+        "subject": "Verbal Aptitude",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "The question below consists of a pair of related words followed by four pairs of words. Select the pair that best expresses the relation in the original pair.\nUnemployed : Worker",
+        "options": [
+            "fallow : land",
+            "unaware : sleeper",
+            "wit : jester",
+            "renovated : house"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/general-aptitude/verbal-aptitude",
+            "/tag/gatecse-2010",
+            "/tag/verbal-aptitude",
+            "/tag/word-pairs",
+            "/tag/normal"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/2368/gate-cse-2010-question-60",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/2368/gate-cse-2010-question-60",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "59",
+        "year": 2010,
+        "questionNumber": 59,
+        "subject": "Quantitative Aptitude",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "$25$ persons are in a room. $15$ of them play hockey, $17$ of them play football and $10$ of them play both hockey and football. Then the number of persons playing neither hockey nor football is:",
+        "options": [
+            "$2$",
+            "$17$",
+            "$13$",
+            "$3$"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/general-aptitude/quantitative-aptitude",
+            "/tag/gatecse-2010",
+            "/tag/quantitative-aptitude",
+            "/tag/easy",
+            "/tag/set-theory%26algebra",
+            "/tag/venn-diagram"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/2367/gate-cse-2010-question-59",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/2367/gate-cse-2010-question-59",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "58",
+        "year": 2010,
+        "questionNumber": 58,
+        "subject": "Verbal Aptitude",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "Choose the most appropriate word from the options given below to complete the following sentence:\nIf we manage to __________ our natural resources, we would leave a better planet for our children.",
+        "options": [
+            "uphold",
+            "restrain",
+            "cherish",
+            "conserve"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/general-aptitude/verbal-aptitude",
+            "/tag/gatecse-2010",
+            "/tag/verbal-aptitude",
+            "/tag/most-appropriate-word",
+            "/tag/easy"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/2366/gate-cse-2010-question-58",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/2366/gate-cse-2010-question-58",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "57",
+        "year": 2010,
+        "questionNumber": 57,
+        "subject": "Verbal Aptitude",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "Which of the following options is the closest in meaning to the word given below:Circuitouscyclicindirectconfusingcrooked",
+        "options": [],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/general-aptitude/verbal-aptitude",
+            "/tag/gatecse-2010",
+            "/tag/verbal-aptitude",
+            "/tag/word-meaning",
+            "/tag/normal",
+            "/tag/synonyms"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/2365/gate-cse-2010-question-57",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/2365/gate-cse-2010-question-57",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "56",
+        "year": 2010,
+        "questionNumber": 56,
+        "subject": "Verbal Aptitude",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "Choose the most appropriate word from the options given below to complete the following sentence:\nHis rather casual remarks on politics ________ his lack of seriousness about the subject.",
+        "options": [
+            "masked",
+            "belied",
+            "betrayed",
+            "suppressed"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/general-aptitude/verbal-aptitude",
+            "/tag/gatecse-2010",
+            "/tag/verbal-aptitude",
+            "/tag/most-appropriate-word",
+            "/tag/normal"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/2364/gate-cse-2010-question-56",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/2364/gate-cse-2010-question-56",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "65",
+        "year": 2012,
+        "questionNumber": 65,
+        "subject": "Quantitative Aptitude",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "Given the sequence of terms, $\\text{AD CG FK JP}$, the next term is",
+        "options": [
+            "$\\text{OV}$",
+            "$\\text{OW}$",
+            "$\\text{PV}$",
+            "$\\text{PW}$"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/general-aptitude/quantitative-aptitude",
+            "/tag/gatecse-2012",
+            "/tag/quantitative-aptitude",
+            "/tag/sequence-series",
+            "/tag/easy"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/2213/gate-cse-2012-question-65",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/2213/gate-cse-2012-question-65",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "64",
+        "year": 2012,
+        "questionNumber": 64,
+        "subject": "Quantitative Aptitude",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "Which of the following assertions are CORRECT?\n\nP: Adding $7$ to each entry in a list adds $7$ to the mean of the list \nQ: Adding $7$ to each entry in a list adds $7$ to the standard deviation of the list \nR: Doubling each entry in a list doubles the mean of the list\nS: Doubling each entry in a list leaves the standard deviation of the list unchanged",
+        "options": [
+            "$P$, $Q$",
+            "$Q$, $R$",
+            "$P$, $R$",
+            "$R$, $S$"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/general-aptitude/quantitative-aptitude",
+            "/tag/gatecse-2012",
+            "/tag/quantitative-aptitude",
+            "/tag/statistics",
+            "/tag/normal"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/2212/gate-cse-2012-question-64",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/2212/gate-cse-2012-question-64",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "63",
+        "year": 2012,
+        "questionNumber": 63,
+        "subject": "Quantitative Aptitude",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "An automobile plant contracted to buy shock absorbers from two suppliers $ X$ and $ Y$ . $ X$ supplies $60\\%$ and Y supplies $40\\%$ of the shock absorbers. All shock absorbers are subjected to a quality test. The ones that pass the quality test are considered reliable. Of $ X’s$ shock absorbers, $96\\%$ are reliable. Of $ Y’s$ shock absorbers, $72\\%$ are reliable.\n\nThe probability that a randomly chosen shock absorber, which is found to be reliable, is made by $Y$ is",
+        "options": [
+            "$0.288$",
+            "$0.334$",
+            "$0.667$",
+            "$0.720$"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/general-aptitude/quantitative-aptitude",
+            "/tag/gatecse-2012",
+            "/tag/quantitative-aptitude",
+            "/tag/probability",
+            "/tag/normal",
+            "/tag/conditional-probability"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/2211/gate-cse-2012-question-63",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/2211/gate-cse-2012-question-63",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "62",
+        "year": 2012,
+        "questionNumber": 62,
+        "subject": "Quantitative Aptitude",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "A political party orders an arch for the entrance to the ground in which the annual convention is being held. The profile of the arch follows the equation $y=2x-0.1x^{2}$ where $y$ is the height of the arch in meters. The maximum possible height of the arch is",
+        "options": [
+            "$8$ meters",
+            "$10$ meters",
+            "$12$ meters",
+            "$14$ meters"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/general-aptitude/quantitative-aptitude",
+            "/tag/gatecse-2012",
+            "/tag/quantitative-aptitude",
+            "/tag/normal",
+            "/tag/maxima-minima"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/2210/gate-cse-2012-question-62",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/2210/gate-cse-2012-question-62",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "61",
+        "year": 2012,
+        "questionNumber": 61,
+        "subject": "Verbal Aptitude",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "Wanted Temporary, Part-time persons for the post of Field Interviewer to conduct personal interviews to collect and collate economic data. Requirements: High School-pass, must be available for Day, Evening and Saturday work. Transportation paid, expenses reimbursed.\nWhich one of the following is the best inference from the above advertisement?",
+        "options": [
+            "Gender-discriminatory",
+            "Xenophobic",
+            "Not designed to make the post attractive",
+            "Not gender-discriminatory"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/general-aptitude/verbal-aptitude",
+            "/tag/gatecse-2012",
+            "/tag/verbal-aptitude",
+            "/tag/verbal-reasoning",
+            "/tag/normal"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/2209/gate-cse-2012-question-61",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/2209/gate-cse-2012-question-61",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "60",
+        "year": 2012,
+        "questionNumber": 60,
+        "subject": "Verbal Aptitude",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "Choose the most appropriate alternative from the options given below to complete the following sentence:\nSuresh’s dog is the one ________ was hurt in the stampede.",
+        "options": [
+            "that",
+            "which",
+            "who",
+            "whom"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/general-aptitude/verbal-aptitude",
+            "/tag/gatecse-2012",
+            "/tag/verbal-aptitude",
+            "/tag/most-appropriate-word",
+            "/tag/normal"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/2200/gate-cse-2012-question-60",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/2200/gate-cse-2012-question-60",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "59",
+        "year": 2012,
+        "questionNumber": 59,
+        "subject": "Verbal Aptitude",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "Choose the grammatically  INCORRECT sentence:",
+        "options": [
+            "They gave us the money back less the service charges of Three Hundred rupees.",
+            "This country’s expenditure is not less than that of Bangladesh.",
+            "The committee initially asked for a funding of Fifty Lakh rupees, but later settled for a lesser sum.",
+            "This country’s expenditure on educational reforms is very less."
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/general-aptitude/verbal-aptitude",
+            "/tag/gatecse-2012",
+            "/tag/verbal-aptitude",
+            "/tag/grammatical-error",
+            "/tag/normal"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/2198/gate-cse-2012-question-59",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/2198/gate-cse-2012-question-59",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "58",
+        "year": 2012,
+        "questionNumber": 58,
+        "subject": "Verbal Aptitude",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "Which one of the following options is the closest in meaning to the word given below?Mitigate   DiminishDivulgeDedicateDenote",
+        "options": [],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/general-aptitude/verbal-aptitude",
+            "/tag/gatecse-2012",
+            "/tag/verbal-aptitude",
+            "/tag/synonyms",
+            "/tag/easy"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/2197/gate-cse-2012-question-58",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/2197/gate-cse-2012-question-58",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "57",
+        "year": 2012,
+        "questionNumber": 57,
+        "subject": "Verbal Aptitude",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "Choose the most appropriate alternative from the options given below to complete the following sentence:Despite several _________ the mission succeeded in its attempt to resolve the conflict. attemptssetbacksmeetingsdelegations",
+        "options": [],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/general-aptitude/verbal-aptitude",
+            "/tag/gatecse-2012",
+            "/tag/verbal-aptitude",
+            "/tag/easy",
+            "/tag/most-appropriate-word"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/2195/gate-cse-2012-question-57",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/2195/gate-cse-2012-question-57",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "56",
+        "year": 2012,
+        "questionNumber": 56,
+        "subject": "Quantitative Aptitude",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "The cost function for a product in a firm is given by $5q^{2}$, where $q$ is the amount of production. The firm can sell the product at a market price of $\\text₹ 50$ per unit. The number of units to be produced by the firm such that the profit is maximized is",
+        "options": [
+            "$5$",
+            "$10$",
+            "$15$",
+            "$25$"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/general-aptitude/quantitative-aptitude",
+            "/tag/gatecse-2012",
+            "/tag/quantitative-aptitude",
+            "/tag/cost-market-price",
+            "/tag/normal"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/2193/gate-cse-2012-question-56",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/2193/gate-cse-2012-question-56",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "65",
+        "year": 2011,
+        "questionNumber": 65,
+        "subject": "Quantitative Aptitude",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "A container originally contains $10$ litres of pure spirit. From this container, $1$ litre of spirit replaced with $1$ litre of water. Subsequently, $1$ litre of the mixture is again replaced with $1$ litre of water and this process is repeated one more time. How much spirit is now left in the container?$7.58$ litres$7.84$ litres$7$ litres$7.29$ litres",
+        "options": [],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/general-aptitude/quantitative-aptitude",
+            "/tag/gatecse-2011",
+            "/tag/quantitative-aptitude",
+            "/tag/normal",
+            "/tag/alligation-mixture"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/2175/gate-cse-2011-question-65",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/2175/gate-cse-2011-question-65",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "64",
+        "year": 2011,
+        "questionNumber": 64,
+        "subject": "Quantitative Aptitude",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "A transporter receives the same number of orders each day. Currently, he has some pending orders (backlog) to be shipped. If he uses $7$ trucks, then at the end of the $4^{th}$ day he can clear all the orders. Alternatively, if he uses only $3$ trucks, then all the orders are cleared at the end of the $10^{th}$ day. What is the minimum number of trucks required so that there will be no pending order at the end of $5^{th}$ day?",
+        "options": [
+            "$4$",
+            "$5$",
+            "$6$",
+            "$7$"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/general-aptitude/quantitative-aptitude",
+            "/tag/gatecse-2011",
+            "/tag/quantitative-aptitude",
+            "/tag/normal",
+            "/tag/work-time"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/2174/gate-cse-2011-question-64",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/2174/gate-cse-2011-question-64",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "63",
+        "year": 2011,
+        "questionNumber": 63,
+        "subject": "Quantitative Aptitude",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "The variable cost $(V)$ of manufacturing a product varies according to the equation $V=4q$, where $q$ is the quantity produced. The fixed cost $(F)$ of production of same product reduces with $q$ according to the equation $F=\\dfrac{100}{q}$. How many units should be produced to minimize the total cost $(V+F)$?",
+        "options": [
+            "$5$",
+            "$4$",
+            "$7$",
+            "$6$"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/general-aptitude/quantitative-aptitude",
+            "/tag/gatecse-2011",
+            "/tag/quantitative-aptitude",
+            "/tag/cost-market-price",
+            "/tag/normal"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/2173/gate-cse-2011-question-63",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/2173/gate-cse-2011-question-63",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "62",
+        "year": 2011,
+        "questionNumber": 62,
+        "subject": "Quantitative Aptitude",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "$P, Q, R$ and $S$ are four types of dangerous microbes recently found in a human habitat. The area of each circle with its diameter printed in brackets represents the growth of a single microbe surviving human immunity system within $24$ hours of entering the body. The danger to human beings varies proportionately with the toxicity, potency and growth attributed to a microbe shown in the figure below:\n\nA pharmaceutical company is contemplating the development of a vaccine against the most dangerous microbe. Which microbe should the company target in its first attempt?",
+        "options": [
+            "$P$",
+            "$Q$",
+            "$R$",
+            "$S$"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/general-aptitude/quantitative-aptitude",
+            "/tag/gatecse-2011",
+            "/tag/quantitative-aptitude",
+            "/tag/data-interpretation",
+            "/tag/normal"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/2172/gate-cse-2011-question-62",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/2172/gate-cse-2011-question-62",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    }
+]

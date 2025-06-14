@@ -1,0 +1,842 @@
+[
+    {
+        "id": "56",
+        "year": 2004,
+        "questionNumber": 56,
+        "subject": "Computer Networks",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "Consider three IP networks $A, B$ and $C$. Host $H_A$ in network $A$ sends messages each containing $180$ bytes of application data to a host $H_C$ in network $C$. The $\\text{TCP}$ layer prefixes $20$ byte header to the message.\nThis passes through an intermediate network $B$.The maximum packet size, including $20$ byte IP header, in each network is:\n\nA: $\\text{1000 bytes}$\nB: $\\text{100 bytes}$\nC: $\\text{1000 bytes}$\n\nThe network $A$ and $B$ are connected through a $1$ Mbps link, while $B$ and $C$\n are connected by a $512$ Kbps link (bps = bits per second).        \n\nAssuming that the packets are correctly delivered, how many bytes, including headers, are delivered to the $IP$ layer at the destination for one application message, in the best case? Consider only data packets.",
+        "options": [
+            "$200$",
+            "$220$",
+            "$240$",
+            "$260$"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/computer-networks",
+            "/tag/gatecse-2004",
+            "/tag/computer-networks",
+            "/tag/ip-addressing",
+            "/tag/tcp",
+            "/tag/normal"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/1052/gate-cse-2004-question-56",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/1052/gate-cse-2004-question-56",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "55",
+        "year": 2004,
+        "questionNumber": 55,
+        "subject": "Computer Networks",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "The routing table of a router  is shown below:\n$$\\begin{array}{|l|l|l|} \\hline \\textbf {Destination} & \\textbf {Subnet Mask} & \\textbf{Interface}  \\\\\\hline \\text {128.75.43.0} &  \\text{255.255.255.0} & \\text{Eth$0$} \\\\\\hline\\text {128.75.43.0} &  \\text{255.255.255.128} & \\text{Eth$1$} \\\\\\hline\\text {192.12.17.5} &  \\text{255.255.255.255} & \\text{Eth$3$}\\\\\\hline \\text {Default} &  \\text{} & \\text{Eth$2$}\\\\\\hline\\end{array}$$\nOn which interface will the router forward packets addressed to destinations $128.75.43.16$ and $192.12.17.10$ respectively?",
+        "options": [
+            "Eth$1$ and Eth$2$",
+            "Eth$0$ and Eth$2$",
+            "Eth$0$ and Eth$3$",
+            "Eth$1$ and Eth$3$"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/computer-networks",
+            "/tag/gatecse-2004",
+            "/tag/computer-networks",
+            "/tag/subnetting",
+            "/tag/normal"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/1051/gate-cse-2004-question-55",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/1051/gate-cse-2004-question-55",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "54",
+        "year": 2004,
+        "questionNumber": 54,
+        "subject": "Computer Networks",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "$A$ and $B$ are the only two stations on an Ethernet. Each has a steady queue of frames to send. Both $A$ and $B$ attempt to transmit a frame, collide, and $A$ wins the first backoff race. At the end of this successful transmission by $A$, both $A$ and $B$ attempt to transmit and collide. The probability that $A$ wins the second backoff race is:",
+        "options": [
+            "$0.5$",
+            "$0.625$",
+            "$0.75$",
+            "$1.0$"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/computer-networks",
+            "/tag/gatecse-2004",
+            "/tag/computer-networks",
+            "/tag/ethernet",
+            "/tag/probability",
+            "/tag/normal"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/1050/gate-cse-2004-question-54",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/1050/gate-cse-2004-question-54",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "22",
+        "year": 2004,
+        "questionNumber": 22,
+        "subject": "Computer Networks",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "How many $8-bi$t characters can be transmitted per second over a $9600$ baud serial communication link using asynchronous mode of transmission with one start bit, eight data bits, two stop bits and one parity bit?",
+        "options": [
+            "$600$",
+            "$800$",
+            "$876$",
+            "$1200$"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/computer-networks",
+            "/tag/gatecse-2004",
+            "/tag/computer-networks",
+            "/tag/serial-communication",
+            "/tag/normal",
+            "/tag/out-of-gatecse-syllabus"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/1019/gate-cse-2004-question-22",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/1019/gate-cse-2004-question-22",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "16",
+        "year": 2004,
+        "questionNumber": 16,
+        "subject": "Computer Networks",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "Which of the following is NOT true with respect to a transparent bridge and a router?Both bridge and router selectively forward data packetsA bridge uses IP addresses while a router uses MAC addressesA bridge builds up its routing table by inspecting incoming packetsA router can connect between a LAN and a WAN",
+        "options": [],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/computer-networks",
+            "/tag/gatecse-2004",
+            "/tag/computer-networks",
+            "/tag/bridges",
+            "/tag/normal"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/1013/gate-cse-2004-question-16",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/1013/gate-cse-2004-question-16",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "15",
+        "year": 2004,
+        "questionNumber": 15,
+        "subject": "Computer Networks",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "Choose the best matching between $\\text{Group 1}$ and $\\text{Group 2}$\n$$\\begin{array}{|l|l|}\\hline \\textbf{Group-1} & \\textbf{Group-2} \\\\\\hline  \\text{P. Data link layer} & \\text{1. Ensures reliable transport of data over a physical point-}\\\\ & \\text{to-point link} \\\\\\hline   \\text{Q. Network layer} & \\text{2. Encodes/decodes data for physical transmission} \\\\\\hline  \\text{R. Transport layer} & \\text{3. Allows end-to-end communication between two }\\\\ & \\text{processes} \\\\\\hline \\text{} & \\text{4. Routes data from one network node to the next} \\\\\\hline \\end{array}$$",
+        "options": [
+            "$\\text{P-1, Q-4, R-3}$",
+            "$\\text{P-2, Q-4, R-1}$",
+            "$\\text{P-2, Q-3, R-1}$",
+            "$\\text{P-1, Q-3, R-2}$"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/computer-networks",
+            "/tag/gatecse-2004",
+            "/tag/computer-networks",
+            "/tag/network-layering",
+            "/tag/normal"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/1012/gate-cse-2004-question-15",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/1012/gate-cse-2004-question-15",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "84",
+        "year": 2003,
+        "questionNumber": 84,
+        "subject": "Computer Networks",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "Host $A$ is sending data to host $B$ over a full duplex link. $A$ and $B$ are using the sliding window protocol for flow control. The send and receive window sizes are $5$ packets each. Data packets (sent only from $A$ to $B$) are all $1000$ bytes long and the transmission time for such a packet is $50$ $μs$. Acknowledgment packets (sent only from $B$ to $A$) are very small and require negligible transmission time. The propagation delay over the link is $200$ $μs$. What is the maximum achievable throughput in this communication?",
+        "options": [
+            "$7.69 \\times 10^6$ Bps",
+            "$11.11 \\times 10^6$ Bps",
+            "$12.33 \\times 10^6$ Bps",
+            "$15.00 \\times 10^6$ Bps"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/computer-networks",
+            "/tag/gatecse-2003",
+            "/tag/computer-networks",
+            "/tag/sliding-window",
+            "/tag/normal"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/967/gate-cse-2003-question-84",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/967/gate-cse-2003-question-84",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "83",
+        "year": 2003,
+        "questionNumber": 83,
+        "subject": "Computer Networks",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "A $2$ $km$ long broadcast LAN has $10^7$ bps bandwidth and uses CSMA/CD. The signal travels along the wire at $2 \\times 10^8$ m/s. What is the minimum packet size that can be used on this network?",
+        "options": [
+            "$50$ $\\text{bytes}$",
+            "$100$ $\\text{bytes}$",
+            "$200$ $\\text{bytes}$",
+            "None of the above"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/computer-networks",
+            "/tag/gatecse-2003",
+            "/tag/computer-networks",
+            "/tag/lan-technologies",
+            "/tag/normal"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/966/gate-cse-2003-question-83",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/966/gate-cse-2003-question-83",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "1",
+        "year": 2003,
+        "questionNumber": 1,
+        "subject": "Computer Networks",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "The subnet mask for a particular network is $255.255.31.0.$ Which of the following pairs of $\\text{IP}$ addresses could belong to this network?\n\n\n$172.57.88.62$ and $172.56.87.23$\n\n\n$10.35.28.2$ and $10.35.29.4$\n\n\n$191.203.31.87$ and $191.234.31.88$",
+        "options": [
+            "$128.8.129.43$ and $128.8.161.55$"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/computer-networks",
+            "/tag/gatecse-2003",
+            "/tag/computer-networks",
+            "/tag/subnetting",
+            "/tag/normal",
+            "/tag/isro2009"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/965/gate-cse-2003-question-82-isro2009-1",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/965/gate-cse-2003-question-82-isro2009-1",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "28",
+        "year": 2003,
+        "questionNumber": 28,
+        "subject": "Computer Networks",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "Which of the following functionality must be implemented by a transport protocol over and above the network protocol?",
+        "options": [
+            "Recovery from packet losses",
+            "Detection of duplicate packets",
+            "Packet delivery in the correct order",
+            "End to end connectivity"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/computer-networks",
+            "/tag/gatecse-2003",
+            "/tag/computer-networks",
+            "/tag/network-layering",
+            "/tag/easy"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/918/gate-cse-2003-question-28",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/918/gate-cse-2003-question-28",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "27",
+        "year": 2003,
+        "questionNumber": 27,
+        "subject": "Computer Networks",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "Which of the following assertions is FALSE about the Internet Protocol (IP)?",
+        "options": [
+            "It is possible for a computer to have multiple IP addresses",
+            "IP packets from the same source to the same destination can take different routes in the network",
+            "IP ensures that a packet is discarded if it is unable to reach its destination within a given number of hops",
+            "The packet source cannot set the route of an outgoing packets; the route is determined only by the routing tables in the routers on the way"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/computer-networks",
+            "/tag/gatecse-2003",
+            "/tag/computer-networks",
+            "/tag/ip-addressing",
+            "/tag/normal"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/917/gate-cse-2003-question-27",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/917/gate-cse-2003-question-27",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "5",
+        "year": 2006,
+        "questionNumber": 5,
+        "subject": "Computer Networks",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "For which one of the following reasons does internet protocol(IP) use the time-to-live(TTL) field in IP datagram header?",
+        "options": [
+            "Ensure packets reach destination within that time",
+            "Discard packets that reach later than that time",
+            "Prevent packets from looping indefinitely",
+            "Limit the time for which a packet gets queued in intermediate routers"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/computer-networks",
+            "/tag/gatecse-2006",
+            "/tag/computer-networks",
+            "/tag/ip-addressing",
+            "/tag/ip-packet",
+            "/tag/easy"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/884/gate-cse-2006-question-5",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/884/gate-cse-2006-question-5",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "11",
+        "year": 2002,
+        "questionNumber": 11,
+        "subject": "Computer Networks",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "In serial data transmission, every byte of data is padded with a $'0'$ in the beginning and one or two $'1'$s at the end of byte because:",
+        "options": [
+            "receiver is to be synchronized for byte reception",
+            "receiver recovers lost $'0'$s and $'1'$s from these padded bits",
+            "padded bits are useful in parity computation",
+            "none of the above"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/computer-networks",
+            "/tag/gatecse-2002",
+            "/tag/computer-networks",
+            "/tag/serial-communication",
+            "/tag/easy",
+            "/tag/out-of-gatecse-syllabus"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/815/gate-cse-2002-question-1-11",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/815/gate-cse-2002-question-1-11",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "v",
+        "year": null,
+        "questionNumber": null,
+        "subject": "Computer Networks",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "Start and stop bits do not contain any \"information\" but are used in serial communication for",
+        "options": [
+            "Error detection",
+            "Error correction",
+            "Synchronization",
+            "Slowing down the communications."
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/computer-networks",
+            "/tag/gate1992",
+            "/tag/computer-networks",
+            "/tag/easy",
+            "/tag/serial-communication",
+            "/tag/out-of-gatecse-syllabus"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/582/gate-cse-1992-question-03-v",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/582/gate-cse-1992-question-03-v",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "v",
+        "year": null,
+        "questionNumber": null,
+        "subject": "Computer Networks",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "Start and stop bits do not contain any 'information' but are used in serial communicationError detectionError correctionSynchronizationSlowing down the communications",
+        "options": [],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/computer-networks",
+            "/tag/gate1992",
+            "/tag/easy",
+            "/tag/computer-networks",
+            "/tag/serial-communication",
+            "/tag/multiple-selects",
+            "/tag/non-gatecse"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/560/gate-cse-1992-question-02-v",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/560/gate-cse-1992-question-02-v",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "v",
+        "year": null,
+        "questionNumber": null,
+        "subject": "Computer Networks",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "A simple and reliable data transfer can be accomplished by using the 'handshake protocol'. It accomplishes reliable data transfer because for every data item sent by the transmitter _______.",
+        "options": [],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/computer-networks",
+            "/tag/gate1992",
+            "/tag/computer-networks",
+            "/tag/network-flow",
+            "/tag/easy",
+            "/tag/fill-in-the-blanks"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/550/gate-cse-1992-question-01-v",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/550/gate-cse-1992-question-01-v",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "ii",
+        "year": null,
+        "questionNumber": null,
+        "subject": "Computer Networks",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "Consider a $3$-bit error detection and $1$-bit error correction hamming code for $4$-bit data. The extra parity bits required would be _____ and the $3$-bit error detection is possible because the code has a minimum distance of _______.",
+        "options": [],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/computer-networks",
+            "/tag/gate1992",
+            "/tag/computer-networks",
+            "/tag/error-detection",
+            "/tag/normal",
+            "/tag/fill-in-the-blanks"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/546/gate-cse-1992-question-01-ii",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/546/gate-cse-1992-question-01-ii",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "59",
+        "year": 2008,
+        "questionNumber": 59,
+        "subject": "Computer Networks",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "A client process P needs to make a TCP connection to a server process S. Consider the following situation: the server process S executes a $\\text{socket()}$, a $\\text{bind()}$ and a $\\text{listen()}$ system call in that order, following which it is preempted. Subsequently, the client process P executes a $\\text{socket()}$ system call followed by $\\text{connect()}$ system call to connect to the server process S. The server process has not executed any $\\text{accept()}$ system call. Which one of the following events could take place?\n\n\n$\\text{connect()}$ system call returns successfully\n\n\n$\\text{connect()}$ system call blocks\n\n\n$\\text{connect()}$ system call returns an error",
+        "options": [
+            "$\\text{connect()}$ system call results in a core dump"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/computer-networks",
+            "/tag/gatecse-2008",
+            "/tag/computer-networks",
+            "/tag/sockets",
+            "/tag/normal"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/482/gate-cse-2008-question-59",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/482/gate-cse-2008-question-59",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "58",
+        "year": 2008,
+        "questionNumber": 58,
+        "subject": "Computer Networks",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "A computer on a $10\\text{Mbps}$ network is regulated by a token bucket. The token bucket is filled at a rate of $2\\text{Mbps}$. It is initially filled to capacity with $16\\text{Megabits}$. What is the maximum duration for which the computer can transmit at the full $10\\text{Mbps}$?",
+        "options": [
+            "$1.6$ seconds",
+            "$2$ seconds",
+            "$5$ seconds",
+            "$8$ seconds"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/computer-networks",
+            "/tag/gatecse-2008",
+            "/tag/computer-networks",
+            "/tag/token-bucket"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/481/gate-cse-2008-question-58",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/481/gate-cse-2008-question-58",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "57",
+        "year": 2008,
+        "questionNumber": 57,
+        "subject": "Computer Networks",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "If a class $B$ network on the Internet has a subnet mask of $255.255.248.0$, what is the maximum number of hosts per subnet?",
+        "options": [
+            "$1022$",
+            "$1023$",
+            "$2046$",
+            "$2047$"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/computer-networks",
+            "/tag/gatecse-2008",
+            "/tag/computer-networks",
+            "/tag/subnetting",
+            "/tag/easy"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/480/gate-cse-2008-question-57",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/480/gate-cse-2008-question-57",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "56",
+        "year": 2008,
+        "questionNumber": 56,
+        "subject": "Computer Networks",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "In the slow start phase of the TCP congestion algorithm, the size of the congestion window:\n\n\ndoes not increase\n\n\nincrease linearly\n\n\nincreases quadratically",
+        "options": [
+            "increases exponentially"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/computer-networks",
+            "/tag/gatecse-2008",
+            "/tag/computer-networks",
+            "/tag/congestion-control",
+            "/tag/normal"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/479/gate-cse-2008-question-56",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/479/gate-cse-2008-question-56",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "17",
+        "year": 2008,
+        "questionNumber": 17,
+        "subject": "Computer Networks",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "Which of the following system calls results in the sending of SYN packets?\n\n\n$\\textsf{socket}$\n\n\n$\\textsf{bind}$\n\n\n$\\textsf{listen}$",
+        "options": [
+            "$\\textsf{connect}$"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/computer-networks",
+            "/tag/gatecse-2008",
+            "/tag/normal",
+            "/tag/computer-networks",
+            "/tag/sockets"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/415/gate-cse-2008-question-17",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/415/gate-cse-2008-question-17",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "74",
+        "year": 2008,
+        "questionNumber": 74,
+        "subject": "Computer Networks",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "What is the maximum size of data that the application layer can pass on to the TCP layer below?\n\n\nAny size\n\n\n$2^{16}$ bytes - size of TCP header\n\n\n$2^{16}$ bytes",
+        "options": [
+            "$1500$ bytes"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/computer-networks",
+            "/tag/gatecse-2008",
+            "/tag/easy",
+            "/tag/computer-networks",
+            "/tag/application-layer-protocols",
+            "/tag/isro2016"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/412/gate-cse-2008-question-14-isro2016-74",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/412/gate-cse-2008-question-14-isro2016-74",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "10",
+        "year": 2012,
+        "questionNumber": 10,
+        "subject": "Computer Networks",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "The protocol data unit (PDU) for the application layer in the Internet stack is:",
+        "options": [
+            "Segment",
+            "Datagram",
+            "Message",
+            "Frame"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/computer-networks",
+            "/tag/gatecse-2012",
+            "/tag/computer-networks",
+            "/tag/application-layer-protocols",
+            "/tag/easy"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/42/gate-cse-2012-question-10",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/42/gate-cse-2012-question-10",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    }
+]
