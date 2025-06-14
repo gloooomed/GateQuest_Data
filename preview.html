@@ -13,6 +13,17 @@
     <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.4/dist/katex.min.js"></script>
     <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.4/dist/contrib/auto-render.min.js"></script>
 
+    <!-- PrismJS for code syntax highlighting -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/prismjs@1.29.0/themes/prism-tomorrow.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/prismjs@1.29.0/prism.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/prismjs@1.29.0/components/prism-c.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/prismjs@1.29.0/components/prism-cpp.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/prismjs@1.29.0/components/prism-java.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/prismjs@1.29.0/components/prism-python.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/prismjs@1.29.0/components/prism-javascript.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/prismjs@1.29.0/components/prism-markup.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/prismjs@1.29.0/components/prism-bash.min.js"></script>
+
     <style>
         /* Base styles */
         body {
@@ -185,6 +196,10 @@
             justify-content: center;
         }
 
+        .option-checkbox.square {
+            border-radius: 4px;
+        }
+
         .option-checkbox.selected {
             background-color: #4299e1;
             border-color: #4299e1;
@@ -257,6 +272,51 @@
             font-weight: 600;
         }
 
+        /* Pseudocode table styles */
+        .code-table {
+            font-family: 'Courier New', Courier, monospace;
+            white-space: pre;
+        }
+
+        .code-table td {
+            padding: 0.25rem 1rem;
+            vertical-align: top;
+        }
+
+        /* Code block styles */
+        .code-block {
+            background-color: #2d2d2d;
+            border-radius: 0.375rem;
+            margin: 1rem 0;
+            overflow: hidden;
+        }
+
+        .code-header {
+            background: #1e1e1e;
+            color: #ccc;
+            padding: 0.5rem 1rem;
+            font-size: 0.875rem;
+            font-family: 'Courier New', Courier, monospace;
+        }
+
+        .code-content {
+            padding: 1rem;
+            font-family: 'Courier New', Courier, monospace;
+            white-space: pre;
+            color: #f8f8f2;
+            overflow-x: auto;
+        }
+
+        /* Inline code */
+        code {
+            font-family: 'Courier New', Courier, monospace;
+            background-color: #f7fafc;
+            padding: 0.15rem 0.35rem;
+            border-radius: 0.25rem;
+            font-size: 0.9em;
+            border: 1px solid #edf2f7;
+        }
+
         /* Error states */
         .error {
             background-color: #fed7d7;
@@ -303,15 +363,17 @@
         <p>Upload a JSON file to preview how LaTeX formatting will render in the GATE Prep app.</p>
 
         <div class="info">
-            <h3>Image Support</h3>
-            <p>For questions with embedded images:</p>
-            <ol>
-                <li>Place the preview.html file in your project root directory</li>
-                <li>Markdown image syntax <code>![alt](path/to/image.png)</code> is supported in question text</li>
-                <li>Make sure images are in their relative paths as specified in the markdown</li>
-                <li>Example: If image path is "Algorithms/assets/image.png", place it in that folder relative to this
-                    HTML file</li>
-            </ol>
+            <h3>Supported Formats</h3>
+            <p>This preview tool supports:</p>
+            <ul>
+                <li>LaTeX math expressions: <code>$E = mc^2$</code></li>
+                <li>Markdown images: <code>![alt text](path/to/image.png)</code></li>
+                <li>Code blocks: <code>```language code here ```</code></li>
+                <li>Inline code: <code>`code`</code></li>
+                <li>Tables with <code>|</code> separators, including pseudocode</li>
+            </ul>
+            <p>For questions with embedded images, make sure images are in their relative paths as specified in the
+                markdown.</p>
         </div>
 
         <div class="file-upload">
@@ -352,15 +414,14 @@
                             return;
                         }
 
-                        // Check for questions with embedded images
-                        const hasImages = questions.some(q => q.question && q.question.includes('!['));
-                        if (hasImages) {
+                        // Check for questions with embedded content
+                        const hasCode = questions.some(q => q.question && (q.question.includes('```') || q.question.includes('`')));
+                        if (hasCode) {
                             const infoDiv = document.createElement('div');
-                            infoDiv.className = 'warning container';
+                            infoDiv.className = 'info container';
                             infoDiv.innerHTML = `
-                                <h3>Questions with Embedded Images Detected</h3>
-                                <p>Some questions contain embedded images. Make sure image files are available at the specified paths relative to this HTML file.</p>
-                                <p>If images are missing, you'll see placeholders.</p>
+                                <h3>Questions with Code Detected</h3>
+                                <p>Some questions contain code blocks or inline code. These will be rendered with appropriate formatting.</p>
                             `;
                             questionsContainer.appendChild(infoDiv);
                         }
@@ -385,6 +446,9 @@
                                 ],
                                 throwOnError: false
                             });
+
+                            // Apply syntax highlighting
+                            Prism.highlightAll();
                         }, 100);
                     } catch (error) {
                         showError(`Error parsing JSON: ${error.message}`);
@@ -402,6 +466,24 @@
                 questionsContainer.appendChild(errorDiv);
             }
 
+            // Function to process text and handle various formats
+            function processText(text) {
+                if (!text) return '';
+
+                let processedText = text;
+
+                // Handle markdown images
+                processedText = convertMarkdownImages(processedText);
+
+                // Handle code blocks with language
+                processedText = convertCodeBlocks(processedText);
+
+                // Handle inline code
+                processedText = convertInlineCode(processedText);
+
+                return processedText;
+            }
+
             // Function to convert markdown images to HTML images
             function convertMarkdownImages(text) {
                 if (!text) return '';
@@ -412,6 +494,49 @@
                 return text.replace(imageRegex, (match, alt, src) => {
                     return `<img src="${src}" alt="${alt}" class="inline-image" onerror="this.onerror=null; this.parentNode.innerHTML+='<div class=\\'image-error\\'><strong>Image not found:</strong> ${src}<br><small>Make sure the image exists at this path relative to the HTML file</small></div>';">`;
                 });
+            }
+
+            // Function to convert code blocks to HTML
+            function convertCodeBlocks(text) {
+                if (!text) return '';
+
+                // This regex matches markdown code blocks: ```language code```
+                const codeBlockRegex = /```([a-zA-Z]*)\s*([\s\S]*?)```/g;
+
+                return text.replace(codeBlockRegex, (match, language, code) => {
+                    language = language || 'plaintext';
+                    return `
+                        <div class="code-block">
+                            <div class="code-header">${language}</div>
+                            <pre class="language-${language}"><code class="language-${language}">${escapeHtml(code.trim())}</code></pre>
+                        </div>
+                    `;
+                });
+            }
+
+            // Function to convert inline code to HTML
+            function convertInlineCode(text) {
+                if (!text) return '';
+
+                // This regex matches inline code: `code`
+                // But avoids matching triple backticks which are already handled
+                const inlineCodeRegex = /(?<![`])`(?!`)(.*?)(?<!`)`(?![`])/g;
+
+                return text.replace(inlineCodeRegex, (match, code) => {
+                    return `<code>${escapeHtml(code)}</code>`;
+                });
+            }
+
+            // Function to escape HTML special characters
+            function escapeHtml(text) {
+                const map = {
+                    '&': '&amp;',
+                    '<': '&lt;',
+                    '>': '&gt;',
+                    '"': '&quot;',
+                    "'": '&#039;'
+                };
+                return text.replace(/[&<>"']/g, m => map[m]);
             }
 
             function renderQuestion(question, index) {
@@ -483,13 +608,15 @@
 
                 if (question.question) {
                     // Check if it contains a table format
-                    if (isTableFormat(question.question)) {
+                    if (isPseudocodeTable(question.question)) {
+                        // Special handling for pseudocode tables
+                        questionText.innerHTML = renderPseudocodeTable(question.question);
+                    } else if (isTableFormat(question.question)) {
+                        // Regular table format
                         questionText.innerHTML = renderTable(question.question);
                     } else {
-                        // Process text with both markdown images and LaTeX
-                        // First convert markdown images to HTML
-                        const processedText = convertMarkdownImages(question.question);
-                        questionText.innerHTML = processedText;
+                        // Process text with all our supported formats
+                        questionText.innerHTML = processText(question.question);
                     }
                 } else {
                     questionText.textContent = 'Question text not available';
@@ -523,7 +650,13 @@
                         // Option text
                         const optionContent = document.createElement('div');
                         optionContent.style.flexGrow = '1';
-                        optionContent.innerText = option;
+
+                        // Process option text for LaTeX, code, etc.
+                        if (option.includes('$') || option.includes('`') || option.includes('![')) {
+                            optionContent.innerHTML = processText(option);
+                        } else {
+                            optionContent.innerText = option;
+                        }
 
                         optionItem.appendChild(checkbox);
                         optionItem.appendChild(optionContent);
@@ -575,6 +708,103 @@
 
                 card.appendChild(footer);
                 questionsContainer.appendChild(card);
+            }
+
+            // Function to detect if the text contains a pseudocode table format
+            function isPseudocodeTable(text) {
+                if (!text) return false;
+
+                // Check if it contains table markers and pseudocode keywords
+                const hasTableFormat = text.includes('|') && text.includes('\n');
+                const hasPseudocodeKeywords = /\b(for|while|if|else|function|procedure|algorithm|return|end)\b/i.test(text);
+
+                return hasTableFormat && hasPseudocodeKeywords;
+            }
+
+            // Function to render pseudocode tables with special formatting
+            function renderPseudocodeTable(text) {
+                if (!text) return '';
+
+                const parts = [];
+                let inTable = false;
+                let tableContent = '';
+                let textContent = '';
+
+                // Split the text by lines and process
+                const lines = text.split('\n');
+
+                for (let i = 0; i < lines.length; i++) {
+                    const line = lines[i];
+
+                    // Check if this line is part of the table
+                    if (line.includes('|') && (line.trim().startsWith('|') || inTable)) {
+                        if (!inTable) {
+                            // Start of a new table
+                            if (textContent) {
+                                parts.push({ type: 'text', content: textContent });
+                                textContent = '';
+                            }
+                            inTable = true;
+                        }
+                        tableContent += line + '\n';
+                    } else {
+                        // Not a table line
+                        if (inTable) {
+                            // End of table
+                            parts.push({ type: 'table', content: tableContent });
+                            tableContent = '';
+                            inTable = false;
+                        }
+                        textContent += line + '\n';
+                    }
+                }
+
+                // Add any remaining content
+                if (inTable && tableContent) {
+                    parts.push({ type: 'table', content: tableContent });
+                } else if (textContent) {
+                    parts.push({ type: 'text', content: textContent });
+                }
+
+                // Process each part
+                let result = '';
+                parts.forEach(part => {
+                    if (part.type === 'text') {
+                        // Process regular text
+                        result += processText(part.content);
+                    } else if (part.type === 'table') {
+                        // Create pseudocode table
+                        result += createPseudocodeTableHTML(part.content);
+                    }
+                });
+
+                return result;
+            }
+
+            // Create HTML for pseudocode tables
+            function createPseudocodeTableHTML(tableContent) {
+                if (!tableContent) return '';
+
+                const lines = tableContent.split('\n').filter(line => line.trim());
+                if (lines.length === 0) return '';
+
+                let html = '<table class="code-table">';
+
+                // Process each line
+                lines.forEach(line => {
+                    const cells = line.split('|')
+                        .filter(cell => cell.trim() !== '')
+                        .map(cell => cell.trim());
+
+                    html += '<tr>';
+                    cells.forEach(cell => {
+                        html += `<td>${cell}</td>`;
+                    });
+                    html += '</tr>';
+                });
+
+                html += '</table>';
+                return html;
             }
 
             function isNumericalQuestion(question) {
@@ -685,7 +915,7 @@
                 let result = '';
                 tableParts.forEach(part => {
                     if (part.type === 'text') {
-                        result += convertMarkdownImages(part.content);
+                        result += processText(part.content);
                     } else if (part.type === 'table') {
                         result += createTableHTML(part.content);
                     }
