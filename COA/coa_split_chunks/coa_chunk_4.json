@@ -4,7 +4,7 @@
         "year": 2004,
         "questionNumber": 63,
         "subject": "CO & Architecture",
-        "topic": null,
+        "topic": "Machine Instruction",
         "questionType": "multiple-choice",
         "question": "Consider the following program segment for a hypothetical CPU having three user registers $R_1, R_2$ and $R_3.$ $$\\begin{array}{|l|l|c|} \\hline \\text {Instruction}  &  \\text{Operation }& \\text{Instruction size} \\\\&& \\text{(in words)} \\\\\\hline \\text{MOV $R_1,5000$} & \\text{$R_1$} \\leftarrow  \\text{Memory$[5000]$}& \\text{$2$} \\\\\\hline\\text{MOV $R2,(R1)$} & \\text{$R2$} \\leftarrow  \\text{Memory$[(R_1)]$}& \\text{$1$} \\\\\\hline \\text{ADD $R_2,R_3$} & \\text{$R2$} \\leftarrow  \\text{$R_2 + R_3$} & \\text{$1$} \\\\\\hline \\text{MOV $6000,R_2$} & \\text{Memory$[6000]$} \\leftarrow  \\text{$R_2$} & \\text{$2$} \\\\\\hline \\text{HALT} & \\text{Machine Halts} & \\text{$1$} \\\\\\hline \\end{array}$$Consider that the memory is byte addressable with size $32$ bits, and the program has been loaded starting from memory location $1000$ (decimal). If an interrupt occurs while the CPU has been halted after executing the HALT instruction, the return address (in decimal) saved in the stack will be",
         "options": [
@@ -13,10 +13,10 @@
             "$1024$",
             "$1028$"
         ],
-        "correctAnswer": [],
+        "correctAnswer": [3],
         "answerText": null,
-        "difficulty": null,
-        "marks": null,
+        "difficulty": "Medium",
+        "marks": 2,
         "tags": [
             "/co-and-architecture",
             "/tag/gatecse-2004",
@@ -40,7 +40,7 @@
         "year": 2004,
         "questionNumber": 20,
         "subject": "CO & Architecture",
-        "topic": null,
+        "topic": "Addressing Modes",
         "questionType": "multiple-choice",
         "question": "Which of the following addressing modes are suitable for program relocation at run time?\n\n\nAbsolute addressing\n\n\nBased addressing\n\n\nRelative addressing\n\n\nIndirect addressing",
         "options": [
@@ -49,10 +49,10 @@
             "II and III",
             "I, II and IV"
         ],
-        "correctAnswer": [],
+        "correctAnswer": [2],
         "answerText": null,
-        "difficulty": null,
-        "marks": null,
+        "difficulty": "Easy",
+        "marks": 1,
         "tags": [
             "/co-and-architecture",
             "/tag/gatecse-2004",
@@ -76,19 +76,19 @@
         "year": 2003,
         "questionNumber": 48,
         "subject": "CO & Architecture",
-        "topic": null,
+        "topic": "Machine Instruction",
         "questionType": "multiple-choice",
-        "question": "Consider the following assembly language program for a hypothetical processor $A, B,$ and $C$ are $8-$bit registers. The meanings of various instructions are shown as comments.\n$$\\small \\begin{array}{lll} & \\text{MOV B, #0}&& \\text{;} & \\text{$B \\leftarrow 0$} \\\\& \\text{MOV C, #8} && \\text{;}& \\text{$C \\leftarrow 8$} \\\\\n\\text{Z:} & \\text{CMP C, #0} &&\\text{;}& \\text{compare C with 0} \\\\ \n& \\text{JZ X} && \\text{;}& \\text{jump to X if zero flag is set}  \\\\\n& \\text{SUB C, #1} && \\text{;}& \\text{$C \\gets C-1$}  \\\\ \n& \\text{RRC A, #1} && \\text{;}& \\text{right rotate A through carry by one bit. Thus:}  \\\\  & \\text{} && \\text{;}& \\text{If the initial values of A and the carry flag are $a_7\\ldots a_0$ and}  \\\\ \n& \\text{} && \\text{;}& \\text{$c_0$ respectively, their values after the execution of this}  \\\\ \n& \\text{} && \\text{;}& \\text{instruction will be $c_0a_7\\ldots a_1$ and $a_0$ respectively.}  \\\\ \n& \\text{JC Y} && \\text{;}& \\text{jump to Y if carry flag is set}  \\\\\n& \\text{JMP Z} && \\text{;}& \\text{jump to Z}  \\\\\n\\text{Y:} & \\text{ADD B, #1} && \\text{;}& \\text{$B \\gets B+1$}  \\\\ \n& \\text{JMP Z} && \\text{;}& \\text{jump to Z}  \\\\ \n\\text{X:}& \\text{} && \\text{;}& \\text{}  \\\\ \\end{array}$$\nIf the initial value of register A is A0 the value of register B after the program execution will be",
+        "question": "Consider the following assembly language program for a hypothetical processor. A, B, and C are 8-bit registers. The meanings of various instructions are shown as comments.\n\n```asm\nMOV B, #0        ; B ← 0\nMOV C, #8        ; C ← 8\nZ: CMP C, #0     ; Compare C with 0\nJZ X             ; Jump to X if zero flag is set\nSUB C, #1        ; C ← C - 1\nRRC A, #1        ; Right rotate A through carry by 1 bit\n                 ; If initial A = a7...a0 and carry = c0\n                 ; Then A becomes c0a7...a1 and carry = a0\nJC Y             ; Jump to Y if carry flag is set\nJMP Z            ; Jump to Z\nY: ADD B, #1     ; B ← B + 1\nJMP Z            ; Jump to Z\nX:\n```\n\nIf the initial value of register A is `A0` (in hexadecimal), the value of register B after the program execution will be ________.",
         "options": [
             "the number of $0$ bits in $A_0$",
             "the number of $1$ bits in $A_0$",
             "$A_0$",
             "$8$"
         ],
-        "correctAnswer": [],
+        "correctAnswer": [1],
         "answerText": null,
-        "difficulty": null,
-        "marks": null,
+        "difficulty": "Medium",
+        "marks": 2,
         "tags": [
             "/co-and-architecture",
             "/tag/gatecse-2003",
@@ -112,7 +112,7 @@
         "year": 2003,
         "questionNumber": 41,
         "subject": "CO & Architecture",
-        "topic": null,
+        "topic": "Pipelining",
         "questionType": "multiple-choice",
         "question": "For a pipelined CPU with a single ALU, consider the following situations\n\n\nThe ${j+1}^{st}$ instruction uses the result of the $j^{th}$ instruction as an operand\n\n\nThe execution of a conditional jump instruction\n\n\nThe $j^{th}$ and ${j+1}^{st}$ instructions require the ALU at the same time.\n\n\nWhich of the above can cause a hazard",
         "options": [
@@ -121,10 +121,10 @@
             "III only",
             "All the three"
         ],
-        "correctAnswer": [],
+        "correctAnswer": [3],
         "answerText": null,
-        "difficulty": null,
-        "marks": null,
+        "difficulty": "Medium",
+        "marks": 2,
         "tags": [
             "/co-and-architecture",
             "/tag/gatecse-2003",
@@ -149,7 +149,7 @@
         "year": 2006,
         "questionNumber": 35,
         "subject": "CO & Architecture",
-        "topic": null,
+        "topic": "Machine Instruction",
         "questionType": "multiple-choice",
         "question": "A CPU has $24$-$bit$ instructions. A program starts at address $300$ (in decimal). Which one of the following is a legal program counter (all values in decimal)?",
         "options": [
@@ -158,10 +158,10 @@
             "$600$",
             "$700$"
         ],
-        "correctAnswer": [],
+        "correctAnswer": [2],
         "answerText": null,
-        "difficulty": null,
-        "marks": null,
+        "difficulty": "Easy",
+        "marks": 1,
         "tags": [
             "/co-and-architecture",
             "/tag/gatecse-2006",
@@ -182,46 +182,11 @@
         }
     },
     {
-        "id": "10",
-        "year": 2002,
-        "questionNumber": 10,
-        "subject": "CO & Architecture",
-        "topic": null,
-        "questionType": "multiple-choice",
-        "question": "In a C program, an array is declared as $\\text{float} \\ A[2048]$. Each array element is $4 \\ \\text{Bytes}$ in size, and the starting address of the array is $0x00000000$. This program is run on a computer that has a direct mapped data cache of size $8  \\ \\text{Kbytes}$, with block (line) size of $16 \\ \\text{Bytes}$.",
-        "options": [
-            "Which elements of the array conflict with element $A[0]$ in the data cache? Justify your answer briefly.",
-            "If the program accesses the elements of this array one by one in reverse order i.e., starting with the last element and ending with the first element,  how many data cache misses would occur? Justify your answer briefly. Assume that the data cache is initially empty and that no other data or instruction accesses are to be considered."
-        ],
-        "correctAnswer": [],
-        "answerText": null,
-        "difficulty": null,
-        "marks": null,
-        "tags": [
-            "/co-and-architecture",
-            "/tag/gatecse-2002",
-            "/tag/co-and-architecture",
-            "/tag/cache-memory",
-            "/tag/normal",
-            "/tag/descriptive"
-        ],
-        "source": "gateoverflow",
-        "sourceURL": "https://gateoverflow.in/863/gate-cse-2002-question-10",
-        "addedBy": "GO Scraper",
-        "verified": true,
-        "explanation": "https://gateoverflow.in/863/gate-cse-2002-question-10",
-        "metadata": {
-            "set": "CS",
-            "paperType": "official",
-            "language": "English"
-        }
-    },
-    {
         "id": "7",
         "year": 2002,
         "questionNumber": 7,
         "subject": "CO & Architecture",
-        "topic": null,
+        "topic": "Microprogramming",
         "questionType": "multiple-choice",
         "question": "Horizontal microprogramming:",
         "options": [
@@ -230,10 +195,10 @@
             "uses one bit for each control signal",
             "all of the above"
         ],
-        "correctAnswer": [],
+        "correctAnswer": [3],
         "answerText": null,
-        "difficulty": null,
-        "marks": null,
+        "difficulty": "Easy",
+        "marks": 1,
         "tags": [
             "/co-and-architecture",
             "/tag/gatecse-2002",
@@ -256,7 +221,7 @@
         "year": 2002,
         "questionNumber": 19,
         "subject": "CO & Architecture",
-        "topic": null,
+        "topic": "Pipelining",
         "questionType": "multiple-choice",
         "question": "The performance of a pipelined processor suffers if:",
         "options": [
@@ -265,10 +230,10 @@
             "the pipeline stages share hardware resources",
             "All of the above"
         ],
-        "correctAnswer": [],
+        "correctAnswer": [3],
         "answerText": null,
-        "difficulty": null,
-        "marks": null,
+        "difficulty": "Easy",
+        "marks": 1,
         "tags": [
             "/co-and-architecture",
             "/tag/gatecse-2002",
@@ -289,47 +254,11 @@
         }
     },
     {
-        "id": "4",
-        "year": 2002,
-        "questionNumber": 4,
-        "subject": "CO & Architecture",
-        "topic": null,
-        "questionType": "multiple-choice",
-        "question": "What are the states of the Auxillary Carry (AC) and Carry Flag (CY) after executing the following 8085 program?\n\n\n\nMVI\nH,\n5DH\n\n\nMIV\nL,\n6BH\n\n\nMOV\nA,\nH\n\n\nADD\nL",
-        "options": [
-            "AC = 0 and CY = 0",
-            "AC = 1 and CY = 1",
-            "AC = 1 and CY = 0",
-            "AC = 0 and CY = 1"
-        ],
-        "correctAnswer": [],
-        "answerText": null,
-        "difficulty": null,
-        "marks": null,
-        "tags": [
-            "/co-and-architecture",
-            "/tag/gatecse-2002",
-            "/tag/co-and-architecture",
-            "/tag/8085-microprocessor",
-            "/tag/out-of-syllabus-now"
-        ],
-        "source": "gateoverflow",
-        "sourceURL": "https://gateoverflow.in/834/gate-cse-2002-question-2-4",
-        "addedBy": "GO Scraper",
-        "verified": true,
-        "explanation": "https://gateoverflow.in/834/gate-cse-2002-question-2-4",
-        "metadata": {
-            "set": "CS",
-            "paperType": "official",
-            "language": "English"
-        }
-    },
-    {
         "id": "24",
         "year": 2002,
         "questionNumber": 24,
         "subject": "CO & Architecture",
-        "topic": null,
+        "topic": "Addressing Modes",
         "questionType": "multiple-choice",
         "question": "In the absolute addressing mode:",
         "options": [
@@ -338,10 +267,10 @@
             "the register containing the address of the operand is specified inside the instruction",
             "the location of the operand is implicit"
         ],
-        "correctAnswer": [],
+        "correctAnswer": [1],
         "answerText": null,
-        "difficulty": null,
-        "marks": null,
+        "difficulty": "Easy",
+        "marks": 1,
         "tags": [
             "/co-and-architecture",
             "/tag/gatecse-2002",
@@ -365,7 +294,7 @@
         "year": 2002,
         "questionNumber": 13,
         "subject": "CO & Architecture",
-        "topic": null,
+        "topic": "Instruction and Execution",
         "questionType": "multiple-choice",
         "question": "Which of the following is not a form of memory",
         "options": [
@@ -374,10 +303,10 @@
             "instruction opcode",
             "translation look-a-side buffer"
         ],
-        "correctAnswer": [],
+        "correctAnswer": [2],
         "answerText": null,
-        "difficulty": null,
-        "marks": null,
+        "difficulty": "Easy",
+        "marks": 1,
         "tags": [
             "/co-and-architecture",
             "/tag/gatecse-2002",
@@ -397,54 +326,18 @@
         }
     },
     {
-        "id": "10",
-        "year": 2002,
-        "questionNumber": 10,
-        "subject": "CO & Architecture",
-        "topic": null,
-        "questionType": "multiple-choice",
-        "question": "In 8085 which of the following modifies the program counter",
-        "options": [
-            "Only PCHL instruction",
-            "Only ADD instructions",
-            "Only JMP and CALL instructions",
-            "All instructions"
-        ],
-        "correctAnswer": [],
-        "answerText": null,
-        "difficulty": null,
-        "marks": null,
-        "tags": [
-            "/co-and-architecture",
-            "/tag/gatecse-2002",
-            "/tag/co-and-architecture",
-            "/tag/8085-microprocessor",
-            "/tag/out-of-syllabus-now"
-        ],
-        "source": "gateoverflow",
-        "sourceURL": "https://gateoverflow.in/814/gate-cse-2002-question-1-10",
-        "addedBy": "GO Scraper",
-        "verified": true,
-        "explanation": "https://gateoverflow.in/814/gate-cse-2002-question-1-10",
-        "metadata": {
-            "set": "CS",
-            "paperType": "official",
-            "language": "English"
-        }
-    },
-    {
         "id": "9",
         "year": 2002,
         "questionNumber": 9,
         "subject": "CO & Architecture",
-        "topic": null,
+        "topic": "Interrupts",
         "questionType": "multiple-choice",
-        "question": "A device employing INTR line for device interrupt puts the CALL instruction on the data bus while:$\\overline{\\text{INTA}}$ is activeHOLD is activeREADY is inactiveNone of the above",
-        "options": [],
-        "correctAnswer": [],
+        "question": "A device employing INTR line for device interrupt puts the CALL instruction on the data bus while:",
+        "options": ["$\\overline{\\text{INTA}}$ is active", "HOLD is active", "READY is inactive", "None of the above"],
+        "correctAnswer": [0],
         "answerText": null,
-        "difficulty": null,
-        "marks": null,
+        "difficulty": "Medium",
+        "marks": 2,
         "tags": [
             "/co-and-architecture",
             "/tag/gatecse-2002",
@@ -464,97 +357,23 @@
         }
     },
     {
-        "id": "12",
-        "year": 2001,
-        "questionNumber": 12,
-        "subject": "CO & Architecture",
-        "topic": null,
-        "questionType": "multiple-choice",
-        "question": "Consider a $5-$stage pipeline - IF (Instruction Fetch), ID (Instruction Decode and register read), EX (Execute), MEM (memory), and WB (Write Back). All (memory or register) reads take place in the second phase of a clock cycle and all writes occur in the first phase. Consider the execution of the following instruction sequence:\n$$\\begin{array}{|l|l|} \\hline \\text{I1:} & \\text{sub $r 2,r 3,r 4$} & \\text{/*}\\quad  r2 \\leftarrow r3 - r4 \\quad\\text{*/} \\\\\\hline \\text{I2:} & \\text{sub $r 4,r 2,r 3$} & \\text{/*}\\quad r4 \\leftarrow r2 - r3 \\quad\\text{*/} \\\\\\hline \\text{I3:} &  \\text{sw $r2,100(r1)$} & \\text{/*}\\quad\\text{$M[r1 + 100]$} \\leftarrow \\text{r2}  \\quad\\text{*/}\\\\\\hline \\text{I4:} &  \\text{sub $r 3,r 4,r 2$} & \\text{/*}\\quad r3 \\leftarrow  r4 - r2 \\quad\\text{*/} \\\\\\hline\\end{array}$$",
-        "options": [
-            "Show all data dependencies between the four instructions.",
-            "Identify the data hazards.",
-            "Can all hazards be avoided by forwarding in this case."
-        ],
-        "correctAnswer": [],
-        "answerText": null,
-        "difficulty": null,
-        "marks": null,
-        "tags": [
-            "/co-and-architecture",
-            "/tag/gatecse-2001",
-            "/tag/co-and-architecture",
-            "/tag/pipelining",
-            "/tag/normal",
-            "/tag/descriptive"
-        ],
-        "source": "gateoverflow",
-        "sourceURL": "https://gateoverflow.in/753/gate-cse-2001-question-12",
-        "addedBy": "GO Scraper",
-        "verified": true,
-        "explanation": "https://gateoverflow.in/753/gate-cse-2001-question-12",
-        "metadata": {
-            "set": "CS",
-            "paperType": "official",
-            "language": "English"
-        }
-    },
-    {
-        "id": "9",
-        "year": 2001,
-        "questionNumber": 9,
-        "subject": "CO & Architecture",
-        "topic": null,
-        "questionType": "multiple-choice",
-        "question": "A CPU has $32-bit$ memory address and a $256 \\ KB$ cache memory. The cache is organized as a $4-way$ set associative cache with cache block size of $16$ bytes.",
-        "options": [
-            "What is the number of sets in the cache?",
-            "What is the size (in bits) of the tag field per cache block?",
-            "What is the number and size of comparators required for tag matching?",
-            "How many address bits are required to find the byte offset within a cache block?",
-            "What is the total amount of extra memory (in bytes) required for the tag bits?"
-        ],
-        "correctAnswer": [],
-        "answerText": null,
-        "difficulty": null,
-        "marks": null,
-        "tags": [
-            "/co-and-architecture",
-            "/tag/gatecse-2001",
-            "/tag/co-and-architecture",
-            "/tag/cache-memory",
-            "/tag/normal",
-            "/tag/descriptive"
-        ],
-        "source": "gateoverflow",
-        "sourceURL": "https://gateoverflow.in/750/gate-cse-2001-question-9",
-        "addedBy": "GO Scraper",
-        "verified": true,
-        "explanation": "https://gateoverflow.in/750/gate-cse-2001-question-9",
-        "metadata": {
-            "set": "CS",
-            "paperType": "official",
-            "language": "English"
-        }
-    },
-    {
         "id": "13",
         "year": 2001,
         "questionNumber": 13,
         "subject": "CO & Architecture",
-        "topic": null,
+        "topic": "Machine Instruction",
         "questionType": "multiple-choice",
-        "question": "Consider the following data path of a simple non-pipelined CPU. The registers $A, B$, $A_{1},A_{2}, \\textsf{MDR},$ the $\\textsf{bus}$ and the $\\textsf{ALU}$ are $8$-$bit$ wide. $\\textsf{SP}$ and $\\textsf{MAR}$ are $16$-$bit$ registers. The $\\textsf{MUX}$ is of size $8 \\times (2:1)$ and the $\\textsf{DEMUX}$ is of size $8 \\times (1:2)$. Each memory operation takes $2$ $\\textsf{CPU}$ clock cycles and uses $\\textsf{MAR}$ (Memory Address Register) and $\\textsf{MDR}$ (Memory Date Register). $\\textsf{SP}$ can be decremented locally.\n\nThe $\\textsf{CPU}$ instruction \"push r\" where, $r =$ $A$ or $B$ has the specification\n\n$M[SP] ← r $\n$SP ← SP - 1$\n\nHow many $\\textsf{CPU}$ clock cycles are required to execute the \"push r\" instruction?",
+        "question": "Consider the following data path of a simple non-pipelined CPU. The registers $A, B$, $A_{1},A_{2}, \\textsf{MDR},$ the $\\textsf{bus}$ and the $\\textsf{ALU}$ are $8$-$bit$ wide. $\\textsf{SP}$ and $\\textsf{MAR}$ are $16$-$bit$ registers. The $\\textsf{MUX}$ is of size $8 \\times (2:1)$ and the $\\textsf{DEMUX}$ is of size $8 \\times (1:2)$. Each memory operation takes $2$ $\\textsf{CPU}$ clock cycles and uses $\\textsf{MAR}$ (Memory Address Register) and $\\textsf{MDR}$ (Memory Date Register). $\\textsf{SP}$ can be decremented locally. <br>![MI_2001_13](COA/assets/MI_2001_13.png)\n\nThe $\\textsf{CPU}$ instruction \"push r\" where, $r =$ $A$ or $B$ has the specification\n\n$M[SP] ← r $\n$SP ← SP - 1$\n\nHow many $\\textsf{CPU}$ clock cycles are required to execute the \"push r\" instruction?",
         "options": [
             "$2$",
             "$3$",
             "$4$",
             "$5$"
         ],
-        "correctAnswer": [],
+        "correctAnswer": [3],
         "answerText": null,
-        "difficulty": null,
-        "marks": null,
+        "difficulty": "Medium",
+        "marks": 2,
         "tags": [
             "/co-and-architecture",
             "/tag/gatecse-2001",
@@ -579,7 +398,7 @@
         "year": 2001,
         "questionNumber": 9,
         "subject": "CO & Architecture",
-        "topic": null,
+        "topic": "Addressing Modes",
         "questionType": "multiple-choice",
         "question": "Which is the most appropriate match for the items in the first column with the items in the second column:$$\\begin{array}{|cl|cl|} \\hline \\text{X.} &\\text{Indirect Addressing} &  \\text{I.} &\\text{Array implementation} \\\\\\hline\n\\text{Y.} &\\text{Indexed Addressing} & \\text{II.} &\\text{Writing relocatable code}  \\\\\\hline \n\\text {Z.} &\\text{Base Register Addressing}  & \\text{III.} &\\text{Passing array as parameter}\\\\\\hline  \\end{array}$$",
         "options": [
@@ -588,10 +407,10 @@
             "(X, III), (Y, II), (Z, I)",
             "(X, I), (Y, III), (Z, II)"
         ],
-        "correctAnswer": [],
+        "correctAnswer": [0],
         "answerText": null,
-        "difficulty": null,
-        "marks": null,
+        "difficulty": "Easy",
+        "marks": 1,
         "tags": [
             "/co-and-architecture",
             "/tag/gatecse-2001",
@@ -616,7 +435,7 @@
         "year": 2001,
         "questionNumber": 36,
         "subject": "CO & Architecture",
-        "topic": null,
+        "topic": "Runtime Environment",
         "questionType": "multiple-choice",
         "question": "Suppose a processor does not have any stack pointer registers, which of the following statements is true?",
         "options": [
@@ -625,10 +444,10 @@
             "Interrupts are not possible",
             "All subroutine calls and interrupts are possible"
         ],
-        "correctAnswer": [],
+        "correctAnswer": [1],
         "answerText": null,
-        "difficulty": null,
-        "marks": null,
+        "difficulty": "Medium",
+        "marks": 2,
         "tags": [
             "/co-and-architecture",
             "/tag/gatecse-2001",
@@ -649,48 +468,11 @@
         }
     },
     {
-        "id": "9",
-        "year": 2001,
-        "questionNumber": 9,
-        "subject": "CO & Architecture",
-        "topic": null,
-        "questionType": "multiple-choice",
-        "question": "A low memory can be connected to 8085 by using",
-        "options": [
-            "$INTER$",
-            "$\\overline{RESET\\text{ }IN}$",
-            "$HOLD$",
-            "$READY$"
-        ],
-        "correctAnswer": [],
-        "answerText": null,
-        "difficulty": null,
-        "marks": null,
-        "tags": [
-            "/co-and-architecture",
-            "/tag/gatecse-2001",
-            "/tag/co-and-architecture",
-            "/tag/8085-microprocessor",
-            "/tag/normal",
-            "/tag/out-of-syllabus-now"
-        ],
-        "source": "gateoverflow",
-        "sourceURL": "https://gateoverflow.in/702/gate-cse-2001-question-1-9",
-        "addedBy": "GO Scraper",
-        "verified": true,
-        "explanation": "https://gateoverflow.in/702/gate-cse-2001-question-1-9",
-        "metadata": {
-            "set": "CS",
-            "paperType": "official",
-            "language": "English"
-        }
-    },
-    {
         "id": "18",
         "year": 2001,
         "questionNumber": 18,
         "subject": "CO & Architecture",
-        "topic": null,
+        "topic": "Cache Memory",
         "questionType": "multiple-choice",
         "question": "More than one word are put in one cache block to:",
         "options": [
@@ -699,10 +481,10 @@
             "reduce the miss penalty",
             "none of the above"
         ],
-        "correctAnswer": [],
+        "correctAnswer": [1],
         "answerText": null,
-        "difficulty": null,
-        "marks": null,
+        "difficulty": "Easy",
+        "marks": 1,
         "tags": [
             "/co-and-architecture",
             "/tag/gatecse-2001",
@@ -723,114 +505,11 @@
         }
     },
     {
-        "id": "12",
-        "year": 2000,
-        "questionNumber": 12,
-        "subject": "CO & Architecture",
-        "topic": null,
-        "questionType": "multiple-choice",
-        "question": "An instruction pipeline has five stages where each stage take 2 nanoseconds and all instruction use all five stages. Branch instructions are not overlapped. i.e., the instruction after the branch is not fetched till the branch instruction is completed. Under ideal conditions,",
-        "options": [
-            "Calculate the average instruction execution time assuming that 20% of all instructions executed are branch instruction. Ignore the fact that some branch instructions may be conditional.",
-            "If a branch instruction is a conditional branch instruction, the branch need not be taken. If the branch is not taken, the following instructions can be overlapped. When 80% of all branch instructions are conditional branch instructions, and 50% of the conditional branch instructions are such that the branch is taken, calculate the average instruction execution time."
-        ],
-        "correctAnswer": [],
-        "answerText": null,
-        "difficulty": null,
-        "marks": null,
-        "tags": [
-            "/co-and-architecture",
-            "/tag/gatecse-2000",
-            "/tag/co-and-architecture",
-            "/tag/pipelining",
-            "/tag/normal",
-            "/tag/descriptive"
-        ],
-        "source": "gateoverflow",
-        "sourceURL": "https://gateoverflow.in/683/gate-cse-2000-question-12",
-        "addedBy": "GO Scraper",
-        "verified": true,
-        "explanation": "https://gateoverflow.in/683/gate-cse-2000-question-12",
-        "metadata": {
-            "set": "CS",
-            "paperType": "official",
-            "language": "English"
-        }
-    },
-    {
-        "id": "11",
-        "year": 2000,
-        "questionNumber": 11,
-        "subject": "CO & Architecture",
-        "topic": null,
-        "questionType": "multiple-choice",
-        "question": "Consider the following 8085 program segment, where registers B and C contain BCD values:\n\nS1: MVI           A, 99H \n    MVI           D, 00H\n    SUB           C\n    ADD           B\n    DAA\n\n\nS2: JC             S3\n   MOV             E, A\n   MVI             A, 99H\n   SUB             E\n   MOV             E, A\n   JZ              S4\n   MVI             D, FFH\n   JMP             S4\n\n\nS3:INC             A\n   DAA \n   MOV             E, A\n\n\nS4: .........\n\n\nFor the two pairs (B = 44, C = 25) and (B = 33, C = 46) at S1,\n\t\nFind the values in register A when control reaches S2.\nFind the values in register D and E when control reaches S4.",
-        "options": [
-            "What, in general, is the value of D and E as a function of B and C when control reaches S4?"
-        ],
-        "correctAnswer": [],
-        "answerText": null,
-        "difficulty": null,
-        "marks": null,
-        "tags": [
-            "/co-and-architecture",
-            "/tag/gatecse-2000",
-            "/tag/co-and-architecture",
-            "/tag/8085-microprocessor",
-            "/tag/out-of-syllabus-now",
-            "/tag/descriptive"
-        ],
-        "source": "gateoverflow",
-        "sourceURL": "https://gateoverflow.in/682/gate-cse-2000-question-11",
-        "addedBy": "GO Scraper",
-        "verified": true,
-        "explanation": "https://gateoverflow.in/682/gate-cse-2000-question-11",
-        "metadata": {
-            "set": "CS",
-            "paperType": "official",
-            "language": "English"
-        }
-    },
-    {
         "id": "10",
         "year": 2000,
         "questionNumber": 10,
         "subject": "CO & Architecture",
-        "topic": null,
-        "questionType": "multiple-choice",
-        "question": "Consider the 8085 instruction IN 09H stored as follows:\n\n\n\n      Memory Address\n          Machine Code\n\n\n\n\n\n             3050\n             3051\n\n\n                  DA\n                  09\n\n\n\n\nand the following incomplete timing diagram for the instruction:\n\n\nWrite the contents of the boxes, A, B, C and D in hexadecimal in your answer sheet. Do not draw any pictures.\nWrite the state of both ALE and  $\\overline{RD}$ pins at time units T1, T2, T3 and T4.\nHow do you generate the signal that tells the peripheral to put the data on the bus? Answer by completing the following statement in your answer book:",
-        "options": [
-            "By combining signals........."
-        ],
-        "correctAnswer": [],
-        "answerText": null,
-        "difficulty": null,
-        "marks": null,
-        "tags": [
-            "/co-and-architecture",
-            "/tag/gatecse-2000",
-            "/tag/co-and-architecture",
-            "/tag/8085-microprocessor",
-            "/tag/out-of-syllabus-now",
-            "/tag/descriptive"
-        ],
-        "source": "gateoverflow",
-        "sourceURL": "https://gateoverflow.in/681/gate-cse-2000-question-10",
-        "addedBy": "GO Scraper",
-        "verified": true,
-        "explanation": "https://gateoverflow.in/681/gate-cse-2000-question-10",
-        "metadata": {
-            "set": "CS",
-            "paperType": "official",
-            "language": "English"
-        }
-    },
-    {
-        "id": "10",
-        "year": 2000,
-        "questionNumber": 10,
-        "subject": "CO & Architecture",
-        "topic": null,
+        "topic": "Addressing Modes",
         "questionType": "multiple-choice",
         "question": "The most appropriate matching for the following pairs$$\\begin{array}{ll} \\text{X: Indirect addressing} & \\text{1: Loops } \\\\  \\text{Y: Immediate addressing } & \\text{2: Pointers} \\\\   \\text{Z: Auto decrement addressing } & \\text{3: Constants } \\\\  \\end{array}$$ is",
         "options": [
@@ -839,10 +518,10 @@
             "$X - 2,  Y - 3,  Z - 1$",
             "$X - 3,  Y - 1,  Z - 2$"
         ],
-        "correctAnswer": [],
+        "correctAnswer": [2],
         "answerText": null,
-        "difficulty": null,
-        "marks": null,
+        "difficulty": "Easy",
+        "marks": 1,
         "tags": [
             "/co-and-architecture",
             "/tag/gatecse-2000",
@@ -863,48 +542,11 @@
         }
     },
     {
-        "id": "9",
-        "year": 2000,
-        "questionNumber": 9,
-        "subject": "CO & Architecture",
-        "topic": null,
-        "questionType": "multiple-choice",
-        "question": "The 8085 microprocessor responds to the presence of an interrupt",
-        "options": [
-            "as soon as the TRAP pin becomes 'high'",
-            "by checking the TRAP pin for 'high' status at the end of each instruction",
-            "by checking the TRAP pin for 'high' status at the end of the execution of each instruction.",
-            "by checking the TRAP pin for 'high' status at regular intervals."
-        ],
-        "correctAnswer": [],
-        "answerText": null,
-        "difficulty": null,
-        "marks": null,
-        "tags": [
-            "/co-and-architecture",
-            "/tag/gatecse-2000",
-            "/tag/co-and-architecture",
-            "/tag/8085-microprocessor",
-            "/tag/normal",
-            "/tag/out-of-syllabus-now"
-        ],
-        "source": "gateoverflow",
-        "sourceURL": "https://gateoverflow.in/632/gate-cse-2000-question-1-9",
-        "addedBy": "GO Scraper",
-        "verified": true,
-        "explanation": "https://gateoverflow.in/632/gate-cse-2000-question-1-9",
-        "metadata": {
-            "set": "CS",
-            "paperType": "official",
-            "language": "English"
-        }
-    },
-    {
         "id": "8",
         "year": 2000,
         "questionNumber": 8,
         "subject": "CO & Architecture",
-        "topic": null,
+        "topic": "Pipelining",
         "questionType": "multiple-choice",
         "question": "Comparing the time T1 taken for a single instruction on a pipelined CPU with time T2 taken on a non-pipelined but identical CPU, we can say that",
         "options": [
@@ -913,10 +555,10 @@
             "T1 < T2",
             "T1 and T2 plus the time taken for one instruction fetch cycle"
         ],
-        "correctAnswer": [],
+        "correctAnswer": [1],
         "answerText": null,
-        "difficulty": null,
-        "marks": null,
+        "difficulty": "Easy",
+        "marks": 1,
         "tags": [
             "/co-and-architecture",
             "/tag/gatecse-2000",
@@ -929,43 +571,6 @@
         "addedBy": "GO Scraper",
         "verified": true,
         "explanation": "https://gateoverflow.in/631/gate-cse-2000-question-1-8",
-        "metadata": {
-            "set": "CS",
-            "paperType": "official",
-            "language": "English"
-        }
-    },
-    {
-        "id": "7",
-        "year": 2000,
-        "questionNumber": 7,
-        "subject": "CO & Architecture",
-        "topic": null,
-        "questionType": "multiple-choice",
-        "question": "To put the 8085 microprocessor in the wait state",
-        "options": [
-            "lower the HOLD input",
-            "lower the READY input",
-            "raise the HOLD input",
-            "raise the READY input"
-        ],
-        "correctAnswer": [],
-        "answerText": null,
-        "difficulty": null,
-        "marks": null,
-        "tags": [
-            "/co-and-architecture",
-            "/tag/gatecse-2000",
-            "/tag/co-and-architecture",
-            "/tag/8085-microprocessor",
-            "/tag/easy",
-            "/tag/out-of-syllabus-now"
-        ],
-        "source": "gateoverflow",
-        "sourceURL": "https://gateoverflow.in/630/gate-cse-2000-question-1-7",
-        "addedBy": "GO Scraper",
-        "verified": true,
-        "explanation": "https://gateoverflow.in/630/gate-cse-2000-question-1-7",
         "metadata": {
             "set": "CS",
             "paperType": "official",
