@@ -5,15 +5,15 @@ This file tracks the assignment and progress of question chunks across different
 | Subject     | Chunk File/Folder           | Assigned To  | Status          | Notes                          |
 |-------------|----------------------------|--------------|-----------------|-------------------------------|
 | Algorithms  | [split_chunks/algorithms_chunk_1.json](Algorithms\split_chunks\algorithms_chunk_1.json) | [@Razen04](https://github.com/Razen04)   | Completed | Validated and Merged  |
-| Algorithms  | [split_chunks/algorithms_chunk_2.json](Algorithms\split_chunks\algorithms_chunk_2.json) | [@Karan3431](https://github.com/Karan3431)   | In Progress     |                               |
+| Algorithms  | [split_chunks/algorithms_chunk_2.json](Algorithms\split_chunks\algorithms_chunk_2.json) |  Unassigned  | Not Started     |                               |
 | Algorithms  | [split_chunks/algorithms_chunk_3.json](Algorithms\split_chunks\algorithms_chunk_3.json) | [@gloooomed](https://github.com/gloooomed)   | In Progress     |   |
 | Algorithms  | [split_chunks/algorithms_chunk_4.json](Algorithms\split_chunks\algorithms_chunk_4.json) | Unassigned   | Not Started     |                               |
 | Algorithms  | [split_chunks/algorithms_chunk_5.json](Algorithms\split_chunks\algorithms_chunk_6.json) | Unassigned   | Not Started     |   |
-| Algorithms  | [split_chunks/algorithms_chunk_6.json](Algorithms\split_chunks\algorithms_chunk_6.json) | [@Razen04](https://github.com/Razen04)   | Not Started    | Validated and Merged               |
-| COA  | [COA/coa_split_chunks/coa_chunk_1.json](COA/coa_split_chunks/coa_chunk_1.json) | Unassigned   | Not Started    |                |
-| COA  | [COA/coa_split_chunks/coa_chunk_2.json](COA/coa_split_chunks/coa_chunk_2.json) | Unassigned   | Not Started    |                |
-| COA  | [COA/coa_split_chunks/coa_chunk_3.json](COA/coa_split_chunks/coa_chunk_3.json) | Unassigned   | Not Started    |                |
-| COA  | [COA/coa_split_chunks/coa_chunk_4.json](COA/coa_split_chunks/coa_chunk_4.json) | [@Razen04](https://github.com/Razen04)   | In Progress    |                |
+| Algorithms  | [split_chunks/algorithms_chunk_6.json](Algorithms\split_chunks\algorithms_chunk_6.json) | [@Razen04](https://github.com/Razen04)   | Completed    | Validated and Merged  |
+| COA  | [COA/coa_split_chunks/coa_chunk_1.json](COA/coa_split_chunks/coa_chunk_1.json) | [@Razen04](https://github.com/Razen04)   | Completed    |  Validated and Merged  |
+| COA  | [COA/coa_split_chunks/coa_chunk_2.json](COA/coa_split_chunks/coa_chunk_2.json) | [@Razen04](https://github.com/Razen04)   | Completed    |  Validated and Merged  |
+| COA  | [COA/coa_split_chunks/coa_chunk_3.json](COA/coa_split_chunks/coa_chunk_3.json) | [@Razen04](https://github.com/Razen04)   | Completed    |  Validated and Merged  |
+| COA  | [COA/coa_split_chunks/coa_chunk_4.json](COA/coa_split_chunks/coa_chunk_4.json) | [@Razen04](https://github.com/Razen04)   | Completed    | Validated and Merged |
 | Aptitude  | [Aptitude/aptitude_split_chunks/aptitude_chunk_1.json](Aptitude/aptitude_split_chunks/aptitude_chunk_1.json) | Unassigned   | Not Started    |                |
 | Aptitude  | [Aptitude/aptitude_split_chunks/aptitude_chunk_2.json](Aptitude/aptitude_split_chunks/aptitude_chunk_2.json) | Unassigned   | Not Started    |                |
 | Aptitude  | [Aptitude/aptitude_split_chunks/aptitude_chunk_3.json](Aptitude/aptitude_split_chunks/aptitude_chunk_3.json) | Unassigned   | Not Started    |                |
