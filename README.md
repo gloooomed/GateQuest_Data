@@ -13,8 +13,8 @@ All JSON files are split into smaller chunks of 50 questions each, organized by 
 
 
 split\_chunks/
-├── algorithms\_chunk\_1.json
-├── algorithms\_chunk\_2.json
+├── subject\_chunk\_1.json
+├── subject\_chunk\_2.json
 ├── ...
 
 
@@ -25,15 +25,15 @@ Each JSON object follows a strict schema:
   "id": "dynamic",
   "year": 2024,
   "questionNumber": 35,
-  "subject": "Algorithms",
+  "subject": "subject-name",
   "topic": "pick it from the tags",
   "questionType": "multiple-choice",
   "question": "Question text here...",
   "options": ["A", "B", "C", "D"],
-  "correctAnswer": ["A"],
+  "correctAnswer": ["A"] or numerical-answer,
   "answerText": null,
-  "difficulty": "2-marks",
-  "marks": null,
+  "difficulty": "Easy=easy/Medium=Normal/Hard",
+  "marks": 1/2,
   "tags": ["/algorithms", "/graph-search"],
   "source": "gateoverflow",
   "sourceURL": "https://gateoverflow.in/...",
