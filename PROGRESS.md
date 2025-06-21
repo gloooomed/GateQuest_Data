@@ -15,8 +15,8 @@ This file tracks the assignment and progress of question chunks across different
 | COA  | [COA/coa_split_chunks/coa_chunk_3.json](COA/coa_split_chunks/coa_chunk_3.json) | [@Razen04](https://github.com/Razen04)   | Completed    |  Validated and Merged  |
 | COA  | [COA/coa_split_chunks/coa_chunk_4.json](COA/coa_split_chunks/coa_chunk_4.json) | [@Razen04](https://github.com/Razen04)   | Completed    | Validated and Merged |
 | Aptitude  | [Aptitude/aptitude_split_chunks/aptitude_chunk_1.json](Aptitude/aptitude_split_chunks/aptitude_chunk_1.json) | Unassigned   | Not Started    |                |
-| Aptitude  | [Aptitude/aptitude_split_chunks/aptitude_chunk_2.json](Aptitude/aptitude_split_chunks/aptitude_chunk_2.json) | Unassigned   | Not Started    |                |
-| Aptitude  | [Aptitude/aptitude_split_chunks/aptitude_chunk_3.json](Aptitude/aptitude_split_chunks/aptitude_chunk_3.json) | Unassigned   | Not Started    |                |
+| Aptitude  | [Aptitude/aptitude_split_chunks/aptitude_chunk_2.json](Aptitude/aptitude_split_chunks/aptitude_chunk_2.json) | [@Razen04](https://github.com/Razen04)   | Completed    |Validated and Merged|
+| Aptitude  | [Aptitude/aptitude_split_chunks/aptitude_chunk_3.json](Aptitude/aptitude_split_chunks/aptitude_chunk_3.json) | [@Razen04](https://github.com/Razen04)   | Completed    |Validated and Merged|
 | Aptitude  | [Aptitude/aptitude_split_chunks/aptitude_chunk_4.json](Aptitude/aptitude_split_chunks/aptitude_chunk_4.json) | [@Razen04](https://github.com/Razen04)   | Completed    | Validated and Merged |
 | Aptitude  | [Aptitude/aptitude_split_chunks/aptitude_chunk_5.json](Aptitude/aptitude_split_chunks/aptitude_chunk_5.json) | [@Razen04](https://github.com/Razen04)   | Completed    | Validated and Merged |
 | Compiler Design  | [CompilerDesign/compiler_split_chunks/compiler_chunk_1.json](CompilerDesign/compiler_split_chunks/compiler_chunk_1.json) | Unassigned   | Not Started    |                |
