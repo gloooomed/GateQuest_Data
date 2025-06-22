@@ -1,0 +1,354 @@
+[
+    {
+        "id": "3",
+        "year": 2008,
+        "questionNumber": 3,
+        "subject": "Linear Algebra",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "The following system of equations\n\n$x_1 + x_2 + 2x_3 = 1$\n$x_1 + 2x_2 + 3x_3 = 2$\n$x_1 + 4x_2 + αx_3 = 4$\n\nhas a unique solution. The only possible value(s) for $α$ is/are",
+        "options": [
+            "$0$",
+            "either $0$ or $1$",
+            "one of $0, 1$, or $-1$",
+            "any real number"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/mathematics/linear-algebra",
+            "/tag/gatecse-2008",
+            "/tag/easy",
+            "/tag/linear-algebra",
+            "/tag/system-of-equations"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/401/gate-cse-2008-question-3",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/401/gate-cse-2008-question-3",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "2",
+        "year": 2008,
+        "questionNumber": 2,
+        "subject": "Set Theory & Algebra",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "If $P, Q, R$ are subsets of the universal set U, then $$(P\\cap Q\\cap R) \\cup (P^c \\cap Q \\cap R) \\cup Q^c \\cup R^c$$ is",
+        "options": [
+            "$Q^c \\cup R^c$",
+            "$P \\cup Q^c \\cup R^c$",
+            "$P^c \\cup Q^c \\cup R^c$",
+            "U"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/mathematics/discrete-mathematics/set-theory%26algebra",
+            "/tag/gatecse-2008",
+            "/tag/normal",
+            "/tag/set-theory%26algebra",
+            "/tag/set-theory"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/400/gate-cse-2008-question-2",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/400/gate-cse-2008-question-2",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "1",
+        "year": 2008,
+        "questionNumber": 1,
+        "subject": "Calculus",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "$\\displaystyle \\lim_{x \\to \\infty}\\frac{x-\\sin x}{x+\\cos x}$ equals",
+        "options": [
+            "$1$",
+            "$-1$",
+            "$\\infty$",
+            "$-\\infty$"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/mathematics/calculus",
+            "/tag/gatecse-2008",
+            "/tag/calculus",
+            "/tag/limits",
+            "/tag/easy"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/399/gate-cse-2008-question-1",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/399/gate-cse-2008-question-1",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "5",
+        "year": null,
+        "questionNumber": 5,
+        "subject": "Calculus",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "Fourier series of the periodic function (period 2π) defined by\n$$f(x) = \\begin{cases} 0, -p < x < 0\\\\x, 0 < x < p \\end{cases} \\text { is }\\\\ \\frac{\\pi}{4} + \\sum \\left [ \\frac{1}{\\pi n^2} \\left(\\cos n\\pi - 1 \\right) \\cos nx - \\frac{1}{n} \\cos n\\pi \\sin nx \\right ]$$\nBut putting $x = \\pi$, we get the sum of the series\n$$ 1 + \\frac{1}{3^2} + \\frac{1}{5^2} + \\frac{1}{7^2} + \\cdots \\text { is }$$",
+        "options": [
+            "$\\frac{{\\pi }^2 }{4}$",
+            "$\\frac{{\\pi }^2 }{6}$",
+            "$\\frac{{\\pi }^2 }{8}$",
+            "$\\frac{{\\pi }^2 }{12}$"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/mathematics/calculus",
+            "/tag/gate1993",
+            "/tag/calculus",
+            "/tag/normal",
+            "/tag/out-of-gatecse-syllabus",
+            "/tag/multiple-selects"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/262/gate-cse-1993-question-01-5",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/262/gate-cse-1993-question-01-5",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "xv",
+        "year": null,
+        "questionNumber": null,
+        "subject": "Mathematical Logic",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "Which of the following predicate calculus statements is/are valid?",
+        "options": [
+            "$(\\forall (x)) P(x) \\vee (\\forall(x))Q(x) \\implies (\\forall (x)) (P(x) \\vee Q(x))$",
+            "$(\\exists (x)) P(x) \\wedge (\\exists (x))Q(x) \\implies (\\exists (x)) (P(x) \\wedge Q(x))$",
+            "$(\\forall (x)) (P(x) \\vee Q(x)) \\implies (\\forall (x)) P(x) \\vee (\\forall (x)) Q(x)$",
+            "$(\\exists (x)) (P(x) \\vee Q(x)) \\implies \\sim (\\forall (x)) P(x) \\vee (\\exists (x)) Q(x)$"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/mathematics/discrete-mathematics/mathematical-logic",
+            "/tag/gate1992",
+            "/tag/mathematical-logic",
+            "/tag/normal",
+            "/tag/first-order-logic"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/256/gate-cse-1992-question-92-xv",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/256/gate-cse-1992-question-92-xv",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "25",
+        "year": 2007,
+        "questionNumber": 25,
+        "subject": "Linear Algebra",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "Let A be a $4 \\times 4$ matrix with eigen values -5,-2,1,4. Which of the following is an eigen value of  the matrix$\\begin{bmatrix} A & I \\\\ I & A \\end{bmatrix}$, where $I$ is the $4 \\times 4$ identity matrix?$-5$$-7$$2$$1$",
+        "options": [],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/mathematics/linear-algebra",
+            "/tag/gatecse-2007",
+            "/tag/eigen-value",
+            "/tag/linear-algebra",
+            "/tag/difficult"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/254/gate-cse-2007-question-25",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/254/gate-cse-2007-question-25",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "47",
+        "year": 2013,
+        "questionNumber": 47,
+        "subject": "Mathematical Logic",
+        "topic": "marks-to-all",
+        "questionType": "multiple-choice",
+        "question": "Which one of the following is NOT logically equivalent to $¬∃x(∀ y (α)∧∀z(β ))$ ?",
+        "options": [
+            "$∀ x(∃ z(¬β )→∀ y(α))$",
+            "$∀x(∀ z(β )→∃ y(¬α))$",
+            "$∀x(∀ y(α)→∃z(¬β ))$",
+            "$∀x(∃ y(¬α)→∃z(¬β ))$"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": "marks-to-all",
+        "marks": null,
+        "tags": [
+            "/mathematics/discrete-mathematics/mathematical-logic",
+            "/tag/mathematical-logic",
+            "/tag/normal",
+            "/tag/marks-to-all",
+            "/tag/gatecse-2013",
+            "/tag/first-order-logic"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/80/gate-cse-2013-question-47",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/80/gate-cse-2013-question-47",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "2",
+        "year": 2013,
+        "questionNumber": 2,
+        "subject": "Probability",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "Suppose $p$ is the number of cars per minute passing through a certain road junction between $5$ PM and $6$ PM, and $p$ has a Poisson distribution with mean $3$. What is the probability of observing fewer than $3$ cars during any given minute in this interval? $\\dfrac{8}{(2e^{3})}$$\\dfrac{9}{(2e^{3})}$$\\dfrac{17}{(2e^{3})}$$\\dfrac{26}{(2e^{3})}$",
+        "options": [],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/mathematics/probability",
+            "/tag/gatecse-2013",
+            "/tag/probability",
+            "/tag/poisson-distribution",
+            "/tag/normal"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/62/gate-cse-2013-question-2",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/62/gate-cse-2013-question-2",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "1",
+        "year": 2013,
+        "questionNumber": 1,
+        "subject": "Set Theory & Algebra",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "A binary operation $\\oplus$ on a set of integers is defined as $x \\oplus y = x^{2}+y^{2}$. Which one of the following statements is TRUE about $\\oplus$?",
+        "options": [
+            "Commutative but not associative",
+            "Both commutative and associative",
+            "Associative but not commutative",
+            "Neither commutative nor associative"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/mathematics/discrete-mathematics/set-theory%26algebra",
+            "/tag/gatecse-2013",
+            "/tag/set-theory%26algebra",
+            "/tag/easy",
+            "/tag/binary-operation"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/59/gate-cse-2013-question-1",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/59/gate-cse-2013-question-1",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "17",
+        "year": 2012,
+        "questionNumber": 17,
+        "subject": "Graph Theory",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "Let $G$ be a simple undirected planar graph on $10$ vertices with $15$ edges. If $G$ is a connected graph, then the number of bounded faces in any embedding of $G$ on the plane is equal to",
+        "options": [
+            "$3$",
+            "$4$",
+            "$5$",
+            "$6$"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/mathematics/discrete-mathematics/graph-theory",
+            "/tag/gatecse-2012",
+            "/tag/graph-theory",
+            "/tag/graph-planarity",
+            "/tag/normal"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/49/gate-cse-2012-question-17",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/49/gate-cse-2012-question-17",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    }
+]

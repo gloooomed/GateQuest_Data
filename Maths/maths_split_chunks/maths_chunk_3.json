@@ -1,0 +1,1661 @@
+[
+    {
+        "id": "1",
+        "year": 2018,
+        "questionNumber": 1,
+        "subject": "Combinatory",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "Which one of the following is a closed form expression for the generating function of the sequence $\\{a_n\\}$, where $a_n = 2n +3 \\text{ for all } n=0, 1, 2, \\dots$?",
+        "options": [
+            "$\\frac{3}{(1-x)^2}$",
+            "$\\frac{3x}{(1-x)^2}$",
+            "$\\frac{2-x}{(1-x)^2}$",
+            "$\\frac{3-x}{(1-x)^2}$"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/mathematics/discrete-mathematics/combinatory",
+            "/tag/gatecse-2018",
+            "/tag/generating-functions",
+            "/tag/normal",
+            "/tag/combinatory",
+            "/tag/one-mark"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/204075/gate-cse-2018-question-1",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/204075/gate-cse-2018-question-1",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "31",
+        "year": null,
+        "questionNumber": 31,
+        "subject": "Mathematical Logic",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "https://gateoverflow.in/118312/gate2017-1-31\nIn the explanation of how 1st statement is true\nthey have said that $\\lambda$12 + $\\lambda$22 <=50\nHow is this statement arrived at?",
+        "options": [],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/mathematics/discrete-mathematics/mathematical-logic"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/162688/gate-cse-2017-set-1-question-31",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/162688/gate-cse-2017-set-1-question-31",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "02",
+        "year": 2017,
+        "questionNumber": 2,
+        "subject": "Mathematical Logic",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "Consider the first-order logic sentence $F:\\forall x(\\exists yR(x,y))$. Assuming non-empty logical domains, which of the sentences below are implied by $F$?$\\exists y(\\exists xR(x,y))$$\\exists y(\\forall xR(x,y))$$\\forall y(\\exists xR(x,y))$$¬\\exists x(\\forall y¬R(x,y))$IV onlyI and IV onlyII onlyII and III only",
+        "options": [],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/mathematics/discrete-mathematics/mathematical-logic",
+            "/tag/gatecse-2017-set1",
+            "/tag/mathematical-logic",
+            "/tag/first-order-logic",
+            "/tag/qod-cse-3",
+            "/tag/qod-cse"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/118701/gate-cse-2017-set-1-question-02",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/118701/gate-cse-2017-set-1-question-02",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "01",
+        "year": 2017,
+        "questionNumber": 1,
+        "subject": "Mathematical Logic",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "The statement $\\left ( ¬p \\right ) \\Rightarrow \\left ( ¬q \\right )$ is logically equivalent to which of the statements below?\n\n$p \\Rightarrow q$\n$q \\Rightarrow p$\n$\\left ( ¬q \\right ) \\vee p$\n$\\left ( ¬p \\right ) \\vee q$",
+        "options": [
+            "I only",
+            "I and IV only",
+            "II only",
+            "II and III only"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/mathematics/discrete-mathematics/mathematical-logic",
+            "/tag/gatecse-2017-set1",
+            "/tag/mathematical-logic",
+            "/tag/propositional-logic",
+            "/tag/easy"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/118698/gate-cse-2017-set-1-question-01",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/118698/gate-cse-2017-set-1-question-01",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "52",
+        "year": 2017,
+        "questionNumber": 52,
+        "subject": "Linear Algebra",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "If the characteristic polynomial of a  $3 \\times 3$  matrix $M$ over $\\mathbb{R}$ (the set of real numbers) is $\\lambda^3 – 4 \\lambda^2 + a \\lambda +30, \\quad a \\in \\mathbb{R}$, and one eigenvalue of $M$ is $2,$ then the largest among the absolute values of the eigenvalues of $M$ is _______",
+        "options": [],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/mathematics/linear-algebra",
+            "/tag/gatecse-2017-set2",
+            "/tag/engineering-mathematics",
+            "/tag/linear-algebra",
+            "/tag/numerical-answers",
+            "/tag/eigen-value"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/118618/gate-cse-2017-set-2-question-52",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/118618/gate-cse-2017-set-2-question-52",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "23",
+        "year": 2017,
+        "questionNumber": 23,
+        "subject": "Graph Theory",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "$G$ is an undirected graph with $n$ vertices and $25$ edges such that each vertex of $G$ has degree at least $3$. Then the maximum possible value of $n$ is _________ .",
+        "options": [],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/mathematics/discrete-mathematics/graph-theory",
+            "/tag/gatecse-2017-set2",
+            "/tag/graph-theory",
+            "/tag/numerical-answers",
+            "/tag/degree-of-graph"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/118594/gate-cse-2017-set-2-question-23",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/118594/gate-cse-2017-set-2-question-23",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "48",
+        "year": 2017,
+        "questionNumber": 48,
+        "subject": "Probability",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "If a random variable $X$ has a Poisson distribution with mean $5$, then the expectation $E\\left [ \\left ( x+2 \\right )^{2} \\right ]$ equals ___.",
+        "options": [],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/mathematics/probability",
+            "/tag/gatecse-2017-set2",
+            "/tag/expectation",
+            "/tag/poisson-distribution",
+            "/tag/numerical-answers",
+            "/tag/probability"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/118513/gate-cse-2017-set-2-question-48",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/118513/gate-cse-2017-set-2-question-48",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "47",
+        "year": 2017,
+        "questionNumber": 47,
+        "subject": "Combinatory",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "If the ordinary generating function of a sequence $\\left \\{a_n\\right \\}_{n=0}^\\infty$  is $\\large \\frac{1+z}{(1-z)^3}$, then $a_3-a_0$ is equal to ___________ .",
+        "options": [],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/mathematics/discrete-mathematics/combinatory",
+            "/tag/gatecse-2017-set2",
+            "/tag/combinatory",
+            "/tag/generating-functions",
+            "/tag/numerical-answers",
+            "/tag/normal"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/118392/gate-cse-2017-set-2-question-47",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/118392/gate-cse-2017-set-2-question-47",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "31",
+        "year": 2017,
+        "questionNumber": 31,
+        "subject": "Probability",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "For any discrete random variable $X$, with probability mass function $P(X=j)=p_j, p_j \\geq 0, j \\in \\{0, \\dots , N \\}$, and $\\Sigma_{j=0}^N \\: p_j =1$, define the polynomial function $g_x(z) = \\Sigma_{j=0}^N \\: p_j \\: z^j$. For a certain discrete random variable $Y$, there exists a scalar $\\beta \\in [0,1]$ such that $g_y(z) =(1- \\beta+\\beta z)^N$. The expectation of $Y$ is$N \\beta(1-\\beta)$$N \\beta$$N (1-\\beta)$Not expressible in terms of $N$ and $\\beta$ alone",
+        "options": [],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/mathematics/probability",
+            "/tag/gatecse-2017-set2",
+            "/tag/probability",
+            "/tag/random-variable",
+            "/tag/difficult",
+            "/tag/expectation"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/118373/gate-cse-2017-set-2-question-31",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/118373/gate-cse-2017-set-2-question-31",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "26",
+        "year": 2017,
+        "questionNumber": 26,
+        "subject": "Probability",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "$P$ and $Q$ are considering to apply for a job. The probability that $P$ applies for the job is $\\dfrac{1}{4},$ the probability that $P$ applies for the job given that $Q$ applies for the job is $\\dfrac{1}{2},$ and the probability that $Q$ applies for the job given that $P$ applies for the job is $\\dfrac{1}{3}.$ Then the probability that $P$ does not apply for the job given that $Q$ does not apply for this job is",
+        "options": [
+            "$\\left(\\dfrac{4}{5}\\right)$",
+            "$\\left(\\dfrac{5}{6}\\right)$",
+            "$\\left(\\dfrac{7}{8}\\right)$",
+            "$\\left(\\dfrac{11}{12}\\right)$"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/mathematics/probability",
+            "/tag/gatecse-2017-set2",
+            "/tag/probability",
+            "/tag/conditional-probability"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/118368/gate-cse-2017-set-2-question-26",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/118368/gate-cse-2017-set-2-question-26",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "22",
+        "year": 2017,
+        "questionNumber": 22,
+        "subject": "Linear Algebra",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "Let $P = \\begin{bmatrix}1 & 1 & -1 \\\\2 & -3 & 4 \\\\3 & -2 & 3\\end{bmatrix}$  and $Q = \\begin{bmatrix}-1 & -2 &-1 \\\\6 & 12 & 6 \\\\5 & 10 & 5\\end{bmatrix}$ be two matrices.",
+        "options": [
+            "Then the rank of $ P+Q$ is ___________ ."
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/mathematics/linear-algebra",
+            "/tag/gatecse-2017-set2",
+            "/tag/linear-algebra",
+            "/tag/eigen-value",
+            "/tag/numerical-answers"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/118363/gate-cse-2017-set-2-question-22",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/118363/gate-cse-2017-set-2-question-22",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "47",
+        "year": 2017,
+        "questionNumber": 47,
+        "subject": "Set Theory & Algebra",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "The number of integers between $1$ and $500$ (both inclusive) that are divisible by $3$ or $5$ or $7$ is ____________ .",
+        "options": [],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/mathematics/discrete-mathematics/set-theory%26algebra",
+            "/tag/gatecse-2017-set1",
+            "/tag/set-theory%26algebra",
+            "/tag/normal",
+            "/tag/numerical-answers",
+            "/tag/set-theory"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/118330/gate-cse-2017-set-1-question-47",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/118330/gate-cse-2017-set-1-question-47",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "31",
+        "year": 2017,
+        "questionNumber": 31,
+        "subject": "Linear Algebra",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "Let $A$ be $n\\times n$ real valued square symmetric matrix of rank $2$ with $\\sum_{i=1}^{n}\\sum_{j=1}^{n}A^{2}_{ij} = 50.$ Consider the following statements.One eigenvalue must be in $\\left [ -5,5 \\right ]$The eigenvalue with the largest magnitude must be strictly greater than $5$Which of the above statements about eigenvalues of $A$ is/are necessarily CORRECT?Both I and III onlyII onlyNeither I nor II",
+        "options": [],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/mathematics/linear-algebra",
+            "/tag/gatecse-2017-set1",
+            "/tag/linear-algebra",
+            "/tag/eigen-value",
+            "/tag/normal"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/118312/gate-cse-2017-set-1-question-31",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/118312/gate-cse-2017-set-1-question-31",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "30",
+        "year": 2017,
+        "questionNumber": 30,
+        "subject": "Linear Algebra",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "Let $u$ and $v$ be two vectors in $\\mathbf{R}^{2}$ whose Euclidean norms satisfy $\\left \\| u \\right \\| = 2\\left \\| v \\right \\|$. What is the value of $\\alpha$ such that $w = u + \\alpha v$ bisects the angle between $u$ and $v$?",
+        "options": [
+            "$2$",
+            "$\\frac{1}{2}$",
+            "$1$",
+            "$\\frac{ -1}{2}$"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/mathematics/linear-algebra",
+            "/tag/gatecse-2017-set1",
+            "/tag/linear-algebra",
+            "/tag/normal",
+            "/tag/vector-space"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/118311/gate-cse-2017-set-1-question-30",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/118311/gate-cse-2017-set-1-question-30",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "29",
+        "year": 2017,
+        "questionNumber": 29,
+        "subject": "Mathematical Logic",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "Let $p$, $q$ and $r$ be propositions and the expression $\\left ( p\\rightarrow q \\right )\\rightarrow r$ be a contradiction. Then, the expression $\\left ( r\\rightarrow p \\right )\\rightarrow q$ is",
+        "options": [
+            "a tautology",
+            "a contradiction",
+            "always TRUE when $p$ is FALSE",
+            "always TRUE when $q$ is TRUE"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/mathematics/discrete-mathematics/mathematical-logic",
+            "/tag/gatecse-2017-set1",
+            "/tag/mathematical-logic",
+            "/tag/propositional-logic"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/118310/gate-cse-2017-set-1-question-29",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/118310/gate-cse-2017-set-1-question-29",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "28",
+        "year": 2017,
+        "questionNumber": 28,
+        "subject": "Calculus",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "The value of $\\displaystyle \\lim_{x\\rightarrow 1} \\frac{x^{7}-2x^{5}+1}{x^{3}-3x^{2}+2}$",
+        "options": [
+            "is $0$",
+            "is $-1$",
+            "is $1$",
+            "does not exist"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/mathematics/calculus",
+            "/tag/gatecse-2017-set1",
+            "/tag/calculus",
+            "/tag/limits",
+            "/tag/normal"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/118309/gate-cse-2017-set-1-question-28",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/118309/gate-cse-2017-set-1-question-28",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "19",
+        "year": 2017,
+        "questionNumber": 19,
+        "subject": "Probability",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "Let $X$ be a Gaussian random variable with mean 0 and variance $\\sigma ^{2}$. Let $Y$ = $\\max\\left ( X,0 \\right )$ where $\\max\\left ( a,b \\right )$ is the maximum of $a$ and $b$. The median of $Y$ is ______________ .",
+        "options": [],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/mathematics/probability",
+            "/tag/gatecse-2017-set1",
+            "/tag/probability",
+            "/tag/numerical-answers",
+            "/tag/normal-distribution"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/118299/gate-cse-2017-set-1-question-19",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/118299/gate-cse-2017-set-1-question-19",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "3",
+        "year": 2017,
+        "questionNumber": 3,
+        "subject": "Linear Algebra",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "Let $c_{1}.....c_{n}$ be scalars, not all zero, such that $\\sum_{i=1}^{n}c_{i}a_{i}$ = 0 where $a_{i}$ are column vectors in $R^{n}$.\n\nConsider the set of linear equations\n$Ax = b$\nwhere $A=\\left [ a_{1}.....a_{n} \\right ]$ and $b=\\sum_{i=1}^{n}a_{i}$. The set of equations has",
+        "options": [
+            "a unique solution at $x=J_{n}$ where $J_{n}$ denotes a $n$-dimensional vector of all 1.",
+            "no solution",
+            "infinitely many solutions",
+            "finitely many solutions"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/mathematics/linear-algebra",
+            "/tag/gatecse-2017-set1",
+            "/tag/linear-algebra",
+            "/tag/system-of-equations",
+            "/tag/normal"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/118282/gate-cse-2017-set-1-question-3",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/118282/gate-cse-2017-set-1-question-3",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "21",
+        "year": 2017,
+        "questionNumber": 21,
+        "subject": "Set Theory & Algebra",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "Consider the set  $X=\\{a, b, c, d, e\\}$  under partial ordering  $R=\\{(a,a), (a, b), (a, c), (a, d), (a, e), (b, b), (b, c), (b, e), (c, c), (c, e), (d, d), (d, e), (e, e) \\}$\nThe Hasse diagram of the partial order $(X, R)$ is shown below.",
+        "options": [
+            "The minimum number of ordered pairs that need to be added to $R$ to make $(X, R)$ a lattice is ______"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/mathematics/discrete-mathematics/set-theory%26algebra",
+            "/tag/gatecse-2017-set2",
+            "/tag/set-theory%26algebra",
+            "/tag/lattice",
+            "/tag/numerical-answers",
+            "/tag/normal"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/118278/gate-cse-2017-set-2-question-21",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/118278/gate-cse-2017-set-2-question-21",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "10",
+        "year": 2017,
+        "questionNumber": 10,
+        "subject": "Calculus",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "If $f(x) = R \\: \\sin ( \\frac{\\pi x}{2}) + S, f’\\left(\\frac{1}{2}\\right) = \\sqrt{2}$ and $\\int_0^1 f(x) dx = \\frac{2R}{\\pi}$, then the constants $R$ and $S$ are",
+        "options": [
+            "$\\frac{2}{\\pi}$ and $\\frac{16}{\\pi}$",
+            "$\\frac{2}{\\pi}$ and 0",
+            "$\\frac{4}{\\pi}$ and 0",
+            "$\\frac{4}{\\pi}$ and $\\frac{16}{\\pi}$"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/mathematics/calculus",
+            "/tag/gatecse-2017-set2",
+            "/tag/engineering-mathematics",
+            "/tag/calculus",
+            "/tag/differentiation"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/118262/gate-cse-2017-set-2-question-10",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/118262/gate-cse-2017-set-2-question-10",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "24",
+        "year": 2017,
+        "questionNumber": 24,
+        "subject": "Set Theory & Algebra",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "Consider the quadratic equation $x^2-13x+36=0$ with coefficients in a base $b$. The solutions of this equation in the same base $b$ are $x=5$ and $x=6$. Then $b=$ _____",
+        "options": [],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/mathematics/discrete-mathematics/set-theory%26algebra",
+            "/tag/gatecse-2017-set2",
+            "/tag/polynomials",
+            "/tag/numerical-answers",
+            "/tag/set-theory%26algebra"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/118185/gate-cse-2017-set-2-question-24",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/118185/gate-cse-2017-set-2-question-24",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "11",
+        "year": 2017,
+        "questionNumber": 11,
+        "subject": "Mathematical Logic",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "Let $p, q, r$ denote the statements ”It is raining”, “It is cold”, and “It is pleasant”, respectively. Then the statement “It is not raining and it is pleasant, and it is not pleasant only if it is raining and it is cold” is represented by",
+        "options": [
+            "$(\\neg p \\wedge r) \\wedge (\\neg r \\rightarrow (p \\wedge q))$",
+            "$(\\neg p \\wedge r) \\wedge ((p \\wedge q) \\rightarrow  \\neg r)$",
+            "$(\\neg p \\wedge r) \\vee ((p \\wedge q) \\rightarrow  \\neg r)$",
+            "$(\\neg p \\wedge r) \\vee (r \\rightarrow (p \\wedge q))$"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/mathematics/discrete-mathematics/mathematical-logic",
+            "/tag/gatecse-2017-set2",
+            "/tag/mathematical-logic",
+            "/tag/propositional-logic"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/118151/gate-cse-2017-set-2-question-11",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/118151/gate-cse-2017-set-2-question-11",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "iii",
+        "year": null,
+        "questionNumber": null,
+        "subject": "Linear Algebra",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "If $x \\| \\underline{x} \\| \\infty = 1< i^{max} < n \\: \\: max \\: \\: ( \\mid x1 \\mid ) $ for the vector $\\underline{x} = (x1, x2 \\dots x_n)$ and $\\| A \\| \\infty = x^{Sup} \\frac{\\| A \\underline{x} \\| \\infty}{\\| \\underline{x} \\| \\infty}$ is the corresponding matrix norm, calculate $\\| A \\|_o$ for the matrix $A=\\begin{bmatrix} 2 & 5 & 9 \\\\ 4 & 6 & 5 \\\\ 8 & 2 & 3 \\end{bmatrix}$ using a known property of this norm.",
+        "options": [
+            "Although this norm is very easy to calculate for any matrix, explain why the condition number is difficult (i.e. expensive) to calculate."
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/mathematics/linear-algebra",
+            "/tag/gate1988",
+            "/tag/linear-algebra",
+            "/tag/descriptive",
+            "/tag/matrix",
+            "/tag/out-of-gatecse-syllabus"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/94646/gate-cse-1988-question-16ii-iii",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/94646/gate-cse-1988-question-16ii-iii",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "16i",
+        "year": null,
+        "questionNumber": null,
+        "subject": "Linear Algebra",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "Assume that the matrix $A$ given below, has factorization of the form $LU=PA$, where $L$ is lower-triangular with all diagonal elements equal to $1, U$ is upper-triangular, and $P$ is a permutation matrix. For\n\n$$A = \\begin{bmatrix} 2 & 5 & 9 \\\\ 4 & 6 & 5 \\\\ 8 & 2 & 3 \\end{bmatrix}$$",
+        "options": [
+            "Compute $L, U,$ and $P$ using Gaussian elimination with partial pivoting."
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/mathematics/linear-algebra",
+            "/tag/gate1988",
+            "/tag/normal",
+            "/tag/descriptive",
+            "/tag/linear-algebra",
+            "/tag/matrix"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/94644/gate-cse-1988-question-16i",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/94644/gate-cse-1988-question-16i",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "14ii",
+        "year": null,
+        "questionNumber": null,
+        "subject": "Mathematical Logic",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "Consider the following well-formed formula:\n\n$\\exists x \\forall y [ \\neg \\exists z [ p (y, z) \\wedge p (z, y) ] \\equiv p(x,y)]$",
+        "options": [
+            "Show using resolution principle that the well-formed formula, given above, cannot be satisfied for any interpretation."
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/mathematics/discrete-mathematics/mathematical-logic",
+            "/tag/gate1988",
+            "/tag/descriptive",
+            "/tag/first-order-logic",
+            "/tag/clausal-form",
+            "/tag/out-of-gatecse-syllabus"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/94640/gate-cse-1988-question-14ii",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/94640/gate-cse-1988-question-14ii",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "14i",
+        "year": null,
+        "questionNumber": null,
+        "subject": "Mathematical Logic",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "Consider the following well-formed formula:\n\n$\\exists x \\forall y [ \\neg \\: \\exists z [ p (y, z) \\wedge p (z, y) ] \\equiv p(x,y)]$",
+        "options": [
+            "Express the above well-formed formula in clausal form."
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/mathematics/discrete-mathematics/mathematical-logic",
+            "/tag/gate1988",
+            "/tag/descriptive",
+            "/tag/first-order-logic",
+            "/tag/clausal-form",
+            "/tag/out-of-gatecse-syllabus"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/94639/gate-cse-1988-question-14i",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/94639/gate-cse-1988-question-14i",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "13iii",
+        "year": null,
+        "questionNumber": null,
+        "subject": "Graph Theory",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "Are the two digraphs shown in the above figure isomorphic? Justify your answer.",
+        "options": [],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/mathematics/discrete-mathematics/graph-theory",
+            "/tag/normal",
+            "/tag/gate1988",
+            "/tag/descriptive",
+            "/tag/graph-theory",
+            "/tag/graph-isomorphism",
+            "/tag/out-of-gatecse-syllabus"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/94636/gate-cse-1988-question-13iii",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/94636/gate-cse-1988-question-13iii",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "13ii",
+        "year": null,
+        "questionNumber": null,
+        "subject": "Set Theory & Algebra",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "If the set $S$ has a finite number of elements, prove that if $f$ maps $S$ onto $S$, then $f$ is one-to-one.",
+        "options": [],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/mathematics/discrete-mathematics/set-theory%26algebra",
+            "/tag/gate1988",
+            "/tag/descriptive",
+            "/tag/set-theory%26algebra",
+            "/tag/functions"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/94634/gate-cse-1988-question-13ii",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/94634/gate-cse-1988-question-13ii",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "13ic",
+        "year": null,
+        "questionNumber": null,
+        "subject": "Set Theory & Algebra",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "Verify whether the following mapping is a homomorphism. If so, determine its kernel.",
+        "options": [
+            "$f(x)=x^3$, for all $x$ belonging to $G$."
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/mathematics/discrete-mathematics/set-theory%26algebra",
+            "/tag/gate1988",
+            "/tag/normal",
+            "/tag/descriptive",
+            "/tag/group-theory",
+            "/tag/group-homomorphism",
+            "/tag/out-of-gatecse-syllabus"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/94633/gate-cse-1988-question-13ic",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/94633/gate-cse-1988-question-13ic",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "13ib",
+        "year": null,
+        "questionNumber": null,
+        "subject": "Graph Theory",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "Verify whether the following mapping is a homomorphism. If so, determine its kernel.",
+        "options": [
+            "$\\overline{G}=G$"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/mathematics/discrete-mathematics/graph-theory",
+            "/tag/gate1988",
+            "/tag/normal",
+            "/tag/descriptive",
+            "/tag/group-theory",
+            "/tag/group-homomorphism",
+            "/tag/out-of-gatecse-syllabus"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/94631/gate-cse-1988-question-13ib",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/94631/gate-cse-1988-question-13ib",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "13ia",
+        "year": null,
+        "questionNumber": null,
+        "subject": "Set Theory & Algebra",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "Verify whether the following mapping is a homomorphism. If so, determine its kernel.",
+        "options": [
+            "$G$ is the group of non zero real numbers under multiplication."
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/mathematics/discrete-mathematics/set-theory%26algebra",
+            "/tag/gate1988",
+            "/tag/normal",
+            "/tag/descriptive",
+            "/tag/group-theory",
+            "/tag/group-homomorphism",
+            "/tag/out-of-gatecse-syllabus"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/94630/gate-cse-1988-question-13ia",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/94630/gate-cse-1988-question-13ia",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "2xviii",
+        "year": null,
+        "questionNumber": null,
+        "subject": "Set Theory & Algebra",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "Show that if $G$ is a group such that $(a* b)^2 = a^2*b^2$ for all $a, b$ belonging to $G$, then $G$ is an abelian.",
+        "options": [],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/mathematics/discrete-mathematics/set-theory%26algebra",
+            "/tag/gate1988",
+            "/tag/descriptive",
+            "/tag/group-theory"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/94353/gate-cse-1988-question-2xviii",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/94353/gate-cse-1988-question-2xviii",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "2xvi",
+        "year": null,
+        "questionNumber": null,
+        "subject": "Graph Theory",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "Write the adjacency matrix representation of the graph given in below figure.",
+        "options": [],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/mathematics/discrete-mathematics/graph-theory",
+            "/tag/gate1988",
+            "/tag/descriptive",
+            "/tag/graph-theory",
+            "/tag/graph-connectivity"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/94340/gate-cse-1988-question-2xvi",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/94340/gate-cse-1988-question-2xvi",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "2vii",
+        "year": null,
+        "questionNumber": null,
+        "subject": "Mathematical Logic",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "Define the validity of a well-formed formula(wff)?",
+        "options": [],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/mathematics/discrete-mathematics/mathematical-logic",
+            "/tag/gate1988",
+            "/tag/descriptive",
+            "/tag/mathematical-logic",
+            "/tag/propositional-logic"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/93947/gate-cse-1988-question-2vii",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/93947/gate-cse-1988-question-2vii",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "14a",
+        "year": null,
+        "questionNumber": null,
+        "subject": "Mathematical Logic",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "Symbolize the expression \"Every mother loves her children\" in predicate logic.",
+        "options": [],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/mathematics/discrete-mathematics/mathematical-logic",
+            "/tag/gate1989",
+            "/tag/descriptive",
+            "/tag/first-order-logic",
+            "/tag/mathematical-logic"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/93179/gate-cse-1989-question-14a",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/93179/gate-cse-1989-question-14a",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "13c",
+        "year": null,
+        "questionNumber": null,
+        "subject": "Set Theory & Algebra",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "Find the number of single valued functions from set $A$ to another set $B,$ given that the cardinalities of the sets $A$ and $B$ are $m$ and $n$ respectively.",
+        "options": [],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/mathematics/discrete-mathematics/set-theory%26algebra",
+            "/tag/gate1989",
+            "/tag/descriptive",
+            "/tag/functions",
+            "/tag/set-theory%26algebra"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/93178/gate-cse-1989-question-13c",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/93178/gate-cse-1989-question-13c",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "2iv",
+        "year": null,
+        "questionNumber": null,
+        "subject": "Set Theory & Algebra",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "Give one property of the field of real numbers which no longer holds when we compute using finite-precision floating point numbers.",
+        "options": [],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/mathematics/discrete-mathematics/set-theory%26algebra",
+            "/tag/gate1988",
+            "/tag/descriptive",
+            "/tag/set-theory%26algebra",
+            "/tag/fields",
+            "/tag/out-of-gatecse-syllabus"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/91681/gate-cse-1988-question-2iv",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/91681/gate-cse-1988-question-2iv",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "1vii",
+        "year": null,
+        "questionNumber": null,
+        "subject": "Set Theory & Algebra",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "The complement(s) of the element $'a'$ in the lattice shown in below figure is (are) ____",
+        "options": [],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/mathematics/discrete-mathematics/set-theory%26algebra",
+            "/tag/gate1988",
+            "/tag/descriptive",
+            "/tag/lattice",
+            "/tag/set-theory%26algebra"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/91351/gate-cse-1988-question-1vii",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/91351/gate-cse-1988-question-1vii",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "viii",
+        "year": null,
+        "questionNumber": null,
+        "subject": "Probability",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "$P_{n} (t)$ is the probability of $n$ events occurring during a time interval $t$. How will you express $P_{0} (t + h)$ in terms of $P_{0} (h)$, if $P_{0} (t)$ has stationary independent increments? (Note: $P_{t} (t)$is the probability density function).",
+        "options": [],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/mathematics/probability",
+            "/tag/gate1989",
+            "/tag/descriptive",
+            "/tag/probability",
+            "/tag/poisson-distribution"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/88156/gate-cse-1989-question-4-viii",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/88156/gate-cse-1989-question-4-viii",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "i",
+        "year": null,
+        "questionNumber": null,
+        "subject": "Combinatory",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "How many substrings (of all lengths inclusive) can be formed from a character string of length $n$? Assume all characters to be distinct, prove your answer.",
+        "options": [],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/mathematics/discrete-mathematics/combinatory",
+            "/tag/gate1989",
+            "/tag/descriptive",
+            "/tag/combinatory",
+            "/tag/normal",
+            "/tag/proof"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/87874/gate-cse-1989-question-4-i",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/87874/gate-cse-1989-question-4-i",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "vii",
+        "year": null,
+        "questionNumber": null,
+        "subject": "Probability",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "Which of the following statements are FALSE?",
+        "options": [
+            "For poisson distribution, the mean is twice the variance.",
+            "In queuing theory, if arrivals occur according to poisson distribution, then the inter-arrival time is exponentially distributed.",
+            "The distribution of waiting time is independent of the service discipline used in selecting the waiting customers for service.",
+            "If the time between successive arrivals is exponential, then the time between the occurences of every third arrival is also exponential."
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/mathematics/probability",
+            "/tag/gate1989",
+            "/tag/normal",
+            "/tag/probability",
+            "/tag/poisson-distribution",
+            "/tag/queuing-theory",
+            "/tag/out-of-gatecse-syllabus"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/87141/gate-cse-1989-question-3-vii",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/87141/gate-cse-1989-question-3-vii",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "vi",
+        "year": null,
+        "questionNumber": null,
+        "subject": "Graph Theory",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "Which of the following graphs is/are planar?",
+        "options": [],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/mathematics/discrete-mathematics/graph-theory",
+            "/tag/gate1989",
+            "/tag/normal",
+            "/tag/graph-theory",
+            "/tag/graph-planarity",
+            "/tag/descriptive"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/87129/gate-cse-1989-question-3-vi",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/87129/gate-cse-1989-question-3-vi",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "v",
+        "year": null,
+        "questionNumber": null,
+        "subject": "Mathematical Logic",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "Which of the following well-formed formulas are equivalent?",
+        "options": [
+            "$P \\rightarrow Q$",
+            "$\\neg Q \\rightarrow \\neg P$",
+            "$\\neg P \\vee Q$",
+            "$\\neg Q \\rightarrow P$"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/mathematics/discrete-mathematics/mathematical-logic",
+            "/tag/gate1989",
+            "/tag/normal",
+            "/tag/mathematical-logic",
+            "/tag/propositional-logic",
+            "/tag/multiple-selects"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/87126/gate-cse-1989-question-3-v",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/87126/gate-cse-1989-question-3-v",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "v",
+        "year": null,
+        "questionNumber": null,
+        "subject": "Set Theory & Algebra",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "The number of possible commutative binary operations that can be defined on a set of $n$ elements (for a given $n$) is ___________.",
+        "options": [],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/mathematics/discrete-mathematics/set-theory%26algebra",
+            "/tag/gate1989",
+            "/tag/descriptive",
+            "/tag/set-theory%26algebra",
+            "/tag/binary-operation"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/87051/gate-cse-1989-question-1-v",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/87051/gate-cse-1989-question-1-v",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "iv",
+        "year": null,
+        "questionNumber": null,
+        "subject": "Set Theory & Algebra",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "The transitive closure of the relation $\\left\\{(1, 2), (2, 3), (3, 4), (5, 4)\\right\\}$ on the set $\\left\\{1, 2, 3, 4, 5\\right\\}$ is ___________.",
+        "options": [],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/mathematics/discrete-mathematics/set-theory%26algebra",
+            "/tag/gate1989",
+            "/tag/set-theory%26algebra",
+            "/tag/relations",
+            "/tag/descriptive"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/87048/gate-cse-1989-question-1-iv",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/87048/gate-cse-1989-question-1-iv",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "17c",
+        "year": null,
+        "questionNumber": null,
+        "subject": "Set Theory & Algebra",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "Show that the elements of the lattice $(N, \\leq)$, where $N$ is the set of positive intergers and $a \\leq b$ if and only if $a$ divides $b$, satisfy the distributive property.",
+        "options": [],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/mathematics/discrete-mathematics/set-theory%26algebra",
+            "/tag/gate1990",
+            "/tag/descriptive",
+            "/tag/set-theory%26algebra",
+            "/tag/lattice"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/86884/gate-cse-1990-question-17c",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/86884/gate-cse-1990-question-17c",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "17b",
+        "year": null,
+        "questionNumber": null,
+        "subject": "Mathematical Logic",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "Show, using resolution, that the following well-formed formula is valid for all interpretations:",
+        "options": [
+            "$\\left(\\forall x \\forall y \\left(f \\left(x, y \\right) \\Leftarrow \\neg y \\left(y, x \\right) = \\left(\\forall x \\left(f \\left(x, x \\right)\\right)$"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/mathematics/discrete-mathematics/mathematical-logic",
+            "/tag/gate1990",
+            "/tag/descriptive",
+            "/tag/first-order-logic",
+            "/tag/bad-question"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/86883/gate-cse-1990-question-17b",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/86883/gate-cse-1990-question-17b",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "xi",
+        "year": null,
+        "questionNumber": null,
+        "subject": "Graph Theory",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "A graph is planar if and only if,",
+        "options": [
+            "It does not contain a subgraph homeomorphic to $k_{5}$ and $k_{3, 3}$.",
+            "It does not contain a subgraph isomorphic to $k_{5}$ and $k_{3, 3}$.",
+            "It does not contain a subgraph isomorphic to $k_{5}$ or $k_{3, 3}$",
+            "It does not contain a subgraph homeomorphic to $k_{5}$ or $k_{3, 3}$."
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/mathematics/discrete-mathematics/graph-theory",
+            "/tag/gate1990",
+            "/tag/normal",
+            "/tag/graph-theory",
+            "/tag/graph-planarity",
+            "/tag/multiple-selects"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/85384/gate-cse-1990-question-3-xi",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/85384/gate-cse-1990-question-3-xi",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "x",
+        "year": null,
+        "questionNumber": null,
+        "subject": "Mathematical Logic",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "Indicate which of the following well-formed formulae are valid:",
+        "options": [
+            "$\\left(P\\Rightarrow Q\\right) {\\wedge} \\left(Q \\Rightarrow R\\right) \\Rightarrow \\left(P \\Rightarrow R\\right)$",
+            "$\\left(P\\Rightarrow Q\\right) \\Rightarrow \\left( \\neg P \\Rightarrow \\neg Q\\right)$",
+            "$\\left(P{\\wedge} \\left(\\neg P \\vee  \\neg Q\\right)\\right) \\Rightarrow Q$",
+            "$\\left(P \\Rightarrow R\\right) \\vee \\left(Q \\Rightarrow R\\right) \\Rightarrow \\left(\\left(P \\vee Q \\right)  \\Rightarrow R\\right)$"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/mathematics/discrete-mathematics/mathematical-logic",
+            "/tag/gate1990",
+            "/tag/normal",
+            "/tag/mathematical-logic",
+            "/tag/propositional-logic",
+            "/tag/multiple-selects"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/84861/gate-cse-1990-question-3-x",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/84861/gate-cse-1990-question-3-x",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "ix",
+        "year": null,
+        "questionNumber": null,
+        "subject": "Combinatory",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "The number of ways in which $5\\; A's, 5\\; B's$ and $5\\; C's$ can be arranged in a row is:",
+        "options": [
+            "$15!/(5!)^{3}$",
+            "$15!$",
+            "$\\left(\\frac{15}{5}\\right)$",
+            "$15!(5!3!)$."
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/mathematics/discrete-mathematics/combinatory",
+            "/tag/gate1990",
+            "/tag/normal",
+            "/tag/combinatory"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/84841/gate-cse-1990-question-3-ix",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/84841/gate-cse-1990-question-3-ix",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    }
+]

@@ -1,0 +1,1671 @@
+[
+    {
+        "id": "2",
+        "year": null,
+        "questionNumber": 2,
+        "subject": "Calculus",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "The value of $x$ such that $x > 1$, satisfying the equation $$\\int_{1}^{x} t \\ln t \\, dt = \\frac{1}{4}$$$\\sqrt{e}$$e$$e^2$$e-1$",
+        "options": [],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/mathematics/calculus",
+            "/tag/engineering-mathematics",
+            "/tag/calculus",
+            "/tag/one-mark",
+            "/tag/easy"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/459987/gate-cse-2025-set-2-question-2",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/459987/gate-cse-2025-set-2-question-2",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "1",
+        "year": null,
+        "questionNumber": 1,
+        "subject": "Linear Algebra",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "If $A = \\begin{pmatrix} 1 & 2 \\\\ 2 & -1 \\end{pmatrix}$, then which ONE of the following is $A^8$ ?$\\begin{pmatrix} 25 & 0 \\\\ 0 & 25 \\end{pmatrix}$$\\begin{pmatrix} 125 & 0 \\\\ 0 & 125 \\end{pmatrix}$$\\begin{pmatrix} 625 & 0 \\\\ 0 & 625 \\end{pmatrix}$$\\begin{pmatrix} 3125 & 0 \\\\ 0 & 3125 \\end{pmatrix}$",
+        "options": [],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/mathematics/linear-algebra",
+            "/tag/easy",
+            "/tag/linear-algebra",
+            "/tag/one-mark"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/459986/gate-cse-2025-set-2-question-1",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/459986/gate-cse-2025-set-2-question-1",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "2",
+        "year": 2024,
+        "questionNumber": 2,
+        "subject": "Mathematical Logic",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "​​​​Let $p$ and $q$ be the following propositions:$p$ : Fail grade can be given.$q$ : Student scores more than $50 \\%$ marks.Consider the statement: \"Fail grade cannot be given when student scores more than $50 \\%$ marks.\"Which one of the following is the CORRECT representation of the above statement in propositional logic? $q \\rightarrow \\neg p$ $q \\rightarrow p$ $p \\rightarrow q$ $\\neg p \\rightarrow q$",
+        "options": [],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/mathematics/discrete-mathematics/mathematical-logic",
+            "/tag/gatecse2024-set2",
+            "/tag/mathematical-logic",
+            "/tag/propositional-logic",
+            "/tag/one-mark"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/422895/gate-cse-2024-set-2-question-2",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/422895/gate-cse-2024-set-2-question-2",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "6",
+        "year": 2024,
+        "questionNumber": 6,
+        "subject": "Calculus",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "​​​​​Let $f(x)$ be a continuous function from $\\mathbb{R}$ to $\\mathbb{R}$ such that\\[f(x)=1-f(2-x)\\]Which one of the following options is the CORRECT value of $\\int_{0}^{2} f(x) d x$ ?$0$$1$$2$$-1$",
+        "options": [],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/mathematics/calculus",
+            "/tag/gatecse2024-set2",
+            "/tag/calculus",
+            "/tag/definite-integral",
+            "/tag/one-mark"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/422891/gate-cse-2024-set-2-question-6",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/422891/gate-cse-2024-set-2-question-6",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "7",
+        "year": 2024,
+        "questionNumber": 7,
+        "subject": "Graph Theory",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "​​​​Let $\\text{A}$ be the adjacency matrix of a simple undirected graph $\\text{G}$. Suppose $\\text{A}$ is its own inverse. Which one of the following statements is always TRUE?$\\text{G}$ is a cycle$\\text{G}$ is a perfect matching$\\text{G}$ is a complete graphThere is no such graph $\\text{G}$",
+        "options": [],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/mathematics/discrete-mathematics/graph-theory",
+            "/tag/gatecse2024-set2",
+            "/tag/graph-theory",
+            "/tag/graph-connectivity",
+            "/tag/one-mark"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/422890/gate-cse-2024-set-2-question-7",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/422890/gate-cse-2024-set-2-question-7",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "8",
+        "year": 2024,
+        "questionNumber": 8,
+        "subject": "Probability",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "​​​​​​When six unbiased dice are rolled simultaneously, the probability of getting all distinct numbers $(i.e., 1, 2, 3, 4, 5, \\text{and }   6)$ is$\\dfrac{1}{324}$$\\dfrac{5}{324}$$\\dfrac{7}{324}$$\\dfrac{11}{324}$",
+        "options": [],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/mathematics/probability",
+            "/tag/gatecse2024-set2",
+            "/tag/probability",
+            "/tag/one-mark"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/422889/gate-cse-2024-set-2-question-8",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/422889/gate-cse-2024-set-2-question-8",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "24",
+        "year": 2024,
+        "questionNumber": 24,
+        "subject": "Set Theory & Algebra",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "Let $\\text{P}$ be the partial order defined on the set $\\{1,2,3,4\\}$ as follows\n\\[\nP=\\{(x, x) \\mid x \\in\\{1,2,3,4\\}\\} \\cup\\{(1,2),(3,2),(3,4)\\}\n\\]",
+        "options": [
+            "The number of total orders on $\\{1,2,3,4\\}$ that contain $\\text{P}$ is __________."
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/mathematics/discrete-mathematics/set-theory%26algebra",
+            "/tag/gatecse2024-set2",
+            "/tag/numerical-answers",
+            "/tag/set-theory%26algebra",
+            "/tag/partial-order",
+            "/tag/one-mark"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/422873/gate-cse-2024-set-2-question-24",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/422873/gate-cse-2024-set-2-question-24",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "34",
+        "year": 2024,
+        "questionNumber": 34,
+        "subject": "Probability",
+        "topic": "two-marks",
+        "questionType": "multiple-choice",
+        "question": "Let $x$ and $y$ be random variables, not necessarily independent, that take real values in the interval $[0,1]$. Let $z=x y$ and let the mean values of $x, y, z$ be $\\bar{x}, \\bar{y}, \\bar{z}$, respectively. Which one of the following statements is TRUE?$\\bar{z}=\\bar{x} \\bar{y}$$\\bar{z} \\leq \\bar{x} \\bar{y}$$\\bar{z} \\geq \\bar{x} \\bar{y}$$\\bar{z} \\leq \\bar{x}$",
+        "options": [],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": "two-marks",
+        "marks": null,
+        "tags": [
+            "/mathematics/probability",
+            "/tag/gatecse2024-set2",
+            "/tag/probability",
+            "/tag/random-variable",
+            "/tag/statistics",
+            "/tag/two-marks"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/422863/gate-cse-2024-set-2-question-34",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/422863/gate-cse-2024-set-2-question-34",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "37",
+        "year": 2024,
+        "questionNumber": 37,
+        "subject": "Linear Algebra",
+        "topic": "two-marks",
+        "questionType": "multiple-choice",
+        "question": "​​​​​Let $A$ be an $n \\times n$ matrix over the set of all real numbers $\\mathbb{R}$. Let $B$ be a matrix obtained from $A$ by swapping two rows. Which of the following statements is/are TRUE?The determinant of $B$ is the negative of the determinant of $A$If $A$ is invertible, then $B$ is also invertibleIf $A$ is symmetric, then $B$ is also symmetricIf the trace of $A$ is zero, then the trace of $B$ is also zero",
+        "options": [],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": "two-marks",
+        "marks": null,
+        "tags": [
+            "/mathematics/linear-algebra",
+            "/tag/gatecse2024-set2",
+            "/tag/linear-algebra",
+            "/tag/multiple-selects",
+            "/tag/matrix",
+            "/tag/determinant",
+            "/tag/two-marks"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/422860/gate-cse-2024-set-2-question-37",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/422860/gate-cse-2024-set-2-question-37",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "41",
+        "year": 2024,
+        "questionNumber": 41,
+        "subject": "Graph Theory",
+        "topic": "two-marks",
+        "questionType": "multiple-choice",
+        "question": "Let $\\text{G}$ be an undirected connected graph in which every edge has a positive integer weight. Suppose that every spanning tree in $\\text{G}$ has even weight. Which of the following statements is/are TRUE for every such graph $\\text{G}$?All edges in $\\text{G}$ have even weightAll edges in $\\text{G}$ have even weight $\\mathbf{O R}$ all edges in $\\text{G}$ have odd weightIn each cycle $\\text{C}$ in $\\text{G}$, all edges in $\\text{C}$ have even weightIn each cycle $\\text{C}$ in $\\text{G}$, either all edges in $\\text{C}$ have even weight $\\text{OR}$ all edges in $\\text{C}$ have odd weight",
+        "options": [],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": "two-marks",
+        "marks": null,
+        "tags": [
+            "/mathematics/discrete-mathematics/graph-theory",
+            "/tag/gatecse2024-set2",
+            "/tag/graph-theory",
+            "/tag/multiple-selects",
+            "/tag/graph-connectivity",
+            "/tag/two-marks"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/422856/gate-cse-2024-set-2-question-41",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/422856/gate-cse-2024-set-2-question-41",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "50",
+        "year": 2024,
+        "questionNumber": 50,
+        "subject": "Graph Theory",
+        "topic": "two-marks",
+        "questionType": "multiple-choice",
+        "question": "The chromatic number of a graph is the minimum number of colours used in a proper colouring of the graph. The chromatic number of the following graph is __________.",
+        "options": [],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": "two-marks",
+        "marks": null,
+        "tags": [
+            "/mathematics/discrete-mathematics/graph-theory",
+            "/tag/gatecse2024-set2",
+            "/tag/graph-theory",
+            "/tag/numerical-answers",
+            "/tag/graph-coloring",
+            "/tag/two-marks"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/422847/gate-cse-2024-set-2-question-50",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/422847/gate-cse-2024-set-2-question-50",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "53",
+        "year": 2024,
+        "questionNumber": 53,
+        "subject": "Set Theory & Algebra",
+        "topic": "two-marks",
+        "questionType": "multiple-choice",
+        "question": "Let $Z_{n}$ be the group of integers $\\{0,1,2, \\ldots, n-1\\}$ with addition modulo $n$ as the group operation. The number of elements in the group $Z_{2} \\times Z_{3} \\times Z_{4}$ that are their own inverses is ___________.",
+        "options": [],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": "two-marks",
+        "marks": null,
+        "tags": [
+            "/mathematics/discrete-mathematics/set-theory%26algebra",
+            "/tag/gatecse2024-set2",
+            "/tag/numerical-answers",
+            "/tag/set-theory%26algebra",
+            "/tag/group-theory",
+            "/tag/two-marks"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/422844/gate-cse-2024-set-2-question-53",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/422844/gate-cse-2024-set-2-question-53",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "1",
+        "year": 2024,
+        "questionNumber": 1,
+        "subject": "Calculus",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "Let $f: \\mathbb{R} \\rightarrow \\mathbb{R}$ be a function such that $f(x)=\\max \\left\\{x, x^3\\right\\}, x \\in \\mathbb{R}$, where $\\mathbb{R}$ is the set of all real numbers. The set of all points where $f(x)$ is NOT differentiable is$\\{-1,1,2\\}$$\\{-2,-1,1\\}$$\\{0,1\\}$$\\{-1,0,1\\}$",
+        "options": [],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/mathematics/calculus",
+            "/tag/gatecse2024-set1",
+            "/tag/calculus",
+            "/tag/differentiation",
+            "/tag/one-mark"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/422841/gate-cse-2024-set-1-question-1",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/422841/gate-cse-2024-set-1-question-1",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "2",
+        "year": 2024,
+        "questionNumber": 2,
+        "subject": "Linear Algebra",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "The product of all eigenvalues of the matrix $\\left[\\begin{array}{lll}1 & 2 & 3 \\\\ 4 & 5 & 6 \\\\ 7 & 8 & 9\\end{array}\\right]$ is$-1$$0$$1$$2$",
+        "options": [],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/mathematics/linear-algebra",
+            "/tag/gatecse2024-set1",
+            "/tag/linear-algebra",
+            "/tag/eigen-value",
+            "/tag/one-mark"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/422840/gate-cse-2024-set-1-question-2",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/422840/gate-cse-2024-set-1-question-2",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "4",
+        "year": 2024,
+        "questionNumber": 4,
+        "subject": "Probability",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "Consider a permutation sampled uniformly at random from the set of all permutations of $\\{1,2,3, \\cdots, n\\}$ for some $n \\geq 4$. Let $X$ be the event that $1$ occurs before $2$ in the permutation, and $Y$ the event that $3$ occurs before $4$. Which one of the following statements is TRUE?The events $X$ and $Y$ are mutually exclusiveThe events $X$ and $Y$ are independentEither event $X$ or $Y$ must occurEvent $X$ is more likely than event $Y$",
+        "options": [],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/mathematics/probability",
+            "/tag/gatecse2024-set1",
+            "/tag/probability",
+            "/tag/uniform-distribution",
+            "/tag/one-mark"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/422838/gate-cse-2024-set-1-question-4",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/422838/gate-cse-2024-set-1-question-4",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "17",
+        "year": 2024,
+        "questionNumber": 17,
+        "subject": "Probability",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "Let $A$ and $B$ be two events in a probability space with $P(A)=0.3, P(B)=0.5$, and $P(A \\cap B)=0.1$. Which of the following statements is/are TRUE?The two events $A$ and $B$ are independent$P(A \\cup B)=0.7$$P\\left(A \\cap B^c\\right)=0.2$, where $B^c$ is the complement of the event $B$ $P\\left(A^c \\cap B^c\\right)=0.4$, where $A^c$ and $B^c$ are the complements of the events $A$ and $B$, respectively",
+        "options": [],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/mathematics/probability",
+            "/tag/gatecse2024-set1",
+            "/tag/multiple-selects",
+            "/tag/probability",
+            "/tag/one-mark"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/422825/gate-cse-2024-set-1-question-17",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/422825/gate-cse-2024-set-1-question-17",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "22",
+        "year": 2024,
+        "questionNumber": 22,
+        "subject": "Set Theory & Algebra",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "Let $A$ and $B$ be non-empty finite sets such that there exist one-to-one and onto functions $\\text{(i)}$ from $A$ to $B$ and $\\text{(ii)}$ from $A \\times A$ to $A \\cup B$. The number of possible values of $\\text{|A|}$ is ___________.",
+        "options": [],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/mathematics/discrete-mathematics/set-theory%26algebra",
+            "/tag/gatecse2024-set1",
+            "/tag/numerical-answers",
+            "/tag/set-theory%26algebra",
+            "/tag/functions",
+            "/tag/one-mark"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/422820/gate-cse-2024-set-1-question-22",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/422820/gate-cse-2024-set-1-question-22",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "24",
+        "year": 2024,
+        "questionNumber": 24,
+        "subject": "Graph Theory",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "The number of spanning trees in a complete graph of $4$ vertices labelled $\\text{A, B, C,}$ and $\\text{D}$ is _________.",
+        "options": [],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/mathematics/discrete-mathematics/graph-theory",
+            "/tag/gatecse2024-set1",
+            "/tag/numerical-answers",
+            "/tag/graph-theory",
+            "/tag/graph-connectivity",
+            "/tag/one-mark"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/422818/gate-cse-2024-set-1-question-24",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/422818/gate-cse-2024-set-1-question-24",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "39",
+        "year": 2024,
+        "questionNumber": 39,
+        "subject": "Linear Algebra",
+        "topic": "two-marks",
+        "questionType": "multiple-choice",
+        "question": "​​Let $A$ be any $n \\times m$ matrix, where $m>n$. Which of the following statements is/are TRUE about the system of linear equations $Ax=0$?There exist at least $m-n$ linearly independent solutions to this systemThere exist $m-n$ linearly independent vectors such that every solution is a linear combination of these vectorsThere exists a non-zero solution in which at least $m-n$ variables are $0$There exists a solution in which at least $n$ variables are non-zero",
+        "options": [],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": "two-marks",
+        "marks": null,
+        "tags": [
+            "/mathematics/linear-algebra",
+            "/tag/gatecse2024-set1",
+            "/tag/multiple-selects",
+            "/tag/linear-algebra",
+            "/tag/system-of-equations",
+            "/tag/two-marks"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/422803/gate-cse-2024-set-1-question-39",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/422803/gate-cse-2024-set-1-question-39",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "41",
+        "year": 2024,
+        "questionNumber": 41,
+        "subject": "Graph Theory",
+        "topic": "two-marks",
+        "questionType": "multiple-choice",
+        "question": "​​​The chromatic number of a graph is the minimum number of colours used in a proper colouring of the graph. Let $G$ be any graph with $n$ vertices and chromatic number $k$. Which of the following statements is/are always TRUE?$G$ contains a complete subgraph with $k$ vertices$G$ contains an independent set of size at least $n/k$$G$ contains at least $k(k-1) / 2$ edges$G$ contains a vertex of degree at least $k$",
+        "options": [],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": "two-marks",
+        "marks": null,
+        "tags": [
+            "/mathematics/discrete-mathematics/graph-theory",
+            "/tag/gatecse2024-set1",
+            "/tag/multiple-selects",
+            "/tag/graph-theory",
+            "/tag/graph-coloring",
+            "/tag/two-marks"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/422801/gate-cse-2024-set-1-question-41",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/422801/gate-cse-2024-set-1-question-41",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "42",
+        "year": 2024,
+        "questionNumber": 42,
+        "subject": "Set Theory & Algebra",
+        "topic": "two-marks",
+        "questionType": "multiple-choice",
+        "question": "Consider the operators $\\diamond$ and $\\square$ defined by $a \\diamond b=a+2 b, a \\square b=a b$, for positive integers. Which of the following statements is/are TRUE?Operator $\\diamond$ obeys the associative lawOperator $\\square$ obeys the associative lawOperator $\\diamond$ over the operator $\\square$ obeys the distributive lawOperator $\\square$ over the operator $\\diamond$ obeys the distributive law",
+        "options": [],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": "two-marks",
+        "marks": null,
+        "tags": [
+            "/mathematics/discrete-mathematics/set-theory%26algebra",
+            "/tag/gatecse2024-set1",
+            "/tag/multiple-selects",
+            "/tag/set-theory%26algebra",
+            "/tag/group-theory",
+            "/tag/two-marks"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/422800/gate-cse-2024-set-1-question-42",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/422800/gate-cse-2024-set-1-question-42",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "53",
+        "year": 2024,
+        "questionNumber": 53,
+        "subject": "Probability",
+        "topic": "two-marks",
+        "questionType": "multiple-choice",
+        "question": "A bag contains $10$ red balls and $15$ blue balls. Two balls are drawn randomly without replacement. Given that the first ball drawn is red, the probability (rounded off to $3$ decimal places) that both balls drawn are red is ___________.",
+        "options": [],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": "two-marks",
+        "marks": null,
+        "tags": [
+            "/mathematics/probability",
+            "/tag/gatecse2024-set1",
+            "/tag/numerical-answers",
+            "/tag/probability",
+            "/tag/conditional-probability",
+            "/tag/two-marks"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/422789/gate-cse-2024-set-1-question-53",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/422789/gate-cse-2024-set-1-question-53",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "5",
+        "year": 2023,
+        "questionNumber": 5,
+        "subject": "Combinatory",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "The Lucas sequence $L_{n}$ is defined by the recurrence relation:\n\\[\nL_{n}=L_{n-1}+L_{n-2}, \\quad \\text { for } \\quad n \\geq 3,\n\\]\nwith $L_{1}=1$ and $L_{2}=3$.\nWhich one of the options given is TRUE?",
+        "options": [
+            "$L_{n}=\\left(\\frac{1+\\sqrt{5}}{2}\\right)^{n}+\\left(\\frac{1-\\sqrt{5}}{2}\\right)^{n}$",
+            "$L_{n}=\\left(\\frac{1+\\sqrt{5}}{2}\\right)^{n}-\\left(\\frac{1-\\sqrt{5}}{3}\\right)^{n}$",
+            "$L_{n}=\\left(\\frac{1+\\sqrt{5}}{2}\\right)^{n}+\\left(\\frac{1-\\sqrt{5}}{3}\\right)^{n}$",
+            "$L_{n}=\\left(\\frac{1+\\sqrt{5}}{2}\\right)^{n}-\\left(\\frac{1-\\sqrt{5}}{2}\\right)^{n}$"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/mathematics/discrete-mathematics/combinatory",
+            "/tag/gatecse-2023",
+            "/tag/combinatory",
+            "/tag/recurrence-relation",
+            "/tag/one-mark"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/399307/gate-cse-2023-question-5",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/399307/gate-cse-2023-question-5",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "8",
+        "year": 2023,
+        "questionNumber": 8,
+        "subject": "Linear Algebra",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "Let\n\\[\nA=\\left[\\begin{array}{llll}\n1 & 2 & 3 & 4 \\\\\n4 & 1 & 2 & 3 \\\\\n3 & 4 & 1 & 2 \\\\\n2 & 3 & 4 & 1\n\\end{array}\\right]\n\\]\nand\n\\[\nB=\\left[\\begin{array}{llll}\n3 & 4 & 1 & 2 \\\\\n4 & 1 & 2 & 3 \\\\\n1 & 2 & 3 & 4 \\\\\n2 & 3 & 4 & 1\n\\end{array}\\right]\n\\]\nLet $\\operatorname{det}(A)$ and $\\operatorname{det}(B)$ denote the determinants of the matrices $A$ and $B,$ respectively.\nWhich one of the options given below is $\\text{TRUE}?$",
+        "options": [
+            "$\\operatorname{det}(A)=\\operatorname{det}(B)$",
+            "$\\operatorname{det}(B)=-\\operatorname{det}(A)$",
+            "$\\operatorname{det}(A)=0$",
+            "$\\operatorname{det}(A B)=\\operatorname{det}(A)+\\operatorname{det}(B)$"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/mathematics/linear-algebra",
+            "/tag/gatecse-2023",
+            "/tag/linear-algebra",
+            "/tag/determinant",
+            "/tag/one-mark",
+            "/tag/easy"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/399304/gate-cse-2023-question-8",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/399304/gate-cse-2023-question-8",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "16",
+        "year": 2023,
+        "questionNumber": 16,
+        "subject": "Mathematical Logic",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "Geetha has a conjecture about integers, which is of the form\n\\[\n\\forall x(P(x) \\Longrightarrow \\exists y Q(x, y)),\n\\]\nwhere $P$ is a statement about integers, and $Q$ is a statement about pairs of integers. Which of the following (one or more) option(s) would imply Geetha's conjecture?",
+        "options": [
+            "$\\exists x(P(x) \\wedge \\forall y Q(x, y))$",
+            "$\\forall x \\forall y Q(x, y)$",
+            "$\\exists y \\forall x(P(x) \\Longrightarrow Q(x, y))$",
+            "$\\exists x(P(x) \\wedge \\exists y Q(x, y))$"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/mathematics/discrete-mathematics/mathematical-logic",
+            "/tag/gatecse-2023",
+            "/tag/mathematical-logic",
+            "/tag/first-order-logic",
+            "/tag/multiple-selects",
+            "/tag/one-mark"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/399295/gate-cse-2023-question-16",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/399295/gate-cse-2023-question-16",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "18",
+        "year": 2023,
+        "questionNumber": 18,
+        "subject": "Calculus",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "Let $$\\qquad f(x)=x^{3}+15 x^{2}-33 x-36$$\nbe a real-valued function.\nWhich of the following statements is/are $\\text{TRUE}?$",
+        "options": [
+            "$f(x)$ does not have a local maximum.",
+            "$f(x)$ has a local maximum.",
+            "$f(x)$ does not have a local minimum.",
+            "$f(x)$ has a local minimum."
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/mathematics/calculus",
+            "/tag/gatecse-2023",
+            "/tag/calculus",
+            "/tag/maxima-minima",
+            "/tag/multiple-selects",
+            "/tag/one-mark"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/399293/gate-cse-2023-question-18",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/399293/gate-cse-2023-question-18",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "20",
+        "year": 2023,
+        "questionNumber": 20,
+        "subject": "Linear Algebra",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "Let $A$ be the adjacency matrix of the graph with vertices $\\{1,2,3,4,5\\}.$",
+        "options": [
+            "Let $\\lambda_{1}, \\lambda_{2}, \\lambda_{3}, \\lambda_{4}$, and $\\lambda_{5}$ be the five eigenvalues of $A$. Note that these eigenvalues need not be distinct.",
+            "The value of $\\lambda_{1}+\\lambda_{2}+\\lambda_{3}+\\lambda_{4}+\\lambda_{5}=$____________"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/mathematics/linear-algebra",
+            "/tag/gatecse-2023",
+            "/tag/linear-algebra",
+            "/tag/eigen-value",
+            "/tag/numerical-answers",
+            "/tag/one-mark"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/399291/gate-cse-2023-question-20",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/399291/gate-cse-2023-question-20",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "21",
+        "year": 2023,
+        "questionNumber": 21,
+        "subject": "Calculus",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "The value of the definite integral \n\\[\n\\int_{-3}^{3} \\int_{-2}^{2} \\int_{-1}^{1}\\left(4 x^{2} y-z^{3}\\right) \\mathrm{d} z \\mathrm{~d} y \\mathrm{~d} x\n\\]\nis _________. (Rounded off to the nearest integer)",
+        "options": [],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/mathematics/calculus",
+            "/tag/gatecse-2023",
+            "/tag/calculus",
+            "/tag/definite-integral",
+            "/tag/numerical-answers",
+            "/tag/one-mark"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/399290/gate-cse-2023-question-21",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/399290/gate-cse-2023-question-21",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "38",
+        "year": 2023,
+        "questionNumber": 38,
+        "subject": "Combinatory",
+        "topic": "two-marks",
+        "questionType": "multiple-choice",
+        "question": "Let $U=\\{1,2, \\ldots, n\\},$ where $n$ is a large positive integer greater than $1000.$ Let $k$ be a positive integer less than $n$. Let $A, B$ be subsets of $U$ with $|A|=|B|=k$ and $A \\cap B=\\emptyset$. We say that a permutation of $U$ separates $A$ from $B$ if one of the following is true.\n\nAll members of $A$ appear in the permutation before any of the members of $B$.\nAll members of $B$ appear in the permutation before any of the members of $A$.\n\nHow many permutations of $U$ separate $A$ from $B?$",
+        "options": [
+            "$n!$",
+            "$\\left(\\begin{array}{c}n \\\\ 2 k\\end{array}\\right)(n-2 k)$ !",
+            "$\\left(\\begin{array}{c}n \\\\ 2 k\\end{array}\\right)(n-2 k) !(k !)^{2}$",
+            "$2\\left(\\begin{array}{c}n \\\\ 2 k\\end{array}\\right)(n-2 k) !(k !)^{2}$"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": "two-marks",
+        "marks": null,
+        "tags": [
+            "/mathematics/discrete-mathematics/combinatory",
+            "/tag/gatecse-2023",
+            "/tag/combinatory",
+            "/tag/counting",
+            "/tag/two-marks"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/399273/gate-cse-2023-question-38",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/399273/gate-cse-2023-question-38",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "39",
+        "year": 2023,
+        "questionNumber": 39,
+        "subject": "Set Theory & Algebra",
+        "topic": "two-marks",
+        "questionType": "multiple-choice",
+        "question": "Let $f: A \\rightarrow B$ be an onto (or surjective) function, where $A$ and $B$ are nonempty sets. Define an equivalence relation $\\sim$ on the set $A$ as\\[a_{1} \\sim a_{2} \\text { if } f\\left(a_{1}\\right)=f\\left(a_{2}\\right),\\]where $a_{1}, a_{2} \\in A$. Let $\\mathcal{E}=\\{[x]: x \\in A\\}$ be the set of all the equivalence classes under $\\sim$. Define a new mapping $F: \\mathcal{E} \\rightarrow B$ as\\[F([x])=f(x), \\quad \\text { for all the equivalence classes }[x] \\text { in } \\mathcal{E} \\text {. }\\]Which of the following statements is/are $\\text{TRUE}?$$F$ is NOT well-defined.$F$ is an onto (or surjective) function.$F$ is a one-to-one (or injective) function.$F$ is a bijective function.",
+        "options": [],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": "two-marks",
+        "marks": null,
+        "tags": [
+            "/mathematics/discrete-mathematics/set-theory%26algebra",
+            "/tag/gatecse-2023",
+            "/tag/set-theory%26algebra",
+            "/tag/functions",
+            "/tag/multiple-selects",
+            "/tag/two-marks"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/399272/gate-cse-2023-question-39",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/399272/gate-cse-2023-question-39",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "41",
+        "year": 2023,
+        "questionNumber": 41,
+        "subject": "Set Theory & Algebra",
+        "topic": "two-marks",
+        "questionType": "multiple-choice",
+        "question": "Let $X$ be a set and $2^{X}$ denote the powerset of $X$.\nDefine a binary operation $\\Delta$ on $2^{X}$ as follows:\n\\[\nA \\Delta B=(A-B) \\cup(B-A) \\text {. }\n\\]\nLet $H=\\left(2^{X}, \\Delta\\right)$. Which of the following statements about $H$ is/are correct?",
+        "options": [
+            "$H$ is a group.",
+            "Every element in $H$ has an inverse, but $H$ is NOT a group.",
+            "For every $A \\in 2^{X},$ the inverse of $A$ is the complement of $A$.",
+            "For every $A \\in 2^{X},$ the inverse of $A$ is $A$."
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": "two-marks",
+        "marks": null,
+        "tags": [
+            "/mathematics/discrete-mathematics/set-theory%26algebra",
+            "/tag/gatecse-2023",
+            "/tag/set-theory%26algebra",
+            "/tag/group-theory",
+            "/tag/multiple-selects",
+            "/tag/two-marks"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/399270/gate-cse-2023-question-41",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/399270/gate-cse-2023-question-41",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "43",
+        "year": 2023,
+        "questionNumber": 43,
+        "subject": "Probability",
+        "topic": "two-marks",
+        "questionType": "multiple-choice",
+        "question": "Consider a random experiment where two fair coins are tossed. Let $A$ be the event that denotes $\\text{HEAD}$ on both the throws, $B$ be the event that denotes $\\text{HEAD}$ on the first throw, and $C$ be the event that denotes $\\text{HEAD}$ on the second throw. Which of the following statements is/are $\\text{TRUE}?$",
+        "options": [
+            "$A$ and $B$ are independent.",
+            "$A$ and $C$ are independent.",
+            "$B$ and $C$ are independent.",
+            "$\\operatorname{Prob}(B \\mid C)=\\operatorname{Prob}(B)$"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": "two-marks",
+        "marks": null,
+        "tags": [
+            "/mathematics/probability",
+            "/tag/gatecse-2023",
+            "/tag/probability",
+            "/tag/independent-events",
+            "/tag/multiple-selects",
+            "/tag/two-marks"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/399268/gate-cse-2023-question-43",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/399268/gate-cse-2023-question-43",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "45",
+        "year": 2023,
+        "questionNumber": 45,
+        "subject": "Graph Theory",
+        "topic": "two-marks",
+        "questionType": "multiple-choice",
+        "question": "Let $G$ be a simple, finite, undirected graph with vertex set $\\left\\{v_{1}, \\ldots, v_{n}\\right\\}$. Let $\\Delta(G)$ denote the maximum degree of $G$ and let $\\mathbb{N}=\\{1,2, \\ldots\\}$ denote the set of all possible colors. Color the vertices of $G$ using the following greedy strategy: for $i=1, \\ldots, n$\n$\\operatorname{color}\\left(v_{i}\\right) \\leftarrow \\min \\left\\{j \\in \\mathbb{N}\\right.$ : no neighbour of $v_{i}$ is colored $\\left.j\\right\\}$\nWhich of the following statements is/are $\\text{TRUE}?$",
+        "options": [
+            "This procedure results in a proper vertex coloring of $G$.",
+            "The number of colors used is at most $\\Delta(G)+1$.",
+            "The number of colors used is at most $\\Delta(G)$.",
+            "The number of colors used is equal to the chromatic number of $G$."
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": "two-marks",
+        "marks": null,
+        "tags": [
+            "/mathematics/discrete-mathematics/graph-theory",
+            "/tag/gatecse-2023",
+            "/tag/graph-theory",
+            "/tag/graph-coloring",
+            "/tag/multiple-selects",
+            "/tag/two-marks"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/399266/gate-cse-2023-question-45",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/399266/gate-cse-2023-question-45",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "11",
+        "year": null,
+        "questionNumber": 11,
+        "subject": "Calculus",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": null,
+        "options": [],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/mathematics/calculus",
+            "/tag/memorybased-gatecse2023",
+            "/tag/goclasses",
+            "/tag/calculus",
+            "/tag/maxima-minima"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/398931/gate-cse-2023-memory-based-question-11",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/398931/gate-cse-2023-memory-based-question-11",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "13",
+        "year": null,
+        "questionNumber": 13,
+        "subject": "Linear Algebra",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": null,
+        "options": [],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/mathematics/linear-algebra",
+            "/tag/memorybased-gatecse2023",
+            "/tag/goclasses",
+            "/tag/linear-algebra",
+            "/tag/determinant"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/398929/gate-cse-2023-memory-based-question-13",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/398929/gate-cse-2023-memory-based-question-13",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "15",
+        "year": null,
+        "questionNumber": 15,
+        "subject": "Combinatory",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": null,
+        "options": [],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/mathematics/discrete-mathematics/combinatory",
+            "/tag/memorybased-gatecse2023",
+            "/tag/goclasses",
+            "/tag/combinatory",
+            "/tag/recurrence-relation"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/398927/gate-cse-2023-memory-based-question-15",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/398927/gate-cse-2023-memory-based-question-15",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "16",
+        "year": null,
+        "questionNumber": 16,
+        "subject": "Combinatory",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": null,
+        "options": [],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/mathematics/discrete-mathematics/combinatory",
+            "/tag/memorybased-gatecse2023",
+            "/tag/goclasses",
+            "/tag/combinatory",
+            "/tag/counting"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/398926/gate-cse-2023-memory-based-question-16",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/398926/gate-cse-2023-memory-based-question-16",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "17",
+        "year": null,
+        "questionNumber": 17,
+        "subject": "Set Theory & Algebra",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": null,
+        "options": [],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/mathematics/discrete-mathematics/set-theory%26algebra",
+            "/tag/memorybased-gatecse2023",
+            "/tag/goclasses",
+            "/tag/set-theory%26algebra",
+            "/tag/group-theory",
+            "/tag/multiple-selects"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/398925/gate-cse-2023-memory-based-question-17",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/398925/gate-cse-2023-memory-based-question-17",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "10",
+        "year": 2022,
+        "questionNumber": 10,
+        "subject": "Linear Algebra",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "Consider the following two statements with respect to the matrices $\\textit{A}_{m \\times n}, \\textit{B}_{n \\times m}, \\textit{C}_{n \\times n}$ and $ \\textit{D}_{n \\times n}.$\nStatement $1: tr \\text{(AB)} = tr \\text{(BA)}$\nStatement $2: tr \\text{(CD)} = tr \\text{(DC)}$\nwhere $tr()$ represents the trace of a matrix. Which one of the following holds?",
+        "options": [
+            "Statement $1$ is correct and Statement $2$ is wrong.",
+            "Statement $1$ is wrong and Statement $2$ is correct.",
+            "Both Statement $1$ and Statement $2$ are correct.",
+            "Both Statement $1$ and Statement $2$ are wrong."
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/mathematics/linear-algebra",
+            "/tag/gatecse-2022",
+            "/tag/linear-algebra",
+            "/tag/matrix",
+            "/tag/one-mark"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/371926/gate-cse-2022-question-10",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/371926/gate-cse-2022-question-10",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "17",
+        "year": 2022,
+        "questionNumber": 17,
+        "subject": "Set Theory & Algebra",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "Which of the following statements is/are $\\text{TRUE}$ for a group $\\textit{G}?$",
+        "options": [
+            "If for all $x,y \\in \\textit{G}, \\; (xy)^{2} = x^{2} y^{2},$ then $\\textit{G}$ is commutative.",
+            "If for all $x \\in \\textit{G}, \\; x^{2} = 1,$ then $\\textit{G}$ is commutative. Here, $1$ is the identity element of $\\textit{G}.$",
+            "If the order of $\\textit{G}$ is $2,$ then $\\textit{G}$ is commutative.",
+            "If $\\textit{G}$ is commutative, then a subgroup of $\\textit{G}$ need not be commutative."
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/mathematics/discrete-mathematics/set-theory%26algebra",
+            "/tag/gatecse-2022",
+            "/tag/set-theory%26algebra",
+            "/tag/group-theory",
+            "/tag/multiple-selects",
+            "/tag/one-mark"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/371919/gate-cse-2022-question-17",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/371919/gate-cse-2022-question-17",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "20",
+        "year": 2022,
+        "questionNumber": 20,
+        "subject": "Graph Theory",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "Consider a simple undirected graph of $10$ vertices. If the graph is disconnected, then the maximum number of edges it can have is _______________ .",
+        "options": [],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/mathematics/discrete-mathematics/graph-theory",
+            "/tag/gatecse-2022",
+            "/tag/numerical-answers",
+            "/tag/graph-theory",
+            "/tag/graph-connectivity",
+            "/tag/one-mark"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/371916/gate-cse-2022-question-20",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/371916/gate-cse-2022-question-20",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "22",
+        "year": 2022,
+        "questionNumber": 22,
+        "subject": "Combinatory",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "The number of arrangements of six identical balls in three identical bins is _____________ .",
+        "options": [],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/mathematics/discrete-mathematics/combinatory",
+            "/tag/gatecse-2022",
+            "/tag/numerical-answers",
+            "/tag/combinatory",
+            "/tag/balls-in-bins",
+            "/tag/one-mark"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/371914/gate-cse-2022-question-22",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/371914/gate-cse-2022-question-22",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "24",
+        "year": 2022,
+        "questionNumber": 24,
+        "subject": "Calculus",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "The value of the following limit is ________________.",
+        "options": [
+            "$$\\lim_{x \\rightarrow 0^{+}} \\frac{\\sqrt{x}}{1-e^{2\\sqrt{x}}}$$"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/mathematics/calculus",
+            "/tag/gatecse-2022",
+            "/tag/numerical-answers",
+            "/tag/calculus",
+            "/tag/limits",
+            "/tag/one-mark"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/371912/gate-cse-2022-question-24",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/371912/gate-cse-2022-question-24",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "26",
+        "year": 2022,
+        "questionNumber": 26,
+        "subject": "Combinatory",
+        "topic": "two-marks",
+        "questionType": "multiple-choice",
+        "question": "Which one of the following is the closed form for the generating function of the sequence $\\{ a_{n} \\}_{n \\geq 0}$ defined below?\n$$ a_{n} = \\left\\{\\begin{matrix} n + 1, & \\text{n is odd} & \\\\ 1, & \\text{otherwise} & \\end{matrix}\\right.$$",
+        "options": [
+            "$\\frac{x(1+x^{2})}{(1-x^{2})^{2}} + \\frac{1}{1-x}$",
+            "$\\frac{x(3-x^{2})}{(1-x^{2})^{2}} + \\frac{1}{1-x}$",
+            "$\\frac{2x}{(1-x^{2})^{2}} + \\frac{1}{1-x}$",
+            "$\\frac{x}{(1-x^{2})^{2}} + \\frac{1}{1-x}$"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": "two-marks",
+        "marks": null,
+        "tags": [
+            "/mathematics/discrete-mathematics/combinatory",
+            "/tag/gatecse-2022",
+            "/tag/combinatory",
+            "/tag/generating-functions",
+            "/tag/two-marks"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/371910/gate-cse-2022-question-26",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/371910/gate-cse-2022-question-26",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "27",
+        "year": 2022,
+        "questionNumber": 27,
+        "subject": "Graph Theory",
+        "topic": "two-marks",
+        "questionType": "multiple-choice",
+        "question": "Consider a simple undirected unweighted graph with at least three vertices. If $\\textit{A}$ is the adjacency matrix of the graph, then the number of $3–$cycles in the graph is given by the trace of",
+        "options": [
+            "$\\textit{A}^{3}$",
+            "$\\textit{A}^{3}$ divided by $2$",
+            "$\\textit{A}^{3}$ divided by $3$",
+            "$\\textit{A}^{3}$ divided by $6$"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": "two-marks",
+        "marks": null,
+        "tags": [
+            "/mathematics/discrete-mathematics/graph-theory",
+            "/tag/gatecse-2022",
+            "/tag/graph-theory",
+            "/tag/graph-connectivity",
+            "/tag/two-marks"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/371909/gate-cse-2022-question-27",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/371909/gate-cse-2022-question-27",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "35",
+        "year": 2022,
+        "questionNumber": 35,
+        "subject": "Linear Algebra",
+        "topic": "two-marks",
+        "questionType": "multiple-choice",
+        "question": "Consider solving the following system of simultaneous equations using $\\text{LU}$ decomposition.\n$$x_{1} + x_{2} – 2x_{3} = 4$$\n$$x_{1} + 3x_{2} – x_{3} = 7$$\n$$2x_{1} + x_{2} – 5x_{3} = 7$$\nwhere $\\textit{L}$ and $\\textit{U}$ are denoted as\n$L = \\begin{pmatrix}L_{11} & 0 & 0 \\\\ L_{21} & L_{22} & 0 \\\\ L_{31} & L_{32} & L_{33} \\end{pmatrix} , U = \\begin{pmatrix}U_{11} & U_{12} & U_{13} \\\\ 0 & U_{22} & U_{23} \\\\ 0 & 0 & U_{33} \\end{pmatrix}$\nWhich one of the following is the correct combination of values for $\\textit{L}_{32}, \\textit{U}_{33},$ and $x_{1}?$",
+        "options": [
+            "$\\textit{L}_{32}=2, \\textit{U}_{33}= – \\frac{1}{2}, x_{1}= – 1$",
+            "$\\textit{L}_{32}=2, \\textit{U}_{33}=2, x_{1}= – 1$",
+            "$\\textit{L}_{32}= – \\frac{1}{2}, \\textit{U}_{33}=2, x_{1}= 0$",
+            "$\\textit{L}_{32}= – \\frac{1}{2}, \\textit{U}_{33}= – \\frac{1}{2}, x_{1}= 0$"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": "two-marks",
+        "marks": null,
+        "tags": [
+            "/mathematics/linear-algebra",
+            "/tag/gatecse-2022",
+            "/tag/linear-algebra",
+            "/tag/matrix",
+            "/tag/system-of-equations",
+            "/tag/two-marks"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/371901/gate-cse-2022-question-35",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/371901/gate-cse-2022-question-35",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "40",
+        "year": 2022,
+        "questionNumber": 40,
+        "subject": "Graph Theory",
+        "topic": "two-marks",
+        "questionType": "multiple-choice",
+        "question": "The following simple undirected graph is referred to as the Peterson graph.\n\nWhich of the following statements is/are $\\text{TRUE}?$\n\nThe chromatic number of the graph is $3.$\nThe graph has a Hamiltonian path.\nThe following graph is isomorphic to the Peterson graph.",
+        "options": [
+            "The size of the largest independent set of the given graph is $3.$ (A subset of vertices of a graph form an independent set if no two vertices of the subset are adjacent.)"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": "two-marks",
+        "marks": null,
+        "tags": [
+            "/mathematics/discrete-mathematics/graph-theory",
+            "/tag/gatecse-2022",
+            "/tag/graph-theory",
+            "/tag/graph-isomorphism",
+            "/tag/multiple-selects",
+            "/tag/two-marks"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/371896/gate-cse-2022-question-40",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/371896/gate-cse-2022-question-40",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "41",
+        "year": 2022,
+        "questionNumber": 41,
+        "subject": "Combinatory",
+        "topic": "two-marks",
+        "questionType": "multiple-choice",
+        "question": "Consider the following recurrence:\n$$\\begin{array}{} f(1) &  =  &  1; \\\\ f(2n) &  = &  2f(n) – 1, &  \\; \\text{for}\\; n \\geq 1;  \\\\ f(2n+1) &  = &  2f(n) + 1, &  \\; \\text{for}\\; n \\geq 1.   \\end{array}$$\nThen, which of the following statements is/are $\\text{TRUE}?$",
+        "options": [
+            "$f(2^{n} – 1) = 2^{n} – 1$",
+            "$f(2^{n}) = 1$",
+            "$f(5 \\cdot 2^{n}) = 2^{n+1} + 1$",
+            "$f(2^{n} + 1) = 2^{n} + 1$"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": "two-marks",
+        "marks": null,
+        "tags": [
+            "/mathematics/discrete-mathematics/combinatory",
+            "/tag/gatecse-2022",
+            "/tag/combinatory",
+            "/tag/recurrence-relation",
+            "/tag/multiple-selects",
+            "/tag/two-marks"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/371895/gate-cse-2022-question-41",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/371895/gate-cse-2022-question-41",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "42",
+        "year": 2022,
+        "questionNumber": 42,
+        "subject": "Graph Theory",
+        "topic": "two-marks",
+        "questionType": "multiple-choice",
+        "question": "Which of the properties hold for the adjacency matrix $A$ of a simple undirected unweighted graph having $n$ vertices?",
+        "options": [
+            "The diagonal entries of $A^{2}$ are the degrees of the vertices of the graph.",
+            "If the graph is connected, then none of the entries of $A^{n-1} + I_{n}$ can be zero.",
+            "If the sum of all the elements of $A$ is at most $2(n-1),$ then the graph must be acyclic.",
+            "If there is at least a $1$ in each of $A\\text{’s}$ rows and columns, then the graph must be connected."
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": "two-marks",
+        "marks": null,
+        "tags": [
+            "/mathematics/discrete-mathematics/graph-theory",
+            "/tag/gatecse-2022",
+            "/tag/graph-theory",
+            "/tag/graph-connectivity",
+            "/tag/multiple-selects",
+            "/tag/two-marks"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/371894/gate-cse-2022-question-42",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/371894/gate-cse-2022-question-42",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "43",
+        "year": 2022,
+        "questionNumber": 43,
+        "subject": "Linear Algebra",
+        "topic": "two-marks",
+        "questionType": "multiple-choice",
+        "question": "​​​​​Which of the following is/are the eigenvector(s) for the matrix given below?\n$$\\begin{pmatrix} – 9 & – 6 & – 2 & – 4 \\\\ – 8 & – 6 & – 3 & – 1 \\\\ 20 & 15 & 8 & 5 \\\\ 32 & 21 & 7 & 12 \\end{pmatrix}$$",
+        "options": [
+            "$\\begin{pmatrix} – 1 \\\\ 1 \\\\ 0 \\\\ 1 \\end{pmatrix}$",
+            "$\\begin{pmatrix} 1 \\\\ 0 \\\\ – 1 \\\\ 0 \\end{pmatrix}$",
+            "$\\begin{pmatrix} – 1 \\\\ 0 \\\\ 2 \\\\ 2 \\end{pmatrix}$",
+            "$\\begin{pmatrix} 0 \\\\ 1 \\\\ – 3 \\\\ 0 \\end{pmatrix}$"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": "two-marks",
+        "marks": null,
+        "tags": [
+            "/mathematics/linear-algebra",
+            "/tag/gatecse-2022",
+            "/tag/linear-algebra",
+            "/tag/eigen-value",
+            "/tag/multiple-selects",
+            "/tag/two-marks"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/371893/gate-cse-2022-question-43",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/371893/gate-cse-2022-question-43",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    }
+]

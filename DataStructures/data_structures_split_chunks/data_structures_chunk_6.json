@@ -1,0 +1,1788 @@
+[
+    {
+        "id": "7",
+        "year": 2004,
+        "questionNumber": 7,
+        "subject": "Data Structures",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "Given the following input $(4322, 1334, 1471, 9679, 1989, 6171, 6173, 4199)$ and the hash function $x$ mod $10$, which of the following statements are true?\n\n\n$9679, 1989, 4199$ hash to the same value\n\n\n$1471, 6171$ hash to the same value\n\n\nAll elements hash to the same value\n\n\nEach element hashes to a different value",
+        "options": [
+            "I only",
+            "II only",
+            "I and II only",
+            "III or IV"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/programming-in-c/data-structures",
+            "/tag/gatecse-2004",
+            "/tag/data-structures",
+            "/tag/hashing",
+            "/tag/easy"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/1004/gate-cse-2004-question-7",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/1004/gate-cse-2004-question-7",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "6",
+        "year": 2004,
+        "questionNumber": 6,
+        "subject": "Data Structures",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "Level order traversal of a rooted tree can be done by starting from the root and performing\n\n\npreorder traversal\n\n\nin-order traversal\n\n\ndepth first search",
+        "options": [
+            "breadth first search"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/programming-in-c/data-structures",
+            "/tag/gatecse-2004",
+            "/tag/data-structures",
+            "/tag/tree",
+            "/tag/easy"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/1003/gate-cse-2004-question-6",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/1003/gate-cse-2004-question-6",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "5",
+        "year": 2004,
+        "questionNumber": 5,
+        "subject": "Data Structures",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "The best data structure to check whether an arithmetic expression has balanced parentheses is a",
+        "options": [
+            "queue",
+            "stack",
+            "tree",
+            "list"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/programming-in-c/data-structures",
+            "/tag/gatecse-2004",
+            "/tag/data-structures",
+            "/tag/easy",
+            "/tag/stack"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/1002/gate-cse-2004-question-5",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/1002/gate-cse-2004-question-5",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "26",
+        "year": 2004,
+        "questionNumber": 26,
+        "subject": "Data Structures",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "The following numbers are inserted into an empty binary search tree in the given order: $10, 1, 3, 5, 15, 12, 16$. What is the height of the binary search tree (the height is the maximum distance of a leaf node from the root)?",
+        "options": [
+            "$2$",
+            "$3$",
+            "$4$",
+            "$6$"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/programming-in-c/data-structures",
+            "/tag/gatecse-2004",
+            "/tag/data-structures",
+            "/tag/binary-search-tree",
+            "/tag/easy",
+            "/tag/isro2009"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/1001/gate-cse-2004-question-4-isro2009-26",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/1001/gate-cse-2004-question-4-isro2009-26",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "3",
+        "year": 2004,
+        "questionNumber": 3,
+        "subject": "Data Structures",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "A single array $A[1 \\ldots \\text{MAXSIZE}]$ is used to implement two stacks. The two stacks grow from opposite ends of the array. Variables $top1$ and $top2$ $(top1 < top 2)$ point to the location of the topmost element in each of the stacks. If the space is to be used efficiently, the condition for $\\text{“}\\textsf{stack full}\\text{”}$ is\n\n\n$(top1 = \\text{MAXSIZE} / 2)$ and $(top2 = \\text{MAXSIZE} / 2 + 1)$\n\n\n$top1 + top2 = \\text{MAXSIZE}$\n\n\n$(top1 = \\text{MAXSIZE} / 2)$ or $(top2 = \\text{MAXSIZE})$",
+        "options": [
+            "$top1 = top2 - 1$"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/programming-in-c/data-structures",
+            "/tag/gatecse-2004",
+            "/tag/data-structures",
+            "/tag/stack",
+            "/tag/easy"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/1000/gate-cse-2004-question-3",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/1000/gate-cse-2004-question-3",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "1",
+        "year": 2004,
+        "questionNumber": 1,
+        "subject": "Programming in C",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "The goal of structured programming is to:",
+        "options": [
+            "have well indented programs",
+            "be able to infer the flow of control from the compiled code",
+            "be able to infer the flow of control from the program text",
+            "avoid the use of GOTO statements"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/programming-in-c/programming/programming-in-c",
+            "/tag/gatecse-2004",
+            "/tag/programming",
+            "/tag/easy",
+            "/tag/programming-paradigms"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/998/gate-cse-2004-question-1",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/998/gate-cse-2004-question-1",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "13",
+        "year": 2006,
+        "questionNumber": 13,
+        "subject": "Data Structures",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "A scheme for storing binary trees in an array $X$ is as follows. Indexing of $X$ starts at $1$ instead of $0$. the root is stored at $X[1]$. For a node stored at $X[i]$, the left child, if any, is stored in $X[2i]$ and the right child, if any, in $X[2i+1]$. To be able to store any binary tree on n vertices the minimum size of $X$ should be",
+        "options": [
+            "$\\log_2 n$",
+            "$n$",
+            "$2n+1$",
+            "$2^n-1$"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/programming-in-c/data-structures",
+            "/tag/gatecse-2006",
+            "/tag/data-structures",
+            "/tag/binary-tree",
+            "/tag/normal"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/974/gate-cse-2006-question-13",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/974/gate-cse-2006-question-13",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "90",
+        "year": 2003,
+        "questionNumber": 90,
+        "subject": "Data Structures",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "Consider the function $f$ defined below.\n\nstruct item {\n        int data;\n        struct item * next;\n};\nint f(struct item *p) {\n    return ((p == NULL) || (p->next == NULL)|| \n        ((p->data <= p ->next -> data) &&\n        f(p->next)));\n}\nFor a given linked list $p$, the function $f$ returns $1$ if and only if\n\n\nthe list is empty or has exactly one element\n\n\nthe elements in the list are sorted in non-decreasing order of data value\n\n\nthe elements in the list are sorted in non-increasing order of data value",
+        "options": [
+            "not all elements in the list have the same data value"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/programming-in-c/data-structures",
+            "/tag/gatecse-2003",
+            "/tag/data-structures",
+            "/tag/linked-list",
+            "/tag/normal"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/973/gate-cse-2003-question-90",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/973/gate-cse-2003-question-90",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "89",
+        "year": 2003,
+        "questionNumber": 89,
+        "subject": "Programming in C",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "Consider the C program shown below:\n\n#include<stdio.h>\n#define print(x) printf(\"%d\", x)\n\nint x;\nvoid Q(int z)\n{\n        z+=x;\n        print(z);\n}\n\nvoid P(int *y)\n{\n        int x = *y + 2;\n        Q(x);\n        *y = x - 1;\n        print(x);\n}\nmain(void) {\n        x = 5;\n        P(&x);\n        print(x);\n}\n\nThe output of this program is:",
+        "options": [
+            "$12 \\ 7 \\ 6$",
+            "$22 \\ 12 \\ 11$",
+            "$14 \\ 6 \\ 6$",
+            "$7 \\ 6 \\ 6$"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/programming-in-c/programming/programming-in-c",
+            "/tag/gatecse-2003",
+            "/tag/programming",
+            "/tag/programming-in-c",
+            "/tag/normal",
+            "/tag/pointers"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/972/gate-cse-2003-question-89",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/972/gate-cse-2003-question-89",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "75",
+        "year": 2003,
+        "questionNumber": 75,
+        "subject": "Programming in C",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "Consider the following class definitions in a hypothetical Object Oriented language that supports inheritance and uses dynamic binding. The language should not be assumed to  be either Java or C++, though the syntax is similar.\n\nClass P {\n    Class Q subclass of P {\n        void f(int i) {\n            void f(int i) {\n                print(i);\n                print(2*i);\n            }\n        }\n    }\n}  \nNow consider the following program fragment:\nP x = new Q();\nQ y = new Q();\nP z = new Q();\nx.f(1); ((P)y).f(1); z.f(1);\nHere ((P)y) denotes a typecast of y to P. The output produced by executing the above program fragment will be",
+        "options": [
+            "1 2 1",
+            "2 1 1",
+            "2 1 2",
+            "2 2 2"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/programming-in-c/programming/programming-in-c",
+            "/tag/gatecse-2003",
+            "/tag/programming",
+            "/tag/variable-binding",
+            "/tag/normal",
+            "/tag/out-of-syllabus-now"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/961/gate-cse-2003-question-75",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/961/gate-cse-2003-question-75",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "73",
+        "year": 2003,
+        "questionNumber": 73,
+        "subject": "Programming in C",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "The following program fragment is written in a programming language that allows global variables and does not allow nested declarations of functions.\n\nglobal int i=100, j=5;\nvoid P(x) {\n\tint i=10;\n    print(x+10);\n    i=200;\n    j=20;\n    print (x);\n}\nmain() {P(i+j);}\n\nIf the programming language uses static scoping and call by need parameter passing mechanism, the values printed by the above program are:",
+        "options": [
+            "$115, 220$",
+            "$25, 220$",
+            "$25, 15$",
+            "$115, 105$"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/programming-in-c/programming/programming-in-c",
+            "/tag/gatecse-2003",
+            "/tag/compiler-design",
+            "/tag/normal",
+            "/tag/runtime-environment",
+            "/tag/parameter-passing"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/960/gate-cse-2003-question-73",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/960/gate-cse-2003-question-73",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "71",
+        "year": 2003,
+        "questionNumber": 71,
+        "subject": "Programming in C",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "Consider the following logic program P\n$\\begin{align*} A(x) &\\gets B(x,y), C(y) \\\\ &\\gets B(x,x) \\end{align*}$\nWhich of the following first order sentences is equivalent to P?\n\n\n$(\\forall  x) [(\\exists y) [B(x,y) \\land C(y)] \\Rightarrow A(x)] \\land \\neg (\\exists x)[B(x,x)]$\n\n\n$(\\forall  x) [(\\forall y) [B(x,y) \\land C(y)] \\Rightarrow A(x)] \\land \\neg (\\exists x)[B(x,x)]$\n\n\n$(\\forall  x) [(\\exists y) [B(x,y) \\land C(y)] \\Rightarrow A(x)] \\vee \\neg (\\exists x)[B(x,x)]$",
+        "options": [
+            "$(\\forall  x) [(\\forall y) [B(x,y) \\land C(y)] \\Rightarrow A(x)] \\land  (\\exists x)[B(x,x)]$"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/programming-in-c/programming/programming-in-c",
+            "/tag/gatecse-2003",
+            "/tag/programming",
+            "/tag/logic-programming",
+            "/tag/out-of-syllabus-now"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/958/gate-cse-2003-question-71",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/958/gate-cse-2003-question-71",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "64",
+        "year": 2003,
+        "questionNumber": 64,
+        "subject": "Data Structures",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "Let S be a stack of size $n \\geq1$. Starting with the empty stack, suppose we push the first n natural numbers in sequence, and then perform $n$ pop operations. Assume that Push and Pop operations take $X$ seconds each, and $Y$ seconds elapse between the end of one such stack operation and the start of the next operation. For $m \\geq1$, define the stack-life of $m$ as the time elapsed from the end of $Push(m)$ to the start of the pop operation that removes $m$ from S. The average stack-life of an element of this stack is",
+        "options": [
+            "$n(X+Y)$",
+            "$3Y+2X$",
+            "$n(X+Y)-X$",
+            "$Y+2X$"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/programming-in-c/data-structures",
+            "/tag/gatecse-2003",
+            "/tag/data-structures",
+            "/tag/stack",
+            "/tag/normal"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/951/gate-cse-2003-question-64",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/951/gate-cse-2003-question-64",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "25",
+        "year": 2003,
+        "questionNumber": 25,
+        "subject": "Data Structures",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "A data structure is required for storing a set of integers such that each of the following operations can be done in $O(\\log n)$ time, where $n$ is the number of elements in the set.\n\n\nDeletion of the smallest element\n\nInsertion of an element if it is not already present in the set\n\nWhich of the following data structures can be used for this purpose?\n\nA heap can be used but not a balanced binary search tree\n\nA balanced binary search tree can be used but not a heap\n\n\nBoth balanced binary search tree and heap can be used",
+        "options": [
+            "Neither balanced search tree nor heap can be used"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/programming-in-c/data-structures",
+            "/tag/gatecse-2003",
+            "/tag/data-structures",
+            "/tag/easy",
+            "/tag/isro2009",
+            "/tag/binary-search-tree"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/950/gate-cse-2003-question-63-isro2009-25",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/950/gate-cse-2003-question-63-isro2009-25",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "24",
+        "year": 2003,
+        "questionNumber": 24,
+        "subject": "Programming in C",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "Which of the following statements is FALSE?",
+        "options": [
+            "In statically typed languages, each variable in a program has a fixed type",
+            "In un-typed languages, values do not have any types",
+            "In dynamically typed languages, variables have no types",
+            "In all statically typed languages, each variable in a program is associated with values of only a single type during the execution of the program"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/programming-in-c/programming/programming-in-c",
+            "/tag/gatecse-2003",
+            "/tag/programming",
+            "/tag/normal",
+            "/tag/type-checking"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/914/gate-cse-2003-question-24",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/914/gate-cse-2003-question-24",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "24",
+        "year": 2003,
+        "questionNumber": 24,
+        "subject": "Data Structures",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "Suppose the numbers $7, 5, 1, 8, 3, 6, 0, 9, 4, 2$ are inserted in that order into an initially empty binary search tree. The binary search tree uses the usual ordering on natural numbers. What is the in-order traversal sequence of the resultant tree?$7 \\ 5  \\ 1 \\ 0 \\ 3 \\ 2 \\ 4 \\ 6 \\ 8 \\ 9$$0 \\ 2 \\ 4 \\ 3 \\ 1 \\ 6 \\ 5  \\ 9  \\ 8  \\ 7$$0 \\ 1 \\ 2 \\ 3 \\ 4 \\ 5 \\ 6 \\ 7 \\ 8 \\ 9$$9 \\ 8 \\ 6 \\ 4  \\ 2  \\ 3 \\ 0 \\ 1 \\ 5 \\ 7$",
+        "options": [],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/programming-in-c/data-structures",
+            "/tag/gatecse-2003",
+            "/tag/binary-search-tree",
+            "/tag/easy",
+            "/tag/isro2009"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/909/gate-cse-2003-question-19-isro2009-24",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/909/gate-cse-2003-question-19-isro2009-24",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "6",
+        "year": 2003,
+        "questionNumber": 6,
+        "subject": "Data Structures",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "Let $T(n)$ be the number of different binary search trees on $n$ distinct elements.\nThen $T(n) = \\sum_{k=1}^{n} T(k-1)T(x)$, where $x$ is",
+        "options": [
+            "$n-k+1$",
+            "$n-k$",
+            "$n-k-1$",
+            "$n-k-2$"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/programming-in-c/data-structures",
+            "/tag/gatecse-2003",
+            "/tag/normal",
+            "/tag/binary-search-tree"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/897/gate-cse-2003-question-6",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/897/gate-cse-2003-question-6",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "2",
+        "year": 2003,
+        "questionNumber": 2,
+        "subject": "Programming in C",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "Assume the following C variable declaration:\n\nint *A[10], B[10][10];\nOf the following expressions:\n\n$A[2]$\n$A[2][3]$\n$B[1]$\n$B[2][3]$\n\nwhich will not give compile-time errors if used as left hand sides of assignment statements in a C program?",
+        "options": [
+            "I, II, and IV only",
+            "II, III, and IV only",
+            "II and IV only",
+            "IV only"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/programming-in-c/programming/programming-in-c",
+            "/tag/gatecse-2003",
+            "/tag/programming",
+            "/tag/programming-in-c",
+            "/tag/easy",
+            "/tag/pointers"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/893/gate-cse-2003-question-2",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/893/gate-cse-2003-question-2",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "10",
+        "year": 2006,
+        "questionNumber": 10,
+        "subject": "Data Structures",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "In a binary max heap containing $n$ numbers, the smallest element can be found in time",
+        "options": [
+            "$O(n)$",
+            "$O(\\log n)$",
+            "$O(\\log \\log n)$",
+            "$O(1)$"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/programming-in-c/data-structures",
+            "/tag/gatecse-2006",
+            "/tag/data-structures",
+            "/tag/binary-heap",
+            "/tag/easy"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/889/gate-cse-2006-question-10",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/889/gate-cse-2006-question-10",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "11",
+        "year": 2002,
+        "questionNumber": 11,
+        "subject": "Programming in C",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "The following recursive function in C is a solution to the Towers of Hanoi problem.",
+        "options": [
+            "void move(int n, char A, char B, char C)  {",
+            "if (......................) {",
+            "move (.............................);",
+            "printf(\"Move disk %d from pole %c to pole %c\\n\", n, A, C);",
+            "move (.....................);",
+            "}",
+            "}",
+            "Fill in the dotted parts of the solution."
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/programming-in-c/programming/programming-in-c",
+            "/tag/gatecse-2002",
+            "/tag/programming",
+            "/tag/recursion",
+            "/tag/descriptive"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/864/gate-cse-2002-question-11",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/864/gate-cse-2002-question-11",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "6",
+        "year": 2002,
+        "questionNumber": 6,
+        "subject": "Data Structures",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "Draw all binary trees having exactly three nodes labeled $A, B$ and $C$ on which preorder traversal gives the sequence $C, B, A$.",
+        "options": [],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/programming-in-c/data-structures",
+            "/tag/gatecse-2002",
+            "/tag/data-structures",
+            "/tag/binary-tree",
+            "/tag/easy",
+            "/tag/descriptive"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/859/gate-cse-2002-question-6",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/859/gate-cse-2002-question-6",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "18",
+        "year": 2002,
+        "questionNumber": 18,
+        "subject": "Programming in C",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "The C language is:",
+        "options": [
+            "A context free language",
+            "A context sensitive language",
+            "A regular language",
+            "Parsable fully only by a Turing machine"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/programming-in-c/programming/programming-in-c",
+            "/tag/gatecse-2002",
+            "/tag/programming",
+            "/tag/programming-in-c",
+            "/tag/normal"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/848/gate-cse-2002-question-2-18",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/848/gate-cse-2002-question-2-18",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "12",
+        "year": 2002,
+        "questionNumber": 12,
+        "subject": "Data Structures",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "A weight-balanced tree is a binary tree in which for each node, the number of nodes in the left sub tree is at least half and at most twice the number of nodes in the right sub tree. The maximum possible height (number of nodes on the path from the root to the furthest leaf) of such a tree on n nodes is best described by which of the following?",
+        "options": [
+            "$\\log_2 n$",
+            "$\\log_{\\frac{4}{3}} n$",
+            "$\\log_3 n$",
+            "$\\log_{\\frac{3}{2}} n$"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/programming-in-c/data-structures",
+            "/tag/gatecse-2002",
+            "/tag/data-structures",
+            "/tag/binary-tree",
+            "/tag/normal"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/842/gate-cse-2002-question-2-12",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/842/gate-cse-2002-question-2-12",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "9",
+        "year": 2002,
+        "questionNumber": 9,
+        "subject": "Data Structures",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "The number of leaf nodes in a rooted tree of n nodes, with each node having $0$ or $3$ children is:",
+        "options": [
+            "$\\frac{n}{2}$",
+            "$\\frac{(n-1)}{3}$",
+            "$\\frac{(n-1)}{2}$",
+            "$\\frac{(2n+1)}{3}$"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/programming-in-c/data-structures",
+            "/tag/gatecse-2002",
+            "/tag/data-structures",
+            "/tag/tree",
+            "/tag/normal"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/839/gate-cse-2002-question-2-9",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/839/gate-cse-2002-question-2-9",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "8",
+        "year": 2002,
+        "questionNumber": 8,
+        "subject": "Programming in C",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "Consider the following declaration of a two-dimensional array in C:\nchar $a[100][100]$;\nAssuming that the main memory is byte-addressable and that the array is stored starting from memory address $0$, the address of $a [40][50]$ is:",
+        "options": [
+            "$4040$",
+            "$4050$",
+            "$5040$",
+            "$5050$"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/programming-in-c/programming/programming-in-c",
+            "/tag/gatecse-2002",
+            "/tag/programming-in-c",
+            "/tag/programming",
+            "/tag/easy"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/838/gate-cse-2002-question-2-8",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/838/gate-cse-2002-question-2-8",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "18",
+        "year": 2002,
+        "questionNumber": 18,
+        "subject": "Programming in C",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "The results returned by function under value-result and reference parameter passing conventions",
+        "options": [
+            "Do not differ",
+            "Differ in the presence of loops",
+            "Differ in all cases",
+            "May differ in the presence of exception"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/programming-in-c/programming/programming-in-c",
+            "/tag/gatecse-2002",
+            "/tag/programming",
+            "/tag/parameter-passing",
+            "/tag/normal",
+            "/tag/out-of-syllabus-now"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/823/gate-cse-2002-question-1-18",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/823/gate-cse-2002-question-1-18",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "17",
+        "year": 2002,
+        "questionNumber": 17,
+        "subject": "Programming in C",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "In the C language:",
+        "options": [
+            "At most one activation record exists between the current activation record and the activation record for the main",
+            "The number of activation records between the current activation record and the activation records from the main depends on the actual function calling sequence.",
+            "The visibility of global variables depends on the actual function calling sequence",
+            "Recursion requires the activation record for the recursive function to be saved in a different stack before the recursive function can be called."
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/programming-in-c/programming/programming-in-c",
+            "/tag/gatecse-2002",
+            "/tag/programming",
+            "/tag/programming-in-c",
+            "/tag/easy",
+            "/tag/descriptive"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/822/gate-cse-2002-question-1-17",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/822/gate-cse-2002-question-1-17",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "5",
+        "year": 2002,
+        "questionNumber": 5,
+        "subject": "Data Structures",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "In the worst case, the number of comparisons needed to search a single linked list of length $n$ for a given element is",
+        "options": [
+            "$\\log n$",
+            "$\\frac{n}{2}$",
+            "$\\log_2 {n} - 1$",
+            "$n$"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/programming-in-c/data-structures",
+            "/tag/gatecse-2002",
+            "/tag/easy",
+            "/tag/data-structures",
+            "/tag/linked-list"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/809/gate-cse-2002-question-1-5",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/809/gate-cse-2002-question-1-5",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "14",
+        "year": 2001,
+        "questionNumber": 14,
+        "subject": "Data Structures",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "Insert the following keys one by one into a binary search tree in the order specified.$$15, 32, 20, 9, 3, 25, 12, 1$$Show the final binary search tree after the insertions.\nDraw the binary search tree after deleting $15$ from it.\nComplete the statements $S1$, $S2$ and $S3$ in the following function so that the function computes the depth of a binary tree rooted at $t$.\n\t\ntypedef struct tnode{\n    int key;\n    struct tnode *left, *right;\n} *Tree;\n\nint depth (Tree t)\n{\n    int x, y;\n    if (t == NULL) return 0;\n    x = depth (t -> left);\nS1:     ___________;\n\nS2:     if (x > y) return __________;\n\nS3:     else return _______;",
+        "options": [
+            "}"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/programming-in-c/data-structures",
+            "/tag/gatecse-2001",
+            "/tag/data-structures",
+            "/tag/binary-search-tree",
+            "/tag/normal",
+            "/tag/descriptive"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/755/gate-cse-2001-question-14",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/755/gate-cse-2001-question-14",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "13",
+        "year": 2001,
+        "questionNumber": 13,
+        "subject": "Programming in C",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "Consider the following C program:\n\nvoid abc(char*s)\n{\n    if(s[0]=='\\0')return;\n    abc(s+1);\n    abc(s+1);\n    printf(\"%c\",s[0]);\n}\n\nmain()\n{ \n    abc(\"123\");\n}",
+        "options": [
+            "What will be the output of the program?",
+            "If $abc(s)$ is called with a null-terminated string $s$ of length $n$ characters (not counting the null ('\\0') character), how many characters will be printed by $abc(s)$?"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/programming-in-c/programming/programming-in-c",
+            "/tag/gatecse-2001",
+            "/tag/programming",
+            "/tag/recursion",
+            "/tag/normal",
+            "/tag/descriptive"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/754/gate-cse-2001-question-13",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/754/gate-cse-2001-question-13",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "19",
+        "year": 2001,
+        "questionNumber": 19,
+        "subject": "Programming in C",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "Consider the following program\n\nProgram P2\n    var n : int;\n    \n    procedure W(var x : int)\n    begin\n        x = x + 1;\n        print x;\n    end\n\n    procedure D\n    begin\n        var n : int;\n        n = 3;\n        W(n);\n    end\n\n    begin    \\\\begin P2\n        n=10;\n        D;\n    end\nIf the language has dynamic scooping and parameters are passed by reference, what will be printed by the program?",
+        "options": [
+            "10",
+            "11",
+            "3",
+            "None of the above"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/programming-in-c/programming/programming-in-c",
+            "/tag/gatecse-2001",
+            "/tag/programming",
+            "/tag/parameter-passing",
+            "/tag/normal",
+            "/tag/out-of-syllabus-now"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/737/gate-cse-2001-question-2-19",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/737/gate-cse-2001-question-2-19",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "18",
+        "year": 2001,
+        "questionNumber": 18,
+        "subject": "Programming in C",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "Consider the following three C functions:\n$[P1]$ \n\nint *g(void)\n{\n    int x = 10;\n    return (&x);\n}\n$[P2]$ \n\nint *g(void)\n{\n    int *px;\n    *px = 10;\n    return px;\n}\n$[P3]$ \n\nint *g(void)\n{\n    int *px;\n    px = (int*) malloc (sizeof(int));\n    *px = 10;\n    return px;\n}\nWhich of the above three functions are likely to cause problems with pointers?",
+        "options": [
+            "Only $P3$",
+            "Only $P1$ and $P3$",
+            "Only $P1$ and $P2$",
+            "$P1, P2$ and $P3$"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/programming-in-c/programming/programming-in-c",
+            "/tag/gatecse-2001",
+            "/tag/programming",
+            "/tag/programming-in-c",
+            "/tag/normal",
+            "/tag/pointers"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/736/gate-cse-2001-question-2-18",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/736/gate-cse-2001-question-2-18",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "21",
+        "year": 2001,
+        "questionNumber": 21,
+        "subject": "Programming in C",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "What is printed by the print statements in the program $P1$ assuming call by reference parameter passing?\n\nProgram P1()\n{\n    x = 10;\n    y = 3;\n    func1(y,x,x);\n    print x;\n    print y;\n}\n\nfunc1(x,y,z)\n{\n    y = y + 4;\n    z = x + y + z\n}",
+        "options": [
+            "$\\text{10, 3}$",
+            "$\\text{31, 3}$",
+            "$\\text{27, 7}$",
+            "None of the above"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/programming-in-c/programming/programming-in-c",
+            "/tag/gatecse-2001",
+            "/tag/programming-in-c",
+            "/tag/parameter-passing",
+            "/tag/normal",
+            "/tag/ugcnetcse-aug2016-paper3"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/735/gate-cse-2001-question-2-17-ugcnet-aug2016-iii-21",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/735/gate-cse-2001-question-2-17-ugcnet-aug2016-iii-21",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "16",
+        "year": 2001,
+        "questionNumber": 16,
+        "subject": "Data Structures",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "What is the minimum number of stacks of size $n$ required to implement a queue of size $n$?",
+        "options": [
+            "One",
+            "Two",
+            "Three",
+            "Four"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/programming-in-c/data-structures",
+            "/tag/gatecse-2001",
+            "/tag/data-structures",
+            "/tag/easy",
+            "/tag/stack",
+            "/tag/queue"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/734/gate-cse-2001-question-2-16",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/734/gate-cse-2001-question-2-16",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "15",
+        "year": 2001,
+        "questionNumber": 15,
+        "subject": "Data Structures",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "Consider any array representation of an $n$ element binary heap where the elements are stored from index $1$ to index $n$ of the array. For the element stored at index $i$ of the array $(i \\leq n)$, the index of the parent is",
+        "options": [
+            "$i-1$",
+            "$\\lfloor \\frac{i}{2} \\rfloor$",
+            "$\\lceil \\frac{i}{2} \\rceil$",
+            "$\\frac{(i+1)}{2}$"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/programming-in-c/data-structures",
+            "/tag/gatecse-2001",
+            "/tag/data-structures",
+            "/tag/binary-heap",
+            "/tag/easy"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/708/gate-cse-2001-question-1-15",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/708/gate-cse-2001-question-1-15",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "18",
+        "year": 2000,
+        "questionNumber": 18,
+        "subject": "Programming in C",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "Consider the following program  is  pseudo-Pascal syntax\n\nprogram main;\n    var x: integer;  \n    procedure Q (z: integer);\n    begin     \n        z := z+x; \n        writeln(z); \n    end; \n    procedure P (y: integer);\n    var x: integer;\n    begin     \n        x := y+2;       \n        Q(x);     \n        writeln(x); \n    end  \nbegin  \n    x := 5; \n    P(x); \n    Q(x); \n    writeln(x);\nend\nWhat is the output of the program when",
+        "options": [
+            "the parameter passing mechanism is call-by-value and the scope rule is static scoping?",
+            "the parameter passing mechanism is call-by-reference and the scope rule is dynamic scoping?"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/programming-in-c/programming/programming-in-c",
+            "/tag/gatecse-2000",
+            "/tag/programming",
+            "/tag/parameter-passing",
+            "/tag/normal",
+            "/tag/out-of-syllabus-now",
+            "/tag/descriptive"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/689/gate-cse-2000-question-18",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/689/gate-cse-2000-question-18",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "16",
+        "year": 2000,
+        "questionNumber": 16,
+        "subject": "Programming in C",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "A recursive program to compute Fibonacci numbers is shown below. Assume you are also given an array $f [ 0\\ldots m]$ with all elements initialized to $0.$\n\nfib(n) {\n    if (n > M) error ();\n    if (n == 0) return 1;\n    if (n == 1)return 1;\n    if (▭)________________________(1)\n        return ▭__________________(2)\n    t = fib(n - 1) + fib(n - 2);\n    ▭_____________________________(3)\n    return t;\n}",
+        "options": [
+            "Fill in the boxes with expressions/statement to make $fib()$ store and reuse computed Fibonacci values. Write the box number and the corresponding contents in your answer book.",
+            "What is the time complexity of the resulting program when computing $fib(n)?$"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/programming-in-c/programming/programming-in-c",
+            "/tag/gatecse-2000",
+            "/tag/algorithms",
+            "/tag/normal",
+            "/tag/descriptive",
+            "/tag/recursion"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/687/gate-cse-2000-question-16",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/687/gate-cse-2000-question-16",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "15",
+        "year": 2000,
+        "questionNumber": 15,
+        "subject": "Data Structures",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "Suppose you are given arrays $p [1......N]$  and $q [1......N]$ both uninitialized, that is, each location may contain an arbitrary value), and a variable count, initialized to $0$. Consider the following procedures $set$ and $is\\_set$:\n\nset(i) { \n    count = count + 1; \n    q[count] = i; \n    p[i] = count; \n} \nis_set(i) {\n    if (p[i] ≤ 0 or p[i] > count)\n        return false; \n    if (q[p[i]] ≠ i)\n        return false;\n    return true;\n}",
+        "options": [
+            "Suppose we make the following sequence of calls:",
+            "$set(7)$; $set(3)$; $set(9)$;",
+            "After these sequence of calls, what is the value of count, and what do $q[1], q[2] ,q[3], p[7], p[3]$ and $p[9]$ contain?",
+            "Complete the following statement \"The first count elements of __________contain values i such that set (_________________) has been called\".",
+            "Show that if $set(i)$ has not been called for some $i$, then regardless of what $p[i]$ contains, $is\\_set(i)$ will return false."
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/programming-in-c/data-structures",
+            "/tag/gatecse-2000",
+            "/tag/data-structures",
+            "/tag/array",
+            "/tag/easy",
+            "/tag/descriptive"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/686/gate-cse-2000-question-15",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/686/gate-cse-2000-question-15",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "13",
+        "year": 2000,
+        "questionNumber": 13,
+        "subject": "Data Structures",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "Suppose a stack implementation supports, in addition to PUSH and POP, an operation REVERSE, which reverses the order of the elements on the stack.",
+        "options": [
+            "To implement a queue using the above stack implementation, show how to implement ENQUEUE using a single operation and DEQUEUE using a sequence of $3$ operations.",
+            "The following post fix expression, containing single digit operands and arithmetic operators $+$ and $*$, is evaluated using a stack.",
+            "$5 \\ 2 * 3 \\ 4 + 5 \\ 2 * * +$",
+            "Show the contents of the stack",
+            "After evaluating $5 \\ 2 * 3 \\ 4 +$",
+            "After evaluating $5 \\ 2 * 3 \\ 4 + 5 \\ 2$",
+            "At the end of evaluation"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/programming-in-c/data-structures",
+            "/tag/gatecse-2000",
+            "/tag/data-structures",
+            "/tag/stack",
+            "/tag/normal",
+            "/tag/descriptive"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/684/gate-cse-2000-question-13",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/684/gate-cse-2000-question-13",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "20",
+        "year": 2000,
+        "questionNumber": 20,
+        "subject": "Programming in C",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "The value of $j$ at the end of the execution of the following C program:\n\nint incr (int i)\n{ \n    static int count = 0;\n    count = count + i;\n    return (count);\n} \nmain () { \n    int i, j; \n    for (i = 0; i <= 4; i++)\n       j = incr (i);\n} \n\n\nis:",
+        "options": [
+            "$10$",
+            "$4$",
+            "$6$",
+            "$7$"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/programming-in-c/programming/programming-in-c",
+            "/tag/gatecse-2000",
+            "/tag/programming",
+            "/tag/programming-in-c",
+            "/tag/easy"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/667/gate-cse-2000-question-2-20",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/667/gate-cse-2000-question-2-20",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "16",
+        "year": 2000,
+        "questionNumber": 16,
+        "subject": "Data Structures",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "Let LASTPOST, LASTIN and LASTPRE denote the last vertex visited `in a postorder, inorder and preorder traversal respectively, of a complete binary tree. Which of the following is always true?",
+        "options": [
+            "LASTIN = LASTPOST",
+            "LASTIN = LASTPRE",
+            "LASTPRE = LASTPOST",
+            "None of the above"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/programming-in-c/data-structures",
+            "/tag/gatecse-2000",
+            "/tag/data-structures",
+            "/tag/binary-tree",
+            "/tag/normal"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/663/gate-cse-2000-question-2-16",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/663/gate-cse-2000-question-2-16",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "79",
+        "year": 2000,
+        "questionNumber": 79,
+        "subject": "Programming in C",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "Consider the following C declaration:\n\nstruct {\n    short x[5];  \n    union { \n        float y; \n        long z; \n    } u;\n )t;\nAssume that the objects of the type short, float and long occupy $2$ bytes, $4$ bytes and $8$ bytes, respectively. The memory requirement for variable $t$, ignoring alignment consideration, is:",
+        "options": [
+            "$22$ bytes",
+            "$14$ bytes",
+            "$18$ bytes",
+            "$10$ bytes"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/programming-in-c/programming/programming-in-c",
+            "/tag/gatecse-2000",
+            "/tag/programming",
+            "/tag/programming-in-c",
+            "/tag/easy",
+            "/tag/isro2015",
+            "/tag/union"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/640/gate-cse-2000-question-1-17-isro2015-79",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/640/gate-cse-2000-question-1-17-isro2015-79",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "16",
+        "year": 2000,
+        "questionNumber": 16,
+        "subject": "Programming in C",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "Aliasing in the context of programming languages refers to",
+        "options": [
+            "multiple variables having the same memory location",
+            "multiple variables having the same value",
+            "multiple variables having the same identifier",
+            "multiple uses of the same variable"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/programming-in-c/programming/programming-in-c",
+            "/tag/gatecse-2000",
+            "/tag/programming",
+            "/tag/easy",
+            "/tag/aliasing"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/639/gate-cse-2000-question-1-16",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/639/gate-cse-2000-question-1-16",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "14",
+        "year": 2000,
+        "questionNumber": 14,
+        "subject": "Data Structures",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "Consider the following nested representation of binary trees: $(X \\ Y \\ Z)$ indicates $Y$ and $Z$ are the left and right subtrees, respectively, of node $X$. Note that $Y$ and $Z$ may be $NULL$, or further nested. Which of the following represents a valid binary tree?",
+        "options": [
+            "$(1 \\ 2 \\ (4 \\ 5 \\ 6 \\ 7))$",
+            "$(1 \\ (2 \\ 3 \\ 4) \\ 5 \\ 6) \\ 7)$",
+            "$(1 \\ (2 \\ 3  \\ 4) \\ (5 \\ 6  \\ 7))$",
+            "$(1 \\ (2 \\ 3 \\ NULL) \\ (4 \\ 5))$"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/programming-in-c/data-structures",
+            "/tag/gatecse-2000",
+            "/tag/data-structures",
+            "/tag/binary-tree",
+            "/tag/easy"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/637/gate-cse-2000-question-1-14",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/637/gate-cse-2000-question-1-14",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "12",
+        "year": 2000,
+        "questionNumber": 12,
+        "subject": "Programming in C",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "The most appropriate matching for the following pairs$$\\begin{array}{|ll|ll|}\\hline X: & \\text{m = malloc(5); m = NULL;} & 1: & \\text{using dangling pointers} \\\\\\hline  Y: & \\text{free(n); n -> value = 5;} & 2: & \\text{using uninitialized pointers} \\\\\\hline   Z: & \\text{char *p , *p = ‘a’ ; } & 3:  & \\text{lost memory} \\\\\\hline \\end{array}$$ is:",
+        "options": [
+            "$X - 1 \\ \\  Y - 3 \\ \\  Z - 2$",
+            "$X - 2 \\ \\  Y - 1 \\ \\  Z - 3$",
+            "$X - 3 \\ \\  Y - 2 \\ \\  Z - 1$",
+            "$X - 3 \\ \\  Y - 1 \\ \\ Z - 2$"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/programming-in-c/programming/programming-in-c",
+            "/tag/gatecse-2000",
+            "/tag/programming",
+            "/tag/programming-in-c",
+            "/tag/easy",
+            "/tag/match-the-following",
+            "/tag/pointers"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/635/gate-cse-2000-question-1-12",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/635/gate-cse-2000-question-1-12",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "11",
+        "year": 2000,
+        "questionNumber": 11,
+        "subject": "Programming in C",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "The following C declarations:\n\nstruct node { \n    int i:\n    float j;\n };\n struct node *s[10];\ndefine s to be:",
+        "options": [
+            "An array, each element of which is a pointer to a structure of type node",
+            "A structure of $2$ fields, each field being a pointer to an array of $10$ elements",
+            "A structure of $3$ fields: an integer, a float, and an array of $10$ elements",
+            "An array, each element of which is a structure of type node"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/programming-in-c/programming/programming-in-c",
+            "/tag/gatecse-2000",
+            "/tag/programming",
+            "/tag/programming-in-c",
+            "/tag/easy",
+            "/tag/structure"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/634/gate-cse-2000-question-1-11",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/634/gate-cse-2000-question-1-11",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "2",
+        "year": 2000,
+        "questionNumber": 2,
+        "subject": "Data Structures",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "An $n \\times n$ array $v$ is defined as follows:\n$v\\left[i,j\\right] = i - j$ for all $i, j, i \\leq n, 1 \\leq j \\leq n$\nThe sum of the elements of the array $v$ is",
+        "options": [
+            "$0$",
+            "$n-1$",
+            "$n^2 - 3n +2$",
+            "$n^2 \\frac{\\left(n+1\\right)}{2}$"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/programming-in-c/data-structures",
+            "/tag/gatecse-2000",
+            "/tag/data-structures",
+            "/tag/array",
+            "/tag/easy"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/625/gate-cse-2000-question-1-2",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/625/gate-cse-2000-question-1-2",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "5",
+        "year": null,
+        "questionNumber": 5,
+        "subject": "Programming in C",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "",
+        "options": [],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/programming-in-c/programming/programming-in-c",
+            "/tag/gate1993",
+            "/tag/out-of-syllabus-now",
+            "/tag/fortran"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/609/gate-cse-1993-question-2-5",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/609/gate-cse-1993-question-2-5",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "10a",
+        "year": null,
+        "questionNumber": null,
+        "subject": "Programming in C",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "What type of parameter passing mechanism (call-by-value, call-by-reference, call-by-name, or-by-value result) is the following sequence of actions trying to implement for a procedure call $P (A[i])$ where P (i:integer) is a procedure and A is an integer array?\nIs the implementation correct? Explain and correct it if necessary. You are supposed to make only small changes\n\nCreate a new local variable, say z.\nAssign to z the value of A[i].\nExecute the body of P using z for A[i]",
+        "options": [
+            "Set A[i] to z.​"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/programming-in-c/programming/programming-in-c",
+            "/tag/gate1992",
+            "/tag/parameter-passing",
+            "/tag/programming",
+            "/tag/normal",
+            "/tag/out-of-gatecse-syllabus"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/589/gate-cse-1992-question-10a",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/589/gate-cse-1992-question-10a",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "09",
+        "year": null,
+        "questionNumber": 9,
+        "subject": "Data Structures",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "Suggest a data structure for representing a subset $S$ of integers from $1$ to $n$. Following operations on the set $S$ are to be performed in constant time (independent of cardinality of $S$).$$\\begin{array}{cll} \\text{i.}& \\text{MEMBER $(X):$}  &  \\text{Check whether $X$ is in the set $S$ or not} \\\\ \\text{ii.} &\n\\text{FIND-ONE $(S):$} & \\text{If $S$ is not empty, return one element of the set $S$}\\\\ & & \\quad\\text{(any arbitrary element will do)} \\\\ \\text{iii.} & \\text{ADD $(X):$} & \\text{Add integer $X$ to set $S$} \\\\  \\text{ii.} &  \\text{DELETE $(X):$} & \\text{Delete integer $X$ from $S$}  \\end{array}$$Give pictorial examples of your data structure. Give routines for these operations in an English like language. You may assume that the data structure has been suitable initialized. Clearly state your assumptions regarding initialization.",
+        "options": [],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/programming-in-c/data-structures",
+            "/tag/gate1992",
+            "/tag/data-structures",
+            "/tag/normal",
+            "/tag/descriptive",
+            "/tag/queue"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/588/gate-cse-1992-question-09",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/588/gate-cse-1992-question-09",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    }
+]

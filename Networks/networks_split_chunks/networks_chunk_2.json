@@ -1,0 +1,1751 @@
+[
+    {
+        "id": "44",
+        "year": 2017,
+        "questionNumber": 44,
+        "subject": "Computer Networks",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "In a RSA cryptosystem, a participant $A$ uses two prime numbers $p = 13$ and $q = 17$ to generate her public and private keys. If the public key of $A$ is $35$, then the private key of $A$ is __________ .",
+        "options": [],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/computer-networks",
+            "/tag/gatecse-2017-set1",
+            "/tag/network-security",
+            "/tag/computer-networks",
+            "/tag/rsa-security-networks",
+            "/tag/out-of-gatecse-syllabus",
+            "/tag/numerical-answers",
+            "/tag/normal"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/118327/gate-cse-2017-set-1-question-44",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/118327/gate-cse-2017-set-1-question-44",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "32",
+        "year": 2017,
+        "questionNumber": 32,
+        "subject": "Computer Networks",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "A computer network uses polynomials over $GF(2)$ for error checking with $8$ bits as information bits and uses $x^{3}+x+1$ as the generator polynomial to generate the check bits. In this network, the message $01011011$ is transmitted as:",
+        "options": [
+            "$01011011010$",
+            "$01011011011$",
+            "$01011011101$",
+            "$01011011100$"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/computer-networks",
+            "/tag/gatecse-2017-set1",
+            "/tag/computer-networks",
+            "/tag/crc-polynomial",
+            "/tag/normal"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/118313/gate-cse-2017-set-1-question-32",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/118313/gate-cse-2017-set-1-question-32",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "15",
+        "year": 2017,
+        "questionNumber": 15,
+        "subject": "Computer Networks",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "A sender $S$ sends a message $m$ to receiver $R$, which is digitally signed by $S$ with its private key. In this scenario, one or more of the following security violations can take place.\n\n$S$ can launch a birthday attack to replace $m$ with a fraudulent message\n$A$ third party attacker can launch a birthday attack to replace $m$ with a fraudulent message\n$R$ can launch a birthday attack to replace $m$ with a fraudulent message\n\nWhich of the following are possible security violations?",
+        "options": [
+            "I and II only",
+            "I only",
+            "II only",
+            "II and III only"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/computer-networks",
+            "/tag/gatecse-2017-set1",
+            "/tag/computer-networks",
+            "/tag/cryptography",
+            "/tag/normal",
+            "/tag/network-security",
+            "/tag/out-of-gatecse-syllabus"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/118295/gate-cse-2017-set-1-question-15",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/118295/gate-cse-2017-set-1-question-15",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "18",
+        "year": 2017,
+        "questionNumber": 18,
+        "subject": "Computer Networks",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "Consider socket API on a Linux machine that supports connected UDP sockets. A connected UDP socket is a UDP socket on which connect function has already been called. Which of the following statements is/are CORRECT?\n\nA connected UDP socket can be used to communicate with multiple peers simultaneously.\nA process can successfully call connect function again for an already connected UDP socket.",
+        "options": [
+            "$\\text{I}$ only",
+            "$\\text{II}$ only",
+            "Both $\\text{I}$ and $\\text{II}$",
+            "Neither $\\text{I}$ nor $\\text{II}$"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/computer-networks",
+            "/tag/gatecse-2017-set2",
+            "/tag/computer-networks",
+            "/tag/udp"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/118209/gate-cse-2017-set-2-question-18",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/118209/gate-cse-2017-set-2-question-18",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "14",
+        "year": 2017,
+        "questionNumber": 14,
+        "subject": "Computer Networks",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "Consider a TCP client and a TCP server running on two different machines. After completing data transfer, the TCP client calls close to terminate the connection and a FIN segment is sent to the TCP server. Server-side TCP responds by sending an ACK, which is received by the client-side TCP. As per the TCP connection state diagram $\\text{(RFC 793)}$, in which state does the client-side TCP connection wait for the FIN from the server-side TCP?",
+        "options": [
+            "LAST-ACK",
+            "TIME-WAIT",
+            "FIN-WAIT-$1$",
+            "FIN-WAIT-$2$"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/computer-networks",
+            "/tag/gatecse-2017-set1",
+            "/tag/computer-networks",
+            "/tag/tcp"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/118194/gate-cse-2017-set-1-question-14",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/118194/gate-cse-2017-set-1-question-14",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "4c",
+        "year": null,
+        "questionNumber": null,
+        "subject": "Computer Networks",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "Give the character format for data transmission in asynchronous serial mode.",
+        "options": [],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/computer-networks",
+            "/tag/gate1987",
+            "/tag/serial-communication",
+            "/tag/descriptive",
+            "/tag/out-of-gatecse-syllabus"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/81361/gate-cse-1987-question-4c",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/81361/gate-cse-1987-question-4c",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "83",
+        "year": 2006,
+        "questionNumber": 83,
+        "subject": "Computer Networks",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "Consider the diagram shown below where a number of LANs are connected by (transparent) bridges. In order to avoid packets looping through circuits in the graph, the bridges organize themselves in a spanning tree. First, the root bridge is identified as the bridge with the least serial number. Next, the root sends out (one or more) data units to enable the setting up of the spanning tree of shortest paths from the root bridge to each bridge. Each bridge identifies a port (the root port) through which it will forward frames to the root bridge. Port conflicts are always resolved in favour of the port with the lower index value. When there is a possibility of multiple bridges forwarding to the same LAN (but not through the root port), ties are broken as follows: bridges closest to the root get preference and between such bridges, the one with the lowest serial number is preferred.Consider the spanning tree $B1, B5, B3, B4, B2$ for the given connection of LANs by bridges, that represents the depth first traversal of the spanning tree of bridges. Let host $H1$ send out a broadcast ping packet. Which of the following options represents the correct forwarding table on $B3$?$\\begin{array}{|l|l|}\\hline \\textbf{Hosts} & \\textbf{Port} \\\\\\hline  \\text{H1, H2, H3, H4} & \\text{3}   \\\\\\hline \\text{H5, H6, H9, H10} & \\text{1} \\\\\\hline \\text{H7, H8, H11, H12} & \\text{2}  \\\\\\hline \\end{array}$$\\begin{array}{|l|l|}\\hline \\textbf{Hosts} & \\textbf{Port} \\\\\\hline  \\text{H1, H2} & \\text{4} \\\\\\hline   \\text{H3, H4} & \\text{3} \\\\\\hline  \\text{H5, H6} & \\text{1}\\\\\\hline \\text{H7, H8, H9, H10, H11, H12} & \\text{2}  \\\\\\hline \\end{array}$$\\begin{array}{|l|l|}\\hline \\textbf{Hosts} & \\textbf{Port} \\\\\\hline  \\text{H3, H4} & \\text{3} \\\\\\hline   \\text{H5, H6, H9, H10} & \\text{1} \\\\\\hline  \\text{H1, H2} & \\text{4}  \\\\\\hline  \\text{H7, H8, H11, H12} & \\text{2}  \\\\\\hline \\end{array}$$\\begin{array}{|l|l|}\\hline \\textbf{Hosts} & \\textbf{Port} \\\\\\hline  \\text{H1, H2, H3, H4} & \\text{3} \\\\\\hline   \\text{H5, H7, H9, H10} & \\text{1} \\\\\\hline  \\text{H7, H8, H11, H12} & \\text{4}  \\\\\\hline \\end{array}$",
+        "options": [],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/computer-networks",
+            "/tag/gatecse-2006",
+            "/tag/computer-networks",
+            "/tag/bridges",
+            "/tag/normal"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/79790/gate-cse-2006-question-83",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/79790/gate-cse-2006-question-83",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "57",
+        "year": 2004,
+        "questionNumber": 57,
+        "subject": "Computer Networks",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "Consider three IP networks $A, B$ and $C$. Host $H_A$ in network $A$ sends messages each containing $180$ $bytes$ of application data to a host $H_C$ in network $C$. The TCP layer prefixes $20$ byte header to the message. This passes through an intermediate network $B$. The maximum packet size, including $20$ byte IP header, in each network, is:\n\n$A:$ $1000$ $\\text{bytes}$\n$B: 100$   $\\text{bytes}$\n$C: 1000$ $\\text{bytes}$\n\nThe network $A$ and $B$ are connected through a $1$ $Mbps$ link, while $B$ and $C$ are connected by a $512$ $Kbps$ link (bps = bits per second).\n\nWhat is the rate at which application data is transferred to host $H_C$? Ignore errors, acknowledgments, and other overheads.",
+        "options": [
+            "$325.5$ $\\text{Kbps}$",
+            "$354.5$ $\\text{Kbps}$",
+            "$409.6$ $\\text{Kbps}$",
+            "$512.0$ $\\text{Kbps}$"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/computer-networks",
+            "/tag/gatecse-2004",
+            "/tag/computer-networks",
+            "/tag/ip-addressing",
+            "/tag/tcp",
+            "/tag/normal"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/43572/gate-cse-2004-question-57",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/43572/gate-cse-2004-question-57",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "58",
+        "year": 2009,
+        "questionNumber": 58,
+        "subject": "Computer Networks",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "Frames of $1000\\text{ bits}$ are sent over a $10^6$ bps duplex link between two hosts. The propagation time is $25ms$. Frames are to be transmitted into this link to maximally pack them in transit (within the link).\nLet $I$ be the minimum number of bits $(I)$ that will be required to represent the sequence numbers distinctly assuming that no time gap needs to be given between transmission of two frames.\nSuppose that the sliding window protocol is used with the sender window size of $2^{I}$, where $I$ is the numbers of bits as mentioned earlier and acknowledgements are always piggy backed. After sending $2^I$ frames, what is the minimum time the sender will have to wait before starting transmission of the next frame? (Identify the closest choice ignoring the frame processing time)",
+        "options": [
+            "$16ms$",
+            "$18ms$",
+            "$20ms$",
+            "$22ms$"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/computer-networks",
+            "/tag/gatecse-2009",
+            "/tag/computer-networks",
+            "/tag/sliding-window",
+            "/tag/normal"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/43470/gate-cse-2009-question-58",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/43470/gate-cse-2009-question-58",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "55",
+        "year": 2010,
+        "questionNumber": 55,
+        "subject": "Computer Networks",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "Consider a network with $6$ routers $R1$ to $R6$ connected with links having weights as shown in the following diagram.\n\nSuppose the weights of all unused links are changed to $2$ and the distance vector algorithm is used again until all routing tables stabilize. How many links will now remain unused?",
+        "options": [
+            "$0$",
+            "$1$",
+            "$2$",
+            "$3$"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/computer-networks",
+            "/tag/gatecse-2010",
+            "/tag/computer-networks",
+            "/tag/routing",
+            "/tag/distance-vector-routing",
+            "/tag/normal"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/43326/gate-cse-2010-question-55",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/43326/gate-cse-2010-question-55",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "53",
+        "year": 2011,
+        "questionNumber": 53,
+        "subject": "Computer Networks",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "Consider a network with five nodes, $N1$ to $N5$, as shown as below.\n\nThe network uses a Distance Vector Routing protocol. Once the routes have been stabilized, the distance vectors at different nodes are as follows.\n\nN1: $(0, 1, 7, 8, 4)$\nN2: $(1, 0, 6, 7, 3)$\nN3: $(7, 6, 0, 2, 6)$\nN4: $(8, 7, 2, 0, 4)$\nN5: $(4, 3, 6, 4, 0)$\n\nEach distance vector is the distance of the best known path at that instance to nodes, $N1$ to $N5$, where the distance to itself is $0$. Also, all links are symmetric and the cost is identical in both directions. In each round, all nodes exchange their distance vectors with their respective neighbors. Then all nodes update their distance vectors. In between two rounds, any change in cost of a link will cause the two incident nodes to change only that entry in their distance vectors.\nThe cost of link $N2-N3$ reduces to $2$ (in both directions). After the next round of updates, the link $N1-N2$ goes down. $N2$ will reflect this change immediately in its distance vector as cost, $\\infty$. After the NEXT ROUND of update, what will be the cost to $N1$ in the distance vector of $N3$ ?",
+        "options": [
+            "$3$",
+            "$9$",
+            "$10$",
+            "$\\infty$"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/computer-networks",
+            "/tag/gatecse-2011",
+            "/tag/computer-networks",
+            "/tag/routing",
+            "/tag/distance-vector-routing",
+            "/tag/normal"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/43317/gate-cse-2011-question-53",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/43317/gate-cse-2011-question-53",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "54",
+        "year": 2016,
+        "questionNumber": 54,
+        "subject": "Computer Networks",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "For a host machine that uses the token bucket algorithm for congestion control, the token bucket has a capacity of $1$ $\\text{megabyte}$ and the maximum output rate is $20$ $\\text{megabytes}$ per $\\text{second}$. Tokens arrive at a rate to sustain output at a rate of $10$ $\\text{megabytes}$ per $\\text{second}$. The token bucket is currently full and the machine needs to send $12$ $\\text{megabytes}$ of data. The minimum time required to transmit the data is _____________ $\\text{seconds}$.",
+        "options": [],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/computer-networks",
+            "/tag/gatecse-2016-set1",
+            "/tag/computer-networks",
+            "/tag/token-bucket",
+            "/tag/normal",
+            "/tag/numerical-answers"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/39720/gate-cse-2016-set-1-question-54",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/39720/gate-cse-2016-set-1-question-54",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "53",
+        "year": 2016,
+        "questionNumber": 53,
+        "subject": "Computer Networks",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "An IP datagram of size $1000$ $\\text{bytes }$arrives at a router. The router has to forward this packet on a link whose MTU (maximum transmission unit) is $100$ $\\text{bytes }$. Assume that the size of the IP header is $20$ $\\text{bytes }.$",
+        "options": [
+            "The number of fragments that the IP datagram will be divided into for transmission is________."
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/computer-networks",
+            "/tag/gatecse-2016-set1",
+            "/tag/computer-networks",
+            "/tag/ip-packet",
+            "/tag/normal",
+            "/tag/numerical-answers"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/39712/gate-cse-2016-set-1-question-53",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/39712/gate-cse-2016-set-1-question-53",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "55",
+        "year": 2016,
+        "questionNumber": 55,
+        "subject": "Computer Networks",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "A sender uses the Stop-and-Wait $\\text{ARQ}$ protocol for reliable transmission of frames. Frames are of size $1000$ bytes and the transmission rate at the sender is $80\\;\\textsf{Kbps} (1\\textsf{Kbps} = 1000\\;\\text{ bits/second}).$  Size of an acknowledgment is $100$ bytes and the transmission rate at the receiver is $8\\;\\textsf{Kbps.}$ The one-way propagation delay is $100$ milliseconds.",
+        "options": [
+            "Assuming no frame is lost, the sender throughput is ________ bytes/ second."
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/computer-networks",
+            "/tag/gatecse-2016-set1",
+            "/tag/computer-networks",
+            "/tag/stop-and-wait",
+            "/tag/normal",
+            "/tag/numerical-answers"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/39696/gate-cse-2016-set-1-question-55",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/39696/gate-cse-2016-set-1-question-55",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "52",
+        "year": 2016,
+        "questionNumber": 52,
+        "subject": "Computer Networks",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "Consider that $B$ wants to send a message $m$ that is digitally signed to $A$. Let the pair of private and public keys for $A$ and $B$ be denoted by ${K_{x}}^-$ and ${K_{x}}^+$ for $x=A, B$, respectively. Let $K_{x}(m)$ represent the operation of encrypting $m$ with a key $K_{x}$ and $H(m)$ represent the message digest. Which one of the following indicates the CORRECT way of sending the message $m$ along with the digital signature to $A$?",
+        "options": [
+            "$\\left\\{m, {K_{B}}^+(H(m))\\right\\}$",
+            "$\\left\\{m, {K_{B}}^-(H(m))\\right\\}$",
+            "$\\left\\{m, {K_{A}}^-(H(m))\\right\\}$",
+            "$\\left\\{m, {K_{A}}^+(m)\\right\\}$"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/computer-networks",
+            "/tag/gatecse-2016-set1",
+            "/tag/computer-networks",
+            "/tag/network-security",
+            "/tag/easy",
+            "/tag/out-of-gatecse-syllabus"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/39694/gate-cse-2016-set-1-question-52",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/39694/gate-cse-2016-set-1-question-52",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "24",
+        "year": 2016,
+        "questionNumber": 24,
+        "subject": "Computer Networks",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "Which one of the following protocols is NOT used to resolve one form of address to another one?",
+        "options": [
+            "$\\textsf{DNS}$",
+            "$\\textsf{ARP}$",
+            "$\\textsf{DHCP}$",
+            "$\\textsf{RARP}$"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/computer-networks",
+            "/tag/gatecse-2016-set1",
+            "/tag/computer-networks",
+            "/tag/network-protocols",
+            "/tag/normal"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/39639/gate-cse-2016-set-1-question-24",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/39639/gate-cse-2016-set-1-question-24",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "25",
+        "year": 2016,
+        "questionNumber": 25,
+        "subject": "Computer Networks",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "Which of the following is/are example(s) of stateful application layer protocol?\n\n$\\textsf{HTTP}$\n$\\textsf{FTP}$\n$\\textsf{TCP}$\n$\\textsf{POP3}$",
+        "options": [
+            "$\\text{(i)}$ and $\\text{(ii)}$ only",
+            "$\\text{(ii)}$ and $\\text{(iii)}$ only",
+            "$\\text{(ii)}$ and $\\text{(iv)}$ only",
+            "$\\text{(iv)}$ only"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/computer-networks",
+            "/tag/gatecse-2016-set1",
+            "/tag/computer-networks",
+            "/tag/application-layer-protocols",
+            "/tag/normal"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/39628/gate-cse-2016-set-1-question-25",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/39628/gate-cse-2016-set-1-question-25",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "54",
+        "year": 2016,
+        "questionNumber": 54,
+        "subject": "Computer Networks",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "For the $\\text{IEEE 802.11 MAC}$ protocol for wireless communication, which of the following statements is/are TRUE?\n\nAt least three non-overlapping channels are available for transmissions.\nThe RTS-CTS mechanism is used for collision detection.\nUnicast frames are ACKed.",
+        "options": [
+            "All I, II, and III",
+            "I and III only",
+            "II and III only",
+            "II only"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/computer-networks",
+            "/tag/gatecse-2016-set2",
+            "/tag/computer-networks",
+            "/tag/wifi",
+            "/tag/normal",
+            "/tag/non-gatecse"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/39593/gate-cse-2016-set-2-question-54",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/39593/gate-cse-2016-set-2-question-54",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "53",
+        "year": 2016,
+        "questionNumber": 53,
+        "subject": "Computer Networks",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "A network has a data transmission bandwidth of $20 \\times 10^{6}$ bits per second. It uses CSMA/CD in the MAC layer. The maximum signal propagation time from one node to another node is $40$ microseconds. The minimum size of a frame in the network is __________ bytes.",
+        "options": [],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/computer-networks",
+            "/tag/gatecse-2016-set2",
+            "/tag/computer-networks",
+            "/tag/csma-cd",
+            "/tag/numerical-answers",
+            "/tag/normal"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/39589/gate-cse-2016-set-2-question-53",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/39589/gate-cse-2016-set-2-question-53",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "55",
+        "year": 2016,
+        "questionNumber": 55,
+        "subject": "Computer Networks",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "Consider a $128 \\times 10^3$ bits/second satellite communication link with one way propagation delay of $150$ milliseconds. Selective retransmission (repeat) protocol is used on this link to send data with a frame size of $1$ kilobyte. Neglect the transmission time of acknowledgement. The minimum number of bits required for the sequence number field to achieve $100 \\%$ utilization is ________.",
+        "options": [],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/computer-networks",
+            "/tag/gatecse-2016-set2",
+            "/tag/computer-networks",
+            "/tag/sliding-window",
+            "/tag/normal",
+            "/tag/numerical-answers"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/39577/gate-cse-2016-set-2-question-55",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/39577/gate-cse-2016-set-2-question-55",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "25",
+        "year": 2016,
+        "questionNumber": 25,
+        "subject": "Computer Networks",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "Identify the correct sequence in which the following packets are transmitted on the network by a host when a browser requests a webpage from a remote server, assuming that the host has just been restarted.",
+        "options": [
+            "HTTP GET request, DNS query, TCP SYN",
+            "DNS query, HTTP GET request, TCP SYN",
+            "DNS query, TCP SYN, HTTP GET request.",
+            "TCP SYN, DNS query, HTTP GET request."
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/computer-networks",
+            "/tag/gatecse-2016-set2",
+            "/tag/computer-networks",
+            "/tag/normal",
+            "/tag/tcp"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/39572/gate-cse-2016-set-2-question-25",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/39572/gate-cse-2016-set-2-question-25",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "23",
+        "year": 2016,
+        "questionNumber": 23,
+        "subject": "Computer Networks",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "Anarkali digitally signs a message and sends it to Salim. Verification of the signature by Salim requires.",
+        "options": [
+            "Anarkali's public key.",
+            "Salim's public key.",
+            "Salim's private key.",
+            "Anarkali's private key."
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/computer-networks",
+            "/tag/gatecse-2016-set2",
+            "/tag/computer-networks",
+            "/tag/network-security",
+            "/tag/cryptography",
+            "/tag/easy",
+            "/tag/out-of-gatecse-syllabus"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/39555/gate-cse-2016-set-2-question-23",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/39555/gate-cse-2016-set-2-question-23",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "24",
+        "year": 2016,
+        "questionNumber": 24,
+        "subject": "Computer Networks",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "In an Ethernet local area network, which one of the following statements is TRUE?",
+        "options": [
+            "A station stops to sense the channel once it starts transmitting a frame.",
+            "The purpose of the jamming signal is to pad the frames that are smaller than the minimum frame size.",
+            "A station continues to transmit the packet even after the collision is detected.",
+            "The exponential back off mechanism reduces the probability of collision on retransmissions."
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/computer-networks",
+            "/tag/gatecse-2016-set2",
+            "/tag/computer-networks",
+            "/tag/ethernet",
+            "/tag/normal"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/39543/gate-cse-2016-set-2-question-24",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/39543/gate-cse-2016-set-2-question-24",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "38",
+        "year": 2015,
+        "questionNumber": 38,
+        "subject": "Computer Networks",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "In the network $200.10.11.144/27$, the $\\text{fourth}$ octet (in decimal) of the last $\\text{IP}$ address of the network which can be assigned to a host is _______.",
+        "options": [],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/computer-networks",
+            "/tag/gatecse-2015-set3",
+            "/tag/computer-networks",
+            "/tag/subnetting",
+            "/tag/normal",
+            "/tag/numerical-answers"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/8497/gate-cse-2015-set-3-question-38",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/8497/gate-cse-2015-set-3-question-38",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "36",
+        "year": 2015,
+        "questionNumber": 36,
+        "subject": "Computer Networks",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "Two hosts are connected via a packet switch with $10^7$ bits per second links. Each link has a propagation delay of $20$ microseconds. The switch begins forwarding a packet $35$ microseconds after it receives the same. If $10000$ bits of data are to be transmitted between the two hosts using a packet size of $5000$ bits, the time elapsed between the transmission of the first bit of data and the reception of the last bit of the data in microseconds is ______.",
+        "options": [],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/computer-networks",
+            "/tag/gatecse-2015-set3",
+            "/tag/computer-networks",
+            "/tag/normal",
+            "/tag/numerical-answers",
+            "/tag/network-switching"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/8495/gate-cse-2015-set-3-question-36",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/8495/gate-cse-2015-set-3-question-36",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "28",
+        "year": 2015,
+        "questionNumber": 28,
+        "subject": "Computer Networks",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "Consider a network connecting two systems located $8000$ $\\text{Km}$ apart. The bandwidth of the network is $500 \\times 10^6$ $\\text{bits}$ per second. The propagation speed of the media is $4 \\times 10^6$ $\\text{meters}$ per second. It needs to design a Go-Back-$N$ sliding window protocol for this network. The average packet size is $10^7$ $\\text{bits}$. The network is to be used to its full capacity. Assume that processing delays at nodes are negligible. Then, the minimum size in bits of the sequence number field has to be ______.",
+        "options": [],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/computer-networks",
+            "/tag/gatecse-2015-set3",
+            "/tag/computer-networks",
+            "/tag/sliding-window",
+            "/tag/normal",
+            "/tag/numerical-answers"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/8481/gate-cse-2015-set-3-question-28",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/8481/gate-cse-2015-set-3-question-28",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "22",
+        "year": 2015,
+        "questionNumber": 22,
+        "subject": "Computer Networks",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "Consider the following statements.\nTCP connections are full duplex\nTCP has no option for selective acknowledgement\nTCP connections are message streams",
+        "options": [
+            "Only I is correct",
+            "Only I and III are correct",
+            "Only II and III are correct",
+            "All of I, II and III are correct"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/computer-networks",
+            "/tag/gatecse-2015-set3",
+            "/tag/computer-networks",
+            "/tag/tcp",
+            "/tag/normal"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/8425/gate-cse-2015-set-3-question-22",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/8425/gate-cse-2015-set-3-question-22",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "6",
+        "year": 2015,
+        "questionNumber": 6,
+        "subject": "Computer Networks",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "Consider a CSMA/CD network that transmits data at a rate of $100\\;\\textsf{Mbps}\\; (10^8\\;\\text{bits}$ per second) over a $1\\;\\textsf{km}$ (kilometre) cable with no repeaters. If the minimum frame size required for this network is $1250\\;\\text{bytes},$ What is the signal speed $\\textsf{(km/sec)}$ in the cable?",
+        "options": [
+            "$8000$",
+            "$10000$",
+            "$16000$",
+            "$20000$"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/computer-networks",
+            "/tag/gatecse-2015-set3",
+            "/tag/computer-networks",
+            "/tag/congestion-control",
+            "/tag/csma-cd",
+            "/tag/normal"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/8400/gate-cse-2015-set-3-question-6",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/8400/gate-cse-2015-set-3-question-6",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "53",
+        "year": 2015,
+        "questionNumber": 53,
+        "subject": "Computer Networks",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "Suppose that the stop-and-wait protocol is used on a link with a bit rate of $64$ $\\text{kilobits}$ per second and $20$ $\\text{milliseconds}$ propagation delay. Assume that the transmission time for the acknowledgment and the processing time at nodes are negligible. Then the minimum frame size in bytes to achieve a link utilization of at least $50$ $\\text{%}$ is_________________.",
+        "options": [],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/computer-networks",
+            "/tag/gatecse-2015-set1",
+            "/tag/computer-networks",
+            "/tag/stop-and-wait",
+            "/tag/normal",
+            "/tag/numerical-answers"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/8363/gate-cse-2015-set-1-question-53",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/8363/gate-cse-2015-set-1-question-53",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "52",
+        "year": 2015,
+        "questionNumber": 52,
+        "subject": "Computer Networks",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "$\\text{Host A}$ sends a $\\text{UDP}$ datagram containing $8880\\text{ bytes}$ of user data to $\\text{host B}$ over an $\\text{Ethernet LAN}.$ Ethernet frames may carry data up to $1500\\text{ bytes (i.e. MTU = 1500 bytes)}.$ Size of $\\text{UDP}$ header is $8\\text{ bytes}$ and size of $\\text{IP}$ header is $20\\text{ bytes}.$ There is no option field in $\\text{IP}$ header. How many total number of $\\text{IP}$ fragments will be transmitted and what will be the contents of offset field in the last fragment?",
+        "options": [
+            "$6$ and $925$",
+            "$6$ and $7400$",
+            "$7$ and $1110$",
+            "$7$ and $8880$"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/computer-networks",
+            "/tag/gatecse-2015-set2",
+            "/tag/computer-networks",
+            "/tag/ip-packet",
+            "/tag/normal"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/8255/gate-cse-2015-set-2-question-52",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/8255/gate-cse-2015-set-2-question-52",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "29",
+        "year": 2015,
+        "questionNumber": 29,
+        "subject": "Computer Networks",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "Consider a LAN with four nodes $S_1, S_2, S_3,$ and $S_4$. Time is divided into fixed-size slots, and a node can begin its transmission only at the beginning of a slot. A collision is said to have occurred if more than one node transmits in the same slot. The probabilities of generation of a frame in a time slot by $S_1, S_2, S_3,$ and $S_4$ are $0.1, 0.2, 0.3$ and $0.4$ respectively. The probability of sending a frame in the first slot without any collision by any of these four stations is__________________.",
+        "options": [],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/computer-networks",
+            "/tag/gatecse-2015-set1",
+            "/tag/computer-networks",
+            "/tag/normal",
+            "/tag/numerical-answers",
+            "/tag/congestion-control"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/8253/gate-cse-2015-set-1-question-29",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/8253/gate-cse-2015-set-1-question-29",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "21",
+        "year": 2015,
+        "questionNumber": 21,
+        "subject": "Computer Networks",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "Suppose that everyone in a group on $N$ people wants to communicate secretly with the $(\\text{N - 1})$ others using symmetric Key cryptographic system. The communication between any two person should not be decodable by the others in the group. The numbers of keys required in the system as a whole to satisfy the confidentiality requirement is",
+        "options": [
+            "$2N$",
+            "$N(N-1)$",
+            "$\\dfrac{N(N-1)}{2}$",
+            "$(N-1)^{2}$"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/computer-networks",
+            "/tag/gatecse-2015-set1",
+            "/tag/computer-networks",
+            "/tag/network-security",
+            "/tag/normal",
+            "/tag/out-of-gatecse-syllabus"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/8244/gate-cse-2015-set-1-question-21",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/8244/gate-cse-2015-set-1-question-21",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "22",
+        "year": 2015,
+        "questionNumber": 22,
+        "subject": "Computer Networks",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "Which of the following fields of an IP header is NOT modified by a typical IP router?\nCheck sum\nSource address\nTime to Live (TTL)\nLength",
+        "options": [],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/computer-networks",
+            "/tag/gatecse-2015-set1",
+            "/tag/computer-networks",
+            "/tag/ip-packet",
+            "/tag/easy"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/8220/gate-cse-2015-set-1-question-22",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/8220/gate-cse-2015-set-1-question-22",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "9",
+        "year": 2015,
+        "questionNumber": 9,
+        "subject": "Computer Networks",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "Suppose two hosts use a TCP connection to transfer a large file. Which of the following statements is/are FALSE with respect to the TCP connection?\n\nIf the sequence number of a segment is $m,$ then the sequence number of the subsequent segment is always $m+1.$\nIf the estimated round trip time at any given point of time is $t$ sec, the value of the retransmission timeout is always set to greater than or equal to $t$ sec.\nThe size of the advertised window never changes during the course of the TCP connection.\nThe number of unacknowledged bytes at the sender is always less than or equal to the advertised window.",
+        "options": [
+            "III only",
+            "I and III only",
+            "I and IV only",
+            "II and IV only"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/computer-networks",
+            "/tag/gatecse-2015-set1",
+            "/tag/computer-networks",
+            "/tag/tcp",
+            "/tag/normal"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/8217/gate-cse-2015-set-1-question-1-9",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/8217/gate-cse-2015-set-1-question-1-9",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "7",
+        "year": 2015,
+        "questionNumber": 7,
+        "subject": "Computer Networks",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "In one of the pairs of protocols given below , both the protocols can use multiple $\\textsf{TCP}$ connections between the same client and the server. Which one is that?",
+        "options": [
+            "$\\textsf{HTTP, FTP}$",
+            "$\\textsf{HTTP, TELNET}$",
+            "$\\textsf{FTP, SMTP}$",
+            "$\\textsf{HTTP, SMTP}$"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/computer-networks",
+            "/tag/gatecse-2015-set1",
+            "/tag/computer-networks",
+            "/tag/network-protocols",
+            "/tag/normal"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/8214/gate-cse-2015-set-1-question-1-7",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/8214/gate-cse-2015-set-1-question-1-7",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "41",
+        "year": 2015,
+        "questionNumber": 41,
+        "subject": "Computer Networks",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "Consider the following routing table at an IP router:$$\\begin{array}{|l|l|l|} \\hline \\textbf {Network No} & \\textbf {Net Mask} & \\textbf{Next Hop}  \\\\\\hline \\text {128.96.170.0} &  \\text{255.255.254.0} & \\text{Interface $0$} \\\\\\hline\\text {128.96.168.0} &  \\text{255.255.254.0} & \\text{Interface $1$} \\\\\\hline\\text {128.96.166.0} &  \\text{255.255.254.0} & \\text{R$2$}\\\\\\hline \\text {128.96.164.0} &  \\text{255.255.252.0} & \\text{R$3$}\\\\\\hline \\text {0.0.0.0} &  \\text{Default} & \\text{R$4$}\\\\\\hline \\end{array}$$For each IP address in Group I Identify the correct choice of the next hop from Group II using the entries from the routing table above.$$\\begin{array}{|ll|ll|} \\hline & \\textbf {Group I} &  \\textbf {Group II}  \\\\\\hline&\\text{i)   128.96.171.92} &  \\text{a) Interface 0} \\\\ \\hline&\\text{ii)  128.96.167.151} &  \\text{b) Interface 1} \\\\\\hline&\\text{iii) 128.96.163.151} & \\text{c) R$2$}\\\\ \\hline&\\text{iv) 128.96.164.121} & \\text{d) R$3$}\\\\ \\hline&\\text {} & \\text{e) R$4$}\\\\\\hline \\end{array}$$$\\text{i-a, ii-c, iii-e, iv-d}$$\\text{i-a, ii-d, iii-b, iv-e}$$\\text{i-b, ii-c, iii-d, iv-e}$$\\text{i-b, ii-c, iii-e, iv-d}$",
+        "options": [],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/computer-networks",
+            "/tag/gatecse-2015-set2",
+            "/tag/computer-networks",
+            "/tag/subnetting",
+            "/tag/easy"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/8213/gate-cse-2015-set-2-question-41",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/8213/gate-cse-2015-set-2-question-41",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "34",
+        "year": 2015,
+        "questionNumber": 34,
+        "subject": "Computer Networks",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "Assume that the bandwidth for a $\\text{TCP}$ connection  is $1048560$ bits/sec. Let $\\alpha$ be the value of RTT in milliseconds (rounded off to the nearest integer) after which the $\\text{TCP}$ window scale option is needed. Let $\\beta$ be the maximum possible window size with window scale option. Then the values of $\\alpha$ and $\\beta$ are",
+        "options": [
+            "$63$ milliseconds, $65535$ $\\times $2$^{14}$",
+            "$63$ milliseconds, $65535$ $\\times $2$^{16}$",
+            "$500$ milliseconds, $65535$ $\\times $2$^{14}$",
+            "$500$ milliseconds, $65535$ $\\times $2$^{16}$"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/computer-networks",
+            "/tag/gatecse-2015-set2",
+            "/tag/computer-networks",
+            "/tag/difficult",
+            "/tag/tcp"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/8154/gate-cse-2015-set-2-question-34",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/8154/gate-cse-2015-set-2-question-34",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "20",
+        "year": 2015,
+        "questionNumber": 20,
+        "subject": "Computer Networks",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "Identify the correct order in which a server process must invoke the function calls accept, bind, listen, and recv according to UNIX socket API.",
+        "options": [
+            "$\\textsf{listen, accept, bind, recv}$",
+            "$\\textsf{bind, listen, accept, recv}$",
+            "$\\textsf{bind, accept, listen, recv}$",
+            "$\\textsf{accept, listen, bind, recv}$"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/computer-networks",
+            "/tag/gatecse-2015-set2",
+            "/tag/computer-networks",
+            "/tag/sockets",
+            "/tag/easy"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/8108/gate-cse-2015-set-2-question-20",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/8108/gate-cse-2015-set-2-question-20",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "8",
+        "year": 2015,
+        "questionNumber": 8,
+        "subject": "Computer Networks",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "A link has transmission speed of $10^6$ bits/sec. It uses data packets of size $1000$ $\\text{bytes}$ each. Assume that the acknowledgment has negligible transmission delay and that its propagation delay is the same as the data propagation delay. Also, assume that the processing delays at nodes are negligible. The efficiency of the stop-and-wait protocol in this setup is exactly $25$$\\text{%}$. The value of the one way propagation delay (in milliseconds) is_____.",
+        "options": [],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/computer-networks",
+            "/tag/gatecse-2015-set2",
+            "/tag/computer-networks",
+            "/tag/mac-protocol",
+            "/tag/stop-and-wait",
+            "/tag/normal",
+            "/tag/numerical-answers"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/8056/gate-cse-2015-set-2-question-8",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/8056/gate-cse-2015-set-2-question-8",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "17a",
+        "year": null,
+        "questionNumber": null,
+        "subject": "Computer Networks",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "An asynchronous serial communication controller that uses a start-stop scheme for controlling the serial I/O of a system is programmed for a string of length seven bits, one parity bit (odd parity) and one stop bit. The transmission rate is $1200$ bits/second.\n\n\nWhat is the complete bit stream that is transmitted for the string $‘0110101’?$",
+        "options": [
+            "How many such string can be transmitted per second?"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/computer-networks",
+            "/tag/gate1995",
+            "/tag/computer-networks",
+            "/tag/serial-communication",
+            "/tag/normal",
+            "/tag/descriptive",
+            "/tag/out-of-gatecse-syllabus"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/2653/gate-cse-1995-question-17a",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/2653/gate-cse-1995-question-17a",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "12",
+        "year": null,
+        "questionNumber": 12,
+        "subject": "Computer Networks",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "What is the distance of the following code $000000$, $010101$, $000111$, $011001$, $111111$?",
+        "options": [
+            "$2$",
+            "$3$",
+            "$4$",
+            "$1$"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/computer-networks",
+            "/tag/gate1995",
+            "/tag/computer-networks",
+            "/tag/error-detection",
+            "/tag/normal"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/2599/gate-cse-1995-question-1-12",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/2599/gate-cse-1995-question-1-12",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "9",
+        "year": null,
+        "questionNumber": 9,
+        "subject": "Computer Networks",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "Following $7$ bit single error correcting hamming coded message is received.\n$$\\overset{7\\qquad 6\\qquad 5 \\qquad 4\\qquad 3 \\qquad 2 \\qquad 1}{\\boxed{1 \\qquad 0\\qquad 0 \\qquad 0 \\qquad 1  \\qquad 1 \\qquad 0}} \\qquad \\overset{\\textbf{bit No.}}{\\boxed{X}}$$\nDetermine if the message is correct (assuming that at most $1$ bit could be corrupted). If the message contains an error find the bit which is erroneous and gives correct message.",
+        "options": [],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/computer-networks",
+            "/tag/gate1994",
+            "/tag/computer-networks",
+            "/tag/error-detection",
+            "/tag/hamming-code",
+            "/tag/normal",
+            "/tag/descriptive"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/2505/gate-cse-1994-question-9",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/2505/gate-cse-1994-question-9",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "54",
+        "year": 2010,
+        "questionNumber": 54,
+        "subject": "Computer Networks",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "Consider a network with $6$ routers $\\textbf{R1}$ to $\\textbf{R6}$ connected with links having weights as shown in the following diagram.\n\nAll the routers use the distance vector based routing algorithm to update their routing tables. Each router starts with its routing table initialized to contain an entry for each neighbor with the weight of the respective connecting link. After all the routing tables stabilize, how many links in the network will never be used for carrying any data?",
+        "options": [
+            "$4$",
+            "$3$",
+            "$2$",
+            "$1$"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/computer-networks",
+            "/tag/gatecse-2010",
+            "/tag/computer-networks",
+            "/tag/routing",
+            "/tag/distance-vector-routing",
+            "/tag/normal"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/2362/gate-cse-2010-question-54",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/2362/gate-cse-2010-question-54",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "47",
+        "year": 2010,
+        "questionNumber": 47,
+        "subject": "Computer Networks",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "Suppose computers $A$ and $B$ have $IP$ addresses $10.105.1.113$ and $10.105.1.91$ respectively and they both use same netmask $N$. Which of the values of $N$ given below should not be used if $A$ and $B$ should belong to the same network?",
+        "options": [
+            "$255.255.255.0$",
+            "$255.255.255.128$",
+            "$255.255.255.192$",
+            "$255.255.255.224$"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/computer-networks",
+            "/tag/gatecse-2010",
+            "/tag/computer-networks",
+            "/tag/subnetting",
+            "/tag/easy"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/2349/gate-cse-2010-question-47",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/2349/gate-cse-2010-question-47",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "14",
+        "year": null,
+        "questionNumber": 14,
+        "subject": "Computer Networks",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "Assume that each character code consists of $8$ bits. The number of characters that can be transmitted per second through an asynchronous serial line at $2400$ baud rate, and with two stop bits is",
+        "options": [
+            "$109$",
+            "$216$",
+            "$218$",
+            "$219$"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/computer-networks",
+            "/tag/gate1993",
+            "/tag/computer-networks",
+            "/tag/serial-communication",
+            "/tag/normal",
+            "/tag/isro2008",
+            "/tag/out-of-gatecse-syllabus"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/2287/gate-cse-1993-question-6-4-isro2008-14",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/2287/gate-cse-1993-question-6-4-isro2008-14",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "3",
+        "year": null,
+        "questionNumber": 3,
+        "subject": "Computer Networks",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "Purpose of a start bit in $\\text{RS-232}$ serial communication protocol is:",
+        "options": [
+            "to synchronize receiver for receiving every byte",
+            "to synchronize receiver for receiving a sequence of bytes",
+            "a parity bit",
+            "to synchronize receiver for receiving the last byte"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/computer-networks",
+            "/tag/gate1997",
+            "/tag/computer-networks",
+            "/tag/serial-communication",
+            "/tag/normal",
+            "/tag/out-of-gatecse-syllabus"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/2229/gate-cse-1997-question-2-3",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/2229/gate-cse-1997-question-2-3",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "2018",
+        "year": 2010,
+        "questionNumber": 2018,
+        "subject": "Computer Networks",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "One of the header fields in an IP datagram is the Time-to-Live (TTL) field. Which of the following statements best explains the need for this field?",
+        "options": [
+            "It can be used to prioritize packets.",
+            "It can be used to reduce delays.",
+            "It can be used to optimize throughput.",
+            "It can be used to prevent packet looping."
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/computer-networks",
+            "/tag/gatecse-2010",
+            "/tag/computer-networks",
+            "/tag/ip-packet",
+            "/tag/easy"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/2188/gate-cse-2010-question-15-pgee-2018",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/2188/gate-cse-2010-question-15-pgee-2018",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "52",
+        "year": 2011,
+        "questionNumber": 52,
+        "subject": "Computer Networks",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "Consider a network with five nodes, $N1$ to $N5$, as shown as below.\n\nThe network uses a Distance Vector Routing protocol. Once the routes have been stabilized, the distance vectors at different nodes are as follows.\nN1: $(0, 1, 7, 8, 4)$\nN2: $(1, 0, 6, 7, 3)$\nN3: $(7, 6, 0, 2, 6)$\nN4: $(8, 7, 2, 0, 4)$\nN5: $(4, 3, 6, 4, 0)$\nEach distance vector is the distance of the best known path at that instance to nodes, $N1$ to $N5$, where the distance to itself is $0$. Also, all links are symmetric and the cost is identical in both directions. In each round, all nodes exchange their distance vectors with their respective neighbors. Then all nodes update their distance vectors. In between two rounds, any change in cost of a link will cause the two incident nodes to change only that entry in their distance vectors.\nThe cost of link $N2-N3$ reduces to $2$ (in both directions). After the next round of updates, what will be the new distance vector at node, $N3$?",
+        "options": [
+            "$(3, 2, 0, 2, 5)$",
+            "$(3, 2, 0, 2, 6)$",
+            "$(7, 2, 0, 2, 5)$",
+            "$(7, 2, 0, 2, 6)$"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/computer-networks",
+            "/tag/gatecse-2011",
+            "/tag/computer-networks",
+            "/tag/routing",
+            "/tag/distance-vector-routing",
+            "/tag/normal"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/2160/gate-cse-2011-question-52",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/2160/gate-cse-2011-question-52",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "45",
+        "year": 2012,
+        "questionNumber": 45,
+        "subject": "Computer Networks",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "Consider an instance of TCP’s Additive Increase Multiplicative Decrease (AIMD) algorithm where the window size at the start of the slow start phase is $2$ MSS and the threshold at the start of the first transmission is $8$ MSS. Assume that a timeout occurs during the fifth transmission. Find the congestion window size at the end of the tenth transmission.",
+        "options": [
+            "$8$ MSS",
+            "$14$ MSS",
+            "$7$ MSS",
+            "$12$ MSS"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/computer-networks",
+            "/tag/gatecse-2012",
+            "/tag/computer-networks",
+            "/tag/congestion-control",
+            "/tag/normal"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/2156/gate-cse-2012-question-45",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/2156/gate-cse-2012-question-45",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "44",
+        "year": 2012,
+        "questionNumber": 44,
+        "subject": "Computer Networks",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "Consider a source computer $(S)$ transmitting a file of size $10^{6}$ bits to a destination computer $(D)$ over a network of two routers $(R_{1}\\text{ and }R_{2})$ and three links $(L_{1},L_{2},\\text{ and } L_{3})$. $L_{1}$ connects $S$ to $R_{1}$; $L_{2}$ connects $R_{1}$ to $R_{2}$; and $L_{3}$ connects $R_{2}$ to $D$. Let each link be of length $\\text{100 km}$. Assume signals travel over each link at a speed of $10^{8}$ meters per second. Assume that the link bandwidth on each link is $\\text{1 Mbps}$. Let the file be broken down into $1000$ packets each of size $1000$ bits. Find the total sum of transmission and propagation delays in transmitting the file from $S$ to $D$?",
+        "options": [
+            "$\\text{1005 ms}$",
+            "$\\text{1010 ms}$",
+            "$\\text{3000 ms}$",
+            "$\\text{3003 ms}$"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/computer-networks",
+            "/tag/gatecse-2012",
+            "/tag/computer-networks",
+            "/tag/communication",
+            "/tag/normal"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/2153/gate-cse-2012-question-44",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/2153/gate-cse-2012-question-44",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    }
+]

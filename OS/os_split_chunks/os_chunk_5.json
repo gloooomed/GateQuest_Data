@@ -1,0 +1,1760 @@
+[
+    {
+        "id": "31",
+        "year": null,
+        "questionNumber": 31,
+        "subject": "Operating System",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "A counting semaphore was initialized to $10$. Then $6 P$ (wait) operations and $4V$ (signal) operations were completed on this semaphore. The resulting value of the semaphore is",
+        "options": [
+            "$0$",
+            "$8$",
+            "$10$",
+            "$12$"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/operating-system",
+            "/tag/gate1998",
+            "/tag/operating-system",
+            "/tag/process-synchronization",
+            "/tag/semaphore",
+            "/tag/easy"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/1668/gate-cse-1998-question-1-31",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/1668/gate-cse-1998-question-1-31",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "30",
+        "year": null,
+        "questionNumber": 30,
+        "subject": "Operating System",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "When the result of a computation depends on the speed of the processes involved, there is said to be",
+        "options": [
+            "cycle stealing",
+            "race condition",
+            "a time lock",
+            "a deadlock"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/operating-system",
+            "/tag/gate1998",
+            "/tag/operating-system",
+            "/tag/easy",
+            "/tag/process-synchronization"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/1667/gate-cse-1998-question-1-30",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/1667/gate-cse-1998-question-1-30",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "29",
+        "year": null,
+        "questionNumber": 29,
+        "subject": "Operating System",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "Which of the following is an example of a spooled device?\n\n\nThe terminal used to enter the input data for the C program being executed\n\n\nAn output device used to print the output of a number of jobs\n\n\nThe secondary memory device in a virtual storage system",
+        "options": [
+            "The swapping area on a disk used by the swapper"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/operating-system",
+            "/tag/gate1998",
+            "/tag/operating-system",
+            "/tag/io-handling",
+            "/tag/easy"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/1666/gate-cse-1998-question-1-29",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/1666/gate-cse-1998-question-1-29",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "18",
+        "year": null,
+        "questionNumber": 18,
+        "subject": "Operating System",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "Which of the following devices should get higher priority in assigning interrupts?",
+        "options": [
+            "Hard disk",
+            "Printer",
+            "Keyboard",
+            "Floppy disk"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/operating-system",
+            "/tag/gate1998",
+            "/tag/operating-system",
+            "/tag/interrupts",
+            "/tag/normal"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/1655/gate-cse-1998-question-1-18",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/1655/gate-cse-1998-question-1-18",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "39",
+        "year": 2013,
+        "questionNumber": 39,
+        "subject": "Operating System",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "A certain computation generates two arrays a and b such that $a[i] = f(i)$ for $0 \\leq i < n$ and $b[i] = g(a[i])$ for $0 \\leq i < n$. Suppose this computation is decomposed into two concurrent processes $X$ and $Y$ such that $X$ computes the array $a$ and $Y$ computes the array $b$. The processes employ two binary semaphores $R$ and $S$, both initialized to zero. The array $a$ is shared by the two processes. The structures of the processes are shown below.\nProcess X:\n\nprivate i; \nfor (i=0; i< n; i++) { \n a[i] = f(i); \n ExitX(R, S); \n} \n\nProcess Y:\n\nprivate i;\nfor (i=0; i< n; i++) { \n  EntryY(R, S); \n  b[i] = g(a[i]); \n}\n\nWhich one of the following represents the CORRECT implementations of ExitX and EntryY?\n\n\n\nExitX(R, S) { \n P(R); \n V(S); \n}\nEntryY(R, S) { \n P(S); \n V(R); \n}\n\n\n\n\nExitX(R, S) { \n V(R); \n V(S); \n}\nEntryY(R, S) { \n P(R); \n P(S); \n}\n\n\n\n\nExitX(R, S) { \n P(S); \n V(R); \n}\nEntryY(R, S) { \n V(S); \n P(R); \n}",
+        "options": [
+            "ExitX(R, S) {",
+            "V(R);",
+            "P(S);",
+            "}",
+            "EntryY(R, S) {",
+            "V(S);",
+            "P(R);",
+            "}"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/operating-system",
+            "/tag/gatecse-2013",
+            "/tag/operating-system",
+            "/tag/process-synchronization",
+            "/tag/normal"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/1550/gate-cse-2013-question-39",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/1550/gate-cse-2013-question-39",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "34",
+        "year": 2013,
+        "questionNumber": 34,
+        "subject": "Operating System",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "A shared variable $x$, initialized to zero, is operated on by four concurrent processes $W, X, Y, Z$ as follows. Each of the processes $W$ and $X$ reads $x$ from memory, increments by one, stores it to memory, and then terminates. Each of the processes $Y$ and $Z$ reads $x$ from memory, decrements by two, stores it to memory, and then terminates. Each process before reading $x$ invokes the $P$ operation (i.e., wait) on a counting semaphore $S$ and invokes the $V$ operation (i.e., signal) on the semaphore $S$ after storing $x$ to memory. Semaphore $S$ is initialized to two. What is the maximum possible value of $x$ after all processes complete execution?",
+        "options": [
+            "$–2$",
+            "$–1$",
+            "$1$",
+            "$2$"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/operating-system",
+            "/tag/gatecse-2013",
+            "/tag/operating-system",
+            "/tag/process-synchronization",
+            "/tag/normal"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/1545/gate-cse-2013-question-34",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/1545/gate-cse-2013-question-34",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "29",
+        "year": 2013,
+        "questionNumber": 29,
+        "subject": "Operating System",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "Consider a hard disk with $16$ recording surfaces $(0-15)$ having $16384$ cylinders $(0-16383)$ and each cylinder contains $64$ sectors $(0-63)$. Data storage capacity in each sector is $512$ bytes. Data are organized cylinder-wise and the addressing format is $\\langle \\text{cylinder no.}, \\text{surface no.}, \\text{sector no.} \\rangle$ . A file of size $42797$ KB is stored in the disk and the starting disk location of the file is $\\langle 1200, 9, 40\\rangle$. What is the cylinder number of the last sector of the file, if it is stored in a contiguous manner?",
+        "options": [
+            "$1281$",
+            "$1282$",
+            "$1283$",
+            "$1284$"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/operating-system",
+            "/tag/gatecse-2013",
+            "/tag/operating-system",
+            "/tag/disk",
+            "/tag/normal"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/1540/gate-cse-2013-question-29",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/1540/gate-cse-2013-question-29",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "a",
+        "year": null,
+        "questionNumber": null,
+        "subject": "Operating System",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "A certain processor provides a 'test and set' instruction that is used as follows:",
+        "options": [
+            "TSET register, flag",
+            "This instruction atomically copies flag to register and sets flag to $1$. Give pseudo-code for implementing the entry and exit code to a critical region using this instruction."
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/operating-system",
+            "/tag/gate1999",
+            "/tag/operating-system",
+            "/tag/process-synchronization",
+            "/tag/normal",
+            "/tag/descriptive"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/1519/gate-cse-1999-question-20-a",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/1519/gate-cse-1999-question-20-a",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "19",
+        "year": null,
+        "questionNumber": 19,
+        "subject": "Operating System",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "A certain computer system has the segmented paging architecture for virtual memory. The memory is byte addressable. Both virtual and physical address spaces contain $2^{16}$ bytes each. The virtual address space is divided into $8$ non-overlapping equal size segments. The memory management unit (MMU) has a hardware segment table, each entry of which contains the physical address of the page table for the segment. Page tables are stored in the main memory and consists of $2$ byte page table entries.\n\n\nWhat is the minimum page size in bytes so that the page table for a segment requires at most one page to store it? Assume that the page size can only be a power of $2$.\n\n\nNow suppose that the pages size is $512$ bytes. It is proposed to provide a TLB (Transaction look-aside buffer) for speeding up address translation. The proposed TLB will be capable of storing page table entries for $16$ recently referenced virtual pages, in a fast cache that will use the direct mapping scheme. What is the number of tag bits that will need to be associated with each cache entry?",
+        "options": [
+            "Assume that each page table entry contains (besides other information) $1$ valid bit, $3$ bits for page protection and $1$ dirty bit. How many bits are available in page table entry for storing the aging information for the page? Assume that the page size is $512$ bytes."
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/operating-system",
+            "/tag/gate1999",
+            "/tag/operating-system",
+            "/tag/virtual-memory",
+            "/tag/normal",
+            "/tag/descriptive"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/1518/gate-cse-1999-question-19",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/1518/gate-cse-1999-question-19",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "46",
+        "year": null,
+        "questionNumber": 46,
+        "subject": "Operating System",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "Raid configurations of the disks are used to provide\n\n\nFault-tolerance \n\n\nHigh speed\n\n\nHigh data density",
+        "options": [
+            "(A) & (B)"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/operating-system",
+            "/tag/gate1999",
+            "/tag/operating-system",
+            "/tag/disk",
+            "/tag/easy",
+            "/tag/isro2008"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/1496/gate-cse-1999-question-2-18-isro2008-46",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/1496/gate-cse-1999-question-2-18-isro2008-46",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "12",
+        "year": null,
+        "questionNumber": 12,
+        "subject": "Operating System",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "Which of the following actions is/are typically not performed by the operating system when switching context from process $A$ to process $B$?",
+        "options": [
+            "Saving current register values and restoring saved register values for process $B$.",
+            "Changing address translation tables.",
+            "Swapping out the memory image of process $A$ to the disk.",
+            "Invalidating the translation look-aside buffer."
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/operating-system",
+            "/tag/gate1999",
+            "/tag/operating-system",
+            "/tag/context-switch",
+            "/tag/normal"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/1490/gate-cse-1999-question-2-12",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/1490/gate-cse-1999-question-2-12",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "11",
+        "year": null,
+        "questionNumber": 11,
+        "subject": "Operating System",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "Which of the following is/are advantage(s) of virtual memory?",
+        "options": [
+            "Faster access to memory on an average.",
+            "Processes can be given protected address spaces.",
+            "Linker can assign addresses independent of where the program will be loaded in physical memory.",
+            "Program larger than the physical memory size can be run."
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/operating-system",
+            "/tag/gate1999",
+            "/tag/operating-system",
+            "/tag/virtual-memory",
+            "/tag/easy"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/1489/gate-cse-1999-question-2-11",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/1489/gate-cse-1999-question-2-11",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "10",
+        "year": null,
+        "questionNumber": 10,
+        "subject": "Operating System",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "A multi-user, multi-processing operating system cannot be implemented on hardware that does not support",
+        "options": [
+            "Address translation",
+            "DMA for disk transfer",
+            "At least two modes of CPU execution (privileged and non-privileged)",
+            "Demand paging"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/operating-system",
+            "/tag/gate1999",
+            "/tag/operating-system",
+            "/tag/normal",
+            "/tag/virtual-memory"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/1488/gate-cse-1999-question-2-10",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/1488/gate-cse-1999-question-2-10",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "44",
+        "year": null,
+        "questionNumber": 44,
+        "subject": "Operating System",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "System calls are usually invoked by using",
+        "options": [
+            "a software interrupt",
+            "polling",
+            "an indirect jump",
+            "a privileged instruction"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/operating-system",
+            "/tag/gate1999",
+            "/tag/operating-system",
+            "/tag/normal",
+            "/tag/ugcnetcse-dec2015-paper2",
+            "/tag/os-protection"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/1464/gate-cse-1999-question-1-11-ugcnet-dec2015-ii-44",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/1464/gate-cse-1999-question-1-11-ugcnet-dec2015-ii-44",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "10",
+        "year": null,
+        "questionNumber": 10,
+        "subject": "Operating System",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "Which of the following disk scheduling strategies is likely to give the best throughput?\n\n\nFarthest cylinder next\n\n\nNearest cylinder next\n\n\nFirst come first served",
+        "options": [
+            "Elevator algorithm"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/operating-system",
+            "/tag/gate1999",
+            "/tag/operating-system",
+            "/tag/disk-scheduling",
+            "/tag/normal"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/1463/gate-cse-1999-question-1-10",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/1463/gate-cse-1999-question-1-10",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "9",
+        "year": null,
+        "questionNumber": 9,
+        "subject": "Operating System",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "Listed below are some operating system abstractions (in the left column) and the hardware components (in the right column)$$\\small \\begin{array}{|cl|cl|}\\hline \\text{(A)}& \\text{Thread}  &  \\text{1.}& \\text{Interrupt} \\\\\\hline \\text{(B)}& \\text{Virtual address space} & \\text{2.}& \\text{Memory} \\\\\\hline \\text{(C)} &\\text{File system} & \\text{3.} &\\text{CPU} \\\\\\hline \\text{(D)} &\\text{Signal} & \\text{4.}& \\text{Disk} \\\\\\hline \\end{array}$$(A) – 2 (B) – 4 (C) – 3 (D) – 1 (A) – 1 (B) – 2 (C) – 3 (D) – 4(A) – 3 (B) – 2 (C) – 4 (D) – 1(A) – 4 (B) – 1 (C) – 2 (D) – 3",
+        "options": [],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/operating-system",
+            "/tag/gate1999",
+            "/tag/operating-system",
+            "/tag/easy",
+            "/tag/interrupts",
+            "/tag/virtual-memory",
+            "/tag/disk"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/1462/gate-cse-1999-question-1-9",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/1462/gate-cse-1999-question-1-9",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "16",
+        "year": 2013,
+        "questionNumber": 16,
+        "subject": "Operating System",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "Three concurrent processes $X$, $Y$, and $Z$ execute three different code segments that access and update certain shared variables. Process $X$ executes the $P$ operation (i.e., $wait$) on semaphores $a$, $b,$ and $c$; process $Y$ executes the $P$ operation on semaphores $b$, $c,$ and $d$; process $Z$ executes the $P$ operation on semaphores $c$, $d$, and $a$ before entering the respective code segments. After completing the execution of its code segment, each process invokes the $V$ operation (i.e., $signal$) on its three semaphores. All semaphores are binary semaphores initialized to one. Which one of the following represents a deadlock-free order of invoking the $P$ operations by the processes?",
+        "options": [
+            "$X:$ $P(a)P(b)P(c)$ $Y:$ $P(b)P(c)P(d)$ $Z:$ $P(c)P(d)P(a)$",
+            "$X:$ $P(b)P(a)P(c)$ $Y:$ $P(b)P(c)P(d)$ $Z:$ $P(a)P(c)P(d)$",
+            "$X:$ $P(b)P(a)P(c)$ $Y:$ $P(c)P(b)P(d)$ $Z:$ $P(a)P(c)P(d)$",
+            "$X:$ $P(a)P(b)P(c)$ $Y:$ $P(c)P(b)P(d)$ $Z:$ $P(c)P(d)P(a)$"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/operating-system",
+            "/tag/gatecse-2013",
+            "/tag/operating-system",
+            "/tag/resource-allocation",
+            "/tag/normal"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/1438/gate-cse-2013-question-16",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/1438/gate-cse-2013-question-16",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "10",
+        "year": 2013,
+        "questionNumber": 10,
+        "subject": "Operating System",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "A scheduling algorithm assigns priority proportional to the waiting time of a process. Every process starts with zero (the lowest priority). The scheduler re-evaluates the process priorities every $T$ time units and decides the next process to schedule. Which one of the following is TRUE if the processes have no I/O operations and all arrive at time zero?",
+        "options": [
+            "This algorithm is equivalent to the first-come-first-serve algorithm.",
+            "This algorithm is equivalent to the round-robin algorithm.",
+            "This algorithm is equivalent to the shortest-job-first algorithm.",
+            "This algorithm is equivalent to the shortest-remaining-time-first algorithm."
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/operating-system",
+            "/tag/gatecse-2013",
+            "/tag/operating-system",
+            "/tag/process-scheduling",
+            "/tag/normal"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/1419/gate-cse-2013-question-10",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/1419/gate-cse-2013-question-10",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "71",
+        "year": 2005,
+        "questionNumber": 71,
+        "subject": "Operating System",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "Suppose $n$ processes, $P_1, \\dots P_n$ share $m$ identical resource units, which can be reserved and released one at a time. The maximum resource requirement of process $P_i$ is $s_i$, where $s_i > 0$. Which one of the following is a sufficient condition for ensuring that deadlock does not occur?\n\n\n$\\forall i,\\: s_i, < m$\n\n\n$\\forall i, \\:s_i <n$\n\n\n$\\displaystyle{\\sum_{i=1}^n} \\: s_i  < (m+n)$",
+        "options": [
+            "$\\displaystyle{\\sum_{i=1}^n} \\: s_i  < (m \\times n)$"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/operating-system",
+            "/tag/gatecse-2005",
+            "/tag/operating-system",
+            "/tag/resource-allocation",
+            "/tag/normal"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/1394/gate-cse-2005-question-71",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/1394/gate-cse-2005-question-71",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "36",
+        "year": 2005,
+        "questionNumber": 36,
+        "subject": "Operating System",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "Increasing the RAM of a computer typically improves performance because:\n\nVirtual Memory increases\n\n\nLarger RAMs are faster\n\n\nFewer page faults occur",
+        "options": [
+            "Fewer segmentation faults occur"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/operating-system",
+            "/tag/gatecse-2005",
+            "/tag/operating-system",
+            "/tag/page-replacement",
+            "/tag/easy",
+            "/tag/isro2015"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/1358/gate-cse-2005-question-22-isro2015-36",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/1358/gate-cse-2005-question-22-isro2015-36",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "21",
+        "year": 2005,
+        "questionNumber": 21,
+        "subject": "Operating System",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "What is the swap space in the disk used for?\n\n\nSaving temporary html pages\n\n\nSaving process data\n\n\nStoring the super-block",
+        "options": [
+            "Storing device drivers"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/operating-system",
+            "/tag/gatecse-2005",
+            "/tag/operating-system",
+            "/tag/disk",
+            "/tag/easy"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/1357/gate-cse-2005-question-21",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/1357/gate-cse-2005-question-21",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "20",
+        "year": 2005,
+        "questionNumber": 20,
+        "subject": "Operating System",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "Normally user programs are prevented from handling I/O directly by I/O instructions in them. For CPUs having explicit I/O instructions, such I/O protection is ensured by having the I/O instruction privileged. In a CPU with memory mapped I/O, there is no explicit I/O instruction. Which one of the following is true for a CPU with memory mapped I/O?\n\n\nI/O protection is ensured by operating system routine(s)\n\n\nI/O protection is ensured by a hardware trap\n\n\nI/O protection is ensured during system configuration",
+        "options": [
+            "I/O protection is not possible"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/operating-system",
+            "/tag/gatecse-2005",
+            "/tag/operating-system",
+            "/tag/io-handling",
+            "/tag/normal"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/1356/gate-cse-2005-question-20",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/1356/gate-cse-2005-question-20",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "19",
+        "year": 2005,
+        "questionNumber": 19,
+        "subject": "Operating System",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "Which one of the following is true for a CPU having a single interrupt request line and a single interrupt grant line?\n\n\nNeither vectored interrupt nor multiple interrupting devices are possible\n\n\nVectored interrupts are not possible but multiple interrupting devices are  possible\n\n\nVectored interrupts and multiple interrupting devices are both possible",
+        "options": [
+            "Vectored interrupts are possible but multiple interrupting devices are not possible"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/operating-system",
+            "/tag/gatecse-2005",
+            "/tag/operating-system",
+            "/tag/io-handling",
+            "/tag/normal"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/1355/gate-cse-2005-question-19",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/1355/gate-cse-2005-question-19",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "51",
+        "year": 2009,
+        "questionNumber": 51,
+        "subject": "Operating System",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "A hard disk has $63$ sectors per track, $10$ platters each with $2$ recording surfaces and $1000$ cylinders. The address of a sector is given as a triple $\\langle c, h, s \\rangle$, where $c$ is the cylinder number, $h$ is the surface number and $s$ is the sector number. Thus, the 0$^{th}$ sector is addresses as $\\langle 0, 0, 0 \\rangle$, the 1$^{st}$ sector as $\\langle 0, 0, 1 \\rangle$, and so on\nThe address $\\langle 400, 16, 29 \\rangle$ corresponds to sector number:",
+        "options": [
+            "$505035$",
+            "$505036$",
+            "$505037$",
+            "$505038$"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/operating-system",
+            "/tag/gatecse-2009",
+            "/tag/operating-system",
+            "/tag/disk",
+            "/tag/normal"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/1337/gate-cse-2009-question-51",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/1337/gate-cse-2009-question-51",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "34",
+        "year": 2009,
+        "questionNumber": 34,
+        "subject": "Operating System",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "A multilevel page table is preferred in comparison to a single level page table for translating virtual address to physical address because\n\n\nIt reduces the memory access time to read or write a memory location.\n\n\nIt helps to reduce the size of page table needed to implement the virtual address space of a process\n\n\nIt is required by the translation lookaside buffer.",
+        "options": [
+            "It helps to reduce the number of page faults in page replacement algorithms."
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/operating-system",
+            "/tag/gatecse-2009",
+            "/tag/operating-system",
+            "/tag/virtual-memory",
+            "/tag/easy"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/1320/gate-cse-2009-question-34",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/1320/gate-cse-2009-question-34",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "33",
+        "year": 2009,
+        "questionNumber": 33,
+        "subject": "Operating System",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "The enter_CS() and leave_CS() functions to implement critical section of a process are realized using test-and-set instruction as follows:\n\nvoid enter_CS(X)\n{\n    while(test-and-set(X));\n}\n\nvoid leave_CS(X)\n{\n    X = 0;\n}\n\nIn the above solution, $X$ is a memory location associated with the $CS$ and is initialized to $0$. Now consider the following statements:\n\n\nThe above solution to $CS$ problem is deadlock-free\n\n\nThe solution is starvation free\n\n\nThe processes enter $CS$ in FIFO order\n\n\nMore than one process can enter $CS$ at the same time\n\n\nWhich of the above statements are TRUE?",
+        "options": [
+            "(I) only",
+            "(I) and (II)",
+            "(II) and (III)",
+            "(IV) only"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/operating-system",
+            "/tag/gatecse-2009",
+            "/tag/operating-system",
+            "/tag/process-synchronization",
+            "/tag/normal"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/1319/gate-cse-2009-question-33",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/1319/gate-cse-2009-question-33",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "32",
+        "year": 2009,
+        "questionNumber": 32,
+        "subject": "Operating System",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "In the following process state transition diagram for a uniprocessor system, assume that there are always some processes in the ready state:\n\nNow consider the following statements:\n\nIf a process makes a transition $D$, it would result in another process making transition $A$ immediately.\nA process $P_2$ in blocked state can make transition E while another process $P_1$ is in running state.\nThe OS uses preemptive scheduling.\nThe OS uses non-preemptive scheduling.\n\nWhich of the above statements are TRUE?",
+        "options": [
+            "I and II",
+            "I and III",
+            "II and III",
+            "II and IV"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/operating-system",
+            "/tag/gatecse-2009",
+            "/tag/operating-system",
+            "/tag/process-scheduling",
+            "/tag/normal"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/1318/gate-cse-2009-question-32",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/1318/gate-cse-2009-question-32",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "31",
+        "year": 2009,
+        "questionNumber": 31,
+        "subject": "Operating System",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "Consider a disk system with $100$ cylinders. The requests to access the cylinders occur in following sequence:\n$4, 34, 10, 7, 19, 73, 2, 15, 6, 20$\nAssuming that the head is currently at cylinder $50$, what is the time taken to satisfy all requests if it takes $1\\;\\text{ms}$ to move from one cylinder to adjacent one and shortest seek time first policy is used?",
+        "options": [
+            "$95 \\;\\text{ms}$",
+            "$119\\;\\text{ms}$",
+            "$233\\;\\text{ms}$",
+            "$276\\;\\text{ms}$"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/operating-system",
+            "/tag/gatecse-2009",
+            "/tag/operating-system",
+            "/tag/disk-scheduling",
+            "/tag/normal"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/1317/gate-cse-2009-question-31",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/1317/gate-cse-2009-question-31",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "30",
+        "year": 2009,
+        "questionNumber": 30,
+        "subject": "Operating System",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "Consider a system with $4$ types of resources $R1$ ($3$ units), $R2$ ($2$ units), $R3$ ($3$ units), $R4$ ($2$ units). A non-preemptive resource allocation policy is used. At any given instance, a request is not entertained if it cannot be completely satisfied. Three processes $P1$, $P2$, $P3$ request the resources as follows if executed independently.\n$$\\begin{array}{|l|l|l|}\\hline \\textbf{Process P1:}  &  \\textbf{Process P2:} & \\textbf{Process P3:}  \\\\ \\hline \\text{$t=0$: requests $2$ units of $R2$} & \\text{$t=0$: requests $2$ units of $R3$} & \\text{$t=0$: requests $1$ unit of $R4$} \\\\ \\text{$t=1$: requests $1$ unit of $R3$} & \\text{$t=2$: requests $1$ unit of $R4$} & \\text{$t=2$: requests $2$ units of $R1$}\\\\\\text{$t=3$: requests $2$ units of $R1$} & \\text{$t=4$: requests $1$ unit of $R1$} & \\text{$t=5$: releases $2$ units of $R1$} \\\\ \\text{$t=5$: releases $1$ unit of $R2$} & \\text{$t=6$: releases $1$ unit of $R3$} & \\text{$t=7$: requests $1$ unit of $R2$} \\\\ \\text{and $1$ unit of $R1$}& \\text{$t=8$: Finishes} & \\text{$t=8$: requests $1$ unit of $R3$}\\\\\n\\text{$t=7$: releases $1$ unit of $R3$} && \\text{$t=9$: Finishes} \\\\ \\text{$t=8$: requests $2$ units of $R4$} & \\text{} \\\\ \\text{$t=10$: Finishes} & \\text{}  \\\\ \\hline \\end{array}$$\nWhich one of the following statements is TRUE if all three processes run concurrently starting at time $t = 0$?\n\n\nAll processes will finish without any deadlock\n\n\nOnly $P1$ and $P2$ will be in deadlock\n\n\nOnly $P1$ and $P3$ will be in deadlock",
+        "options": [
+            "All three processes will be in deadlock"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/operating-system",
+            "/tag/gatecse-2009",
+            "/tag/operating-system",
+            "/tag/resource-allocation",
+            "/tag/normal"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/1316/gate-cse-2009-question-30",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/1316/gate-cse-2009-question-30",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "10",
+        "year": 2009,
+        "questionNumber": 10,
+        "subject": "Operating System",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "The essential content(s) in each entry of a page table is / are\n\n\nVirtual page number\n\n\nPage frame number\n\n\nBoth virtual page number and page frame number",
+        "options": [
+            "Access right information"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/operating-system",
+            "/tag/gatecse-2009",
+            "/tag/operating-system",
+            "/tag/virtual-memory",
+            "/tag/easy"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/1302/gate-cse-2009-question-10",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/1302/gate-cse-2009-question-10",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "52",
+        "year": 2009,
+        "questionNumber": 52,
+        "subject": "Operating System",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "In which one of the following page replacement policies, Belady's anomaly may occur?",
+        "options": [
+            "FIFO",
+            "Optimal",
+            "LRU",
+            "MRU"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/operating-system",
+            "/tag/gatecse-2009",
+            "/tag/operating-system",
+            "/tag/page-replacement",
+            "/tag/normal",
+            "/tag/isro2016"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/1301/gate-cse-2009-question-9-isro2016-52",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/1301/gate-cse-2009-question-9-isro2016-52",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "82",
+        "year": 2007,
+        "questionNumber": 82,
+        "subject": "Operating System",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "A process has been allocated $3$ page frames. Assume that none of the pages of the process are available in the memory initially. The process makes the following sequence of page references (reference string): $\\mathbf{1, 2, 1, 3, 7, 4, 5, 6, 3, 1}$\nIf optimal page replacement policy is used, how many page faults occur for the above reference string?",
+        "options": [
+            "$7$",
+            "$8$",
+            "$9$",
+            "$10$"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/operating-system",
+            "/tag/gatecse-2007",
+            "/tag/operating-system",
+            "/tag/page-replacement",
+            "/tag/normal"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/1274/gate-cse-2007-question-82",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/1274/gate-cse-2007-question-82",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "58",
+        "year": 2007,
+        "questionNumber": 58,
+        "subject": "Operating System",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "Two processes, $P1$ and $P2$, need to access a critical section of code. Consider the following synchronization construct used by the processes:/*  P1   */\nwhile (true) {\n    wants1 = true;\n    while (wants2 == true);\n    /* Critical Section */\n    wants1 = false;\n}\n/* Remainder section */\n/*  P2   */\nwhile (true) {\n    wants2 = true;\n    while (wants1 == true);\n    /* Critical Section */\n    wants2=false;\n}\n/* Remainder section */\n Here, wants$1$ and wants$2$ are shared variables, which are initialized to false.Which one of the following statements is TRUE about the construct?It does not ensure mutual exclusion.It does not ensure bounded waiting.It requires that processes enter the critical section in strict alteration.It does not prevent deadlocks, but ensures mutual exclusion.",
+        "options": [],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/operating-system",
+            "/tag/gatecse-2007",
+            "/tag/operating-system",
+            "/tag/process-synchronization",
+            "/tag/normal"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/1256/gate-cse-2007-question-58",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/1256/gate-cse-2007-question-58",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "57",
+        "year": 2007,
+        "questionNumber": 57,
+        "subject": "Operating System",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "A single processor system has three resource types $X, Y$ and $Z$, which are shared by three processes. There are $5$ units of each resource type. Consider the following scenario, where the column alloc denotes the number of units of each resource type allocated to each process, and the column request denotes the number of units of each resource type requested by a process in order to complete execution. Which of these processes will finish LAST?\n$$\\begin{array}{|l|lll|ll|}\\hline &\\text{}  \\rlap{\\textbf{alloc}}  &&&\\rlap{  \\textbf{request}}  \\\\\\hline  &\\text{X} & \\text{Y} & \\text{Z}  &\\text{X} & \\text{Y} & \\text{Z}  \\\\\\hline  \\textbf{P0} & \\text{1} & \\text{2} & \\text{1}& \\text{1} & \\text{0} & \\text{3}  \\\\\\hline  \\textbf{P1} & \\text{2} & \\text{0} & \\text{1} & \\text{0} & \\text{1} & \\text{2} \\\\\\hline \\textbf{P2} & \\text{2} & \\text{2} & \\text{1} & \\text{1} & \\text{2} & \\text{0} \\\\\\hline \\end{array}$$",
+        "options": [
+            "$P0$",
+            "$P1$",
+            "$P2$",
+            "None of the above, since the system is in a deadlock"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/operating-system",
+            "/tag/gatecse-2007",
+            "/tag/operating-system",
+            "/tag/resource-allocation",
+            "/tag/normal"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/1255/gate-cse-2007-question-57",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/1255/gate-cse-2007-question-57",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "56",
+        "year": 2007,
+        "questionNumber": 56,
+        "subject": "Operating System",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "A virtual memory system uses First In First Out (FIFO) page replacement policy and allocates a fixed number of frames to a process. Consider the following statements:\nP: Increasing the number of page frames allocated to a process sometimes increases the page fault rate.\nQ: Some programs do not exhibit locality of reference.\nWhich one of the following is TRUE?\n\n\nBoth P and Q are true, and Q is the reason for P\n\n\nBoth P and Q are true, but Q is not the reason for P.\n\n\nP is false but Q is true",
+        "options": [
+            "Both P and Q are false."
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/operating-system",
+            "/tag/gatecse-2007",
+            "/tag/operating-system",
+            "/tag/page-replacement",
+            "/tag/normal"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/1254/gate-cse-2007-question-56",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/1254/gate-cse-2007-question-56",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "55",
+        "year": 2007,
+        "questionNumber": 55,
+        "subject": "Operating System",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "An operating system used Shortest Remaining System Time first (SRT) process scheduling algorithm. Consider the arrival times and execution times for the following processes:$$\\small \\begin{array}{|c|c|c|} \\hline \\textbf{Process} &  \\textbf{Execution Time} & \\textbf{Arrival Time} \\\\\\hline \\text{P1} & 20 & 0 \\\\ \\text{P2} & 25 & 15 \\\\ \\text{P3} & 10 & 30 \\\\ \\text{P4} & 15 & 45 \\\\\\hline  \\end{array}$$What is the total waiting time for process $P2$ ?",
+        "options": [
+            "$5$",
+            "$15$",
+            "$40$",
+            "$55$"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/operating-system",
+            "/tag/gatecse-2007",
+            "/tag/operating-system",
+            "/tag/process-scheduling",
+            "/tag/normal"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/1253/gate-cse-2007-question-55",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/1253/gate-cse-2007-question-55",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "17",
+        "year": 2007,
+        "questionNumber": 17,
+        "subject": "Operating System",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "Consider the following statements about user level threads and kernel level threads. Which one of the following statements is FALSE?\n\n\nContext switch time is longer for kernel level threads than for user level threads.\n\n\nUser level threads do not need any hardware support.\n\n\nRelated kernel level threads can be scheduled on different processors in a multi-processor system.",
+        "options": [
+            "Blocking one kernel level thread blocks all related threads."
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/operating-system",
+            "/tag/gatecse-2007",
+            "/tag/operating-system",
+            "/tag/threads",
+            "/tag/normal"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/1215/gate-cse-2007-question-17",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/1215/gate-cse-2007-question-17",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "16",
+        "year": 2007,
+        "questionNumber": 16,
+        "subject": "Operating System",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "Group 1 contains some CPU scheduling algorithms and Group 2 contains some applications. Match entries in Group 1 to entries in Group 2.$$\\begin{array}{|ll|ll|} \\hline \\rlap{\\textbf{Group I} }&& \\rlap{\\textbf{Group II}} \\\\\\hline \\text{(P)}&\\text{Gang Scheduling} & \\text{(1) }&\\text{Guaranteed Scheduling} \\\\\\hline\n \\text{(Q)}&\\text{Rate Monotonic Scheduling} & \\text{(2)}&\\text{Real-time Scheduling} \\\\\\hline \n\\text{(R)}&\\text{Fair Share Scheduling} & \\text{(3)}&\\text{Thread Scheduling} \\\\\\hline  \\end{array}$$",
+        "options": [
+            "$P-3; Q-2; R-1$",
+            "$P-1; Q-2; R-3$",
+            "$P-2; Q-3; R-1$",
+            "$P-1; Q-3; R-2$"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/operating-system",
+            "/tag/gatecse-2007",
+            "/tag/operating-system",
+            "/tag/process-scheduling",
+            "/tag/normal"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/1214/gate-cse-2007-question-16",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/1214/gate-cse-2007-question-16",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "21",
+        "year": 2007,
+        "questionNumber": 21,
+        "subject": "Operating System",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "Consider a disk pack with $16$ surfaces, $128$ tracks per surface and $256$ sectors per track. $512$ bytes of data are stored in a bit serial manner in a sector. The capacity of the disk pack and the number of bits required to specify a particular sector in the disk are respectively:",
+        "options": [
+            "$256$ Mbyte, $19$ bits",
+            "$256$ Mbyte, $28$ bits",
+            "$512$ Mbyte, $20$ bits",
+            "$64$ Gbyte, $28$ bits"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/operating-system",
+            "/tag/gatecse-2007",
+            "/tag/operating-system",
+            "/tag/disk",
+            "/tag/normal",
+            "/tag/isro2016"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/1209/gate-cse-2007-question-11-isro2009-36-isro2016-21",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/1209/gate-cse-2007-question-11-isro2009-36-isro2016-21",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "49",
+        "year": 2004,
+        "questionNumber": 49,
+        "subject": "Operating System",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "A unix-style I-nodes has $10$ direct pointers and one single, one double and one triple indirect pointers. Disk block size is $1$ Kbyte, disk block address is $32$ bits, and $48$-bit integers are used. What is the maximum possible file size?",
+        "options": [
+            "$2^{24}$ bytes",
+            "$2^{32}$ bytes",
+            "$2^{34}$ bytes",
+            "$2^{48}$ bytes"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/operating-system",
+            "/tag/gatecse-2004",
+            "/tag/operating-system",
+            "/tag/disk",
+            "/tag/normal"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/1045/gate-cse-2004-question-49",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/1045/gate-cse-2004-question-49",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "48",
+        "year": 2004,
+        "questionNumber": 48,
+        "subject": "Operating System",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "Consider two processes $P_1$ and $P_2$ accessing the shared variables $X$ and $Y$ protected by two binary semaphores $S_X$ and $S_Y$ respectively, both initialized to 1. $P$ and $V$ denote the usual semaphore operators, where $P$ decrements the semaphore value, and $V$ increments the semaphore value. The pseudo-code of $P_1$ and $P_2$ is as follows:\n$$\\begin{array}{|l|l|}\\hline \\text{$P_1$:}  &  \\text{$P_2$:}  \\\\\\hline  \\text{While true do \\{} & \\text{While true do \\{} \\\\ L_1:\\ldots\\ldots & L_3:\\ldots\\ldots \\\\  L_2:\\ldots\\ldots & L_4:\\ldots\\ldots \\\\ \\text{X = X + 1;} & \\text{Y = Y + 1;} \\\\ Y=Y-1;&X = Y-1;\n\\\\  \\text{$V(S_X);$} & \\text{$V(S_Y);$} \\\\  \\text{$V(S_Y);$} & \\text{$V(S_X);$} \\\\\\}&\\} \\\\\\hline  \\end{array}$$\nIn order to avoid deadlock, the correct operators at $L_1$, $L_2$, $L_3$ and $L_4$ are respectively.\n\n\n$P(S_Y), P(S_X); P(S_X), P(S_Y)$\n\n\n$P(S_X), P(S_Y); P(S_Y), P(S_X)$\n\n\n$P(S_X), P(S_X); P(S_Y), P(S_Y)$",
+        "options": [
+            "$P(S_X), P(S_Y); P(S_X), P(S_Y)$"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/operating-system",
+            "/tag/gatecse-2004",
+            "/tag/operating-system",
+            "/tag/process-synchronization",
+            "/tag/normal"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/1044/gate-cse-2004-question-48",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/1044/gate-cse-2004-question-48",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "46",
+        "year": 2004,
+        "questionNumber": 46,
+        "subject": "Operating System",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "Consider the following set of processes, with the arrival times and the CPU-burst times gives in milliseconds.$$\\small \\begin{array}{|c|c|c|} \\hline \\textbf{Process} & \\textbf{Arrival Time} & \\textbf{Burst Time}\\\\\\hline \\text{P1} & 0 & 5\\\\ \\text{P2} & 1 & 3\\\\ \\text{P3} & 2 & 3 \\\\ \\text{P4} & 4 & 1\\\\\\hline  \\end{array}$$What is the average turnaround time for these processes with the preemptive shortest remaining processing time first (SRPT) algorithm?",
+        "options": [
+            "$5.50$",
+            "$5.75$",
+            "$6.00$",
+            "$6.25$"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/operating-system",
+            "/tag/gatecse-2004",
+            "/tag/operating-system",
+            "/tag/process-scheduling",
+            "/tag/normal"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/1043/gate-cse-2004-question-46",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/1043/gate-cse-2004-question-46",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "44",
+        "year": 2004,
+        "questionNumber": 44,
+        "subject": "Operating System",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "The minimum number of page frames that must be allocated to a running process in a virtual memory environment is determined by",
+        "options": [
+            "the instruction set architecture",
+            "page size",
+            "number of processes in memory",
+            "physical memory size"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/operating-system",
+            "/tag/gatecse-2004",
+            "/tag/operating-system",
+            "/tag/virtual-memory",
+            "/tag/page-replacement",
+            "/tag/normal",
+            "/tag/isro2007"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/1018/gate-cse-2004-question-21-isro2007-44",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/1018/gate-cse-2004-question-21-isro2007-44",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "12",
+        "year": 2004,
+        "questionNumber": 12,
+        "subject": "Operating System",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "Consider an operating system capable of loading and executing a single sequential user process at a time. The disk head scheduling algorithm used is First Come First Served (FCFS). If FCFS is replaced by Shortest Seek Time First (SSTF), claimed by the vendor to give $50 \\%$ better benchmark results, what is the expected improvement in the I/O performance of user programs?",
+        "options": [
+            "$50 \\%$",
+            "$40\\%$",
+            "$25\\%$",
+            "$0\\%$"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/operating-system",
+            "/tag/gatecse-2004",
+            "/tag/operating-system",
+            "/tag/disk-scheduling",
+            "/tag/normal"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/1009/gate-cse-2004-question-12",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/1009/gate-cse-2004-question-12",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "11",
+        "year": 2004,
+        "questionNumber": 11,
+        "subject": "Operating System",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "Consider the following statements with respect to user-level threads and kernel-supported threads\n\n\ncontext switch is faster with kernel-supported threads\n\n\nfor user-level threads, a system call can block the entire process\n\n\nKernel supported threads can be scheduled independently\n\n\nUser level threads are transparent to the kernel\n\n\nWhich of the above statements are true?",
+        "options": [
+            "(II), (III) and (IV) only",
+            "(II) and (III) only",
+            "(I) and (III) only",
+            "(I) and (II) only"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/operating-system",
+            "/tag/gatecse-2004",
+            "/tag/operating-system",
+            "/tag/threads",
+            "/tag/normal"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/1008/gate-cse-2004-question-11",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/1008/gate-cse-2004-question-11",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "80",
+        "year": 2003,
+        "questionNumber": 80,
+        "subject": "Operating System",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "Suppose we want to synchronize two concurrent processes $P$ and $Q$ using binary semaphores $S$ and $T$. The code for the processes $P$ and $Q$ is shown below.\n\n\n\nProcess P:\nProcess Q:\n\n\n\n\n\n\nwhile(1){\nW:\n    print '0';\n    print '0';\nX:\n}\n\n\n\n\nwhile(1){\nY:\n    print '1';\n    print '1';\nZ:\n}\n\n\n\n\n\n \nSynchronization statements can be inserted only at points $W, X, Y,$ and $Z$\nWhich of the following will always lead to an output staring with $\\text{‘}001100110011\\text{’}$?\n\n\n$P(S)$ at $W, V(S)$ at $X, P(T)$ at $Y, V(T)$ at $Z, S$ and $T$ initially $1$\n\n\n$P(S)$ at $W, V(T)$ at $X, P(T)$ at $Y, V(S)$ at $Z, S$ initially $1,$ and $T$ initially $0$\n\n\n$P(S)$ at $W, V(T)$ at $X, P(T)$ at $Y, V(S)$ at $Z, S$ and $T$ initially $1$",
+        "options": [
+            "$P(S)$ at $W, V(S)$ at $X, P(T)$ at $Y, V(T)$ at $Z, S$ initially $1$ , and $T$ initially $0$"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/operating-system",
+            "/tag/gatecse-2003",
+            "/tag/operating-system",
+            "/tag/process-synchronization",
+            "/tag/normal"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/964/gate-cse-2003-question-80",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/964/gate-cse-2003-question-80",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "77",
+        "year": 2003,
+        "questionNumber": 77,
+        "subject": "Operating System",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "A uni-processor computer system only has two processes, both of which alternate $10$ $\\text{ms}$ CPU bursts with $90$ $\\text{ms}$ I/O bursts. Both the processes were created at nearly the same time. The I/O of both processes can proceed in parallel. Which of the following scheduling strategies will result in the least CPU utilization (over a long period of time) for this system?",
+        "options": [
+            "First come first served scheduling",
+            "Shortest remaining time first scheduling",
+            "Static priority scheduling with different priorities for the two processes",
+            "Round robin scheduling with a time quantum of $5$ $\\text{ms}$"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/operating-system",
+            "/tag/gatecse-2003",
+            "/tag/operating-system",
+            "/tag/process-scheduling",
+            "/tag/normal"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/963/gate-cse-2003-question-77",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/963/gate-cse-2003-question-77",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "26",
+        "year": 2003,
+        "questionNumber": 26,
+        "subject": "Operating System",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "In a system with $\\text{32 bit}$ virtual addresses and $\\text{1 KB}$ page size, use of one-level page tables for virtual to physical address translation is not practical because of",
+        "options": [
+            "the large amount of internal fragmentation",
+            "the large amount of external fragmentation",
+            "the large memory overhead in maintaining page tables",
+            "the large computation overhead in the translation process"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/operating-system",
+            "/tag/gatecse-2003",
+            "/tag/operating-system",
+            "/tag/virtual-memory",
+            "/tag/normal"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/916/gate-cse-2003-question-26",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/916/gate-cse-2003-question-26",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "12",
+        "year": 2003,
+        "questionNumber": 12,
+        "subject": "Operating System",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "Using a larger block size in a fixed block size file system leads to",
+        "options": [
+            "better disk throughput but poorer disk space utilization",
+            "better disk throughput and better disk space utilization",
+            "poorer disk throughput but better disk space utilization",
+            "poorer disk throughput and poorer disk space utilization"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/operating-system",
+            "/tag/gatecse-2003",
+            "/tag/operating-system",
+            "/tag/disk",
+            "/tag/normal",
+            "/tag/isro2009"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/915/gate-cse-2003-question-25-isro2009-12",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/915/gate-cse-2003-question-25-isro2009-12",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "14",
+        "year": 2006,
+        "questionNumber": 14,
+        "subject": "Operating System",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "Consider three CPU-intensive processes, which require $10$, $20$ and $30$ time units and arrive at times $0$, $2$ and $6$, respectively. How many context switches are needed if the operating system implements a shortest remaining time first scheduling algorithm? Do not count the context switches at time zero and at the end.",
+        "options": [
+            "$1$",
+            "$2$",
+            "$3$",
+            "$4$"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/operating-system",
+            "/tag/gatecse-2006",
+            "/tag/operating-system",
+            "/tag/process-scheduling",
+            "/tag/normal",
+            "/tag/isro2009"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/885/gate-cse-2006-question-06-isro2009-14",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/885/gate-cse-2006-question-06-isro2009-14",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    }
+]

@@ -1,0 +1,580 @@
+[
+    {
+        "id": "63",
+        "year": 2004,
+        "questionNumber": 63,
+        "subject": "CO & Architecture",
+        "topic": "Machine Instruction",
+        "questionType": "multiple-choice",
+        "question": "Consider the following program segment for a hypothetical CPU having three user registers $R_1, R_2$ and $R_3.$ $$\\begin{array}{|l|l|c|} \\hline \\text {Instruction}  &  \\text{Operation }& \\text{Instruction size} \\\\&& \\text{(in words)} \\\\\\hline \\text{MOV $R_1,5000$} & \\text{$R_1$} \\leftarrow  \\text{Memory$[5000]$}& \\text{$2$} \\\\\\hline\\text{MOV $R2,(R1)$} & \\text{$R2$} \\leftarrow  \\text{Memory$[(R_1)]$}& \\text{$1$} \\\\\\hline \\text{ADD $R_2,R_3$} & \\text{$R2$} \\leftarrow  \\text{$R_2 + R_3$} & \\text{$1$} \\\\\\hline \\text{MOV $6000,R_2$} & \\text{Memory$[6000]$} \\leftarrow  \\text{$R_2$} & \\text{$2$} \\\\\\hline \\text{HALT} & \\text{Machine Halts} & \\text{$1$} \\\\\\hline \\end{array}$$Consider that the memory is byte addressable with size $32$ bits, and the program has been loaded starting from memory location $1000$ (decimal). If an interrupt occurs while the CPU has been halted after executing the HALT instruction, the return address (in decimal) saved in the stack will be",
+        "options": [
+            "$1007$",
+            "$1020$",
+            "$1024$",
+            "$1028$"
+        ],
+        "correctAnswer": [3],
+        "answerText": null,
+        "difficulty": "Medium",
+        "marks": 2,
+        "tags": [
+            "/co-and-architecture",
+            "/tag/gatecse-2004",
+            "/tag/co-and-architecture",
+            "/tag/machine-instruction",
+            "/tag/normal"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/1058/gate-cse-2004-question-63",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/1058/gate-cse-2004-question-63",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "20",
+        "year": 2004,
+        "questionNumber": 20,
+        "subject": "CO & Architecture",
+        "topic": "Addressing Modes",
+        "questionType": "multiple-choice",
+        "question": "Which of the following addressing modes are suitable for program relocation at run time?\n\n\nAbsolute addressing\n\n\nBased addressing\n\n\nRelative addressing\n\n\nIndirect addressing",
+        "options": [
+            "I and IV",
+            "I and II",
+            "II and III",
+            "I, II and IV"
+        ],
+        "correctAnswer": [2],
+        "answerText": null,
+        "difficulty": "Easy",
+        "marks": 1,
+        "tags": [
+            "/co-and-architecture",
+            "/tag/gatecse-2004",
+            "/tag/co-and-architecture",
+            "/tag/addressing-modes",
+            "/tag/easy"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/1017/gate-cse-2004-question-20",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/1017/gate-cse-2004-question-20",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "48",
+        "year": 2003,
+        "questionNumber": 48,
+        "subject": "CO & Architecture",
+        "topic": "Machine Instruction",
+        "questionType": "multiple-choice",
+        "question": "Consider the following assembly language program for a hypothetical processor. A, B, and C are 8-bit registers. The meanings of various instructions are shown as comments.\n\n```asm\nMOV B, #0        ; B ← 0\nMOV C, #8        ; C ← 8\nZ: CMP C, #0     ; Compare C with 0\nJZ X             ; Jump to X if zero flag is set\nSUB C, #1        ; C ← C - 1\nRRC A, #1        ; Right rotate A through carry by 1 bit\n                 ; If initial A = a7...a0 and carry = c0\n                 ; Then A becomes c0a7...a1 and carry = a0\nJC Y             ; Jump to Y if carry flag is set\nJMP Z            ; Jump to Z\nY: ADD B, #1     ; B ← B + 1\nJMP Z            ; Jump to Z\nX:\n```\n\nIf the initial value of register A is `A0` (in hexadecimal), the value of register B after the program execution will be ________.",
+        "options": [
+            "the number of $0$ bits in $A_0$",
+            "the number of $1$ bits in $A_0$",
+            "$A_0$",
+            "$8$"
+        ],
+        "correctAnswer": [1],
+        "answerText": null,
+        "difficulty": "Medium",
+        "marks": 2,
+        "tags": [
+            "/co-and-architecture",
+            "/tag/gatecse-2003",
+            "/tag/co-and-architecture",
+            "/tag/machine-instruction",
+            "/tag/normal"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/938/gate-cse-2003-question-48",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/938/gate-cse-2003-question-48",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "41",
+        "year": 2003,
+        "questionNumber": 41,
+        "subject": "CO & Architecture",
+        "topic": "Pipelining",
+        "questionType": "multiple-choice",
+        "question": "For a pipelined CPU with a single ALU, consider the following situations\n\n\nThe ${j+1}^{st}$ instruction uses the result of the $j^{th}$ instruction as an operand\n\n\nThe execution of a conditional jump instruction\n\n\nThe $j^{th}$ and ${j+1}^{st}$ instructions require the ALU at the same time.\n\n\nWhich of the above can cause a hazard",
+        "options": [
+            "I and II only",
+            "II and III only",
+            "III only",
+            "All the three"
+        ],
+        "correctAnswer": [3],
+        "answerText": null,
+        "difficulty": "Medium",
+        "marks": 2,
+        "tags": [
+            "/co-and-architecture",
+            "/tag/gatecse-2003",
+            "/tag/co-and-architecture",
+            "/tag/pipelining",
+            "/tag/normal",
+            "/tag/isrodec2017"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/901/gate-cse-2003-question-10-isro-dec2017-41",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/901/gate-cse-2003-question-10-isro-dec2017-41",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "35",
+        "year": 2006,
+        "questionNumber": 35,
+        "subject": "CO & Architecture",
+        "topic": "Machine Instruction",
+        "questionType": "multiple-choice",
+        "question": "A CPU has $24$-$bit$ instructions. A program starts at address $300$ (in decimal). Which one of the following is a legal program counter (all values in decimal)?",
+        "options": [
+            "$400$",
+            "$500$",
+            "$600$",
+            "$700$"
+        ],
+        "correctAnswer": [2],
+        "answerText": null,
+        "difficulty": "Easy",
+        "marks": 1,
+        "tags": [
+            "/co-and-architecture",
+            "/tag/gatecse-2006",
+            "/tag/co-and-architecture",
+            "/tag/machine-instruction",
+            "/tag/easy",
+            "/tag/isro2009"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/888/gate-cse-2006-question-09-isro2009-35",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/888/gate-cse-2006-question-09-isro2009-35",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "7",
+        "year": 2002,
+        "questionNumber": 7,
+        "subject": "CO & Architecture",
+        "topic": "Microprogramming",
+        "questionType": "multiple-choice",
+        "question": "Horizontal microprogramming:",
+        "options": [
+            "does not require use of signal decoders",
+            "results in larger sized microinstructions than vertical  microprogramming",
+            "uses one bit for each control signal",
+            "all of the above"
+        ],
+        "correctAnswer": [3],
+        "answerText": null,
+        "difficulty": "Easy",
+        "marks": 1,
+        "tags": [
+            "/co-and-architecture",
+            "/tag/gatecse-2002",
+            "/tag/co-and-architecture",
+            "/tag/microprogramming"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/837/gate-cse-2002-question-2-7",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/837/gate-cse-2002-question-2-7",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "19",
+        "year": 2002,
+        "questionNumber": 19,
+        "subject": "CO & Architecture",
+        "topic": "Pipelining",
+        "questionType": "multiple-choice",
+        "question": "The performance of a pipelined processor suffers if:",
+        "options": [
+            "the pipeline stages have different delays",
+            "consecutive instructions are dependent on each other",
+            "the pipeline stages share hardware resources",
+            "All of the above"
+        ],
+        "correctAnswer": [3],
+        "answerText": null,
+        "difficulty": "Easy",
+        "marks": 1,
+        "tags": [
+            "/co-and-architecture",
+            "/tag/gatecse-2002",
+            "/tag/co-and-architecture",
+            "/tag/pipelining",
+            "/tag/easy",
+            "/tag/isro2008"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/836/gate-cse-2002-question-2-6-isro2008-19",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/836/gate-cse-2002-question-2-6-isro2008-19",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "24",
+        "year": 2002,
+        "questionNumber": 24,
+        "subject": "CO & Architecture",
+        "topic": "Addressing Modes",
+        "questionType": "multiple-choice",
+        "question": "In the absolute addressing mode:",
+        "options": [
+            "the operand is inside the instruction",
+            "the address of the operand in inside the instruction",
+            "the register containing the address of the operand is specified inside the instruction",
+            "the location of the operand is implicit"
+        ],
+        "correctAnswer": [1],
+        "answerText": null,
+        "difficulty": "Easy",
+        "marks": 1,
+        "tags": [
+            "/co-and-architecture",
+            "/tag/gatecse-2002",
+            "/tag/co-and-architecture",
+            "/tag/addressing-modes",
+            "/tag/easy"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/829/gate-cse-2002-question-1-24",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/829/gate-cse-2002-question-1-24",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "13",
+        "year": 2002,
+        "questionNumber": 13,
+        "subject": "CO & Architecture",
+        "topic": "Instruction and Execution",
+        "questionType": "multiple-choice",
+        "question": "Which of the following is not a form of memory",
+        "options": [
+            "instruction cache",
+            "instruction register",
+            "instruction opcode",
+            "translation look-a-side buffer"
+        ],
+        "correctAnswer": [2],
+        "answerText": null,
+        "difficulty": "Easy",
+        "marks": 1,
+        "tags": [
+            "/co-and-architecture",
+            "/tag/gatecse-2002",
+            "/tag/co-and-architecture",
+            "/tag/easy",
+            "/tag/instruction-execution"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/817/gate-cse-2002-question-1-13",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/817/gate-cse-2002-question-1-13",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "9",
+        "year": 2002,
+        "questionNumber": 9,
+        "subject": "CO & Architecture",
+        "topic": "Interrupts",
+        "questionType": "multiple-choice",
+        "question": "A device employing INTR line for device interrupt puts the CALL instruction on the data bus while:",
+        "options": ["$\\overline{\\text{INTA}}$ is active", "HOLD is active", "READY is inactive", "None of the above"],
+        "correctAnswer": [0],
+        "answerText": null,
+        "difficulty": "Medium",
+        "marks": 2,
+        "tags": [
+            "/co-and-architecture",
+            "/tag/gatecse-2002",
+            "/tag/co-and-architecture",
+            "/tag/interrupts",
+            "/tag/normal"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/813/gate-cse-2002-question-1-9",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/813/gate-cse-2002-question-1-9",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "13",
+        "year": 2001,
+        "questionNumber": 13,
+        "subject": "CO & Architecture",
+        "topic": "Machine Instruction",
+        "questionType": "multiple-choice",
+        "question": "Consider the following data path of a simple non-pipelined CPU. The registers $A, B$, $A_{1},A_{2}, \\textsf{MDR},$ the $\\textsf{bus}$ and the $\\textsf{ALU}$ are $8$-$bit$ wide. $\\textsf{SP}$ and $\\textsf{MAR}$ are $16$-$bit$ registers. The $\\textsf{MUX}$ is of size $8 \\times (2:1)$ and the $\\textsf{DEMUX}$ is of size $8 \\times (1:2)$. Each memory operation takes $2$ $\\textsf{CPU}$ clock cycles and uses $\\textsf{MAR}$ (Memory Address Register) and $\\textsf{MDR}$ (Memory Date Register). $\\textsf{SP}$ can be decremented locally. <br>![MI_2001_13](COA/assets/MI_2001_13.png)\n\nThe $\\textsf{CPU}$ instruction \"push r\" where, $r =$ $A$ or $B$ has the specification\n\n$M[SP] ← r $\n$SP ← SP - 1$\n\nHow many $\\textsf{CPU}$ clock cycles are required to execute the \"push r\" instruction?",
+        "options": [
+            "$2$",
+            "$3$",
+            "$4$",
+            "$5$"
+        ],
+        "correctAnswer": [3],
+        "answerText": null,
+        "difficulty": "Medium",
+        "marks": 2,
+        "tags": [
+            "/co-and-architecture",
+            "/tag/gatecse-2001",
+            "/tag/co-and-architecture",
+            "/tag/data-path",
+            "/tag/machine-instruction",
+            "/tag/normal"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/731/gate-cse-2001-question-2-13",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/731/gate-cse-2001-question-2-13",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "9",
+        "year": 2001,
+        "questionNumber": 9,
+        "subject": "CO & Architecture",
+        "topic": "Addressing Modes",
+        "questionType": "multiple-choice",
+        "question": "Which is the most appropriate match for the items in the first column with the items in the second column:$$\\begin{array}{|cl|cl|} \\hline \\text{X.} &\\text{Indirect Addressing} &  \\text{I.} &\\text{Array implementation} \\\\\\hline\n\\text{Y.} &\\text{Indexed Addressing} & \\text{II.} &\\text{Writing relocatable code}  \\\\\\hline \n\\text {Z.} &\\text{Base Register Addressing}  & \\text{III.} &\\text{Passing array as parameter}\\\\\\hline  \\end{array}$$",
+        "options": [
+            "(X, III), (Y, I), (Z, II)",
+            "(X, II), (Y, III), (Z, I)",
+            "(X, III), (Y, II), (Z, I)",
+            "(X, I), (Y, III), (Z, II)"
+        ],
+        "correctAnswer": [0],
+        "answerText": null,
+        "difficulty": "Easy",
+        "marks": 1,
+        "tags": [
+            "/co-and-architecture",
+            "/tag/gatecse-2001",
+            "/tag/co-and-architecture",
+            "/tag/addressing-modes",
+            "/tag/easy",
+            "/tag/match-the-following"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/727/gate-cse-2001-question-2-9",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/727/gate-cse-2001-question-2-9",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "36",
+        "year": 2001,
+        "questionNumber": 36,
+        "subject": "CO & Architecture",
+        "topic": "Runtime Environment",
+        "questionType": "multiple-choice",
+        "question": "Suppose a processor does not have any stack pointer registers, which of the following statements is true?",
+        "options": [
+            "It cannot have subroutine call instruction",
+            "It cannot have nested subroutines call",
+            "Interrupts are not possible",
+            "All subroutine calls and interrupts are possible"
+        ],
+        "correctAnswer": [1],
+        "answerText": null,
+        "difficulty": "Medium",
+        "marks": 2,
+        "tags": [
+            "/co-and-architecture",
+            "/tag/gatecse-2001",
+            "/tag/co-and-architecture",
+            "/tag/normal",
+            "/tag/ugcnetcse-dec2012-paper3",
+            "/tag/runtime-environment"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/703/gate-cse-2001-question-1-10-ugcnet-dec2012-iii-36",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/703/gate-cse-2001-question-1-10-ugcnet-dec2012-iii-36",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "18",
+        "year": 2001,
+        "questionNumber": 18,
+        "subject": "CO & Architecture",
+        "topic": "Cache Memory",
+        "questionType": "multiple-choice",
+        "question": "More than one word are put in one cache block to:",
+        "options": [
+            "exploit the temporal locality of reference in a program",
+            "exploit the spatial locality of reference in a program",
+            "reduce the miss penalty",
+            "none of the above"
+        ],
+        "correctAnswer": [1],
+        "answerText": null,
+        "difficulty": "Easy",
+        "marks": 1,
+        "tags": [
+            "/co-and-architecture",
+            "/tag/gatecse-2001",
+            "/tag/co-and-architecture",
+            "/tag/easy",
+            "/tag/cache-memory",
+            "/tag/isro2008"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/700/gate-cse-2001-question-1-7-isro2008-18",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/700/gate-cse-2001-question-1-7-isro2008-18",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "10",
+        "year": 2000,
+        "questionNumber": 10,
+        "subject": "CO & Architecture",
+        "topic": "Addressing Modes",
+        "questionType": "multiple-choice",
+        "question": "The most appropriate matching for the following pairs$$\\begin{array}{ll} \\text{X: Indirect addressing} & \\text{1: Loops } \\\\  \\text{Y: Immediate addressing } & \\text{2: Pointers} \\\\   \\text{Z: Auto decrement addressing } & \\text{3: Constants } \\\\  \\end{array}$$ is",
+        "options": [
+            "$X - 3,  Y - 2,  Z - 1$",
+            "$X - 1,  Y - 3,  Z - 2$",
+            "$X - 2,  Y - 3,  Z - 1$",
+            "$X - 3,  Y - 1,  Z - 2$"
+        ],
+        "correctAnswer": [2],
+        "answerText": null,
+        "difficulty": "Easy",
+        "marks": 1,
+        "tags": [
+            "/co-and-architecture",
+            "/tag/gatecse-2000",
+            "/tag/co-and-architecture",
+            "/tag/easy",
+            "/tag/addressing-modes",
+            "/tag/match-the-following"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/633/gate-cse-2000-question-1-10",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/633/gate-cse-2000-question-1-10",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "8",
+        "year": 2000,
+        "questionNumber": 8,
+        "subject": "CO & Architecture",
+        "topic": "Pipelining",
+        "questionType": "multiple-choice",
+        "question": "Comparing the time T1 taken for a single instruction on a pipelined CPU with time T2 taken on a non-pipelined but identical CPU, we can say that",
+        "options": [
+            "T1 ≤ T2",
+            "T1 ≥ T2",
+            "T1 < T2",
+            "T1 and T2 plus the time taken for one instruction fetch cycle"
+        ],
+        "correctAnswer": [1],
+        "answerText": null,
+        "difficulty": "Easy",
+        "marks": 1,
+        "tags": [
+            "/co-and-architecture",
+            "/tag/gatecse-2000",
+            "/tag/pipelining",
+            "/tag/co-and-architecture",
+            "/tag/easy"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/631/gate-cse-2000-question-1-8",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/631/gate-cse-2000-question-1-8",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    }
+]

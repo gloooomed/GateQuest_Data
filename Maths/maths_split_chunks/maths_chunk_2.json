@@ -1,0 +1,1717 @@
+[
+    {
+        "id": "b",
+        "year": null,
+        "questionNumber": null,
+        "subject": "Calculus",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "Compute without using power series expansion $\\displaystyle \\lim_{x \\to 0} \\frac{\\sin x}{x}.$",
+        "options": [],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/mathematics/calculus",
+            "/tag/gate1995",
+            "/tag/calculus",
+            "/tag/limits",
+            "/tag/numerical-answers"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/359942/gate-cse-1995-question-7-b",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/359942/gate-cse-1995-question-7-b",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "11",
+        "year": 2021,
+        "questionNumber": 11,
+        "subject": "Set Theory & Algebra",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "Consider the following sets, where $n \\geq 2$:\n\n$S_1$: Set of all $n \\times n$ matrices with entries from the set $\\{ a, b, c\\}$\n$S_2$: Set of all functions from the set $\\{0,1,2, \\dots, n^2-1\\}$ to the set $\\{0, 1, 2\\}$\n\nWhich of the following choice(s) is/are correct?",
+        "options": [
+            "There does not exist a bijection from $S_1$ to $S_2$",
+            "There exists a surjection from $S_1$ to $S_2$",
+            "There exists a bijection from $S_1$ to $S_2$",
+            "There does not exist an injection from $S_1$ to $S_2$"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/mathematics/discrete-mathematics/set-theory%26algebra",
+            "/tag/gatecse-2021-set2",
+            "/tag/multiple-selects",
+            "/tag/set-theory%26algebra",
+            "/tag/functions",
+            "/tag/one-mark"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/357529/gate-cse-2021-set-2-question-11",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/357529/gate-cse-2021-set-2-question-11",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "15",
+        "year": 2021,
+        "questionNumber": 15,
+        "subject": "Mathematical Logic",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "Choose the correct choice(s) regarding the following proportional logic assertion $S$:\n$$S: (( P \\wedge Q) \\rightarrow R) \\rightarrow (( P \\wedge Q) \\rightarrow (Q \\rightarrow R))$$",
+        "options": [
+            "$S$ is neither a tautology nor a contradiction",
+            "$S$ is a tautology",
+            "$S$ is a contradiction",
+            "The antecedent of $S$ is logically equivalent to the consequent of $S$"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/mathematics/discrete-mathematics/mathematical-logic",
+            "/tag/gatecse-2021-set2",
+            "/tag/multiple-selects",
+            "/tag/mathematical-logic",
+            "/tag/propositional-logic",
+            "/tag/one-mark"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/357525/gate-cse-2021-set-2-question-15",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/357525/gate-cse-2021-set-2-question-15",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "22",
+        "year": 2021,
+        "questionNumber": 22,
+        "subject": "Probability",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "For a given biased coin, the probability that the outcome of a toss is a head is $0.4$. This coin is tossed $1,000$ times. Let $X$ denote the random variable whose value is the number of times that head appeared in these $1,000$ tosses. The standard deviation of $X$ (rounded to $2$ decimal place) is _________",
+        "options": [],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/mathematics/probability",
+            "/tag/gatecse-2021-set2",
+            "/tag/numerical-answers",
+            "/tag/probability",
+            "/tag/random-variable",
+            "/tag/one-mark",
+            "/tag/statistics"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/357518/gate-cse-2021-set-2-question-22",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/357518/gate-cse-2021-set-2-question-22",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "24",
+        "year": 2021,
+        "questionNumber": 24,
+        "subject": "Linear Algebra",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "Suppose that $P$ is a $4 \\times 5$ matrix such that every solution of the equation $\\text{Px=0}$ is a scalar multiple of $\\begin{bmatrix} 2 & 5 & 4 &3 & 1 \\end{bmatrix}^T$. The rank of $P$ is __________",
+        "options": [],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/mathematics/linear-algebra",
+            "/tag/gatecse-2021-set2",
+            "/tag/numerical-answers",
+            "/tag/linear-algebra",
+            "/tag/matrix",
+            "/tag/rank-of-matrix",
+            "/tag/one-mark"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/357516/gate-cse-2021-set-2-question-24",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/357516/gate-cse-2021-set-2-question-24",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "25",
+        "year": 2021,
+        "questionNumber": 25,
+        "subject": "Calculus",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "Suppose that $f: \\mathbb{R} \\rightarrow \\mathbb{R}$ is a continuous function on the interval $[-3, 3]$ and a differentiable function in the interval $(-3,3)$ such that for every $x$ in the interval, $f’(x) \\leq 2$. If $f(-3)=7$, then $f(3)$ is at most __________",
+        "options": [],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/mathematics/calculus",
+            "/tag/gatecse-2021-set2",
+            "/tag/numerical-answers",
+            "/tag/calculus",
+            "/tag/continuity",
+            "/tag/one-mark"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/357515/gate-cse-2021-set-2-question-25",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/357515/gate-cse-2021-set-2-question-25",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "29",
+        "year": 2021,
+        "questionNumber": 29,
+        "subject": "Probability",
+        "topic": "two-marks",
+        "questionType": "multiple-choice",
+        "question": "In an examination, a student can choose the order in which two questions ($\\textsf{QuesA}$ and $\\textsf{QuesB}$) must be attempted.\n\nIf the first question is answered wrong, the student gets zero marks.\nIf the first question is answered correctly and the second question is not answered correctly, the student gets the marks only for the first question.\nIf both the questions are answered correctly, the student gets the sum of the marks of the two questions.\n\nThe following table shows the probability of correctly answering a question and the marks of the question respectively.\n$$\\begin{array}{c|c|c} \\text{question} & \\text{probabilty of answering correctly} & \\text{marks} \\\\ \\hline \\textsf{QuesA} & 0.8 & 10 \\\\ \\textsf{QuesB} & 0.5 & 20 \\end{array}$$\nAssuming that the student always wants to maximize her expected marks in the examination, in which order should she attempt  the questions and what is the expected marks for that order (assume that the questions are independent)?",
+        "options": [
+            "First $\\textsf{QuesA}$ and then $\\textsf{QuesB}$. Expected marks $14$.",
+            "First $\\textsf{QuesB}$ and then $\\textsf{QuesA}$. Expected marks $14$.",
+            "First $\\textsf{QuesB}$ and then $\\textsf{QuesA}$. Expected marks $22$.",
+            "First $\\textsf{QuesA}$ and then $\\textsf{QuesB}$. Expected marks $16$."
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": "two-marks",
+        "marks": null,
+        "tags": [
+            "/mathematics/probability",
+            "/tag/gatecse-2021-set2",
+            "/tag/probability",
+            "/tag/expectation",
+            "/tag/two-marks"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/357511/gate-cse-2021-set-2-question-29",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/357511/gate-cse-2021-set-2-question-29",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "33",
+        "year": 2021,
+        "questionNumber": 33,
+        "subject": "Probability",
+        "topic": "two-marks",
+        "questionType": "multiple-choice",
+        "question": "A bag has $r$ red balls and $b$ black balls. All balls are identical except for their colours. In a trial, a ball is randomly drawn from the bag, its colour is noted and the ball is placed back into the bag along with another ball of the same colour. Note that the number of balls in the bag will increase by one, after the trial. A sequence of four such trials is conducted. Which one of the following choices gives the probability of drawing a red ball in the fourth trial?",
+        "options": [
+            "$\\dfrac{r}{r+b} \\\\$",
+            "$\\dfrac{r}{r+b+3}\\\\$",
+            "$\\dfrac{r+3}{r+b+3} \\\\$",
+            "$\\left( \\dfrac{r}{r+b} \\right) \\left ( \\dfrac{r+1}{r+b+1} \\right) \\left( \\dfrac{r+2}{r+b+2} \\right) \\left( \\dfrac{r+3}{r+b+3} \\right)$"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": "two-marks",
+        "marks": null,
+        "tags": [
+            "/mathematics/probability",
+            "/tag/gatecse-2021-set2",
+            "/tag/probability",
+            "/tag/normal",
+            "/tag/two-marks"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/357507/gate-cse-2021-set-2-question-33",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/357507/gate-cse-2021-set-2-question-33",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "37",
+        "year": 2021,
+        "questionNumber": 37,
+        "subject": "Set Theory & Algebra",
+        "topic": "two-marks",
+        "questionType": "multiple-choice",
+        "question": "For two $n$-dimensional real vectors $P$ and $Q$, the operation $s(P,Q)$ is defined as follows:\n$$s(P,Q) = \\displaystyle \\sum_{i=1}^n (P[i] \\cdot Q[i])$$\nLet $\\mathcal{L}$ be a set of $10$-dimensional non-zero real vectors such that for every pair of distinct vectors $P,Q \\in  \\mathcal{L}$, $s(P,Q)=0$. What is the maximum cardinality possible for the set $\\mathcal{L}$?",
+        "options": [
+            "$9$",
+            "$10$",
+            "$11$",
+            "$100$"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": "two-marks",
+        "marks": null,
+        "tags": [
+            "/mathematics/discrete-mathematics/set-theory%26algebra",
+            "/tag/gatecse-2021-set2",
+            "/tag/set-theory%26algebra",
+            "/tag/set-theory",
+            "/tag/two-marks"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/357503/gate-cse-2021-set-2-question-37",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/357503/gate-cse-2021-set-2-question-37",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "50",
+        "year": 2021,
+        "questionNumber": 50,
+        "subject": "Combinatory",
+        "topic": "two-marks",
+        "questionType": "multiple-choice",
+        "question": "Let $S$ be a set consisting of $10$ elements. The number of tuples of the form $(A,B)$ such that $A$ and $B$ are subsets of $S$, and $A \\subseteq B$ is ___________",
+        "options": [],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": "two-marks",
+        "marks": null,
+        "tags": [
+            "/mathematics/discrete-mathematics/combinatory",
+            "/tag/gatecse-2021-set2",
+            "/tag/combinatory",
+            "/tag/counting",
+            "/tag/numerical-answers",
+            "/tag/two-marks"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/357487/gate-cse-2021-set-2-question-50",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/357487/gate-cse-2021-set-2-question-50",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "7",
+        "year": 2021,
+        "questionNumber": 7,
+        "subject": "Mathematical Logic",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "Let $p$ and $q$ be two propositions. Consider the following two formulae in propositional logic.\n\n$S_1: (\\neg p\\wedge(p\\vee q))\\rightarrow q$\n$S_2: q\\rightarrow(\\neg p\\wedge(p\\vee q))$\n\nWhich one of the following choices is correct?",
+        "options": [
+            "Both $S_1$ and $S_2$ are tautologies.",
+            "$S_1$ is a tautology but $S_2$ is not a tautology",
+            "$S_1$ is not a tautology but $S_2$ is a tautology",
+            "Neither $S_1$ nor $S_2$ is a tautology"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/mathematics/discrete-mathematics/mathematical-logic",
+            "/tag/gatecse-2021-set1",
+            "/tag/mathematical-logic",
+            "/tag/propositional-logic",
+            "/tag/one-mark"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/357445/gate-cse-2021-set-1-question-7",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/357445/gate-cse-2021-set-1-question-7",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "16",
+        "year": 2021,
+        "questionNumber": 16,
+        "subject": "Graph Theory",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "In an undirected connected planar graph $G$, there are eight vertices and five faces. The number of edges in $G$ is _________.",
+        "options": [],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/mathematics/discrete-mathematics/graph-theory",
+            "/tag/gatecse-2021-set1",
+            "/tag/graph-theory",
+            "/tag/graph-planarity",
+            "/tag/numerical-answers",
+            "/tag/easy",
+            "/tag/one-mark"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/357435/gate-cse-2021-set-1-question-16",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/357435/gate-cse-2021-set-1-question-16",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "18",
+        "year": 2021,
+        "questionNumber": 18,
+        "subject": "Probability",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "The lifetime of a component of a certain type is a random variable whose probability density function is exponentially distributed with parameter $2$. For a randomly picked component of this type, the probability that its lifetime exceeds the expected lifetime (rounded to $2$ decimal places) is ____________.",
+        "options": [],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/mathematics/probability",
+            "/tag/gatecse-2021-set1",
+            "/tag/probability",
+            "/tag/random-variable",
+            "/tag/numerical-answers",
+            "/tag/one-mark",
+            "/tag/exponential-distribution"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/357433/gate-cse-2021-set-1-question-18",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/357433/gate-cse-2021-set-1-question-18",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "19",
+        "year": 2021,
+        "questionNumber": 19,
+        "subject": "Combinatory",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "There are $6$ jobs with distinct difficulty levels, and $3$ computers with distinct processing speeds. Each job is assigned to a computer such that:\n\nThe fastest computer gets the toughest job and the slowest computer gets the easiest job.\nEvery computer gets at least one job.",
+        "options": [
+            "The number of ways in which this can be done is ___________."
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/mathematics/discrete-mathematics/combinatory",
+            "/tag/gatecse-2021-set1",
+            "/tag/combinatory",
+            "/tag/counting",
+            "/tag/numerical-answers",
+            "/tag/one-mark"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/357432/gate-cse-2021-set-1-question-19",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/357432/gate-cse-2021-set-1-question-19",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "20",
+        "year": 2021,
+        "questionNumber": 20,
+        "subject": "Calculus",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "Consider the following expression.$$\\displaystyle \\lim_{x\\rightarrow-3}\\frac{\\sqrt{2x+22}-4}{x+3}$$The value of the above expression (rounded to 2 decimal places) is ___________.",
+        "options": [],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/mathematics/calculus",
+            "/tag/gatecse-2021-set1",
+            "/tag/calculus",
+            "/tag/limits",
+            "/tag/numerical-answers",
+            "/tag/one-mark"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/357431/gate-cse-2021-set-1-question-20",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/357431/gate-cse-2021-set-1-question-20",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "34",
+        "year": 2021,
+        "questionNumber": 34,
+        "subject": "Set Theory & Algebra",
+        "topic": "two-marks",
+        "questionType": "multiple-choice",
+        "question": "Let $G$ be a group of order $6$, and $H$ be a subgroup of $G$ such that $1<|H|<6$. Which one of the following options is correct?",
+        "options": [
+            "Both $G$ and $H$ are always cyclic",
+            "$G$ may not be cyclic, but $H$ is always cyclic",
+            "$G$ is always cyclic, but $H$ may not be cyclic",
+            "Both $G$ and $H$ may not be cyclic"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": "two-marks",
+        "marks": null,
+        "tags": [
+            "/mathematics/discrete-mathematics/set-theory%26algebra",
+            "/tag/gatecse-2021-set1",
+            "/tag/set-theory%26algebra",
+            "/tag/group-theory",
+            "/tag/two-marks"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/357417/gate-cse-2021-set-1-question-34",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/357417/gate-cse-2021-set-1-question-34",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "35",
+        "year": 2021,
+        "questionNumber": 35,
+        "subject": "Probability",
+        "topic": "two-marks",
+        "questionType": "multiple-choice",
+        "question": "Consider the two statements.$S_1:\\quad$ There exist random variables $X$ and $Y$ such that $  \\left(\\mathbb E[(X-\\mathbb E(X))(Y-\\mathbb E(Y))]\\right)^2>\\textsf{Var}[X]\\textsf{Var}[Y]$$S_2:\\quad$ For all random variables $X$ and $Y, \\textsf{Cov}[X,Y]=\\mathbb E  \\left[|X-\\mathbb E[X]|\\;|Y-\\mathbb E[Y]|\\right ]$Which one of the following choices is correct?Both $S_1$ and $S_2$ are true$S_1$ is true, but $S_2$ is false$S_1$ is false, but $S_2$ is trueBoth $S_1$ and $S_2$ are false",
+        "options": [],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": "two-marks",
+        "marks": null,
+        "tags": [
+            "/mathematics/probability",
+            "/tag/gatecse-2021-set1",
+            "/tag/probability",
+            "/tag/random-variable",
+            "/tag/difficult",
+            "/tag/two-marks",
+            "/tag/expectation"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/357416/gate-cse-2021-set-1-question-35",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/357416/gate-cse-2021-set-1-question-35",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "36",
+        "year": 2021,
+        "questionNumber": 36,
+        "subject": "Graph Theory",
+        "topic": "two-marks",
+        "questionType": "multiple-choice",
+        "question": "Let $G=(V, E)$ be an undirected unweighted connected graph. The diameter of $G$ is defined as:\n$$\\text{diam}(G)=\\displaystyle \\max_{u,v\\in V} \\{\\text{the length of shortest path between $u$ and $v$}\\}$$\nLet $M$ be the adjacency matrix of $G$.\nDefine graph $G_2$ on the same set of vertices with adjacency matrix $N$, where \n$$N_{ij}=\\left\\{\\begin{array} {lll} 1 &\\text{if}\\; M_{ij}>0 \\text{ or } P_{ij}>0, \\text{ where }P=M^2\\\\0 &\\text{otherwise} \\end{array}\\right.$$\nWhich one of the following statements is true?",
+        "options": [
+            "$\\text{diam}(G_2)\\leq\\lceil \\text{diam}(G)/2\\rceil$",
+            "$\\lceil \\text{diam}(G)/2\\rceil<\\text{diam}(G_2)< \\text{diam}(G)$",
+            "$\\text{diam}(G_2) = \\text{diam}(G)$",
+            "$\\text{diam}(G)< \\text{diam}(G_2)\\leq 2\\;  \\text{diam}(G)$"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": "two-marks",
+        "marks": null,
+        "tags": [
+            "/mathematics/discrete-mathematics/graph-theory",
+            "/tag/gatecse-2021-set1",
+            "/tag/graph-theory",
+            "/tag/graph-connectivity",
+            "/tag/two-marks"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/357415/gate-cse-2021-set-1-question-36",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/357415/gate-cse-2021-set-1-question-36",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "43",
+        "year": 2021,
+        "questionNumber": 43,
+        "subject": "Set Theory & Algebra",
+        "topic": "two-marks",
+        "questionType": "multiple-choice",
+        "question": "A relation $R$ is said to be circular if $a\\text{R}b$ and $b\\text{R}c$ together imply $c\\text{R}a$.\nWhich of the following options is/are correct?",
+        "options": [
+            "If a relation $S$ is reflexive and symmetric, then $S$ is an equivalence relation.",
+            "If a relation $S$ is circular and symmetric, then $S$ is an equivalence relation.",
+            "If a relation $S$ is reflexive and circular, then $S$ is an equivalence relation.",
+            "If a relation $S$ is transitive and circular, then $S$ is an equivalence relation."
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": "two-marks",
+        "marks": null,
+        "tags": [
+            "/mathematics/discrete-mathematics/set-theory%26algebra",
+            "/tag/gatecse-2021-set1",
+            "/tag/multiple-selects",
+            "/tag/set-theory%26algebra",
+            "/tag/relations",
+            "/tag/two-marks"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/357408/gate-cse-2021-set-1-question-43",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/357408/gate-cse-2021-set-1-question-43",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "52",
+        "year": 2021,
+        "questionNumber": 52,
+        "subject": "Linear Algebra",
+        "topic": "two-marks",
+        "questionType": "multiple-choice",
+        "question": "Consider the following matrix.$$\\begin{pmatrix} 0 & 1 & 1 & 1\\\\ 1& 0& 1 & 1\\\\ 1& 1 & 0 & 1 \\\\1 & 1 & 1 & 0 \\end{pmatrix}$$The largest eigenvalue of the above matrix is __________.",
+        "options": [],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": "two-marks",
+        "marks": null,
+        "tags": [
+            "/mathematics/linear-algebra",
+            "/tag/gatecse-2021-set1",
+            "/tag/linear-algebra",
+            "/tag/matrix",
+            "/tag/eigen-value",
+            "/tag/numerical-answers",
+            "/tag/two-marks"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/357399/gate-cse-2021-set-1-question-52",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/357399/gate-cse-2021-set-1-question-52",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "54",
+        "year": 2021,
+        "questionNumber": 54,
+        "subject": "Probability",
+        "topic": "two-marks",
+        "questionType": "multiple-choice",
+        "question": "A sender $(\\textsf{S})$ transmits a signal, which can be one of the two kinds: $H$ and $L$ with probabilities $0.1$ and $0.9$ respectively, to a receiver $(\\textsf{R})$.\nIn the graph below, the weight of edge $(u,v)$ is the probability of receiving $v$ when $u$ is transmitted, where $u,v \\in \\{H,L\\}$. For example, the probability that the received signal is $L$ given the transmitted signal was $H$, is $0.7$.",
+        "options": [
+            "If the received signal is $H,$ the probability that the transmitted signal was $H$ (rounded to $2$ decimal places) is __________."
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": "two-marks",
+        "marks": null,
+        "tags": [
+            "/mathematics/probability",
+            "/tag/gatecse-2021-set1",
+            "/tag/probability",
+            "/tag/conditional-probability",
+            "/tag/numerical-answers",
+            "/tag/two-marks"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/357396/gate-cse-2021-set-1-question-54",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/357396/gate-cse-2021-set-1-question-54",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "1",
+        "year": 2020,
+        "questionNumber": 1,
+        "subject": "Calculus",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "Consider the functions\n\n $e^{-x}$\n$x^{2}-\\sin x$\n$\\sqrt{x^{3}+1}$\n\nWhich of the above functions is/are increasing everywhere in  $[ 0,1]$?",
+        "options": [
+            "Ⅲ only",
+            "Ⅱ only",
+            "Ⅱ and  Ⅲ only",
+            "Ⅰ and Ⅲ only"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/mathematics/calculus",
+            "/tag/gatecse-2020",
+            "/tag/engineering-mathematics",
+            "/tag/calculus",
+            "/tag/maxima-minima",
+            "/tag/one-mark"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/333230/gate-cse-2020-question-1",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/333230/gate-cse-2020-question-1",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "17",
+        "year": 2020,
+        "questionNumber": 17,
+        "subject": "Set Theory & Algebra",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "Let $\\mathcal{R}$ be the set of all binary relations on the set $\\{1,2,3\\}$. Suppose a relation is chosen from $\\mathcal{R}$ at random. The probability that the chosen relation is reflexive (round off to $3$ decimal places) is ______.",
+        "options": [],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/mathematics/discrete-mathematics/set-theory%26algebra",
+            "/tag/gatecse-2020",
+            "/tag/numerical-answers",
+            "/tag/probability",
+            "/tag/relations",
+            "/tag/one-mark"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/333214/gate-cse-2020-question-17",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/333214/gate-cse-2020-question-17",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "18",
+        "year": 2020,
+        "questionNumber": 18,
+        "subject": "Set Theory & Algebra",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "Let $G$ be a group of $35$ elements. Then the largest possible size of a subgroup of $G$ other than $G$ itself is _______.",
+        "options": [],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/mathematics/discrete-mathematics/set-theory%26algebra",
+            "/tag/gatecse-2020",
+            "/tag/numerical-answers",
+            "/tag/group-theory",
+            "/tag/easy",
+            "/tag/one-mark"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/333213/gate-cse-2020-question-18",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/333213/gate-cse-2020-question-18",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "27",
+        "year": 2020,
+        "questionNumber": 27,
+        "subject": "Linear Algebra",
+        "topic": "two-marks",
+        "questionType": "multiple-choice",
+        "question": "Let $A$ and $B$ be two $n  \\times n$ matrices over real numbers. Let rank($M$) and $\\text{det}(M)$ denote the rank and determinant of a matrix $M$, respectively. Consider the following statements.$\\text{rank}(AB) = \\text{rank }(A) \\text{rank }(B)$$\\text{det}(AB) = \\text{det}(A) \\text{det}(B)$$\\text{rank}(A + B) \\leq \\text{rank }(A) + \\text{rank }(B)$$\\text{det}(A + B) \\leq \\text{det}(A) + \\text{det} (B)$Which of the above statements are TRUE?I and II onlyI and IV onlyII and III onlyIII and IV only",
+        "options": [],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": "two-marks",
+        "marks": null,
+        "tags": [
+            "/mathematics/linear-algebra",
+            "/tag/gatecse-2020",
+            "/tag/linear-algebra",
+            "/tag/matrix",
+            "/tag/two-marks",
+            "/tag/rank-of-matrix"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/333204/gate-cse-2020-question-27",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/333204/gate-cse-2020-question-27",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "39",
+        "year": 2020,
+        "questionNumber": 39,
+        "subject": "Mathematical Logic",
+        "topic": "two-marks",
+        "questionType": "multiple-choice",
+        "question": "Which one of the following predicate formulae is NOT logically valid?\nNote that $W$ is a predicate formula without any free occurrence of $x$.",
+        "options": [
+            "$\\forall x (p(x) \\vee W) \\equiv \\forall x \\: ( px) \\vee W$",
+            "$\\exists x(p(x) \\wedge W) \\equiv \\exists x \\: p(x) \\wedge W$",
+            "$\\forall x(p(x) \\rightarrow W) \\equiv \\forall x \\: p(x) \\rightarrow W$",
+            "$\\exists x(p(x) \\rightarrow W) \\equiv \\forall x \\:  p(x) \\rightarrow W$"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": "two-marks",
+        "marks": null,
+        "tags": [
+            "/mathematics/discrete-mathematics/mathematical-logic",
+            "/tag/gatecse-2020",
+            "/tag/first-order-logic",
+            "/tag/mathematical-logic",
+            "/tag/two-marks"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/333192/gate-cse-2020-question-39",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/333192/gate-cse-2020-question-39",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "42",
+        "year": 2020,
+        "questionNumber": 42,
+        "subject": "Combinatory",
+        "topic": "two-marks",
+        "questionType": "multiple-choice",
+        "question": "The number of permutations of the characters in LILAC so that no character appears in its original position, if the two L’s are indistinguishable, is ______.",
+        "options": [],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": "two-marks",
+        "marks": null,
+        "tags": [
+            "/mathematics/discrete-mathematics/combinatory",
+            "/tag/gatecse-2020",
+            "/tag/numerical-answers",
+            "/tag/combinatory",
+            "/tag/two-marks"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/333189/gate-cse-2020-question-42",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/333189/gate-cse-2020-question-42",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "45",
+        "year": 2020,
+        "questionNumber": 45,
+        "subject": "Probability",
+        "topic": "two-marks",
+        "questionType": "multiple-choice",
+        "question": "For $n>2$, let $a \\in  \\{0,1\\}^n$ be a non-zero vector. Suppose that $x$ is chosen uniformly at random from $\\{0,1\\}^n$. Then, the probability that $\\displaystyle{} \\Sigma_{i=1}^n a_i x_i$  is an odd number is______________",
+        "options": [],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": "two-marks",
+        "marks": null,
+        "tags": [
+            "/mathematics/probability",
+            "/tag/gatecse-2020",
+            "/tag/numerical-answers",
+            "/tag/probability",
+            "/tag/uniform-distribution",
+            "/tag/two-marks"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/333186/gate-cse-2020-question-45",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/333186/gate-cse-2020-question-45",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "52",
+        "year": 2020,
+        "questionNumber": 52,
+        "subject": "Graph Theory",
+        "topic": "two-marks",
+        "questionType": "multiple-choice",
+        "question": "Graph $G$ is obtained by adding vertex $s$ to $K_{3,4}$ and making $s$ adjacent to every vertex of $K_{3,4}$. The minimum number of colours required to edge-colour $G$ is _______",
+        "options": [],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": "two-marks",
+        "marks": null,
+        "tags": [
+            "/mathematics/discrete-mathematics/graph-theory",
+            "/tag/gatecse-2020",
+            "/tag/numerical-answers",
+            "/tag/graph-theory",
+            "/tag/graph-coloring",
+            "/tag/two-marks"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/333179/gate-cse-2020-question-52",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/333179/gate-cse-2020-question-52",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "25b",
+        "year": null,
+        "questionNumber": null,
+        "subject": "Set Theory & Algebra",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "Determine the number of positive integers $(\\leq 720)$ which are not divisible by any of $2,3$ or $5.$",
+        "options": [],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/mathematics/discrete-mathematics/set-theory%26algebra",
+            "/tag/gate1995",
+            "/tag/set-theory%26algebra",
+            "/tag/set-theory",
+            "/tag/numerical-answers"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/314348/gate-cse-1995-question-25b",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/314348/gate-cse-1995-question-25b",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "5",
+        "year": 2019,
+        "questionNumber": 5,
+        "subject": "Combinatory",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "Let $U = \\{1, 2, \\dots , n\\}$ Let $A=\\{(x, X) \\mid  x \\in X, X \\subseteq U \\}$. Consider the following two statements on $\\mid A \\mid$.\n\n$\\mid A \\mid = n2^{n-1}$\n$\\mid A \\mid = \\Sigma_{k=1}^{n} k \\begin{pmatrix} n \\\\ k \\end{pmatrix}$\n\nWhich of the above statements is/are TRUE?",
+        "options": [
+            "Only I",
+            "Only II",
+            "Both I and II",
+            "Neither I nor II"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/mathematics/discrete-mathematics/combinatory",
+            "/tag/gatecse-2019",
+            "/tag/engineering-mathematics",
+            "/tag/discrete-mathematics",
+            "/tag/combinatory",
+            "/tag/one-mark"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/302843/gate-cse-2019-question-5",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/302843/gate-cse-2019-question-5",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "9",
+        "year": 2019,
+        "questionNumber": 9,
+        "subject": "Linear Algebra",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "Let $X$ be a square matrix. Consider the following two statements on $X$.\n\n$X$ is invertible\nDeterminant of $X$ is non-zero\n\nWhich one of the following is TRUE?",
+        "options": [
+            "I implies II; II does not imply I",
+            "II implies I; I does not imply II",
+            "I does not imply II; II does not imply I",
+            "I and II are equivalent statements"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/mathematics/linear-algebra",
+            "/tag/gatecse-2019",
+            "/tag/engineering-mathematics",
+            "/tag/linear-algebra",
+            "/tag/determinant",
+            "/tag/one-mark"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/302839/gate-cse-2019-question-9",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/302839/gate-cse-2019-question-9",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "10",
+        "year": 2019,
+        "questionNumber": 10,
+        "subject": "Set Theory & Algebra",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "Let $G$ be an arbitrary group. Consider the following relations on $G$:\n\n$R_1: \\forall a , b \\in G, \\: a R_1 b \\text{ if and only if } \\exists g \\in G \\text{ such that } a = g^{-1}bg$\n$R_2: \\forall a , b \\in G, \\: a R_2 b \\text{ if and only if } a= b^{-1}$\n\nWhich of the above is/are equivalence relation/relations?",
+        "options": [
+            "$R_1$ and $R_2$",
+            "$R_1$ only",
+            "$R_2$ only",
+            "Neither $R_1$ nor $R_2$"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/mathematics/discrete-mathematics/set-theory%26algebra",
+            "/tag/gatecse-2019",
+            "/tag/engineering-mathematics",
+            "/tag/discrete-mathematics",
+            "/tag/set-theory%26algebra",
+            "/tag/group-theory",
+            "/tag/one-mark"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/302838/gate-cse-2019-question-10",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/302838/gate-cse-2019-question-10",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "12",
+        "year": 2019,
+        "questionNumber": 12,
+        "subject": "Graph Theory",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "Let $G$ be an undirected complete graph on $n$ vertices, where $n > 2$. Then, the number of different Hamiltonian cycles in $G$ is equal to",
+        "options": [
+            "$n!$",
+            "$(n-1)!$",
+            "$1$",
+            "$\\frac{(n-1)!}{2}$"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/mathematics/discrete-mathematics/graph-theory",
+            "/tag/gatecse-2019",
+            "/tag/engineering-mathematics",
+            "/tag/discrete-mathematics",
+            "/tag/graph-theory",
+            "/tag/graph-connectivity",
+            "/tag/one-mark"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/302836/gate-cse-2019-question-12",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/302836/gate-cse-2019-question-12",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "13",
+        "year": 2019,
+        "questionNumber": 13,
+        "subject": "Calculus",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "Compute $\\displaystyle \\lim_{x \\rightarrow 3} \\frac{x^4-81}{2x^2-5x-3}$",
+        "options": [
+            "$1$",
+            "$53/12$",
+            "$108/7$",
+            "Limit does not exist"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/mathematics/calculus",
+            "/tag/gatecse-2019",
+            "/tag/engineering-mathematics",
+            "/tag/calculus",
+            "/tag/limits",
+            "/tag/one-mark"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/302835/gate-cse-2019-question-13",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/302835/gate-cse-2019-question-13",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "21",
+        "year": 2019,
+        "questionNumber": 21,
+        "subject": "Combinatory",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "The value of $3^{51} \\text{ mod } 5$ is _____",
+        "options": [],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/mathematics/discrete-mathematics/combinatory",
+            "/tag/gatecse-2019",
+            "/tag/numerical-answers",
+            "/tag/combinatory",
+            "/tag/modular-arithmetic",
+            "/tag/one-mark"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/302827/gate-cse-2019-question-21",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/302827/gate-cse-2019-question-21",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "35",
+        "year": 2019,
+        "questionNumber": 35,
+        "subject": "Mathematical Logic",
+        "topic": "two-marks",
+        "questionType": "multiple-choice",
+        "question": "Consider the first order predicate formula $\\varphi$:\n$\\forall x [ ( \\forall z \\: z | x \\Rightarrow (( z=x) \\vee (z=1))) \\rightarrow \\exists w ( w > x) \\wedge (\\forall z \\: z | w \\Rightarrow ((w=z) \\vee (z=1)))]$\nHere $a \\mid b$ denotes that  $ ’a \\text { divides } b’ $ , where  $a$ and $b$ are integers. Consider the following sets:\n\n$S_1: \\{1, 2, 3, \\dots , 100\\}$\n$S_2:$ Set of all positive integers\n$S_3:$ Set of all integers\n\nWhich of the above sets satisfy $\\varphi$?",
+        "options": [
+            "$S_1$ and $S_2$",
+            "$S_1$ and $S_3$",
+            "$S_2$ and $S_3$",
+            "$S_1, S_2$ and $S_3$"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": "two-marks",
+        "marks": null,
+        "tags": [
+            "/mathematics/discrete-mathematics/mathematical-logic",
+            "/tag/gatecse-2019",
+            "/tag/engineering-mathematics",
+            "/tag/discrete-mathematics",
+            "/tag/mathematical-logic",
+            "/tag/first-order-logic",
+            "/tag/two-marks"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/302813/gate-cse-2019-question-35",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/302813/gate-cse-2019-question-35",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "38",
+        "year": 2019,
+        "questionNumber": 38,
+        "subject": "Graph Theory",
+        "topic": "two-marks",
+        "questionType": "multiple-choice",
+        "question": "Let $G$ be any connected, weighted, undirected graph.$G$ has a unique minimum spanning tree, if no two edges of $G$ have the same weight.$G$ has a unique minimum spanning tree, if, for every cut of $G$, there is a unique minimum-weight edge crossing the cut.Which of the following statements is/are TRUE?I onlyII onlyBoth I and IINeither I nor II",
+        "options": [],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": "two-marks",
+        "marks": null,
+        "tags": [
+            "/mathematics/discrete-mathematics/graph-theory",
+            "/tag/gatecse-2019",
+            "/tag/engineering-mathematics",
+            "/tag/discrete-mathematics",
+            "/tag/graph-theory",
+            "/tag/graph-connectivity",
+            "/tag/two-marks",
+            "/tag/minimum-spanning-tree",
+            "/tag/algorithms",
+            "/tag/graph-algorithms"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/302810/gate-cse-2019-question-38",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/302810/gate-cse-2019-question-38",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "44",
+        "year": 2019,
+        "questionNumber": 44,
+        "subject": "Linear Algebra",
+        "topic": "two-marks",
+        "questionType": "multiple-choice",
+        "question": "Consider the following matrix:\n\n$R = \\begin{bmatrix} 1 & 2 & 4 & 8 \\\\ 1 & 3 & 9 & 27 \\\\ 1 & 4 & 16 & 64 \\\\ 1 & 5 & 25 & 125 \\end{bmatrix}$",
+        "options": [
+            "The absolute value of the product of Eigen values of $R$ is _______"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": "two-marks",
+        "marks": null,
+        "tags": [
+            "/mathematics/linear-algebra",
+            "/tag/gatecse-2019",
+            "/tag/numerical-answers",
+            "/tag/engineering-mathematics",
+            "/tag/linear-algebra",
+            "/tag/eigen-value",
+            "/tag/two-marks"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/302804/gate-cse-2019-question-44",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/302804/gate-cse-2019-question-44",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "47",
+        "year": 2019,
+        "questionNumber": 47,
+        "subject": "Probability",
+        "topic": "two-marks",
+        "questionType": "multiple-choice",
+        "question": "Suppose $Y$ is distributed uniformly in the open interval $(1,6)$. The probability that the polynomial $3x^2 +6xY+3Y+6$ has only real roots is (rounded off to $1$ decimal place) _______",
+        "options": [],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": "two-marks",
+        "marks": null,
+        "tags": [
+            "/mathematics/probability",
+            "/tag/gatecse-2019",
+            "/tag/numerical-answers",
+            "/tag/engineering-mathematics",
+            "/tag/probability",
+            "/tag/uniform-distribution",
+            "/tag/two-marks"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/302801/gate-cse-2019-question-47",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/302801/gate-cse-2019-question-47",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "10b",
+        "year": null,
+        "questionNumber": null,
+        "subject": "Set Theory & Algebra",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "Let $R$ be a binary relation on $A = \\{a, b, c, d, e, f, g, h\\}$ represented by the following two component digraph. Find the smallest integers $m$ and $n$ such that $m < n$ and $R^m = R^n$.",
+        "options": [],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/mathematics/discrete-mathematics/set-theory%26algebra",
+            "/tag/gate1998",
+            "/tag/descriptive",
+            "/tag/set-theory%26algebra",
+            "/tag/relations"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/232729/gate-cse-1998-question-10b",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/232729/gate-cse-1998-question-10b",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "44",
+        "year": 2018,
+        "questionNumber": 44,
+        "subject": "Probability",
+        "topic": "two-marks",
+        "questionType": "multiple-choice",
+        "question": "Consider Guwahati, $(G)$ and Delhi $(D)$ whose temperatures can be classified as high $(H)$, medium $(M)$ and low $(L)$. Let $P(H_G)$ denote the probability that Guwahati has high temperature. Similarly, $P(M_G)$ and $P(L_G)$ denotes the probability of Guwahati having medium and low temperatures respectively. Similarly, we use $P(H_D),\\:  P(M_D)$ and $P(L_D)$ for Delhi.\n\nThe following table gives the conditional probabilities for Delhi’s temperature given Guwahati’s temperature.\n$$\\begin{array}{|c|c|c|c|} \\hline \\text{} & H_D & M_D & L_D \\\\\\hline H_G & \\text{0.40}& \\text{0.48} & \\text{0.12} \\\\\\hline M_G & \\text{0.10}& \\text{0.65} & \\text{0.25} \\\\\\hline  L_G  & \\text{0.01}& \\text{0.50} & \\text{0.49} \\\\\\hline \\end{array}$$\nConsider the first row in the table above. The first entry denotes that if Guwahati has high temperature $(H_G)$ then the probability of Delhi also having a high temperature $(H_D)$ is $0.40;$ i.e., $P(H_D \\mid H_G) = 0.40$. Similarly, the next two entries are $P(M_D \\mid H_G) = 0.48$ and $P(L_D \\mid H_G) = 0.12$. Similarly for the other rows.",
+        "options": [
+            "If it is known that $P(H_G) = 0.2, \\: P(M_G) = 0.5$, and $P(L_G)=0.3$, then the probability (correct to two decimal places) that Guwahati has high temperature given that Delhi has high temperature is ________."
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": "two-marks",
+        "marks": null,
+        "tags": [
+            "/mathematics/probability",
+            "/tag/gatecse-2018",
+            "/tag/probability",
+            "/tag/conditional-probability",
+            "/tag/numerical-answers",
+            "/tag/two-marks"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/204119/gate-cse-2018-question-44",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/204119/gate-cse-2018-question-44",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "28",
+        "year": 2018,
+        "questionNumber": 28,
+        "subject": "Mathematical Logic",
+        "topic": "two-marks",
+        "questionType": "multiple-choice",
+        "question": "Consider the first-order logic sentence\n$$\\varphi \\equiv \\exists \\: s \\: \\exists \\: t \\: \\exists \\: u \\: \\forall \\: v \\: \\forall \\: w \\forall \\: x \\: \\forall \\: y \\: \\psi(s, t, u, v, w, x, y)$$\nwhere $\\psi(s, t, u, v, w, x, y, )$ is a quantifier-free first-order logic formula using only predicate symbols, and possibly equality, but no function symbols. Suppose $\\varphi$ has a model with a universe containing $7$ elements.\nWhich one of the following statements is necessarily true?",
+        "options": [
+            "There exists at least one model of $\\varphi$ with universe of size less than or equal to $3$",
+            "There exists no model of $\\varphi$ with universe of size less than or equal to $3$",
+            "There exists no model of $\\varphi$ with universe size of greater than $7$",
+            "Every model of $\\varphi$ has a universe of size equal to $7$"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": "two-marks",
+        "marks": null,
+        "tags": [
+            "/mathematics/discrete-mathematics/mathematical-logic",
+            "/tag/gatecse-2018",
+            "/tag/mathematical-logic",
+            "/tag/normal",
+            "/tag/first-order-logic",
+            "/tag/two-marks"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/204102/gate-cse-2018-question-28",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/204102/gate-cse-2018-question-28",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "27",
+        "year": 2018,
+        "questionNumber": 27,
+        "subject": "Set Theory & Algebra",
+        "topic": "two-marks",
+        "questionType": "multiple-choice",
+        "question": "Let $N$ be the set of natural numbers. Consider the following sets,\n\n$P:$ Set of Rational numbers (positive and negative)\n$Q:$ Set of functions from $\\{0,1\\}$ to $N$\n$R:$ Set of functions from $N$ to $\\{0, 1\\}$\n$S:$ Set of finite subsets of $N$\n\nWhich of the above sets are countable?",
+        "options": [
+            "$Q$ and $S$ only",
+            "$P$ and $S$ only",
+            "$P$ and $R$ only",
+            "$P, Q$ and $S$ only"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": "two-marks",
+        "marks": null,
+        "tags": [
+            "/mathematics/discrete-mathematics/set-theory%26algebra",
+            "/tag/gatecse-2018",
+            "/tag/set-theory%26algebra",
+            "/tag/countable-uncountable-set",
+            "/tag/normal",
+            "/tag/two-marks"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/204101/gate-cse-2018-question-27",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/204101/gate-cse-2018-question-27",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "26",
+        "year": 2018,
+        "questionNumber": 26,
+        "subject": "Linear Algebra",
+        "topic": "two-marks",
+        "questionType": "multiple-choice",
+        "question": "Consider a matrix P whose only eigenvectors are the multiples of $\\begin{bmatrix} 1 \\\\ 4 \\end{bmatrix}$.\nConsider the following statements.\n\nP does not have an inverse\nP has a repeated eigenvalue\nP cannot be diagonalized\n\nWhich one of the following options is correct?",
+        "options": [
+            "Only I and III are necessarily true",
+            "Only II is necessarily true",
+            "Only I and II are necessarily true",
+            "Only II and III are necessarily true"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": "two-marks",
+        "marks": null,
+        "tags": [
+            "/mathematics/linear-algebra",
+            "/tag/gatecse-2018",
+            "/tag/linear-algebra",
+            "/tag/matrix",
+            "/tag/eigen-value",
+            "/tag/normal",
+            "/tag/two-marks"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/204100/gate-cse-2018-question-26",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/204100/gate-cse-2018-question-26",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "17",
+        "year": 2018,
+        "questionNumber": 17,
+        "subject": "Linear Algebra",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "Consider a matrix $A= uv^T$ where $u=\\begin{pmatrix}1 \\\\ 2 \\end{pmatrix} , v = \\begin{pmatrix}1 \\\\1 \\end{pmatrix}$. Note that $v^T$ denotes the transpose of $v$. The largest eigenvalue of $A$ is ____",
+        "options": [],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/mathematics/linear-algebra",
+            "/tag/gatecse-2018",
+            "/tag/linear-algebra",
+            "/tag/eigen-value",
+            "/tag/normal",
+            "/tag/numerical-answers",
+            "/tag/one-mark"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/204091/gate-cse-2018-question-17",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/204091/gate-cse-2018-question-17",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "16",
+        "year": 2018,
+        "questionNumber": 16,
+        "subject": "Calculus",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "The value of $\\int^{\\pi/4} _0 x \\cos(x^2) dx$ correct to three decimal places (assuming that $\\pi = 3.14$) is ____",
+        "options": [],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/mathematics/calculus",
+            "/tag/gatecse-2018",
+            "/tag/calculus",
+            "/tag/integration",
+            "/tag/normal",
+            "/tag/numerical-answers",
+            "/tag/one-mark"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/204090/gate-cse-2018-question-16",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/204090/gate-cse-2018-question-16",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "18",
+        "year": 2018,
+        "questionNumber": 18,
+        "subject": "Graph Theory",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "The chromatic number of the following graph is _____",
+        "options": [],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/mathematics/discrete-mathematics/graph-theory",
+            "/tag/graph-theory",
+            "/tag/graph-coloring",
+            "/tag/numerical-answers",
+            "/tag/gatecse-2018",
+            "/tag/one-mark"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/204092/gate-cse-2018-question-18",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/204092/gate-cse-2018-question-18",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "19",
+        "year": 2018,
+        "questionNumber": 19,
+        "subject": "Set Theory & Algebra",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "Let $G$ be a finite group on $84$ elements. The size of a largest possible proper subgroup of $G$ is _____",
+        "options": [],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/mathematics/discrete-mathematics/set-theory%26algebra",
+            "/tag/gatecse-2018",
+            "/tag/group-theory",
+            "/tag/numerical-answers",
+            "/tag/set-theory%26algebra",
+            "/tag/one-mark"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/204093/gate-cse-2018-question-19",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/204093/gate-cse-2018-question-19",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "15",
+        "year": 2018,
+        "questionNumber": 15,
+        "subject": "Probability",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "Two people, $P$ and $Q$, decide to independently roll two identical dice, each with $6$ faces, numbered $1$ to $6$. The person with the lower number wins. In case of a tie, they roll the dice repeatedly until there is no tie. Define a trial as a throw of the dice by $P$ and $Q.$ Assume that all $6$ numbers on each dice are equi-probable and that all trials are independent. The probability (rounded to $3$ decimal places) that one of them wins on the third trial is ____",
+        "options": [],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/mathematics/probability",
+            "/tag/gatecse-2018",
+            "/tag/probability",
+            "/tag/normal",
+            "/tag/numerical-answers",
+            "/tag/one-mark"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/204089/gate-cse-2018-question-15",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/204089/gate-cse-2018-question-15",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    }
+]

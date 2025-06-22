@@ -1,0 +1,1750 @@
+[
+    {
+        "id": "16",
+        "year": 2017,
+        "questionNumber": 16,
+        "subject": "Databases",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "The following functional dependencies hold true for the relational schema $R\\left \\{V,W,X,Y,Z \\right \\}$:$V \\rightarrow W$$VW \\rightarrow X$$Y \\rightarrow VX$$Y \\rightarrow Z$Which of the following is irreducible equivalent for this set of functional dependencies?$V \\rightarrow W$$V \\rightarrow X$$Y \\rightarrow V$$Y \\rightarrow Z$$V \\rightarrow W$$W \\rightarrow X$$Y \\rightarrow V$$Y \\rightarrow Z$$V \\rightarrow W$$V \\rightarrow X$$Y \\rightarrow V$$Y \\rightarrow X$$Y \\rightarrow Z$$V \\rightarrow W$$W \\rightarrow X$$Y \\rightarrow V$$Y \\rightarrow X$$Y \\rightarrow Z$",
+        "options": [],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/databases",
+            "/tag/gatecse-2017-set1",
+            "/tag/databases",
+            "/tag/database-normalization",
+            "/tag/normal"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/118296/gate-cse-2017-set-1-question-16",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/118296/gate-cse-2017-set-1-question-16",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "19",
+        "year": 2017,
+        "questionNumber": 19,
+        "subject": "Databases",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "Consider the following tables $T1$ and $T2.$\n$$\\overset{T1}{\\begin{array}{|c|c|c|} \\hline \\textbf {P} & \\textbf {Q} \\\\\\hline  \\text {2} &  \\text{2 }\\\\\\hline \\text{3} & \\text{8} \\\\\\hline \\text{7} & \\text{3} \\\\\\hline \\text{5} & \\text{8} \\\\\\hline  \\text{6 } &\\text{9} \\\\\\hline \\text{8} & \\text{5} \\\\\\hline \\text{9} & \\text{8} \\\\\\hline \\end{array}}\n\\qquad \\overset{T2}{\\begin{array}{|c|c|c|} \\hline \\textbf {R} & \\textbf {S} \\\\\\hline  \\text {2} &  \\text{2 }\\\\\\hline \\text{8} & \\text{3} \\\\\\hline \\text{3} & \\text{2} \\\\\\hline \\text{9} & \\text{7} \\\\\\hline  \\text{5 } &\\text{7} \\\\\\hline \\text{7} & \\text{2}  \\\\\\hline \\end{array}}$$\nIn table $T1$ P is the primary key and Q is the foreign key referencing R in table $T2$ with on-delete cascade and on-update cascade. In table $T2,$ R is the primary key and S is the foreign key referencing P  in table $T1$ with on-delete set NULL and on-update cascade. In order to delete record $\\langle 3, 8 \\rangle$ from the table $T1,$ the number of additional records that need to be deleted from table $T1$ is _______",
+        "options": [],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/databases",
+            "/tag/gatecse-2017-set2",
+            "/tag/databases",
+            "/tag/numerical-answers",
+            "/tag/referential-integrity",
+            "/tag/normal"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/118236/gate-cse-2017-set-2-question-19",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/118236/gate-cse-2017-set-2-question-19",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "17",
+        "year": 2017,
+        "questionNumber": 17,
+        "subject": "Databases",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "An ER model of a database consists of entity types $A$ and $B$. These are connected by a relationship $R$ which does not have its own attribute. Under which one of the following conditions, can the relational table for R be merged with that of A?",
+        "options": [
+            "Relationship $R$ is one-to-many and the participation of $A$ in $R$ is total",
+            "Relationship $R$ is one-to-many and the participation of $A$ in $R$ is partial",
+            "Relationship $R$ is many-to-one and the participation of $A$ in $R$ is total",
+            "Relationship $R$ is many-to-one and the participation of $A$ in $R$ is partial"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/databases",
+            "/tag/gatecse-2017-set2",
+            "/tag/databases",
+            "/tag/er-diagram",
+            "/tag/normal"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/118157/gate-cse-2017-set-2-question-17",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/118157/gate-cse-2017-set-2-question-17",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "12iv",
+        "year": null,
+        "questionNumber": null,
+        "subject": "Databases",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "Select      SNAME\nfrom        S\nWhere       SNOin\n            (select     SNO\n            from        SP\n            where       PNOin\n                        (select     PNO\n                        from        P\n                        Where       COLOUR='BLUE'))\nWhat relations are being used in the above SQL query? Given at least two attributes of each of these relations.",
+        "options": [],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/databases",
+            "/tag/gate1988",
+            "/tag/normal",
+            "/tag/descriptive",
+            "/tag/databases",
+            "/tag/sql"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/94626/gate-cse-1988-question-12iv",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/94626/gate-cse-1988-question-12iv",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "12iii",
+        "year": null,
+        "questionNumber": null,
+        "subject": "Databases",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "Describe the relational algebraic expression giving the relation returned by the following SQL query.",
+        "options": [
+            "Select      SNAME",
+            "from        S",
+            "Where       SNOin",
+            "(select     SNO",
+            "from        SP",
+            "where       PNOin",
+            "(select     PNO",
+            "from        P",
+            "Where       COLOUR='BLUE'))"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/databases",
+            "/tag/gate1988",
+            "/tag/normal",
+            "/tag/descriptive",
+            "/tag/databases",
+            "/tag/sql"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/94625/gate-cse-1988-question-12iii",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/94625/gate-cse-1988-question-12iii",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "12iic",
+        "year": null,
+        "questionNumber": null,
+        "subject": "Databases",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "Using Armstrong’s axioms of functional dependency derive the following rules:\n\n$\\{ x \\rightarrow y, \\: z \\subset y \\} \\mid= x \\rightarrow z$",
+        "options": [
+            "(Note: $x \\rightarrow y$ denotes $y$ is functionally dependent on $x$, $z \\subseteq y$ denotes $z$ is subset of $y$, and $\\mid =$ means derives)."
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/databases",
+            "/tag/gate1988",
+            "/tag/normal",
+            "/tag/descriptive",
+            "/tag/databases",
+            "/tag/database-normalization"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/94619/gate-cse-1988-question-12iic",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/94619/gate-cse-1988-question-12iic",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "12iib",
+        "year": null,
+        "questionNumber": null,
+        "subject": "Databases",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "Using Armstrong’s axioms of functional dependency derive the following rules:\n\n$\\{ x \\rightarrow y, \\: wy \\rightarrow z \\} \\mid= xw \\rightarrow z$",
+        "options": [
+            "(Note: $x \\rightarrow y$ denotes $y$ is functionally dependent on $x$, $z \\subseteq y$ denotes $z$ is subset of $y$, and $\\mid =$ means derives)."
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/databases",
+            "/tag/gate1988",
+            "/tag/normal",
+            "/tag/descriptive",
+            "/tag/databases",
+            "/tag/database-normalization"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/94618/gate-cse-1988-question-12iib",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/94618/gate-cse-1988-question-12iib",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "12iia",
+        "year": null,
+        "questionNumber": null,
+        "subject": "Databases",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "Using Armstrong’s axioms of functional dependency derive the following rules:\n\n$\\{ x \\rightarrow y, \\: x \\rightarrow z \\} \\mid= x \\rightarrow yz$",
+        "options": [
+            "(Note: $x \\rightarrow y$ denotes $y$ is functionally dependent on $x$, $z \\subseteq y$ denotes $z$ is subset of $y$, and $\\mid =$ means derives)."
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/databases",
+            "/tag/gate1988",
+            "/tag/easy",
+            "/tag/descriptive",
+            "/tag/databases",
+            "/tag/database-normalization"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/94399/gate-cse-1988-question-12iia",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/94399/gate-cse-1988-question-12iia",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "12i",
+        "year": null,
+        "questionNumber": null,
+        "subject": "Databases",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "What are the three axioms of functional dependency for the relational databases given by Armstrong.",
+        "options": [],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/databases",
+            "/tag/gate1988",
+            "/tag/normal",
+            "/tag/descriptive",
+            "/tag/databases",
+            "/tag/database-normalization"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/94398/gate-cse-1988-question-12i",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/94398/gate-cse-1988-question-12i",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "12b",
+        "year": null,
+        "questionNumber": null,
+        "subject": "Databases",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "Consider a database with the following three relations:\n\nCREDITS (STUDENT; COURSE)\nOFFERS (TEACHER; COURSE)\nBELONGS (TEACHER; DEPARTMENT)\n\n\nGiven below is a code in query language QUEL. Describe in one English sentence the query posed by the given QUEL program.",
+        "options": [
+            "range of s is CREDITS",
+            "range of t is OFFERS",
+            "retrieve into LIST 1 (1=s. STUDENT)",
+            "where s.COURSE=t.COURSE and",
+            "t.TEACHER=\"Dr.X\"",
+            "retrieve into LIST 2 (1=s.STUDENT)",
+            "where s.COURSE =t.COURSE and",
+            "t.TEACHER =\"Dr.Y\"",
+            "retrieve into LIST3 (1=STUDENT)",
+            "where s.course =t.COURSE and",
+            "t.TEACHER =\"Dr.Z\"",
+            "range to e1 is LIST1",
+            "range of e2 is LIST2",
+            "range of e3 is LIST3",
+            "retrieve(E1.I)",
+            "where e1.I=e2.I and",
+            "where e1.I=e3.I"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/databases",
+            "/tag/descriptive",
+            "/tag/gate1989",
+            "/tag/databases",
+            "/tag/out-of-gatecse-syllabus"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/92961/gate-cse-1989-question-12b",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/92961/gate-cse-1989-question-12b",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "12a",
+        "year": null,
+        "questionNumber": null,
+        "subject": "Databases",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "The below figure shows a $B^+$ tree where only key values are indicated in the records. Each block can hold upto three records. A record with a key value $34$ is inserted into the $B^+$ tree. Obtain the modified $B^+$ tree after insertion.",
+        "options": [],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/databases",
+            "/tag/descriptive",
+            "/tag/gate1989",
+            "/tag/databases",
+            "/tag/b-tree"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/91199/gate-cse-1989-question-12a",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/91199/gate-cse-1989-question-12a",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "xiv",
+        "year": null,
+        "questionNumber": null,
+        "subject": "Databases",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "For secondary key processing which of the following file organizations is preferred? Give a one line justification:",
+        "options": [
+            "Indexed sequential file organization.",
+            "Two-way linked list.",
+            "Inverted file organization.",
+            "Sequential file organization."
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/databases",
+            "/tag/gate1989",
+            "/tag/normal",
+            "/tag/databases",
+            "/tag/indexing",
+            "/tag/descriptive"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/88228/gate-cse-1989-question-4-xiv",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/88228/gate-cse-1989-question-4-xiv",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "83",
+        "year": 2008,
+        "questionNumber": 83,
+        "subject": "Databases",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "Consider the following $\\text{ER}$ diagram\n\nThe minimum number of tables needed to represent $M$, $N$, $P$, $R1$, $R2$ is\n Which of the following is a correct attribute set for one of the tables for the minimum number of tables needed to represent $M$, $N$, $P$, $R1$, $R2$?",
+        "options": [
+            "${M1, M2, M3, P1}$",
+            "${M1, P1, N1, N2}$",
+            "${M1, P1, N1}$",
+            "${M1, P1}$"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/databases",
+            "/tag/gatecse-2008",
+            "/tag/databases",
+            "/tag/er-diagram",
+            "/tag/normal"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/87025/gate-cse-2008-question-83",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/87025/gate-cse-2008-question-83",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "10b",
+        "year": null,
+        "questionNumber": null,
+        "subject": "Databases",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "One giga bytes of data are to be organized as an indexed-sequential file with a uniform blocking factor $8.$ Assuming a block size of $1$ Kilo bytes and a block refrencing pointer size of $32$ bits, find out the number of levels of indexing that would be required and the size of the index at each level. Determine also the size of the master index. The referencing capability (fanout ratio) per block of index storage may be considered to be $32$.",
+        "options": [],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/databases",
+            "/tag/gate1990",
+            "/tag/databases",
+            "/tag/indexing",
+            "/tag/descriptive"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/85691/gate-cse-1990-question-10b",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/85691/gate-cse-1990-question-10b",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "a",
+        "year": null,
+        "questionNumber": null,
+        "subject": "Databases",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "Consider the following relational database:\n\nemployees (eno, ename, address, basic-salary)\nprojects (pno, pname, nos-of-staffs-allotted)\nworking (pno, eno, pjob)\n\nThe queries regarding data in the above database are formulated below in SQL. Describe in ENGLISH sentences the two queries that have been posted:\n\n\n\nSELECT ename\nFROM employees\nWHERE eno IN \n    (SELECT eno\n    FROM working\n    GROUP BY eno\n    HAVING COUNT(*)=\n        (SELECT COUNT(*)\n        FROM projects))",
+        "options": [
+            "SELECT pname",
+            "FROM projects",
+            "WHERE pno IN",
+            "(SELECT pno",
+            "FROM projects",
+            "MINUS",
+            "SELECT DISTINCT pno",
+            "FROM working);"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/databases",
+            "/tag/gate1990",
+            "/tag/descriptive",
+            "/tag/databases",
+            "/tag/sql"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/85686/gate-cse-1990-question-10-a",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/85686/gate-cse-1990-question-10-a",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "ii",
+        "year": null,
+        "questionNumber": null,
+        "subject": "Databases",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "Indicate which of the following statements are true:\nA relational database which is in $3$NF may still have undesirable data redundancy because there may exist:",
+        "options": [
+            "Transitive functional dependencies",
+            "Non-trivial functional dependencies involving prime attributes on the right-side.",
+            "Non-trivial functional dependencies involving prime attributes only on the left-side.",
+            "Non-trivial functional dependencies involving only prime attributes."
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/databases",
+            "/tag/gate1990",
+            "/tag/normal",
+            "/tag/databases",
+            "/tag/database-normalization",
+            "/tag/multiple-selects"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/84054/gate-cse-1990-question-3-ii",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/84054/gate-cse-1990-question-3-ii",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "iv",
+        "year": null,
+        "questionNumber": null,
+        "subject": "Databases",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "Match the pairs in the following questions:$$\\begin{array}{|ll|ll|}\\hline (a) & \\text{Secondary index} & (p) & \\text{Function dependency} \\\\\\hline  (b) & \\text{Non-procedural query language} & (q) & \\text{B-tree} \\\\\\hline   (c) & \\text{Closure of a set of attributes} & (r)  & \\text{Domain calculus} \\\\\\hline (d) & \\text{Natural join} & (s)  & \\text{Relational algebraic operations}  \\\\\\hline \\end{array}$$",
+        "options": [],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/databases",
+            "/tag/gate1990",
+            "/tag/match-the-following",
+            "/tag/database-normalization",
+            "/tag/databases"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/83977/gate-cse-1990-question-2-iv",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/83977/gate-cse-1990-question-2-iv",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "2n",
+        "year": null,
+        "questionNumber": null,
+        "subject": "Databases",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "State whether the following statements are TRUE or FALSE:",
+        "options": [
+            "A relation $r$ with schema $(X, Y)$ satisfies the function dependency $X \\rightarrow Y$, The tuples $\\langle 1, 2\\rangle$ and $\\langle 2, 2 \\rangle$ can both be in $r$ simultaneously."
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/databases",
+            "/tag/gate1987",
+            "/tag/databases",
+            "/tag/database-normalization",
+            "/tag/true-false"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/80609/gate-cse-1987-question-2n",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/80609/gate-cse-1987-question-2n",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "13b",
+        "year": null,
+        "questionNumber": null,
+        "subject": "Databases",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "Suppose we have a database consisting of the following three relations:\n$$\\begin{array}{|c|c|} \\hline \\text {FREQUENTS} & \\text {(CUSTOMER, HOTEL)} \\\\\\hline \\text {SERVES} &  \\text{(HOTEL, SNACKS)}\\\\\\hline \\text{LIKES} & \\text{(CUSTOMER, SNACKS)}\\\\\\hline \\end{array}$$\nThe first indicates the hotels each customer visits, the second tells which snacks each hotel serves and last indicates which snacks are liked by each customer. Express the following query in relational algebra:",
+        "options": [
+            "Print the hotels the serve the snack that customer Rama likes."
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/databases",
+            "/tag/gate1992",
+            "/tag/databases",
+            "/tag/relational-algebra",
+            "/tag/normal",
+            "/tag/descriptive"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/43581/gate-cse-1992-question-13b",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/43581/gate-cse-1992-question-13b",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "56",
+        "year": 2009,
+        "questionNumber": 56,
+        "subject": "Databases",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "Consider the following relational schema:$\\text{Suppliers}(\\underline{\\text{sid:integer}},\\text{ sname:string, city:string, street:string})$ $\\text{Parts}(\\underline{\\text{pid:integer}}, \\text{ pname:string, color:string})$ $\\text{Catalog}(\\underline {\\text{sid:integer, pid:integer}}, \\text{cost:real})$Assume that, in the suppliers relation above, each supplier and each street within a city has unique name, and (sname, city) forms a candidate key. No other functional dependencies are implied other than those implied by primary and candidate keys. Which one of the following is $\\text{TRUE}$ about the above schema?The schema is in $\\text{BCNF}$The schema is in $\\text{3NF}$ but not in $\\text{BCNF}$The schema is in $\\text{2NF}$ but not in $\\text{3NF}$The schema is not in $\\text{2NF}$",
+        "options": [],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/databases",
+            "/tag/gatecse-2009",
+            "/tag/databases",
+            "/tag/sql",
+            "/tag/database-normalization",
+            "/tag/normal"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/43474/gate-cse-2009-question-56",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/43474/gate-cse-2009-question-56",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "51",
+        "year": 2012,
+        "questionNumber": 51,
+        "subject": "Databases",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "Consider the following relations $A, B$ and $C:$\n \n$$\\overset{\\textbf{A}}{\\begin{array}{|c|c|c|}\\hline\\\\\n\\textbf{Id}&    \\textbf{Name}&  \\textbf{Age} \\\\\\hline\n12&     \\text{Arun}&    60 \\\\ \\hline   \n15&     \\text{Shreya}& 24 \\\\     \\hline\n99&     \\text{Rohit}&  11    \\\\\\hline\n\\end{array}}\\qquad \\overset{\\textbf{B}}{\\begin{array}{|c|c|c|}\\hline\\\\\n\\textbf{Id}&    \\textbf{Name}&  \\textbf{Age} \\\\\\hline\n15&     \\text{Shreya}& 24 \\\\     \\hline 25 & \\text{Hari} & 40 \\\\ \\hline 98 & \\text{Rohit} & 20 \\\\ \\hline\n99&     \\text{Rohit}&  11    \\\\\\hline\n\\end{array}}\\qquad \\overset{\\textbf{C}}{\\begin{array}{|c|c|c|}\\hline\\\\\n\\textbf{Id}&    \\textbf{Phone}&  \\textbf{Area} \\\\\\hline\n10&     2200&    02 \\\\ \\hline   \n99&     2100& 01\\\\     \\hline\n\\end{array}}$$\nHow many tuples does the result of the following SQL query contain?\n\nSELECT A.Id \nFROM A \nWHERE A.Age > ALL (SELECT B.Age \n                    FROM B \n                    WHERE B.Name = ‘Arun’)",
+        "options": [
+            "$4$",
+            "$3$",
+            "$0$",
+            "$1$"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/databases",
+            "/tag/gatecse-2012",
+            "/tag/databases",
+            "/tag/sql",
+            "/tag/normal"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/43313/gate-cse-2012-question-51",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/43313/gate-cse-2012-question-51",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "55",
+        "year": 2013,
+        "questionNumber": 55,
+        "subject": "Databases",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "Relation $R$ has eight attributes $\\text{ABCDEFGH}$. Fields of $R$ contain only atomic values. $F = \\text{{CH $\\rightarrow$ G, A $\\rightarrow$ BC, B $\\rightarrow$ CFH, E $\\rightarrow$ A, F $\\rightarrow$ EG}}$ is a set of functional dependencies $(FDs)$ so that $F^+$ is exactly the set of $FDs$ that hold for $R$.\nThe relation $R$ is",
+        "options": [
+            "in $\\text{1NF}$, but not in $\\text{2NF}$.",
+            "in $\\text{2NF}$, but not in $\\text{3NF}$.",
+            "in $\\text{3NF}$, but not in $\\text{BCNF}$.",
+            "in $\\text{BCNF}$."
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/databases",
+            "/tag/gatecse-2013",
+            "/tag/databases",
+            "/tag/database-normalization",
+            "/tag/normal"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/43290/gate-cse-2013-question-55",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/43290/gate-cse-2013-question-55",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "b",
+        "year": null,
+        "questionNumber": null,
+        "subject": "Databases",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "Suppose a database consist of the following relations:\n\nSUPPLIER (SCODE,SNAME,CITY).\n\nPART (PCODE,PNAME,PDESC,CITY).\n\nPROJECTS (PRCODE,PRNAME,PRCITY).\n\nSPPR (SCODE,PCODE,PRCODE,QTY).\nWrite algebraic solution to the following :",
+        "options": [
+            "Get SCODE values for suppliers who supply to both projects PR1 and PR2.",
+            "Get PRCODE values for projects supplied by at least one supplier not in the same city."
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/databases",
+            "/tag/sql",
+            "/tag/gate1991",
+            "/tag/normal",
+            "/tag/databases",
+            "/tag/descriptive"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/42998/gate-cse-1991-question-12-b",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/42998/gate-cse-1991-question-12-b",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "51",
+        "year": 2016,
+        "questionNumber": 51,
+        "subject": "Databases",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "Consider the following two phase locking protocol. Suppose a transaction $T$ accesses (for read or write operations), a certain set of objects $\\{O_1,\\ldots,O_k \\}$. This is done in the following manner:\n\n$\\text{Step 1}$. $T$ acquires exclusive locks to $O_1,\\ldots,O_k$ in increasing order of their addresses.\n$\\text{Step 2}$. The required operations are performed .\n$\\text{Step 3}$. All locks are released\n\nThis protocol will",
+        "options": [
+            "guarantee serializability and  deadlock-freedom",
+            "guarantee neither serializability nor deadlock-freedom",
+            "guarantee serializability but not deadlock-freedom",
+            "guarantee deadlock-freedom but not serializability."
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/databases",
+            "/tag/gatecse-2016-set1",
+            "/tag/databases",
+            "/tag/transaction-and-concurrency",
+            "/tag/normal"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/39703/gate-cse-2016-set-1-question-51",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/39703/gate-cse-2016-set-1-question-51",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "23",
+        "year": 2016,
+        "questionNumber": 23,
+        "subject": "Databases",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "A database of research articles in a journal uses the following schema.\n$\\text{(VOLUME, NUMBER, STARTPAGE, ENDPAGE, TITLE, YEAR, PRICE)}$\nThe primary key is '$\\text{(VOLUME, NUMBER, STARTPAGE, ENDPAGE)}$\nand the following functional dependencies exist in the schema.\n$\\begin{align*}&(\\text{VOLUME , NUMBER, STARTPAGE, ENDPAGE}) & \\rightarrow \\text{TITLE} \\\\ &(\\text{VOLUME, NUMBER}) & \\rightarrow  \\text{ YEAR} \\\\ &(\\text{VOLUME, NUMBER, STARTPAGE, ENDPAGE})        &\\rightarrow  \\text{PRICE} \\end{align*}$\nThe database is redesigned to use the following schemas\n$(\\text{VOLUME, NUMBER, STARTPAGE, ENDPAGE, TITLE, PRICE}) \\\\ \\text{(VOLUME, NUMBER, YEAR})$\nWhich is the weakest normal form that the new database satisfies, but the old one does not?",
+        "options": [
+            "$\\text{1NF}$",
+            "$\\text{2NF}$",
+            "$\\text{3NF}$",
+            "$\\text{BCNF}$"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/databases",
+            "/tag/gatecse-2016-set1",
+            "/tag/databases",
+            "/tag/database-normalization",
+            "/tag/normal"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/39646/gate-cse-2016-set-1-question-23",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/39646/gate-cse-2016-set-1-question-23",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "22",
+        "year": 2016,
+        "questionNumber": 22,
+        "subject": "Databases",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "Which one of the following is NOT a part of the ACID properties of database transactions?\nAtomicity\nConsistency\nIsolation\nDeadlock-freedom",
+        "options": [],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/databases",
+            "/tag/gatecse-2016-set1",
+            "/tag/databases",
+            "/tag/transaction-and-concurrency",
+            "/tag/easy"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/39644/gate-cse-2016-set-1-question-22",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/39644/gate-cse-2016-set-1-question-22",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "21",
+        "year": 2016,
+        "questionNumber": 21,
+        "subject": "Databases",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "Which of the following is NOT a superkey in a relational schema with attributes $V,W,X,Y,Z$ and primary key $V\\;Y$?\n$VXYZ$\n$VWXZ$\n$VWXY$\n$VWXYZ$",
+        "options": [],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/databases",
+            "/tag/gatecse-2016-set1",
+            "/tag/databases",
+            "/tag/database-normalization",
+            "/tag/easy"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/39637/gate-cse-2016-set-1-question-21",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/39637/gate-cse-2016-set-1-question-21",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "52",
+        "year": 2016,
+        "questionNumber": 52,
+        "subject": "Databases",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "Consider the following database table named water_schemes:\n$$\\overset{\\text{Water_schemes}}{\\begin{array}{|c|c|c|}\\hline\n\\textbf{scheme_no}&    \\textbf{district_name}&  \\textbf{capacity} \\\\\\hline\n1&     \\text{Ajmer}&       20  \\\\ \\hline   \n1&     \\text{Bikaner}& 10 \\\\     \\hline\n2&     \\text{Bikaner}&  10      \\\\\\hline\n3&     \\text{Bikaner}&20     \\\\\\hline\n1&     \\text{Churu}&     10  \\\\\\hline    \n2&     \\text{Churu}& 20   \\\\\\hline   \n1&     \\text{Dungargarh}&  10      \\\\\\hline \n\\end{array}}$$\nThe number of tuples returned by the following SQL query is _________.",
+        "options": [
+            "with total (name, capacity) as",
+            "select district_name, sum (capacity)",
+            "from water_schemes",
+            "group by district_name",
+            "with total_avg (capacity) as",
+            "select avg (capacity)",
+            "from total",
+            "select name",
+            "from total, total_avg",
+            "where total.capacity ≥ total_avg.capacity"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/databases",
+            "/tag/gatecse-2016-set2",
+            "/tag/databases",
+            "/tag/sql",
+            "/tag/normal",
+            "/tag/numerical-answers"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/39604/gate-cse-2016-set-2-question-52",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/39604/gate-cse-2016-set-2-question-52",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "51",
+        "year": 2016,
+        "questionNumber": 51,
+        "subject": "Databases",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "Consider the following database schedule with two transactions $T_{1}$ and $T_{2}$.\n$S= r_{2}\\left(X\\right); r_{1}\\left(X\\right); r_{2} \\left(Y\\right); w_{1} \\left(X\\right); r_{1} \\left(Y\\right); w_{2} \\left(X\\right); a_{1}; a_{2}$\nWhere $r_{i} (Z)$ denotes a read operation by transaction $T_{i}$ on a variable $Z$, $w_{i}(Z)$ denotes a write operation by $T_{i}$ on a variable $Z$ and $a_{i}$ denotes an abort by transaction $T_{i}$.\nWhich one of the following statements about the above schedule is TRUE?",
+        "options": [
+            "$S$ is non-recoverable.",
+            "$S$ is recoverable, but has a cascading abort.",
+            "$S$ does not have a cascading abort.",
+            "$S$ is strict."
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/databases",
+            "/tag/gatecse-2016-set2",
+            "/tag/databases",
+            "/tag/transaction-and-concurrency",
+            "/tag/normal"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/39590/gate-cse-2016-set-2-question-51",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/39590/gate-cse-2016-set-2-question-51",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "21",
+        "year": 2016,
+        "questionNumber": 21,
+        "subject": "Databases",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "B+ Trees are considered BALANCED because.",
+        "options": [
+            "The lengths of the paths from the root to all leaf nodes are all equal.",
+            "The lengths of the paths from the root to all leaf nodes differ from each other by at most $1$.",
+            "The number of children of any two non-leaf sibling nodes differ by at most $1$.",
+            "The number of records in any two leaf nodes differ by at most $1$."
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/databases",
+            "/tag/gatecse-2016-set2",
+            "/tag/databases",
+            "/tag/b-tree",
+            "/tag/normal"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/39569/gate-cse-2016-set-2-question-21",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/39569/gate-cse-2016-set-2-question-21",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "22",
+        "year": 2016,
+        "questionNumber": 22,
+        "subject": "Databases",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "Suppose a database schedule $S$ involves transactions $T_1,\\ldots,T_n$ . Construct the precedence graph of $S$  with vertices representing the transactions and edges representing the conflicts. If $S$ is serializable, which one of the following orderings of the vertices of the precedence graph is guaranteed to yield a serial schedule?",
+        "options": [
+            "Topological order",
+            "Depth-first order",
+            "Breadth-first order",
+            "Ascending order of the transaction indices"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/databases",
+            "/tag/gatecse-2016-set2",
+            "/tag/databases",
+            "/tag/transaction-and-concurrency",
+            "/tag/normal"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/39550/gate-cse-2016-set-2-question-22",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/39550/gate-cse-2016-set-2-question-22",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "a",
+        "year": null,
+        "questionNumber": null,
+        "subject": "Databases",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "Consider the following relational database schema:\n\nEMP (eno name, age)\nPROJ (pno name)\nINVOLVED (eno, pno)\n\nEMP contains information about employees. PROJ about projects and involved about which employees involved in which projects. The underlined attributes are the primary keys for the respective relations. \nWhat is the relational algebra expression containing one or more of $\\{ \\sigma, \\pi, \\times, \\rho, -\\}$ which is equivalent to SQL query.",
+        "options": [
+            "select eno  from EMP|INVOLVED where EMP.eno=INVOLVED.eno  and INVOLVED.pno=3"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/databases",
+            "/tag/gate1997",
+            "/tag/databases",
+            "/tag/sql",
+            "/tag/relational-algebra",
+            "/tag/descriptive"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/19838/gate-cse-1997-question-76-a",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/19838/gate-cse-1997-question-76-a",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "46",
+        "year": 2015,
+        "questionNumber": 46,
+        "subject": "Databases",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "Consider a $B^+$ tree in which the search key is $12$ $\\text{bytes}$ long, block size is $1024$ $\\text{bytes}$, record pointer is $10$ $\\text{bytes}$ long and the block pointer is $8$ $\\text{bytes}$ long. The maximum number of keys that can be accommodated in each non-leaf node of the tree is ______.",
+        "options": [],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/databases",
+            "/tag/gatecse-2015-set3",
+            "/tag/databases",
+            "/tag/b-tree",
+            "/tag/normal",
+            "/tag/numerical-answers"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/8555/gate-cse-2015-set-3-question-46",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/8555/gate-cse-2015-set-3-question-46",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "29",
+        "year": 2015,
+        "questionNumber": 29,
+        "subject": "Databases",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "Consider the partial Schedule $S$ involving two transactions $T1$ and $T2$. Only the $\\textit{read}$ and the $\\textit{write}$ operations have been shown. The $\\textit{read}$ operation on data item $P$ is denoted by $\\textit{read(P)}$ and $\\textit{write}$ operation on data item $P$ is denoted by $\\textit{write(P)}$.\n$$\\overset{\\large{\\text{Schedule S}}}{\\begin{array}{c|ll}\n\\textbf{Time Instance}&    \\rlap{\\text{Transaction ID}}\\\\&\\textbf{T1}&  \\textbf{T2} \\\\\\hline\n1&     \\text{read(A)}  \\\\ \n2&     \\text{write(A)}\\\\   \n3&     & \\text{read(C)}     \\\\\n4&     & \\text{write(C)}     \\\\\n5&     & \\text{read(B)}  \\\\\n6&     & \\text{write(B)}     \\\\  \n7&     & \\text{read(A)}     \\\\\n8&     & \\text{commit}       \\\\\n9&     \\text{read(B)} \\\\\n\\end{array}}$$\nSuppose that the transaction $T1$ fails immediately after time instance 9. Which of the following statements is correct?",
+        "options": [
+            "$T2$ must be aborted and then both $T1$ and $T2$ must be re-started to ensure transaction atomicity",
+            "Schedule $S$ is non-recoverable and cannot ensure transaction atomicity",
+            "Only $T2$ must be aborted and then re-started to ensure transaction atomicity",
+            "Schedule $S$ is recoverable and can ensure transaction atomicity and nothing else needs to be done"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/databases",
+            "/tag/gatecse-2015-set3",
+            "/tag/databases",
+            "/tag/transaction-and-concurrency",
+            "/tag/normal"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/8482/gate-cse-2015-set-3-question-29",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/8482/gate-cse-2015-set-3-question-29",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "20",
+        "year": 2015,
+        "questionNumber": 20,
+        "subject": "Databases",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "Consider the relation $X(P,Q,R,S,T,U)$ with the following set of functional dependencies\n$F = \\{ \\\\ \\; \\; \\{P, R\\} \\rightarrow \\{S, T\\}, \\\\ \\; \\; \\{P, S, U\\} \\rightarrow \\{Q, R\\} \\\\ \\; \\}$\nWhich of the following is the trivial functional dependency in $F^+$, where $F^+$ is closure to F?",
+        "options": [
+            "$\\{P, R\\} \\rightarrow \\{S, T\\}$",
+            "$\\{P, R\\} \\rightarrow \\{R, T\\}$",
+            "$\\{P, S\\} \\rightarrow \\{S\\}$",
+            "$\\{P, S, U\\} \\rightarrow \\{Q\\}$"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/databases",
+            "/tag/gatecse-2015-set3",
+            "/tag/databases",
+            "/tag/database-normalization",
+            "/tag/easy"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/8420/gate-cse-2015-set-3-question-20",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/8420/gate-cse-2015-set-3-question-20",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "3",
+        "year": 2015,
+        "questionNumber": 3,
+        "subject": "Databases",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "Consider the following relation\nCinema($\\textit{theater, address, capacity}$)\nWhich of the following options will be needed at the end of the SQL query\n\nSELECT P1.address\nFROM Cinema P1\nsuch that it always finds the addresses of theaters with maximum capacity?\n\n\n\nWHERE P1.capacity >= All (select P2.capacity from Cinema P2)\n\n\n\nWHERE P1.capacity >= Any (select P2.capacity from Cinema P2)\n\n\n\nWHERE P1.capacity > All (select max(P2.capacity) from Cinema P2)",
+        "options": [
+            "WHERE P1.capacity > Any (select max(P2.capacity) from Cinema P2)"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/databases",
+            "/tag/gatecse-2015-set3",
+            "/tag/databases",
+            "/tag/sql",
+            "/tag/normal"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/8396/gate-cse-2015-set-3-question-3",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/8396/gate-cse-2015-set-3-question-3",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "41",
+        "year": 2015,
+        "questionNumber": 41,
+        "subject": "Databases",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "Consider an Entity-Relationship $(\\text{ER})$ model in which entity sets $E_{1}$ and $E_{2}$ are connected by an $m:n$ relationship $R_{12}$. $E_{1}$ and $E_{3}$ are connected by a $1 : n$ ($1$ on the side of $E_{1}$ and $n$ on the side of $E_{3}$) relationship $R_{13}$.\n\n$E_{1}$ has two-singled attributes $a_{11}$ and $a_{12}$ of which $a_{11}$ is the key attribute. $E_{2}$ has two singled-valued attributes $a_{21}$ and $a_{22}$ of which $a_{21}$ is the key attribute. $E_{3}$ has two single-valued attributes $a_{31}$ and $a_{32}$ of which $a_{31}$ is the key attribute. The relationships do not have any attributes.",
+        "options": [
+            "If a relational model is derived from the above $\\text{ER}$ model, then the minimum number of relations that would be generated if all relation are in $\\text{3NF}$ is________________."
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/databases",
+            "/tag/gatecse-2015-set1",
+            "/tag/databases",
+            "/tag/er-diagram",
+            "/tag/normal",
+            "/tag/numerical-answers"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/8309/gate-cse-2015-set-1-question-41",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/8309/gate-cse-2015-set-1-question-41",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "46",
+        "year": 2015,
+        "questionNumber": 46,
+        "subject": "Databases",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "Consider a simple checkpointing protocol and the following set of operations in the log.\n(start, T4); (write, T4, y, 2, 3); (start, T1); (commit, T4); (write, T1, z, 5, 7);\n(checkpoint);\n(start, T2); (write, T2, x, 1, 9); (commit, T2); (start, T3); (write, T3, z, 7, 2); \nIf a crash happens now and the system tries to recover using both undo and redo operations, what are the contents of the undo list and the redo list?",
+        "options": [
+            "Undo: T3, T1; Redo: T2",
+            "Undo: T3, T1; Redo: T2, T4",
+            "Undo: none; Redo: T2, T4, T3, T1",
+            "Undo: T3, T1, T4; Redo: T2"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/databases",
+            "/tag/gatecse-2015-set2",
+            "/tag/databases",
+            "/tag/transaction-and-concurrency",
+            "/tag/normal"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/8246/gate-cse-2015-set-2-question-46",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/8246/gate-cse-2015-set-2-question-46",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "27",
+        "year": 2015,
+        "questionNumber": 27,
+        "subject": "Databases",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "Consider the following relation:\n$$\\overset{\\text{Student}}{\\begin{array}{|c|c|}\\hline\\\\\n\\underline{\\textbf{Roll_No}}&    \\textbf{Student_Name}\\\\\\hline\n1&     \\text{Raj}  \\\\ \\hline   \n2&     \\text{Rohit}\\\\     \\hline\n3&     \\text{Raj}      \\\\\\hline\n\\end{array}} \\qquad\\overset{\\text{Performance}}{\\begin{array}{|c|l|r|c|}\\hline\\\\\n\\underline{\\textbf{Roll_No}}&   \\underline{\\textbf{Course}}&  \\textbf{Marks} \\\\\\hline\n1&     \\text{Math}&   80 \\\\ \\hline   \n1&     \\text{English}& 70 \\\\     \\hline\n2&     \\text{Math}&  75         \\\\\\hline\n3&     \\text{English}& 80      \\\\\\hline\n2&     \\text{Physics}&     65 \\\\\\hline    \n3&     \\text{Math}& 80     \\\\\\hline   \n\\end{array}}$$\nConsider the following SQL query.",
+        "options": [
+            "SELECT S.Student_Name, Sum(P. Marks)",
+            "FROM Student S, Performance P",
+            "WHERE S.Roll_No= P.Roll_No",
+            "GROUP BY S.STUDENT_Name",
+            "The numbers of rows that will be returned by the SQL query is_________________."
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/databases",
+            "/tag/gatecse-2015-set1",
+            "/tag/databases",
+            "/tag/sql",
+            "/tag/normal",
+            "/tag/numerical-answers"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/8225/gate-cse-2015-set-1-question-27",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/8225/gate-cse-2015-set-1-question-27",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "24",
+        "year": 2015,
+        "questionNumber": 24,
+        "subject": "Databases",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "A file is organized so that the ordering of the data records is the same as or close to the ordering of data entries in some index. Then that index is called",
+        "options": [
+            "Dense",
+            "Sparse",
+            "Clustered",
+            "Unclustered"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/databases",
+            "/tag/gatecse-2015-set1",
+            "/tag/databases",
+            "/tag/indexing",
+            "/tag/easy"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/8222/gate-cse-2015-set-1-question-24",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/8222/gate-cse-2015-set-1-question-24",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "32",
+        "year": 2015,
+        "questionNumber": 32,
+        "subject": "Databases",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "Consider two relations $R_1(A,B)$ with the tuples $(1,5), (3,7)$ and $R_2(A,C) = (1,7),(4,9)$.\nAssume that $R(A,B,C)$ is the full natural outer join of $R_1$ and $R_2$. Consider the following tuples of the form $(A,B,C):$\n$a = (1,5,null), b=(1,null,7), c=(3,null,9), d=(4,7,null), e=(1,5,7), $\n$ f=(3,7,null),  g=(4,null,9).$\nWhich one of the following statements is correct?",
+        "options": [
+            "$R$ contains $a, b, e, f, g$ but not $c, d$.",
+            "$R$ contains all $a, b, c, d, e, f, g$.",
+            "$R$ contains $e, f, g$ but not $a, b$.",
+            "$R$ contains $e$ but not $f, g$."
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/databases",
+            "/tag/gatecse-2015-set2",
+            "/tag/databases",
+            "/tag/normal",
+            "/tag/natural-join"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/8151/gate-cse-2015-set-2-question-32",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/8151/gate-cse-2015-set-2-question-32",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "7",
+        "year": 2015,
+        "questionNumber": 7,
+        "subject": "Databases",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "SELECT operation in SQL is equivalent to",
+        "options": [
+            "The selection operation in relational algebra",
+            "The selection operation in relational algebra, except that SELECT in SQL retains duplicates",
+            "The projection operation in relational algebra",
+            "The projection operation in relational algebra, except that SELECT in SQL retains duplicates"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/databases",
+            "/tag/gatecse-2015-set1",
+            "/tag/databases",
+            "/tag/sql",
+            "/tag/relational-algebra",
+            "/tag/easy"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/8094/gate-cse-2015-set-1-question-7",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/8094/gate-cse-2015-set-1-question-7",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "6",
+        "year": 2015,
+        "questionNumber": 6,
+        "subject": "Databases",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "With reference to the $B^+$ tree index of order $1$ shown below, the minimum number of nodes (including the Root node) that must be fetched in order to satisfy the following query. \"Get all records with a search key greater than or equal to $7$ and less than $15$ \" is ______.",
+        "options": [],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/databases",
+            "/tag/gatecse-2015-set2",
+            "/tag/databases",
+            "/tag/b-tree",
+            "/tag/normal",
+            "/tag/numerical-answers"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/8052/gate-cse-2015-set-2-question-6",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/8052/gate-cse-2015-set-2-question-6",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "1",
+        "year": 2015,
+        "questionNumber": 1,
+        "subject": "Databases",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "Consider the following transaction involving two bank accounts $x$ and $y$.\n\n  read(x); x:=x-50; write (x); read(y); y:=y+50; write(y)\nThe constraint that the sum of the accounts $x$ and $y$ should remain constant is that of",
+        "options": [
+            "Atomicity",
+            "Consistency",
+            "Isolation",
+            "Durability"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/databases",
+            "/tag/gatecse-2015-set2",
+            "/tag/databases",
+            "/tag/transaction-and-concurrency",
+            "/tag/easy"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/8047/gate-cse-2015-set-2-question-1",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/8047/gate-cse-2015-set-2-question-1",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "27",
+        "year": null,
+        "questionNumber": 27,
+        "subject": "Databases",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "A library relational database system uses the following schema\n\nUSERS (User#, User Name, Home Town)\nBOOKS (Book#, Book Title, Author Name)\nISSUED (Book#, User#, Date)\n\nExplain in one English sentence, what each of the following relational algebra queries is designed to determine",
+        "options": [
+            "$\\sigma_{ \\text{User#}=6}\\left(\\pi_{\\text{User#, Book Title}}\\left(\\left(\\text{USERS} \\bowtie \\text{ISSUED}\\right) \\bowtie \\text{BOOKS}\\right)\\right)$",
+            "$\\pi_{\\text{Author Name}}\\left(\\text{BOOKS} \\bowtie \\sigma_{\\text{Home Town=Delhi}} \\left(\\text{USERS} \\bowtie \\text{ISSUED}\\right)\\right)$"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/databases",
+            "/tag/gate1996",
+            "/tag/databases",
+            "/tag/relational-algebra",
+            "/tag/descriptive"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/2779/gate-cse-1996-question-27",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/2779/gate-cse-1996-question-27",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "27",
+        "year": null,
+        "questionNumber": 27,
+        "subject": "Databases",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "Consider the relation scheme.$$\\begin{array}{|ll|ll|} \\hline & \\text{AUTHOR} & \\text{(ANAME, INSTITUTION, ACITY, AGE)} \\\\\\hline & \\text{PUBLISHER} & \\text{(PNAME, PCITY)} \\\\\\hline &  \\text{BOOK} & \\text{(TITLE, ANAME, PNAME)} \\\\\\hline \\end{array}$$Express the following queries using (one or more of) SELECT, PROJECT, JOIN and DIVIDE operations.Get the names of all publishers.Get values of all attributes of all authors who have published a book for the publisher with PNAME=’TECHNICAL PUBLISHERS’.Get the names of all authors who have published a book for any publisher located in Madras",
+        "options": [],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/databases",
+            "/tag/gate1995",
+            "/tag/databases",
+            "/tag/relational-algebra",
+            "/tag/normal",
+            "/tag/descriptive"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/2666/gate-cse-1995-question-27",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/2666/gate-cse-1995-question-27",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "26",
+        "year": null,
+        "questionNumber": 26,
+        "subject": "Databases",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "Consider the relation scheme $R(A, B, C)$ with the following functional dependencies:\n\n$A, B \\rightarrow C,$\n$C \\rightarrow A$",
+        "options": [
+            "Show that the scheme $R$ is in $3\\text{NF}$ but not in $\\text{BCNF}$.",
+            "Determine the minimal keys of relation $R$."
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/databases",
+            "/tag/gate1995",
+            "/tag/databases",
+            "/tag/database-normalization",
+            "/tag/normal",
+            "/tag/descriptive"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/2665/gate-cse-1995-question-26",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/2665/gate-cse-1995-question-26",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "14a",
+        "year": null,
+        "questionNumber": null,
+        "subject": "Databases",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "Consider $B^+$ - tree of order $d$ shown in figure. (A $B^+$ - tree of order $d$ contains between $d$ and $2d$ keys in each node)\nDraw the resulting $B^+$ - tree after $100$ is inserted in the figure below.",
+        "options": [],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/databases",
+            "/tag/gate1994",
+            "/tag/databases",
+            "/tag/b-tree",
+            "/tag/normal",
+            "/tag/descriptive"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/2510/gate-cse-1994-question-14a",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/2510/gate-cse-1994-question-14a",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "13",
+        "year": null,
+        "questionNumber": 13,
+        "subject": "Databases",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "Consider the following relational schema:\n\nCOURSES (cno, cname)\nSTUDENTS (rollno, sname, age, year)\nREGISTERED_FOR (cno, rollno)\n\nThe underlined attributes indicate the primary keys for the relations. The ‘year’ attribute for the STUDENTS relation indicates the year in which the student is currently studying (First year, Second year etc.)\n\n\nWrite a relational algebra query to print the roll number of students who have registered for cno $322.$",
+        "options": [
+            "Write a SQL query to print the age and year of the youngest student in each year."
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/databases",
+            "/tag/gate1994",
+            "/tag/databases",
+            "/tag/relational-algebra",
+            "/tag/sql",
+            "/tag/normal",
+            "/tag/descriptive"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/2509/gate-cse-1994-question-13",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/2509/gate-cse-1994-question-13",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "11",
+        "year": null,
+        "questionNumber": 11,
+        "subject": "Databases",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "State True or False with reason",
+        "options": [
+            "Logical data independence is easier to achieve than physical data independence."
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/databases",
+            "/tag/gate1994",
+            "/tag/databases",
+            "/tag/normal",
+            "/tag/database-design",
+            "/tag/true-false"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/2497/gate-cse-1994-question-3-11",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/2497/gate-cse-1994-question-3-11",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    }
+]

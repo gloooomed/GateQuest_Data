@@ -1,0 +1,583 @@
+[
+    {
+        "id": "11a",
+        "year": null,
+        "questionNumber": null,
+        "subject": "Compiler Design",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "Write syntax directed definitions (semantic rules) for the following grammar to add the type of each identifier to its entry in the symbol table during semantic analysis. Rewriting the grammar is not permitted and semantic rules are to be added to the ends of productions only.",
+        "options": [
+            "$D \\rightarrow TL;$",
+            "$T \\rightarrow \\text{int}$",
+            "$T \\rightarrow \\text{real}$",
+            "$L \\rightarrow L,id$",
+            "$L \\rightarrow id$"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/compiler-design",
+            "/tag/gate1992",
+            "/tag/compiler-design",
+            "/tag/syntax-directed-translation",
+            "/tag/normal",
+            "/tag/descriptive"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/590/gate-cse-1992-question-11a",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/590/gate-cse-1992-question-11a",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "ii",
+        "year": null,
+        "questionNumber": null,
+        "subject": "Compiler Design",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "Mention the pass number for each of the following activities that occur in a two pass assembler:object code generationliterals added to literal tablelisting printedaddress resolution of local symbols",
+        "options": [],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/compiler-design",
+            "/tag/gate1992",
+            "/tag/compiler-design",
+            "/tag/assembler",
+            "/tag/easy"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/579/gate-cse-1992-question-03-ii",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/579/gate-cse-1992-question-03-ii",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "i",
+        "year": null,
+        "questionNumber": null,
+        "subject": "Compiler Design",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "Write short answers to the following:\n\nWhich of the following macros can put a macro assembler into an infinite loop?\n\n\n\n\n\n\n.MACRO M1,X\n.IF EQ,X\nM1 X+1\n.ENDC\n.IF NE,X\n.WORD X\n.ENDC\n.ENDM\n\n\n\n\n.MACRO M2,X\n.IF EQ,X\nM2 X\n.ENDC\n.IF NE,X\n.WORD X+1\n.ENDC\n.ENDM",
+        "options": [
+            "Give an example call that does so."
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/compiler-design",
+            "/tag/gate1992",
+            "/tag/compiler-design",
+            "/tag/assembler",
+            "/tag/normal",
+            "/tag/descriptive"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/578/gate-cse-1992-question-3-i",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/578/gate-cse-1992-question-3-i",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "xviii",
+        "year": null,
+        "questionNumber": null,
+        "subject": "Compiler Design",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "If $G$ is a context free grammar and $w$ is a string of length $l$ in $L(G)$, how long is a derivation of $w$ in $G$, if $G$ is in Chomsky normal form?$2l$$2l +1$$2l -1$$l$",
+        "options": [],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/compiler-design",
+            "/tag/gate1992",
+            "/tag/compiler-design",
+            "/tag/easy",
+            "/tag/grammar"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/576/gate-cse-1992-question-02-xviii",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/576/gate-cse-1992-question-02-xviii",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "xiv",
+        "year": null,
+        "questionNumber": null,
+        "subject": "Compiler Design",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "Consider the $\\text{SLR(1)}$ and $\\text{LALR (1)}$  parsing tables for a context free grammar. Which of the following statement is/are true?The goto part of both tables may be different.The shift entries are identical in both the tables.The reduce entries in the tables may be different.The error entries in tables may be different",
+        "options": [],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/compiler-design",
+            "/tag/gate1992",
+            "/tag/compiler-design",
+            "/tag/normal",
+            "/tag/parsing",
+            "/tag/multiple-selects",
+            "/tag/lr-parser"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/571/gate-cse-1992-question-02-xiv",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/571/gate-cse-1992-question-02-xiv",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "xiii",
+        "year": null,
+        "questionNumber": null,
+        "subject": "Compiler Design",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "For a context free grammar, FOLLOW(A) is the set of terminals that can appear immediately to the right of non-terminal $A$ in some \"sentential\" form. We define two sets LFOLLOW(A) and RFOLLOW(A) by replacing the word \"sentential\" by \"left sentential\" and \"right most sentential\" respectively in the definition of FOLLOW (A).FOLLOW(A) and LFOLLOW(A) may be different.FOLLOW(A) and RFOLLOW(A) are always the same.All the three sets are identical.All the three sets are different.",
+        "options": [],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/compiler-design",
+            "/tag/gate1992",
+            "/tag/parsing",
+            "/tag/compiler-design",
+            "/tag/normal",
+            "/tag/multiple-selects",
+            "/tag/first-and-follow"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/570/gate-cse-1992-question-02-xiii",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/570/gate-cse-1992-question-02-xiii",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "viii",
+        "year": null,
+        "questionNumber": null,
+        "subject": "Compiler Design",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "The purpose of instruction location counter in an assembler is _______",
+        "options": [],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/compiler-design",
+            "/tag/gate1992",
+            "/tag/compiler-design",
+            "/tag/assembler",
+            "/tag/normal",
+            "/tag/fill-in-the-blanks"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/553/gate-cse-1992-question-01-viii",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/553/gate-cse-1992-question-01-viii",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "vii",
+        "year": null,
+        "questionNumber": null,
+        "subject": "Compiler Design",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "Macro expansion is done in pass one instead of pass two in a two pass macro assembler because _________",
+        "options": [],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/compiler-design",
+            "/tag/gate1992",
+            "/tag/compiler-design",
+            "/tag/macros",
+            "/tag/easy",
+            "/tag/fill-in-the-blanks"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/552/gate-cse-1992-question-01-vii",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/552/gate-cse-1992-question-01-vii",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "10a",
+        "year": null,
+        "questionNumber": null,
+        "subject": "Compiler Design",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "Consider the following grammar for arithmetic expressions using binary operators $-$ and $/$ which are not associative\n\n$E \\rightarrow E -T\\mid T$\n$T \\rightarrow T/F\\mid F$  \n$F \\rightarrow (E) \\mid id$\n\n($E$ is the start symbol)",
+        "options": [
+            "Is the grammar unambiguous? Is so, what is the relative precedence between  $-$ and $/$? If not, give an unambiguous grammar that gives $/$ precedence over $-$."
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/compiler-design",
+            "/tag/gate1991",
+            "/tag/grammar",
+            "/tag/compiler-design",
+            "/tag/normal",
+            "/tag/descriptive"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/537/gate-cse-1991-question-10a",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/537/gate-cse-1991-question-10a",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "09a",
+        "year": null,
+        "questionNumber": null,
+        "subject": "Compiler Design",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "Consider the following pseudo-code (all data items are of type integer): \n\nprocedure P(a, b, c);\n    a := 2;\n    c := a + b;\nend {P}\n\nbegin \n    x := 1;\n    y := 5;\n    z := 100;\n    P(x, x*y, z);\n    Write ('x = ', x, 'z = ', z);\nend\nDetermine its output, if the parameters are passed to the Procedure $\\text{P}$ by",
+        "options": [
+            "value",
+            "reference",
+            "name"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/compiler-design",
+            "/tag/gate1991",
+            "/tag/compiler-design",
+            "/tag/parameter-passing",
+            "/tag/normal",
+            "/tag/runtime-environment",
+            "/tag/descriptive"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/536/gate-cse-1991-question-09a",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/536/gate-cse-1991-question-09a",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "x",
+        "year": null,
+        "questionNumber": null,
+        "subject": "Compiler Design",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "Indicate all the true statements from the following:",
+        "options": [
+            "Recursive descent parsing cannot be used for grammar with left recursion.",
+            "The intermediate form for representing expressions which is best suited for code optimization is the postfix form.",
+            "A programming language not supporting either recursion or pointer type does not need the support of dynamic memory allocation.",
+            "Although C does not support call-by-name parameter passing, the effect can be correctly simulated in C",
+            "No feature of Pascal typing violates strong typing in Pascal."
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/compiler-design",
+            "/tag/gate1991",
+            "/tag/compiler-design",
+            "/tag/parameter-passing",
+            "/tag/difficult",
+            "/tag/multiple-selects"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/524/gate-cse-1991-question-03-x",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/524/gate-cse-1991-question-03-x",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "ix",
+        "year": null,
+        "questionNumber": null,
+        "subject": "Compiler Design",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "A “link editor” is a program that:",
+        "options": [
+            "matches the parameters of the macro-definition with locations of the parameters of the macro call",
+            "matches external names of one program with their location in other programs",
+            "matches the parameters of subroutine definition with the location of parameters of subroutine call.",
+            "acts as a link between text editor and the user",
+            "acts as a link between compiler and the user program"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/compiler-design",
+            "/tag/gate1991",
+            "/tag/compiler-design",
+            "/tag/normal",
+            "/tag/linker",
+            "/tag/multiple-selects"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/519/gate-cse-1991-question-03-ix",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/519/gate-cse-1991-question-03-ix",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "55",
+        "year": 2008,
+        "questionNumber": 55,
+        "subject": "Compiler Design",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "An LALR(1) parser for a grammar G can have shift-reduce (S-R) conflicts if and only ifThe SLR(1) parser for G has S-R conflictsThe LR(1) parser for G has S-R conflictsThe LR(0) parser for G has S-R conflictsThe LALR(1) parser for G has reduce-reduce conflicts",
+        "options": [],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/compiler-design",
+            "/tag/gatecse-2008",
+            "/tag/compiler-design",
+            "/tag/parsing",
+            "/tag/normal",
+            "/tag/lr-parser"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/478/gate-cse-2008-question-55",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/478/gate-cse-2008-question-55",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "54",
+        "year": 2008,
+        "questionNumber": 54,
+        "subject": "Compiler Design",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "Which of the following are true?\n\n\nA programming language which does not permit global variables of any kind and has no nesting of procedures/functions, but permits recursion can be implemented with static storage allocation\n\n\nMulti-level access link (or display) arrangement is needed to arrange activation records only if the programming language being implemented has nesting of procedures/functions\n\n\nRecursion in programming languages cannot be implemented with dynamic storage allocation\n\n\nNesting procedures/functions and recursion require a dynamic heap allocation scheme and cannot be implemented with a stack-based allocation scheme for activation records\n\n\nProgramming languages which permit a function to return a function as its result cannot be implemented with a stack-based storage allocation scheme for activation records",
+        "options": [
+            "II and V only",
+            "I, III and IV only",
+            "I, II and V only",
+            "II, III and V only"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/compiler-design",
+            "/tag/gatecse-2008",
+            "/tag/compiler-design",
+            "/tag/difficult",
+            "/tag/runtime-environment"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/477/gate-cse-2008-question-54",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/477/gate-cse-2008-question-54",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "12",
+        "year": 2008,
+        "questionNumber": 12,
+        "subject": "Compiler Design",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "Some code optimizations are carried out on the intermediate code because\n\n\nThey enhance the portability of the compiler to the target processor\n\n\nProgram analysis is more accurate on intermediate code than on machine code\n\n\nThe information from dataflow analysis cannot otherwise be used for optimization",
+        "options": [
+            "The information from the front end cannot otherwise be used for optimization"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/compiler-design",
+            "/tag/gatecse-2008",
+            "/tag/normal",
+            "/tag/code-optimization",
+            "/tag/compiler-design"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/410/gate-cse-2008-question-12",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/410/gate-cse-2008-question-12",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "11",
+        "year": 2008,
+        "questionNumber": 11,
+        "subject": "Compiler Design",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "Which of the following describes a handle (as applicable to LR-parsing) appropriately?\n\n\nIt is the position in a sentential form where the next shift or reduce operation will occur\n\n\nIt is non-terminal whose production will be used for reduction in the next step\n\n\nIt is a production that may be used for reduction in a future step along with a position in the sentential form where the next shift or reduce operation will occur",
+        "options": [
+            "It is the production $p$ that will be used for reduction in the next step along with a position in the sentential form where the right hand side of the production may be found"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/compiler-design",
+            "/tag/gatecse-2008",
+            "/tag/compiler-design",
+            "/tag/parsing",
+            "/tag/normal"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/409/gate-cse-2008-question-11",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/409/gate-cse-2008-question-11",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    },
+    {
+        "id": "50",
+        "year": 2008,
+        "questionNumber": 50,
+        "subject": "Compiler Design",
+        "topic": null,
+        "questionType": "multiple-choice",
+        "question": "Which of the following statements are true?\n\nEvery left-recursive grammar can be converted to a right-recursive grammar and vice-versa\nAll $\\epsilon$-productions can be removed from any context-free grammar by suitable transformations\nThe language generated by a context-free grammar all of whose productions are of the form $X \\rightarrow w$ or $X \\rightarrow wY$ (where, $w$ is a string of terminals and $Y$ is a non-terminal), is always regular\nThe derivation trees of strings generated by a context-free grammar in Chomsky Normal Form are always binary trees",
+        "options": [
+            "I, II, III and IV",
+            "II, III and IV only",
+            "I, III and IV only",
+            "I, II and IV only"
+        ],
+        "correctAnswer": [],
+        "answerText": null,
+        "difficulty": null,
+        "marks": null,
+        "tags": [
+            "/compiler-design",
+            "/tag/gatecse-2008",
+            "/tag/normal",
+            "/tag/compiler-design",
+            "/tag/grammar"
+        ],
+        "source": "gateoverflow",
+        "sourceURL": "https://gateoverflow.in/395/gate-cse-2008-question-50",
+        "addedBy": "GO Scraper",
+        "verified": true,
+        "explanation": "https://gateoverflow.in/395/gate-cse-2008-question-50",
+        "metadata": {
+            "set": "CS",
+            "paperType": "official",
+            "language": "English"
+        }
+    }
+]
